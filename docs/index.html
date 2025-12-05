@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Dashboard de Recetas IPS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
+</head>
+<body>
+  <header class="header">
+    <h1>IPS Recetas Dashboard</h1>
+    <p>Versión mínima funcional para GitHub Pages</p>
+  </header>
+  <main class="main">
+    <section class="kpis">
+      <div class="kpi"><span id="kpi-total">0</span><small>Total líneas</small></div>
+      <div class="kpi"><span id="kpi-pacientes">0</span><small>Pacientes únicos</small></div>
+      <div class="kpi"><span id="kpi-medicos">0</span><small>Médicos activos</small></div>
+    </section>
+    <section class="charts">
+      <h2>Evolución mensual</h2>
+      <canvas id="chart-evolucion" height="200"></canvas>
+    </section>
+    <section class="table-sec">
+      <h2>Top medicamentos</h2>
+      <table id="tabla-meds" class="display" style="width:100%"></table>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>© 2025 IPS Monitor de Recetas</p>
+  </footer>
+  <script src="js/utils.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+window.DashboardUtils=(function(){function n(v){if(v===null||v===undefined||isNaN(v))return "0";return Number(v).toLocaleString("es-PY");}return{formatNumber:n};})();

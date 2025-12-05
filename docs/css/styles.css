@@ -1,0 +1,10 @@
+body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#f3f4f6;color:#111827;}
+.header{background:#1d4ed8;color:#fff;padding:1rem;text-align:center;}
+.main{max-width:1100px;margin:1.5rem auto;padding:0 1rem 2rem;}
+.kpis{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:1.5rem;}
+.kpi{flex:1 1 150px;background:#fff;padding:0.75rem 1rem;border-radius:0.5rem;box-shadow:0 2px 4px rgba(0,0,0,.06);}
+.kpi span{display:block;font-size:1.4rem;font-weight:600;}
+.kpi small{color:#6b7280;}
+.charts,.table-sec{background:#fff;padding:1rem;border-radius:0.5rem;box-shadow:0 2px 4px rgba(0,0,0,.06);margin-bottom:1.5rem;}
+.footer{background:#e5e7eb;padding:0.75rem 1rem;text-align:center;font-size:0.85rem;color:#4b5563;}
+@media(max-width:700px){.kpis{flex-direction:column;}}
