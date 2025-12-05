@@ -2,39 +2,139 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Dashboard de Recetas IPS</title>
+  <title>IPS Recetas Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dashboard interactivo para monitoreo de recetas del IPS">
+
+  <!-- Fuente -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- DataTables -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
+
+  <!-- Iconos (opcional) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Estilos propios -->
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Ajustes específicos para gráficos y tablas (evitar que se estiren) -->
+  <style>
+    /* Contenedor del gráfico con altura fija */
+    .chart-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      height: 320px;        /* altura fija razonable */
+      max-height: 320px;
+      overflow: hidden;     /* evita crecimiento infinito hacia abajo */
+      margin-top: 0.75rem;
+    }
+
+    .chart-wrapper canvas {
+      display: block;
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    /* Contenedor de la tabla con scroll vertical acotado */
+    .table-wrapper {
+      max-height: 420px;    /* altura máxima visible para la tabla */
+      overflow-y: auto;
+      overflow-x: auto;
+      margin-top: 0.75rem;
+    }
+
+    /* Pequeño ajuste de títulos de sección */
+    .charts h2,
+    .table-sec h2 {
+      margin-top: 0;
+      margin-bottom: 0.75rem;
+      font-size: 1.05rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .charts h2 i,
+    .table-sec h2 i {
+      color: #1d4ed8;
+    }
+  </style>
+
+  <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3"></script>
+
+  <!-- jQuery + DataTables JS -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
 </head>
 <body>
+  <!-- Encabezado simple -->
   <header class="header">
     <h1>IPS Recetas Dashboard</h1>
-    <p>Versión mínima funcional para GitHub Pages</p>
+    <p>Monitor mínimo funcional para GitHub Pages</p>
   </header>
+
+  <!-- Contenido principal -->
   <main class="main">
+
+    <!-- Indicadores clave -->
     <section class="kpis">
-      <div class="kpi"><span id="kpi-total">0</span><small>Total líneas</small></div>
-      <div class="kpi"><span id="kpi-pacientes">0</span><small>Pacientes únicos</small></div>
-      <div class="kpi"><span id="kpi-medicos">0</span><small>Médicos activos</small></div>
+      <div class="kpi">
+        <span id="kpi-total">0</span>
+        <small>Total líneas de receta</small>
+      </div>
+      <div class="kpi">
+        <span id="kpi-pacientes">0</span>
+        <small>Pacientes únicos</small>
+      </div>
+      <div class="kpi">
+        <span id="kpi-medicos">0</span>
+        <small>Médicos activos</small>
+      </div>
     </section>
+
+    <!-- Gráfico de evolución mensual -->
     <section class="charts">
-      <h2>Evolución mensual</h2>
-      <canvas id="chart-evolucion" height="200"></canvas>
+      <h2>
+        <i class="fas fa-chart-line"></i>
+        Evolución mensual de líneas dispensadas
+      </h2>
+      <div class="chart-wrapper">
+        <canvas id="chart-evolucion"></canvas>
+      </div>
     </section>
+
+    <!-- Tabla de top medicamentos -->
     <section class="table-sec">
-      <h2>Top medicamentos</h2>
-      <table id="tabla-meds" class="display" style="width:100%"></table>
+      <h2>
+        <i class="fas fa-pills"></i>
+        Top medicamentos por líneas
+      </h2>
+      <div class="table-wrapper">
+        <table id="tabla-meds" class="display nowrap" style="width:100%"></table>
+      </div>
     </section>
   </main>
+
+  <!-- Pie de página -->
   <footer class="footer">
-    <p>© 2025 IPS Monitor de Recetas</p>
+    <p>© 2025 IPS Monitor de Recetas · Datos agregados para uso analítico</p>
   </footer>
+
+  <!-- Utilidades y lógica del dashboard -->
   <script src="js/utils.js"></script>
   <script src="js/main.js"></script>
+
+  <!-- Inicialización explícita (por seguridad) -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (window.Dashboard && typeof window.Dashboard.init === "function") {
+        window.Dashboard.init();
+      }
+    });
+  </script>
 </body>
 </html>
