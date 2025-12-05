@@ -9,48 +9,21 @@
   <!-- Fuentes -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
-  <!-- DataTables con Buttons y Responsive -->
+  <!-- DataTables -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
-  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css">
-  <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
-  
-  <!-- Select2 para filtros avanzados -->
-  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet">
-  
-  <!-- Flatpickr para selección de fechas -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
   
   <!-- Iconos -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   
-  <!-- ApexCharts para gráficos avanzados -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@3.45.0/dist/apexcharts.css">
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3"></script>
+  
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
 
   <!-- Estilos propios -->
   <link rel="stylesheet" href="css/styles.css">
-
-  <!-- Scripts -->
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  
-  <!-- DataTables -->
-  <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
-  <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
-  <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.colVis.min.js"></script>
-  <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
-  
-  <!-- Select2 -->
-  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-  
-  <!-- Flatpickr -->
-  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-  <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/es.js"></script>
-  
-  <!-- ApexCharts -->
-  <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.45.0"></script>
-  
-  <!-- Chart.js (para compatibilidad) -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3"></script>
 </head>
 <body>
   <!-- Barra de navegación superior -->
@@ -72,63 +45,12 @@
           <i class="fas fa-redo"></i> Actualizar
         </button>
         
-        <button class="btn btn-export" id="export-dashboard">
+        <button class="btn btn-export" id="export-btn">
           <i class="fas fa-download"></i> Exportar
         </button>
       </div>
     </div>
   </nav>
-
-  <!-- Panel de filtros principales -->
-  <div class="filters-panel">
-    <div class="filters-container">
-      <!-- Filtro por período -->
-      <div class="filter-group">
-        <label><i class="fas fa-calendar-alt"></i> Período</label>
-        <div class="date-range">
-          <input type="text" id="date-range-picker" placeholder="Seleccionar rango" class="form-control">
-        </div>
-      </div>
-      
-      <!-- Filtro por Farmacia -->
-      <div class="filter-group">
-        <label><i class="fas fa-hospital"></i> Farmacia</label>
-        <select id="farmacia-filter" class="form-control select2" multiple>
-          <option value="all" selected>Todas</option>
-          <!-- Se llenará dinámicamente -->
-        </select>
-      </div>
-      
-      <!-- Filtro por Médico -->
-      <div class="filter-group">
-        <label><i class="fas fa-user-md"></i> Médico</label>
-        <select id="medico-filter" class="form-control select2" multiple>
-          <option value="all" selected>Todos</option>
-          <!-- Se llenará dinámicamente -->
-        </select>
-      </div>
-      
-      <!-- Filtro por Tipo (Crónico/Agudo) -->
-      <div class="filter-group">
-        <label><i class="fas fa-heartbeat"></i> Tipo</label>
-        <select id="tipo-filter" class="form-control">
-          <option value="all">Todos</option>
-          <option value="cronico">Crónico</option>
-          <option value="agudo">Agudo</option>
-        </select>
-      </div>
-      
-      <!-- Botones de acción de filtros -->
-      <div class="filter-actions">
-        <button id="apply-filters" class="btn btn-primary">
-          <i class="fas fa-filter"></i> Aplicar
-        </button>
-        <button id="reset-filters" class="btn btn-secondary">
-          <i class="fas fa-broom"></i> Limpiar
-        </button>
-      </div>
-    </div>
-  </div>
 
   <!-- Contenido principal -->
   <main class="main-content">
@@ -145,7 +67,7 @@
             <h3 id="kpi-total">0</h3>
             <p>Total líneas de receta</p>
             <div class="kpi-trend" id="kpi-total-trend">
-              <i class="fas fa-arrow-up"></i> <span>0% vs mes anterior</span>
+              <span>Cargando...</span>
             </div>
           </div>
         </div>
@@ -159,7 +81,7 @@
             <h3 id="kpi-pacientes">0</h3>
             <p>Pacientes únicos</p>
             <div class="kpi-trend" id="kpi-pacientes-trend">
-              <i class="fas fa-arrow-up"></i> <span>0%</span>
+              <span>Cargando...</span>
             </div>
           </div>
         </div>
@@ -173,7 +95,7 @@
             <h3 id="kpi-medicos">0</h3>
             <p>Médicos activos</p>
             <div class="kpi-trend" id="kpi-medicos-trend">
-              <i class="fas fa-arrow-up"></i> <span>0%</span>
+              <span>Cargando...</span>
             </div>
           </div>
         </div>
@@ -187,21 +109,21 @@
             <h3 id="kpi-tasa-dispensacion">0%</h3>
             <p>Tasa de dispensación</p>
             <div class="kpi-trend" id="kpi-tasa-trend">
-              <i class="fas fa-arrow-up"></i> <span>0%</span>
+              <span>Cargando...</span>
             </div>
           </div>
         </div>
         
-        <!-- KPI 5: Stock Crítico -->
+        <!-- KPI 5: Recetas Únicas -->
         <div class="kpi-card kpi-danger">
           <div class="kpi-icon">
-            <i class="fas fa-exclamation-triangle"></i>
+            <i class="fas fa-paste"></i>
           </div>
           <div class="kpi-content">
-            <h3 id="kpi-stock-critico">0</h3>
-            <p>Medicamentos con stock crítico</p>
-            <div class="kpi-trend" id="kpi-stock-trend">
-              <i class="fas fa-arrow-up"></i> <span>0%</span>
+            <h3 id="kpi-recetas">0</h3>
+            <p>Recetas únicas</p>
+            <div class="kpi-trend" id="kpi-recetas-trend">
+              <span>Cargando...</span>
             </div>
           </div>
         </div>
@@ -215,7 +137,7 @@
             <h3 id="kpi-faltante">0</h3>
             <p>Unidades faltantes</p>
             <div class="kpi-trend" id="kpi-faltante-trend">
-              <i class="fas fa-arrow-down"></i> <span>0%</span>
+              <span>Cargando...</span>
             </div>
           </div>
         </div>
@@ -228,7 +150,7 @@
       <div class="chart-row">
         <div class="chart-container large">
           <div class="chart-header">
-            <h3><i class="fas fa-chart-line"></i> Evolución Mensual</h3>
+            <h3><i class="fas fa-chart-line"></i> Evolución Mensual de Líneas</h3>
             <div class="chart-controls">
               <select id="chart-metric" class="form-control-sm">
                 <option value="total_lineas">Líneas totales</option>
@@ -238,31 +160,30 @@
               </select>
             </div>
           </div>
-          <div id="chart-evolucion" class="chart-canvas"></div>
+          <div class="chart-wrapper">
+            <canvas id="chart-evolucion"></canvas>
+          </div>
         </div>
         
         <div class="chart-container medium">
           <div class="chart-header">
-            <h3><i class="fas fa-pie-chart"></i> Distribución por Farmacia</h3>
+            <h3><i class="fas fa-pie-chart"></i> Distribución por Mes</h3>
           </div>
-          <div id="chart-distribucion-farmacia" class="chart-canvas"></div>
+          <div class="chart-wrapper">
+            <canvas id="chart-distribucion-mes"></canvas>
+          </div>
         </div>
       </div>
       
-      <!-- Fila 2: Comparativa y Heatmap -->
+      <!-- Fila 2: Comparativa -->
       <div class="chart-row">
-        <div class="chart-container medium">
+        <div class="chart-container large">
           <div class="chart-header">
-            <h3><i class="fas fa-balance-scale"></i> Comparativa Dispensado vs Recetado</h3>
+            <h3><i class="fas fa-balance-scale"></i> Comparativa Recetado vs Dispensado</h3>
           </div>
-          <div id="chart-comparativa" class="chart-canvas"></div>
-        </div>
-        
-        <div class="chart-container medium">
-          <div class="chart-header">
-            <h3><i class="fas fa-calendar-check"></i> Actividad por Día de la Semana</h3>
+          <div class="chart-wrapper">
+            <canvas id="chart-comparativa"></canvas>
           </div>
-          <div id="chart-heatmap" class="chart-canvas"></div>
         </div>
       </div>
     </section>
@@ -273,10 +194,8 @@
       <div class="tabs-container">
         <ul class="tabs-nav">
           <li class="active" data-tab="tab-medicamentos"><i class="fas fa-pills"></i> Top Medicamentos</li>
-          <li data-tab="tab-farmacias"><i class="fas fa-hospital"></i> Farmacias</li>
-          <li data-tab="tab-medicos"><i class="fas fa-user-md"></i> Médicos</li>
-          <li data-tab="tab-pacientes"><i class="fas fa-users"></i> Pacientes</li>
-          <li data-tab="tab-detalle"><i class="fas fa-list"></i> Detalle Completo</li>
+          <li data-tab="tab-resumen"><i class="fas fa-chart-bar"></i> Resumen Mensual</li>
+          <li data-tab="tab-detalles"><i class="fas fa-list"></i> Detalles</li>
         </ul>
         
         <!-- Contenido de pestañas -->
@@ -287,67 +206,71 @@
               <table id="tabla-medicamentos" class="display nowrap" style="width:100%">
                 <thead>
                   <tr>
-                    <th>ID Medicamento</th>
-                    <th>Nombre</th>
-                    <th>Total Recetado</th>
-                    <th>Total Dispensado</th>
+                    <th>Mes</th>
+                    <th>Medicamento</th>
+                    <th>Líneas</th>
+                    <th>Recetado</th>
+                    <th>Dispensado</th>
                     <th>Faltante</th>
                     <th>Tasa Dispensación</th>
-                    <th>Stock Actual</th>
-                    <th>Acciones</th>
+                    <th>Ranking</th>
                   </tr>
                 </thead>
+                <tbody id="tabla-medicamentos-body">
+                  <!-- Se llenará dinámicamente -->
+                </tbody>
               </table>
             </div>
           </div>
           
-          <!-- Pestaña 2: Farmacias -->
-          <div id="tab-farmacias" class="tab-pane">
+          <!-- Pestaña 2: Resumen Mensual -->
+          <div id="tab-resumen" class="tab-pane">
             <div class="table-wrapper">
-              <table id="tabla-farmacias" class="display nowrap" style="width:100%">
+              <table id="tabla-resumen" class="display nowrap" style="width:100%">
                 <thead>
                   <tr>
-                    <th>ID Farmacia</th>
-                    <th>Ubicación</th>
-                    <th>Total Líneas</th>
-                    <th>Pacientes Atendidos</th>
-                    <th>Medicamentos Únicos</th>
-                    <th>Tasa Dispensación</th>
-                    <th>Eficiencia</th>
-                  </tr>
-                </thead>
-              </table>
-            </div>
-          </div>
-          
-          <!-- Pestaña 3: Médicos -->
-          <div id="tab-medicos" class="tab-pane">
-            <div class="table-wrapper">
-              <table id="tabla-medicos" class="display nowrap" style="width:100%">
-                <thead>
-                  <tr>
-                    <th>ID Médico</th>
-                    <th>Nombre</th>
-                    <th>Total Recetas</th>
+                    <th>Mes</th>
+                    <th>Líneas Totales</th>
+                    <th>Recetas Únicas</th>
                     <th>Pacientes Únicos</th>
-                    <th>Medicamentos Prescritos</th>
-                    <th>Especialidad</th>
-                    <th>Tasa Compleción</th>
+                    <th>Médicos Activos</th>
+                    <th>Recetado</th>
+                    <th>Dispensado</th>
+                    <th>Faltante</th>
+                    <th>Tasa Dispensación</th>
                   </tr>
                 </thead>
+                <tbody id="tabla-resumen-body">
+                  <!-- Se llenará dinámicamente -->
+                </tbody>
               </table>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Panel de alertas y notificaciones -->
-    <section class="alerts-section">
-      <div class="alerts-container">
-        <h3><i class="fas fa-bell"></i> Alertas y Recomendaciones</h3>
-        <div class="alerts-grid" id="alerts-container">
-          <!-- Alertas se llenarán dinámicamente -->
+          
+          <!-- Pestaña 3: Detalles -->
+          <div id="tab-detalles" class="tab-pane">
+            <div class="info-box">
+              <h3><i class="fas fa-info-circle"></i> Información del Sistema</h3>
+              <div class="info-grid">
+                <div class="info-item">
+                  <strong>Total Registros:</strong>
+                  <span id="info-total-registros">0</span>
+                </div>
+                <div class="info-item">
+                  <strong>Última Actualización:</strong>
+                  <span id="info-ultima-actualizacion">-</span>
+                </div>
+                <div class="info-item">
+                  <strong>Período Cubierto:</strong>
+                  <span id="info-periodo">-</span>
+                </div>
+                <div class="info-item">
+                  <strong>Farmacias Activas:</strong>
+                  <span id="info-farmacias">0</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -357,38 +280,35 @@
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-info">
-        <p><i class="fas fa-database"></i> <strong>Total registros:</strong> <span id="total-records">0</span></p>
+        <p><i class="fas fa-database"></i> <strong>Total registros procesados:</strong> <span id="footer-total-records">0</span></p>
         <p><i class="fas fa-clock"></i> <strong>Última actualización:</strong> <span id="footer-update-time">-</span></p>
       </div>
       <div class="footer-actions">
-        <button class="btn btn-link" id="fullscreen-toggle">
-          <i class="fas fa-expand"></i> Pantalla completa
-        </button>
         <button class="btn btn-link" id="theme-toggle">
-          <i class="fas fa-moon"></i> Tema oscuro
+          <i class="fas fa-moon"></i> Cambiar tema
+        </button>
+        <button class="btn btn-link" id="help-btn">
+          <i class="fas fa-question-circle"></i> Ayuda
         </button>
       </div>
     </div>
   </footer>
 
-  <!-- Modal para detalles -->
-  <div id="detail-modal" class="modal">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3>Detalle Completo</h3>
-        <span class="close-modal">&times;</span>
-      </div>
-      <div class="modal-body" id="modal-detail-content">
-        <!-- Contenido dinámico -->
-      </div>
-    </div>
-  </div>
-
   <!-- Scripts propios -->
   <script src="js/utils.js"></script>
   <script src="js/dashboard.js"></script>
-  <script src="js/charts.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/alerts.js"></script>
+
+  <!-- Inicialización -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('Dashboard cargado');
+      if (typeof Dashboard !== 'undefined') {
+        const dashboard = new Dashboard();
+        dashboard.init();
+      } else {
+        console.error('Dashboard no está definido');
+      }
+    });
+  </script>
 </body>
 </html>
