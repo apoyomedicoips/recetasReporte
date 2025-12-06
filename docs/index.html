@@ -4,21 +4,21 @@
   <meta charset="utf-8">
   <title>IPS Analytics Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Dashboard interactivo avanzado para monitoreo de recetas médicas">
+  <meta name="description" content="Dashboard interactivo avanzado para monitoreo de recetas médicas del IPS">
 
   <!-- Fuentes -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
+
   <!-- DataTables -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
-  
+
   <!-- Iconos -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  
+
   <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3"></script>
-  
-  <!-- jQuery -->
+
+  <!-- jQuery + DataTables -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
 
@@ -34,27 +34,26 @@
         <h1>IPS Analytics Dashboard</h1>
         <span class="badge badge-live"><i class="fas fa-circle"></i> LIVE</span>
       </div>
-      
+
       <div class="nav-controls">
         <div class="last-update">
           <i class="fas fa-sync-alt"></i>
           <span id="last-update-time">Actualizando...</span>
         </div>
-        
+
         <button class="btn btn-primary" id="refresh-btn">
           <i class="fas fa-redo"></i> Actualizar
         </button>
-        
+
         <button class="btn btn-export" id="export-btn">
-          <i class="fas fa-download"></i> Exportar
-        </button>
+          <i class="fas fa-download"></i> Exportar</button>
       </div>
     </div>
   </nav>
 
   <!-- Contenido principal -->
   <main class="main-content">
-    
+
     <!-- Sección de KPIs -->
     <section class="kpi-section">
       <div class="kpi-grid">
@@ -71,7 +70,7 @@
             </div>
           </div>
         </div>
-        
+
         <!-- KPI 2: Pacientes Únicos -->
         <div class="kpi-card kpi-success">
           <div class="kpi-icon">
@@ -85,7 +84,7 @@
             </div>
           </div>
         </div>
-        
+
         <!-- KPI 3: Médicos Activos -->
         <div class="kpi-card kpi-warning">
           <div class="kpi-icon">
@@ -99,7 +98,7 @@
             </div>
           </div>
         </div>
-        
+
         <!-- KPI 4: Tasa Dispensación -->
         <div class="kpi-card kpi-info">
           <div class="kpi-icon">
@@ -107,13 +106,13 @@
           </div>
           <div class="kpi-content">
             <h3 id="kpi-tasa-dispensacion">0%</h3>
-            <p>Tasa de dispensación</p>
+            <p>Tasa de dispensación global</p>
             <div class="kpi-trend" id="kpi-tasa-trend">
               <span>Cargando...</span>
             </div>
           </div>
         </div>
-        
+
         <!-- KPI 5: Recetas Únicas -->
         <div class="kpi-card kpi-danger">
           <div class="kpi-icon">
@@ -127,7 +126,7 @@
             </div>
           </div>
         </div>
-        
+
         <!-- KPI 6: Faltante Total -->
         <div class="kpi-card kpi-secondary">
           <div class="kpi-icon">
@@ -144,13 +143,13 @@
       </div>
     </section>
 
-    <!-- Gráficos principales -->
+    <!-- Sección de gráficos -->
     <section class="charts-section">
       <!-- Fila 1: Evolución y Distribución -->
       <div class="chart-row">
         <div class="chart-container large">
           <div class="chart-header">
-            <h3><i class="fas fa-chart-line"></i> Evolución Mensual de Líneas</h3>
+            <h3><i class="fas fa-chart-line"></i> Evolución mensual</h3>
             <div class="chart-controls">
               <select id="chart-metric" class="form-control-sm">
                 <option value="total_lineas">Líneas totales</option>
@@ -164,22 +163,22 @@
             <canvas id="chart-evolucion"></canvas>
           </div>
         </div>
-        
+
         <div class="chart-container medium">
           <div class="chart-header">
-            <h3><i class="fas fa-pie-chart"></i> Distribución por Mes</h3>
+            <h3><i class="fas fa-chart-pie"></i> Distribución por mes</h3>
           </div>
           <div class="chart-wrapper">
             <canvas id="chart-distribucion-mes"></canvas>
           </div>
         </div>
       </div>
-      
-      <!-- Fila 2: Comparativa -->
+
+      <!-- Fila 2: Comparativa Recetado vs Dispensado -->
       <div class="chart-row">
         <div class="chart-container large">
           <div class="chart-header">
-            <h3><i class="fas fa-balance-scale"></i> Comparativa Recetado vs Dispensado</h3>
+            <h3><i class="fas fa-balance-scale"></i> Recetado vs Dispensado</h3>
           </div>
           <div class="chart-wrapper">
             <canvas id="chart-comparativa"></canvas>
@@ -190,82 +189,76 @@
 
     <!-- Tablas y detalles -->
     <section class="tables-section">
-      <!-- Pestañas para diferentes vistas -->
       <div class="tabs-container">
         <ul class="tabs-nav">
           <li class="active" data-tab="tab-medicamentos"><i class="fas fa-pills"></i> Top Medicamentos</li>
-          <li data-tab="tab-resumen"><i class="fas fa-chart-bar"></i> Resumen Mensual</li>
+          <li data-tab="tab-resumen"><i class="fas fa-chart-bar"></i> Resumen mensual</li>
           <li data-tab="tab-detalles"><i class="fas fa-list"></i> Detalles</li>
         </ul>
-        
-        <!-- Contenido de pestañas -->
+
         <div class="tabs-content">
-          <!-- Pestaña 1: Top Medicamentos -->
+          <!-- Tab 1: Top Medicamentos -->
           <div id="tab-medicamentos" class="tab-pane active">
             <div class="table-wrapper">
               <table id="tabla-medicamentos" class="display nowrap" style="width:100%">
                 <thead>
                   <tr>
                     <th>Mes</th>
-                    <th>Medicamento</th>
+                    <th>Medicamento (código)</th>
                     <th>Líneas</th>
                     <th>Recetado</th>
                     <th>Dispensado</th>
                     <th>Faltante</th>
-                    <th>Tasa Dispensación</th>
+                    <th>Tasa disp.</th>
                     <th>Ranking</th>
                   </tr>
                 </thead>
-                <tbody id="tabla-medicamentos-body">
-                  <!-- Se llenará dinámicamente -->
-                </tbody>
+                <tbody id="tabla-medicamentos-body"></tbody>
               </table>
             </div>
           </div>
-          
-          <!-- Pestaña 2: Resumen Mensual -->
+
+          <!-- Tab 2: Resumen mensual -->
           <div id="tab-resumen" class="tab-pane">
             <div class="table-wrapper">
               <table id="tabla-resumen" class="display nowrap" style="width:100%">
                 <thead>
                   <tr>
                     <th>Mes</th>
-                    <th>Líneas Totales</th>
-                    <th>Recetas Únicas</th>
-                    <th>Pacientes Únicos</th>
-                    <th>Médicos Activos</th>
+                    <th>Líneas totales</th>
+                    <th>Recetas únicas</th>
+                    <th>Pacientes únicos</th>
+                    <th>Médicos activos</th>
                     <th>Recetado</th>
                     <th>Dispensado</th>
                     <th>Faltante</th>
-                    <th>Tasa Dispensación</th>
+                    <th>Tasa disp.</th>
                   </tr>
                 </thead>
-                <tbody id="tabla-resumen-body">
-                  <!-- Se llenará dinámicamente -->
-                </tbody>
+                <tbody id="tabla-resumen-body"></tbody>
               </table>
             </div>
           </div>
-          
-          <!-- Pestaña 3: Detalles -->
+
+          <!-- Tab 3: Detalles -->
           <div id="tab-detalles" class="tab-pane">
             <div class="info-box">
-              <h3><i class="fas fa-info-circle"></i> Información del Sistema</h3>
+              <h3><i class="fas fa-info-circle"></i> Información del sistema</h3>
               <div class="info-grid">
                 <div class="info-item">
-                  <strong>Total Registros:</strong>
+                  <strong>Total registros:</strong>
                   <span id="info-total-registros">0</span>
                 </div>
                 <div class="info-item">
-                  <strong>Última Actualización:</strong>
+                  <strong>Última actualización:</strong>
                   <span id="info-ultima-actualizacion">-</span>
                 </div>
                 <div class="info-item">
-                  <strong>Período Cubierto:</strong>
+                  <strong>Período cubierto:</strong>
                   <span id="info-periodo">-</span>
                 </div>
                 <div class="info-item">
-                  <strong>Farmacias Activas:</strong>
+                  <strong>Farmacias activas (máximo):</strong>
                   <span id="info-farmacias">0</span>
                 </div>
               </div>
@@ -285,7 +278,7 @@
       </div>
       <div class="footer-actions">
         <button class="btn btn-link" id="theme-toggle">
-          <i class="fas fa-moon"></i> Cambiar tema
+          <i class="fas fa-moon"></i> Tema oscuro
         </button>
         <button class="btn btn-link" id="help-btn">
           <i class="fas fa-question-circle"></i> Ayuda
@@ -298,15 +291,11 @@
   <script src="js/utils.js"></script>
   <script src="js/dashboard.js"></script>
 
-  <!-- Inicialización -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      console.log('Dashboard cargado');
       if (typeof Dashboard !== 'undefined') {
         const dashboard = new Dashboard();
         dashboard.init();
-      } else {
-        console.error('Dashboard no está definido');
       }
     });
   </script>
