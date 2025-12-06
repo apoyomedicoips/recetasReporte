@@ -1,10 +1,4 @@
 {
-  "generated_at": "2025-01-31T00:00:00",
-  "total_records": 2200,
-  "unique_patients": 1200,
-  "unique_doctors": 180,
-  "unique_pharmacies": 6,
-  "unique_medications": 320,
-  "date_range_start": "2025-01-01",
-  "date_range_end": "2025-02-28"
+  "generated_at": "2025-12-06T13:21:13.461417",
+  "total_records": 1990341
 }
