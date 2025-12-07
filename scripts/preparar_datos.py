@@ -1,18 +1,17 @@
-# scripts/preparar_datos.py
-# VERSIÓN CORREGIDA PARA REPO PRIVADO + PUSH AUTOMÁTICO
-
+Python# scripts/preparar_datos.py
+import os
+import requests
+import polars as pl
 from pathlib import Path
 from datetime import datetime
-import json
-import polars as pl
-import requests
 
-# TU TOKEN PERSONAL (NUNCA lo compartas)
-GITHUB_TOKEN = "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"  # ← REEMPLAZA AQUÍ
+# Token desde secreto (NUNCA lo pongas en el código)
+TOKEN = os.getenv("GH_TOKEN_DASHBOARD")
+if not TOKEN:
+    raise Exception("No se encontró el secreto GH_TOKEN_DASHBOARD")
 
-# Repositorio privado con los Parquet
-RAW_REPO_URL = f"https://{GITHUB_TOKEN}@raw.githubusercontent.com/apoyomedicoips/recteas_mensuales/main"
-
+# URL del repo privado
+RAW_URL = f"https://{TOKEN}@raw.githubusercontent.com/apoyomedicoips/recteas_mensuales/main"
 OUTPUT_DIR = Path(__file__).parent.parent / "docs" / "data"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -23,35 +22,32 @@ MESES = {
     10: "10_octubre_2025", 11: "11_noviembre_2025", 12: "12_diciembre_2025",
 }
 
-def descargar_parquet(mes: int) -> pl.DataFrame:
+def descargar(mes: int) -> pl.DataFrame | None:
     nombre = MESES[mes]
-    url = f"{RAW_REPO_URL}/recetas_{nombre}.parquet"
-    print(f"Descargando {nombre}... ", end="")
-    
+    url = f"{RAW_URL}/recetas_{nombre}.parquet"
     try:
-        response = requests.get(url, timeout=30)
-        if response.status_code == 404:
-            print("No existe aún")
-            return pl.DataFrame()
-        response.raise_for_status()
-        df = pl.read_parquet(response.content)
-        print(f"OK ({len(df):,} filas)")
-        return df.with_columns([pl.lit(2025).alias("anio"), pl.lit(mes).alias("mes")])
+        r = requests.get(url, timeout=30)
+        if r.status_code == 404:
+            print(f"{nombre}: archivo no existe aún")
+            return None
+        r.raise_for_status()
+        df = pl.read_parquet(r.content)
+        print(f"{nombre}: {len(df):,} filas")
+        return df.with_columns(pl.lit(mes).alias("mes"), pl.lit(2025).alias("anio"))
     except Exception as e:
-        print(f"Error: {e}")
-        return pl.DataFrame()
+        print(f"{nombre}: error → {e}")
+        return None
 
 def main():
-    print("IPS 2025 - Cargando datos desde repo privado...\n")
-    
-    dfs = [descargar_parquet(m) for m in range(1, 13)]
-    dfs = [df for df in dfs if not df.is_empty()]
+    print("IPS 2025 - Cargando datos desde repo privado...")
+    dfs = [df for m in range(1,13) if (df := descargar(m)) is not None]
     
     if not dfs:
-        print("No hay datos disponibles aún.")
+        print("No hay datos disponibles. Esperando archivos Parquet...")
         return
     
     df = pl.concat(dfs)
+    print(f"\nTotal registros: {len(df):,}\nProcesando...")
     df = pl.concat(dataframes)
     print(f"Total de registros: {len(df):,}\n")
     
