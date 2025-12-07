@@ -1,5 +1,5 @@
 # scripts/preparar_datos.py
-# VERSIÓN 100% FUNCIONAL - LEE TUS ARCHIVOS REALES
+# VERSIÓN FINAL - LEE TUS ARCHIVOS REALES DEL 2025
 import os
 import requests
 import polars as pl
@@ -7,32 +7,20 @@ from pathlib import Path
 from datetime import datetime
 import json
 
-# Token desde secreto (seguro)
+# Token desde secreto de GitHub (seguro)
 TOKEN = os.getenv("GH_TOKEN_DASHBOARD")
 if not TOKEN:
-    raise Exception("Falta el secreto GH_TOKEN_DASHBOARD")
+    raise Exception("Configura el secreto GH_TOKEN_DASHBOARD en Settings > Secrets")
 
-# Repo privado con los Parquet
 RAW_URL = f"https://{TOKEN}@raw.githubusercontent.com/apoyomedicoips/recteas_mensuales/main"
-
-# Carpeta de salida
 OUTPUT_DIR = Path(__file__).parent.parent / "docs" / "data"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Nombres EXACTOS como están en tu repo
 MESES = {
-    1: "01_enero_2025",
-    2: "02_febrero_2025",
-    3: "03_marz2025o_2025",
-    4: "04_abril_2025",
-    5: "05_mayo_2025",
-    6: "06_junio_2025",
-    7: "_07_julio_2025",
-    8: "_08_agosto_2025",
-    9: "_09_septiembre_2025",
-    10: "_10_octubre_2025",
-    11: "_11_noviembre_2025",
-    12: "_12_diciembre_2025",
+    1: "01_enero_2025", 2: "02_febrero_2025", 3: "03_marzo_2025",
+    4: "04_abril_2025", 5: "05_mayo_2025", 6: "06_junio_2025",
+    7: "07_julio_2025", 8: "08_agosto_2025", 9: "09_septiembre_2025",
+    10: "10_octubre_2025", 11: "11_noviembre_2025", 12: "12_diciembre_2025",
 }
 
 def descargar_parquet(mes: int) -> pl.DataFrame | None:
@@ -40,7 +28,7 @@ def descargar_parquet(mes: int) -> pl.DataFrame | None:
     archivo = f"recetas_{nombre}.parquet"
     url = f"{RAW_URL}/{archivo}"
     
-    print(f"Descargando {archivo}... ", end="")
+    print(f"→ {archivo}... ", end="")
     try:
         r = requests.get(url, timeout=60)
         if r.status_code == 404:
@@ -48,17 +36,14 @@ def descargar_parquet(mes: int) -> pl.DataFrame | None:
             return None
         r.raise_for_status()
         df = pl.read_parquet(r.content)
-        print(f"OK → {len(df):,} filas")
-        return df.with_columns([
-            pl.lit(2025).alias("anio"),
-            pl.lit(mes).alias("mes")
-        ])
+        print(f"OK ({len(df):,} filas)")
+        return df.with_columns(pl.lit(mes).alias("mes"), pl.lit(2025).alias("anio"))
     except Exception as e:
         print(f"Error: {e}")
         return None
 
 def main():
-    print("IPS 2025 - Cargando datos desde repo privado...\n")
+    print("IPS 2025 - Procesando datos reales desde repo privado\n")
     
     dfs = []
     for mes in range(1, 13):
@@ -67,23 +52,24 @@ def main():
             dfs.append(df)
     
     if not dfs:
-        print("No se encontraron archivos Parquet. ¿Están subidos?")
+        print("No hay archivos Parquet disponibles aún.")
         return
     
-    print(f"\nCombinando {len(dfs)} meses...")
-    df_total = pl.concat(dfs)
-    print(f"Total registros: {len(df_total):,}\n")
+    df = pl.concat(dfs)
+    print(f"\nTotal registros cargados: {len(df):,}\n")
 
-    # === GENERAR RESUMEN MENSUAL ===
+    # Procesamiento real con tus columnas
     resumen = (
-        df_total.group_by(["anio", "mes"])
+        df.group_by(["anio", "mes"])
         .agg([
             pl.count().alias("total_lineas"),
             pl.col("NRecetaSAP").n_unique().alias("recetas_unicas"),
             pl.col("CédulaPaciente").n_unique().alias("pacientes_unicos"),
             pl.col("CódigodelMédico").n_unique().alias("medicos_unicos"),
+            pl.col("FarmaciaVentanilla").n_unique().alias("farmacias_activas"),
             pl.col("CantidadRecetada").sum().alias("total_recetado"),
             pl.col("CantidadyaDispensada").sum().alias("total_dispensado"),
+            pl.col("Crónico").sum().alias("pacientes_cronicos"),
         ])
         .with_columns([
             (pl.col("total_recetado") - pl.col("total_dispensado")).alias("total_faltante"),
@@ -95,23 +81,22 @@ def main():
         .sort("mes")
     )
 
-    # === GUARDAR JSONS ===
+    # Guardar archivos clave
     archivos = {
         "resumen_mensual.json": resumen.to_dicts(),
         "last_update.json": {"last_updated": datetime.now().isoformat()},
         "metadata.json": {
-            "total_records": int(df_total.height),
-            "generated_at": datetime.now().isoformat()
+            "generated_at": datetime.now().isoformat(),
+            "total_records": int(df.height),
+            "rango_fechas": f"{df['FechaNecesidad'].min()} a {df['FechaNecesidad'].max()}"
         }
     }
 
     for nombre, datos in archivos.items():
-        path = OUTPUT_DIR / nombre
-        with open(path, "w", encoding="utf-8") as f:
-            json.dump(datos, f, ensure_ascii=False, indent=2)
+        (OUTPUT_DIR / nombre).write_text(json.dumps(datos, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"Guardado: {nombre}")
 
-    print("\nDASHBOARD ACTUALIZADO CORRECTAMENTE!")
+    print("\nDASHBOARD ACTUALIZADO CON DATOS REALES!")
     print("→ https://apoyomedicoips.github.io/recetasReporte/")
 
 if __name__ == "__main__":
