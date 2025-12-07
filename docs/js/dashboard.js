@@ -147,14 +147,25 @@ class Dashboard {
         $(`#${id}`).DataTable({
             data: data.slice(0, 50),
             columns: [
-                { data: 'mes', title: 'Mes' },
-                { data: 'MedicamentoSAP', title: 'Medicamento' },
-                { data: 'lineas', title: 'Líneas' },
-                { data: 'recetado', title: 'Recetado' },
-                { data: 'dispensado', title: 'Dispensado' },
-                { data: 'faltante', title: 'Faltante' },
-                { data: 'tasa_global', title: 'Tasa', render: d => Utils.formatPercentage(d) }
-            ],
+            { data: 'mes', title: 'Mes' },
+            { data: 'MedicamentoSAP', title: 'Código SAP' },
+            { data: 'lineas', title: 'Líneas' },
+            { data: 'recetado', title: 'Recetado' },
+            { data: 'dispensado', title: 'Dispensado' },
+            { 
+                data: null, 
+                title: 'Faltante',
+                render: function(data, type, row) {
+                    return Utils.formatNumber(row.recetado - row.dispensado);
+                }
+            },
+            { 
+                data: 'tasa_global', 
+                title: 'Tasa %', 
+                render: d => d ? Utils.formatPercentage(d) : '0%'
+            },
+            { data: 'ranking_mes', title: 'Ranking' }
+        ],
             pageLength: 10,
             responsive: true,
             language: { url: "//cdn.datatables.net/plug-ins/1.13.8/i18n/es-ES.json" }
