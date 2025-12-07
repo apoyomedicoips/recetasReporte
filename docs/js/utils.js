@@ -1,20 +1,19 @@
-// Funciones de utilidad
+// utils.js
 const Utils = {
-    formatNumber: function(num) {
-        if (num === null || num === undefined || isNaN(num)) return "0";
-        return new Intl.NumberFormat('es-ES').format(num);
+    formatNumber: (num) => {
+        if (num === null || num === undefined) return "0";
+        return new Intl.NumberFormat('es-PY').format(num);
     },
 
-    formatPercentage: function(num) {
-        if (num === null || num === undefined || isNaN(num)) return "0.0%";
-        return `${parseFloat(num).toFixed(1)}%`;
+    formatPercentage: (num) => {
+        if (num === null || num === undefined) return "0.0%";
+        return `${(num * 100).toFixed(1)}%`;
     },
 
-    formatDate: function(dateString) {
+    formatDate: (dateString) => {
         if (!dateString) return "-";
         const date = new Date(dateString);
-        if (isNaN(date.getTime())) return dateString;
-        return date.toLocaleDateString('es-ES', {
+        return date.toLocaleDateString('es-PY', {
             year: 'numeric',
             month: 'long',
             day: 'numeric',
@@ -23,12 +22,16 @@ const Utils = {
         });
     },
 
-    getMonthName: function(month) {
-        const months = [
-            'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
-            'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
-        ];
-        return months[month - 1] || '';
+    debounce: (func, wait) => {
+        let timeout;
+        return function executedFunction(...args) {
+            const later = () => {
+                clearTimeout(timeout);
+                func(...args);
+            };
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+        };
     }
 };
 
