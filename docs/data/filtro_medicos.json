@@ -1,0 +1,3742 @@
+[
+  {
+    "CódigodelMédico": 18721,
+    "nombre_medico": "ORTELLADO,IRINA GUISSELLE"
+  },
+  {
+    "CódigodelMédico": 12980,
+    "nombre_medico": "ESTIGARRIBIA ALONSO, EVELYN RAQUEL"
+  },
+  {
+    "CódigodelMédico": 12352,
+    "nombre_medico": "RODRIGUEZ ESQUIVEL, MARIA GLORIA"
+  },
+  {
+    "CódigodelMédico": 7153,
+    "nombre_medico": "CABRERA VILLALBA, SONIA RAQUEL"
+  },
+  {
+    "CódigodelMédico": 16911,
+    "nombre_medico": "ROMERO MERLO, MORAIMA DE LOS ANGELES"
+  },
+  {
+    "CódigodelMédico": 12625,
+    "nombre_medico": "ESPINOLA BENITEZ, MARIELA"
+  },
+  {
+    "CódigodelMédico": 16127,
+    "nombre_medico": "CUEVAS ZAPATA, LIZ MARINA"
+  },
+  {
+    "CódigodelMédico": 3973,
+    "nombre_medico": "ORTIZ CHAVEZ JORGE MANUEL"
+  },
+  {
+    "CódigodelMédico": 9042,
+    "nombre_medico": "LOPEZ FERNANDEZ, LUZ MARISOL"
+  },
+  {
+    "CódigodelMédico": 18708,
+    "nombre_medico": "MARIN VALL, NELSON RODRIGO (G06-G11)"
+  },
+  {
+    "CódigodelMédico": 12067,
+    "nombre_medico": "TELMA SILVEROS"
+  },
+  {
+    "CódigodelMédico": 26110,
+    "nombre_medico": "PRATS AREVALOS, DIEGO MARTIN"
+  },
+  {
+    "CódigodelMédico": 13966,
+    "nombre_medico": "DIAZ BORDON, GLORIA ALEJANDRA"
+  },
+  {
+    "CódigodelMédico": 8684,
+    "nombre_medico": "SOTO VALIENTE   SANDRA MARIA"
+  },
+  {
+    "CódigodelMédico": 11815,
+    "nombre_medico": "BAEZ MACIEL, VALENTINO JAVIER"
+  },
+  {
+    "CódigodelMédico": 13621,
+    "nombre_medico": "ROMERO GRANCE LUZ MARIA JOSE"
+  },
+  {
+    "CódigodelMédico": 5738,
+    "nombre_medico": "OLMEDO BAREIRO, AURORA BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 10145,
+    "nombre_medico": "CESPEDES SERVIAN, LAURA LETICIA"
+  },
+  {
+    "CódigodelMédico": 10992,
+    "nombre_medico": "PORTILLO MONTIEL, ROGER ANIBAL"
+  },
+  {
+    "CódigodelMédico": 7527,
+    "nombre_medico": "GIMENEZ LEWCHUK, NATALIA NOEMI"
+  },
+  {
+    "CódigodelMédico": 17470,
+    "nombre_medico": "RUTH OLMEDO"
+  },
+  {
+    "CódigodelMédico": 8882,
+    "nombre_medico": "SERVIN MORENO, OSCAR ARTURO"
+  },
+  {
+    "CódigodelMédico": 13108,
+    "nombre_medico": "QUEVEDO SAMANIEGO, LARISSA"
+  },
+  {
+    "CódigodelMédico": 12882,
+    "nombre_medico": "TORRES IBARROLA, ARTURO JUVENCIO"
+  },
+  {
+    "CódigodelMédico": 12931,
+    "nombre_medico": "GALEANO VENIALGO, ANA CLAUDIA"
+  },
+  {
+    "CódigodelMédico": 11017,
+    "nombre_medico": "ARCE KITA, JUAN SEBASTIAN"
+  },
+  {
+    "CódigodelMédico": 30148,
+    "nombre_medico": "OJEDA MUÑOZ HORACIO AARON"
+  },
+  {
+    "CódigodelMédico": 5185,
+    "nombre_medico": "LANDO BROWNE SERGIO"
+  },
+  {
+    "CódigodelMédico": 21925,
+    "nombre_medico": "GIMENEZ OJEDA, THALIA"
+  },
+  {
+    "CódigodelMédico": 12908,
+    "nombre_medico": "OCAMPOS , PATRICIA MARIELA (ADULTO)"
+  },
+  {
+    "CódigodelMédico": 22399,
+    "nombre_medico": "SANCHEZ JARA ENMANUEL JOSE DARIO"
+  },
+  {
+    "CódigodelMédico": 12500,
+    "nombre_medico": "BOVEDA BRIZUELA, LUZ CARINA"
+  },
+  {
+    "CódigodelMédico": 11891,
+    "nombre_medico": "MARTINEZ PINEDA, JOSE MANUEL (G04)"
+  },
+  {
+    "CódigodelMédico": 14721,
+    "nombre_medico": "TAMARA FIOROTTÓ"
+  },
+  {
+    "CódigodelMédico": 10457,
+    "nombre_medico": "VILLALBA, PATRICIA (ADULTO)"
+  },
+  {
+    "CódigodelMédico": 12005,
+    "nombre_medico": "JIMENEZ DE PANE, VIOLETA MARIA"
+  },
+  {
+    "CódigodelMédico": 12776,
+    "nombre_medico": "CORREA MONGELOS, MARCELO DAVID"
+  },
+  {
+    "CódigodelMédico": 20765,
+    "nombre_medico": "CAÑETE SILGUERO, LUIS FERNANDO"
+  },
+  {
+    "CódigodelMédico": 13651,
+    "nombre_medico": "GONZALEZ RIVEROS NILSA ROMINA"
+  },
+  {
+    "CódigodelMédico": 10197,
+    "nombre_medico": "MONTIEL OVIEDO, RUBEN ANTONIO"
+  },
+  {
+    "CódigodelMédico": 8160,
+    "nombre_medico": "BARBOZA ACOSTA, LUIS ORLANDO"
+  },
+  {
+    "CódigodelMédico": 7249,
+    "nombre_medico": "CASCO NUÑEZ, ENRIQUE ALCIDES (COLUMNA   G07)"
+  },
+  {
+    "CódigodelMédico": 14864,
+    "nombre_medico": "COLMAN SANTANDER, IRIS YOHANA"
+  },
+  {
+    "CódigodelMédico": 13032,
+    "nombre_medico": "MANAVELLA BRUSQUETTI, FABIO DAVID"
+  },
+  {
+    "CódigodelMédico": 8181,
+    "nombre_medico": "TORRES TRIGO, MARCOS (G03)"
+  },
+  {
+    "CódigodelMédico": 15440,
+    "nombre_medico": "SOSA PEREZ,DAREL (URO-GINECOLOGIA)"
+  },
+  {
+    "CódigodelMédico": 10034,
+    "nombre_medico": "PAKRAVAN FIGUEREDO MIGUEL ANGEL"
+  },
+  {
+    "CódigodelMédico": 12731,
+    "nombre_medico": "WATANABE UMEYAMA, NANCY KAORI"
+  },
+  {
+    "CódigodelMédico": 31991,
+    "nombre_medico": "SANTIAGO AYALA"
+  },
+  {
+    "CódigodelMédico": 23021,
+    "nombre_medico": "RUBIANI HERMOSILLA  LARISSA MARIA JOSE"
+  },
+  {
+    "CódigodelMédico": 4946,
+    "nombre_medico": "CESPEDES ALDANA, OLGA HURI"
+  },
+  {
+    "CódigodelMédico": 7372,
+    "nombre_medico": "FERREIRA GARAYO, LILIANA ROCIO BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 13333,
+    "nombre_medico": "BURGOS FLORES, JULIO CESAR"
+  },
+  {
+    "CódigodelMédico": 20633,
+    "nombre_medico": "HERMOSILLA ALMIRON,LIZ PABLA"
+  },
+  {
+    "CódigodelMédico": 20275,
+    "nombre_medico": "MOLINAS MORAEZ,CLARA BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 993377,
+    "nombre_medico": "CRISTALDO KEGLER PAOLA MARLENE"
+  },
+  {
+    "CódigodelMédico": 14955,
+    "nombre_medico": "CASTRO LOPEZ MARIA ANGELICA"
+  },
+  {
+    "CódigodelMédico": 12093,
+    "nombre_medico": "RAMIREZ RODRIGUEZ, LUIS ALBERTO"
+  },
+  {
+    "CódigodelMédico": 12990,
+    "nombre_medico": "ARCE ACUÑA, DERLIS RAFAEL"
+  },
+  {
+    "CódigodelMédico": 15489,
+    "nombre_medico": "VARGAS BARRIOS, LARISSA ANALI"
+  },
+  {
+    "CódigodelMédico": 14594,
+    "nombre_medico": "GOMEZ MOLINAS, VICTOR MANUEL"
+  },
+  {
+    "CódigodelMédico": 26545,
+    "nombre_medico": "TOÑANEZ SALCEDO MARCELO"
+  },
+  {
+    "CódigodelMédico": 22991,
+    "nombre_medico": "NATALIA AYALA"
+  },
+  {
+    "CódigodelMédico": 11591,
+    "nombre_medico": "DOLDAN AYALA LAURA ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 11174,
+    "nombre_medico": "LEGAL, CHRISTIAN GABRIEL"
+  },
+  {
+    "CódigodelMédico": 27280,
+    "nombre_medico": "IBARRA BENITEZ BRUNO GUSTAVO"
+  },
+  {
+    "CódigodelMédico": 31019,
+    "nombre_medico": "CENTURION RODRIGUEZ MARCOS RAUL"
+  },
+  {
+    "CódigodelMédico": 11116,
+    "nombre_medico": "PELLEGRINI ACOSTA, ENRIQUE FABIAN"
+  },
+  {
+    "CódigodelMédico": 14285,
+    "nombre_medico": "MOREL BAEZ, BLAS SEBASTIAN"
+  },
+  {
+    "CódigodelMédico": 7331,
+    "nombre_medico": "ROMERO ESTIGARRIBIA DANIEL GERONIMO"
+  },
+  {
+    "CódigodelMédico": 9034,
+    "nombre_medico": "ARCE AYALA NATHALIA MARIA"
+  },
+  {
+    "CódigodelMédico": 12004,
+    "nombre_medico": "NATALIA CONCEPCION CANIZA REYES"
+  },
+  {
+    "CódigodelMédico": 25927,
+    "nombre_medico": "IVAN CABALLERO"
+  },
+  {
+    "CódigodelMédico": 12892,
+    "nombre_medico": "RAMIREZ CANTERO, ALEJANDRA"
+  },
+  {
+    "CódigodelMédico": 8087,
+    "nombre_medico": "GALLEANO RUIZ, HUMBERTO NICOLAS (G01-G12)"
+  },
+  {
+    "CódigodelMédico": 19872,
+    "nombre_medico": "PEREIRA ACHAR,ROSSANA NATHALIA"
+  },
+  {
+    "CódigodelMédico": 15988,
+    "nombre_medico": "RECALDE RUIZ,LAURA SOLEDAD"
+  },
+  {
+    "CódigodelMédico": 25846,
+    "nombre_medico": "JUNNIOR FERREIRA"
+  },
+  {
+    "CódigodelMédico": 12678,
+    "nombre_medico": "JUAN JARA"
+  },
+  {
+    "CódigodelMédico": 9348,
+    "nombre_medico": "JARA VERON, JUAN JOSE"
+  },
+  {
+    "CódigodelMédico": 10897,
+    "nombre_medico": "RECALDE IRALA, CELSO ANTONIO"
+  },
+  {
+    "CódigodelMédico": 8916,
+    "nombre_medico": "CATALDI LEMIR SANDRA"
+  },
+  {
+    "CódigodelMédico": 23381,
+    "nombre_medico": "MERCADO BENITEZ, MARIA LAURA"
+  },
+  {
+    "CódigodelMédico": 3924,
+    "nombre_medico": "FELICIANO HERRERA AGUAYO"
+  },
+  {
+    "CódigodelMédico": 19037,
+    "nombre_medico": "SEGOVIA ORTIZ, SERGIO SAUL (G01)PEDIATRICA"
+  },
+  {
+    "CódigodelMédico": 11581,
+    "nombre_medico": "VARGAS BALOTTA, JOSE DAVID"
+  },
+  {
+    "CódigodelMédico": 36151,
+    "nombre_medico": "DAHIANA ARGUELLO"
+  },
+  {
+    "CódigodelMédico": 997739,
+    "nombre_medico": "CABRERA RIVEROS CLAUDIA VIVIANA"
+  },
+  {
+    "CódigodelMédico": 12718,
+    "nombre_medico": "NOGUERA ROMAN, LIDIA SUSANA"
+  },
+  {
+    "CódigodelMédico": 23168,
+    "nombre_medico": "MELGAREJO GIMENEZ FEDERICO EDUARDO"
+  },
+  {
+    "CódigodelMédico": 10478,
+    "nombre_medico": "CRISTALDO FLOR, CARLOS RAMON (G02)"
+  },
+  {
+    "CódigodelMédico": 8926,
+    "nombre_medico": "CARRACELA BARRETO ESTEBAN DARIO"
+  },
+  {
+    "CódigodelMédico": 14587,
+    "nombre_medico": "JACQUET MEYER, NORMA ADRIANA"
+  },
+  {
+    "CódigodelMédico": 993084,
+    "nombre_medico": "FLEITAS REYES,ARNALDO (MAXILOFACIAL)"
+  },
+  {
+    "CódigodelMédico": 7861,
+    "nombre_medico": "FRACHI SIENRA HUGO F.(POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 7971,
+    "nombre_medico": "ROLON RUIZ DIAZ, ANGEL RICARDO"
+  },
+  {
+    "CódigodelMédico": 8401,
+    "nombre_medico": "FERREIRA VILLALBA VICTOR DANIEL"
+  },
+  {
+    "CódigodelMédico": 9549,
+    "nombre_medico": "FERNANDEZ GONZALEZ, GABRIELA GISSEL"
+  },
+  {
+    "CódigodelMédico": 14570,
+    "nombre_medico": "PEDRO LUGO"
+  },
+  {
+    "CódigodelMédico": 19335,
+    "nombre_medico": "SALVIONI ZARACHO, CESAR HERNAN (G05)"
+  },
+  {
+    "CódigodelMédico": 18598,
+    "nombre_medico": "OJEDA VILLASBOA, DERLIS JOEL"
+  },
+  {
+    "CódigodelMédico": 149194,
+    "nombre_medico": "DIANA MOLINAS"
+  },
+  {
+    "CódigodelMédico": 17063,
+    "nombre_medico": "ESPINOLA ROA, IVAN REINERIO"
+  },
+  {
+    "CódigodelMédico": 9406,
+    "nombre_medico": "CYNTIA CAROLINA ARREDONDO VILLALBA"
+  },
+  {
+    "CódigodelMédico": 10789,
+    "nombre_medico": "LARAN DUARTE, VIOLETA MARIA"
+  },
+  {
+    "CódigodelMédico": 8494,
+    "nombre_medico": "FLEITAS ESCOBAR, HECTOR LUIS (G09)"
+  },
+  {
+    "CódigodelMédico": 7090,
+    "nombre_medico": "BRIZUELA SAMUDIO ADRIANA MABEL"
+  },
+  {
+    "CódigodelMédico": 16220,
+    "nombre_medico": "MARCOS LOPEZ"
+  },
+  {
+    "CódigodelMédico": 9532,
+    "nombre_medico": "GOTO GONZALEZ, RUBEN YASUJI"
+  },
+  {
+    "CódigodelMédico": 13047,
+    "nombre_medico": "DIEGO BENITEZ"
+  },
+  {
+    "CódigodelMédico": 36044,
+    "nombre_medico": "MARIA JOSE LAFARJA"
+  },
+  {
+    "CódigodelMédico": 12686,
+    "nombre_medico": "SANTACRUZ FLOR, VANESSA ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 26498,
+    "nombre_medico": "ZARACHO APARICIO,MAX RODRIGO SEBASTIAN"
+  },
+  {
+    "CódigodelMédico": 12139,
+    "nombre_medico": "DELGADILLO BENITEZ, PEDRO DANIEL"
+  },
+  {
+    "CódigodelMédico": 5381,
+    "nombre_medico": "VALDEZ CRISTALDO RODNEY A"
+  },
+  {
+    "CódigodelMédico": 10754,
+    "nombre_medico": "RECALDE ROMERO, CYNTIA ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 3599,
+    "nombre_medico": "JOSE RAMON FERREIRA AYALA"
+  },
+  {
+    "CódigodelMédico": 10633,
+    "nombre_medico": "DOLDAN OTAZO CHRISTIAN AMADO"
+  },
+  {
+    "CódigodelMédico": 351199,
+    "nombre_medico": "SILGUERO LOPEZ OSMAR"
+  },
+  {
+    "CódigodelMédico": 5340,
+    "nombre_medico": "APARICIO MEZA, MARIA DEL ROCIO"
+  },
+  {
+    "CódigodelMédico": 7595,
+    "nombre_medico": "MOLINAS AYALA ANIBAL ELIAS"
+  },
+  {
+    "CódigodelMédico": 7722,
+    "nombre_medico": "FLEITAS CABRERA, CYNTHIA RAFAELA VERONICA"
+  },
+  {
+    "CódigodelMédico": 6010,
+    "nombre_medico": "SOSA AQUINO LUCIA"
+  },
+  {
+    "CódigodelMédico": 9204,
+    "nombre_medico": "DE CASTRO C RICARDO (G12)- INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 23016,
+    "nombre_medico": "RAMIREZ NUÑEZ OSCAR ADRIAN"
+  },
+  {
+    "CódigodelMédico": 15939,
+    "nombre_medico": "GALEANO MARIN, MILCA RAQUEL"
+  },
+  {
+    "CódigodelMédico": 12460,
+    "nombre_medico": "GONZALEZ AGUILERA, ANA LUZ MARIA"
+  },
+  {
+    "CódigodelMédico": 13193,
+    "nombre_medico": "IRALA RUIZ, DAVID GUSTAVO"
+  },
+  {
+    "CódigodelMédico": 999459,
+    "nombre_medico": "RIVAROLA MARTINEZ, EVA BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 12542,
+    "nombre_medico": "ROLON FIGUEREDO,DIEGO ORLANDO"
+  },
+  {
+    "CódigodelMédico": 17152,
+    "nombre_medico": "SANABRIA BAEZ NATHALIA HAIDEE"
+  },
+  {
+    "CódigodelMédico": 6586,
+    "nombre_medico": "MALDONADO OCAMPO, GUSTAVO JAVIER"
+  },
+  {
+    "CódigodelMédico": 12075,
+    "nombre_medico": "CENTURION, JESSICA MARIA TERESITA"
+  },
+  {
+    "CódigodelMédico": 16308,
+    "nombre_medico": "SILVIA PALACIOS"
+  },
+  {
+    "CódigodelMédico": 11701,
+    "nombre_medico": "VILLALBA SAUCEDO, MARCOS"
+  },
+  {
+    "CódigodelMédico": 4431,
+    "nombre_medico": "FERREIRA N. MARIA ELENA"
+  },
+  {
+    "CódigodelMédico": 4084,
+    "nombre_medico": "LLANO GIACUMMO, JOSE DOMINGO (G09) - INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 18038,
+    "nombre_medico": "NOELIA AZUAGA"
+  },
+  {
+    "CódigodelMédico": 14068,
+    "nombre_medico": "ALVARENGA SALCEDO, GONZALO PAUL (G03)"
+  },
+  {
+    "CódigodelMédico": 9986,
+    "nombre_medico": "GIUBI MARRELLI GUSTAVO ALEJANDRO G02"
+  },
+  {
+    "CódigodelMédico": 16031,
+    "nombre_medico": "LOPEZ GONZALEZ, JUAN MANUEL"
+  },
+  {
+    "CódigodelMédico": 7707,
+    "nombre_medico": "TORRES DURE MERCEDES"
+  },
+  {
+    "CódigodelMédico": 9699,
+    "nombre_medico": "SAMANIEGO MORINIGO,SADY DAHIANA (URO-GINECOLOGIA)"
+  },
+  {
+    "CódigodelMédico": 18805,
+    "nombre_medico": "ZARACHO, JUAN CARLOS"
+  },
+  {
+    "CódigodelMédico": 17314,
+    "nombre_medico": "MARTINEZ ZARATE, MONICA MICHELLE"
+  },
+  {
+    "CódigodelMédico": 5422,
+    "nombre_medico": "RAMIREZ GONZALEZ LUIS ALBERTO"
+  },
+  {
+    "CódigodelMédico": 9074,
+    "nombre_medico": "AMARILLA JIMENEZ, OSMAR SEGUNDO"
+  },
+  {
+    "CódigodelMédico": 15606,
+    "nombre_medico": "GARCIA ZAYAS, JORGE ABEL"
+  },
+  {
+    "CódigodelMédico": 4906,
+    "nombre_medico": "OLMEDO FERREIRA FRANCISCO S"
+  },
+  {
+    "CódigodelMédico": 13313,
+    "nombre_medico": "FLEITAS BERNAL, EDILBERTO RAMON"
+  },
+  {
+    "CódigodelMédico": 13514,
+    "nombre_medico": "CACERES BENITEZ, TERESA VIRGINIA"
+  },
+  {
+    "CódigodelMédico": 12025,
+    "nombre_medico": "SOLEDAD IBAÑEZ"
+  },
+  {
+    "CódigodelMédico": 20766,
+    "nombre_medico": "BOGGINO GIMENEZ, HIRAN GUILLERMO ( G11 )"
+  },
+  {
+    "CódigodelMédico": 16312,
+    "nombre_medico": "PERALTA GONZÁLEZ, ANDREA BENICIA"
+  },
+  {
+    "CódigodelMédico": 17133,
+    "nombre_medico": "DIAMELA ACOSTA"
+  },
+  {
+    "CódigodelMédico": 11044,
+    "nombre_medico": "FLEITAS RUIZ, YRMA MARIELA"
+  },
+  {
+    "CódigodelMédico": 11667,
+    "nombre_medico": "YUDIS GALEANO, MAGNA MARIA REBECA"
+  },
+  {
+    "CódigodelMédico": 19410,
+    "nombre_medico": "ACUÑA PIRIS GABRIEL CRISTINO"
+  },
+  {
+    "CódigodelMédico": 13906,
+    "nombre_medico": "VERA FLORENTIN, JORGE DAVID (G01)PEDIATRICA"
+  },
+  {
+    "CódigodelMédico": 14049,
+    "nombre_medico": "ARZAMENDIA DAVALOS, SADY PAOLA"
+  },
+  {
+    "CódigodelMédico": 8728,
+    "nombre_medico": "CABALLERO ZARATE CELIA MAGALI"
+  },
+  {
+    "CódigodelMédico": 995052,
+    "nombre_medico": "PIMIENTA AGUILERA; RUTH ELIANA"
+  },
+  {
+    "CódigodelMédico": 14445,
+    "nombre_medico": "ORTIZ MELGAREJO, FERNANDO                                 ,"
+  },
+  {
+    "CódigodelMédico": 16837,
+    "nombre_medico": "BAZAN ZARACHO ADRIAN DAVID"
+  },
+  {
+    "CódigodelMédico": 18025,
+    "nombre_medico": "ERNESTO CABALLERO"
+  },
+  {
+    "CódigodelMédico": 5235,
+    "nombre_medico": "FERNANDEZ GUSTAVO"
+  },
+  {
+    "CódigodelMédico": 25891,
+    "nombre_medico": "JUAN FRETES"
+  },
+  {
+    "CódigodelMédico": 26190,
+    "nombre_medico": "YANINA FRANCO"
+  },
+  {
+    "CódigodelMédico": 32902,
+    "nombre_medico": "LOPEZ AGUIRRE PATRICIA LORENA"
+  },
+  {
+    "CódigodelMédico": 10811,
+    "nombre_medico": "MARTINEZ GALEANO ALVARO"
+  },
+  {
+    "CódigodelMédico": 18450,
+    "nombre_medico": "LEGUIZAMON ROMERO, EFREN GUSTAVO(G11)"
+  },
+  {
+    "CódigodelMédico": 23171,
+    "nombre_medico": "ZUNINI MENDOZA,FIORELLA"
+  },
+  {
+    "CódigodelMédico": 8920,
+    "nombre_medico": "FARIÑA BOBADILLA, MARIA CRISTINA"
+  },
+  {
+    "CódigodelMédico": 11825,
+    "nombre_medico": "ARRUA MARTINEZ, ANALIA RAQUEL"
+  },
+  {
+    "CódigodelMédico": 6230,
+    "nombre_medico": "GAUNA DE CENTURION CINTHIA (C:1,2,4,5,6)"
+  },
+  {
+    "CódigodelMédico": 12174,
+    "nombre_medico": "CRISTIAN BOGADO"
+  },
+  {
+    "CódigodelMédico": 15725,
+    "nombre_medico": "LEZCANO MARTIN, MARIA AZUCENA"
+  },
+  {
+    "CódigodelMédico": 11273,
+    "nombre_medico": "PAREDES GARCIA, MARIA LAURA (C:1,2,3,8,11)"
+  },
+  {
+    "CódigodelMédico": 4582,
+    "nombre_medico": "SANTACRUZ DE GONZALEZ MARTHA BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 20525,
+    "nombre_medico": "ACUÑA RIVEROS ROCIO MARLENE"
+  },
+  {
+    "CódigodelMédico": 3289,
+    "nombre_medico": "MENACHO EGUEZ ELIAS ARMANDO"
+  },
+  {
+    "CódigodelMédico": 22142,
+    "nombre_medico": "FLECHA VARGAS ALICIA MAGALI"
+  },
+  {
+    "CódigodelMédico": 9989,
+    "nombre_medico": "ARZAMENDIA CASELLI, CARLOS EDUARDO"
+  },
+  {
+    "CódigodelMédico": 4221,
+    "nombre_medico": "GONZALEZ DE ALVAREZ ANA"
+  },
+  {
+    "CódigodelMédico": 8118,
+    "nombre_medico": "PEREIRA, NORMA CAROLINA"
+  },
+  {
+    "CódigodelMédico": 11892,
+    "nombre_medico": "VILLAGRA CORONEL,LUIS MIGUEL PASCASIO(G04)INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 22421,
+    "nombre_medico": "JIMENEZ BOGADO DAISY LETICIA"
+  },
+  {
+    "CódigodelMédico": 9095,
+    "nombre_medico": "MARTINEZ GAMARRA, CESAR MANUEL (ADULTO)"
+  },
+  {
+    "CódigodelMédico": 13587,
+    "nombre_medico": "TORRES VELAZQUEZ, LIZ SANDRA FABIOLA"
+  },
+  {
+    "CódigodelMédico": 16522,
+    "nombre_medico": "YOLANDA ESCOBAR"
+  },
+  {
+    "CódigodelMédico": 994766,
+    "nombre_medico": "SETRINI ALVAREZ, JESSICA ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 13459,
+    "nombre_medico": "RIVAS MARTINEZ, OSVALDO DIOSNEL (G02)"
+  },
+  {
+    "CódigodelMédico": 8961,
+    "nombre_medico": "PRADO CANTERO, ROBERTO DARIO"
+  },
+  {
+    "CódigodelMédico": 7392,
+    "nombre_medico": "RAMIREZ JORGE LUIS"
+  },
+  {
+    "CódigodelMédico": 17557,
+    "nombre_medico": "BRACHO CHAMORRO JUAN MARINO"
+  },
+  {
+    "CódigodelMédico": 23634,
+    "nombre_medico": "TORRES ALFONZO, DAVINIA MAGALI"
+  },
+  {
+    "CódigodelMédico": 22042,
+    "nombre_medico": "BECKER AMARILLA, SHIRLEY MONZERRAT"
+  },
+  {
+    "CódigodelMédico": 9966,
+    "nombre_medico": "FRETES CLAUDIA CONCEPCION"
+  },
+  {
+    "CódigodelMédico": 19673,
+    "nombre_medico": "ANIBAL ZUCCHINI"
+  },
+  {
+    "CódigodelMédico": 9490,
+    "nombre_medico": "MENDEZ RAMIREZ,SAMUEL(URO-ONCOLOGIA)"
+  },
+  {
+    "CódigodelMédico": 19491,
+    "nombre_medico": "MIRENA FRANCO"
+  },
+  {
+    "CódigodelMédico": 5435,
+    "nombre_medico": "PORRO HALLEY, MARIO CIRO (G04) -INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 6447,
+    "nombre_medico": "GARCIA ARCE, ALCIDES MANUEL (MANO   G05)"
+  },
+  {
+    "CódigodelMédico": 9514,
+    "nombre_medico": "DUARTE ESTECHE, ROSS CAROLINA"
+  },
+  {
+    "CódigodelMédico": 8864,
+    "nombre_medico": "BARRIOS CABALLERO, LIZ MARLENE"
+  },
+  {
+    "CódigodelMédico": 7776,
+    "nombre_medico": "ARZA FERNANDEZ; MIGUEL BENIGNO"
+  },
+  {
+    "CódigodelMédico": 10239,
+    "nombre_medico": "MONTIEL OVIEDO, LUIS ENRIQUE (G04)INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 18951,
+    "nombre_medico": "CORRALES COSCIA, NATALIA MARIA"
+  },
+  {
+    "CódigodelMédico": 15120,
+    "nombre_medico": "RUIZ DIAZ AGUILAR, ELVIS RUBEN"
+  },
+  {
+    "CódigodelMédico": 10794,
+    "nombre_medico": "ENCINA AGUILERA, SALOME KARINA"
+  },
+  {
+    "CódigodelMédico": 23380,
+    "nombre_medico": "SANTACRUZ DUARTE RICHARD"
+  },
+  {
+    "CódigodelMédico": 26571,
+    "nombre_medico": "DA ROSA PINHEIRO SEBASTIAO MILTON"
+  },
+  {
+    "CódigodelMédico": 18513,
+    "nombre_medico": "AGUERO QUIROGA,YENNY ANA ANTONIA"
+  },
+  {
+    "CódigodelMédico": 10207,
+    "nombre_medico": "PALACIOS CATEBRA, RUBEN MARCELO"
+  },
+  {
+    "CódigodelMédico": 18911,
+    "nombre_medico": "RAMIREZ PANE CHRISTIAN ALBERTO"
+  },
+  {
+    "CódigodelMédico": 11893,
+    "nombre_medico": "ACHON FORNO, GERARDO (G06-PIE Y TOBILLO)"
+  },
+  {
+    "CódigodelMédico": 30558,
+    "nombre_medico": "SUBELDIA GONZALEZ,MARCOS MARIA"
+  },
+  {
+    "CódigodelMédico": 13136,
+    "nombre_medico": "RAMIREZ ORTIZ, HILDA ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 21946,
+    "nombre_medico": "GONZALEZ AQUINO, ALEXIS DARIO"
+  },
+  {
+    "CódigodelMédico": 11181,
+    "nombre_medico": "VIGO LUGO, LILIANA BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 19247,
+    "nombre_medico": "CORONEL SOLIZ, CARLOS RUBEN (G07- G11)"
+  },
+  {
+    "CódigodelMédico": 14123,
+    "nombre_medico": "MORAN MACIEL, PAUL ELIAS"
+  },
+  {
+    "CódigodelMédico": 6899,
+    "nombre_medico": "MENDOZA, WILMA GRACIELA"
+  },
+  {
+    "CódigodelMédico": 8092,
+    "nombre_medico": "LEIVA COLMAN CYNTHIA"
+  },
+  {
+    "CódigodelMédico": 23517,
+    "nombre_medico": "PINO GONZALEZ JOSE MANUEL"
+  },
+  {
+    "CódigodelMédico": 14764,
+    "nombre_medico": "MARTA JORGELINA DIAZ"
+  },
+  {
+    "CódigodelMédico": 15711,
+    "nombre_medico": "BALMACEDA RODRIGUES, BRENDA BETSABET"
+  },
+  {
+    "CódigodelMédico": 14506,
+    "nombre_medico": "ARCE MARTINEZ, MARIA GISELLE (POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 9509,
+    "nombre_medico": "BORDENAVE GAMARRA, LAURA GERALDINE"
+  },
+  {
+    "CódigodelMédico": 1536,
+    "nombre_medico": "PARIS DE SEGOVIA, BEATRIZ ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 8353,
+    "nombre_medico": "WALTER FARIÑA NARVAREZ"
+  },
+  {
+    "CódigodelMédico": 26395,
+    "nombre_medico": "SILGUERO GONZALEZ, FATIMA INES"
+  },
+  {
+    "CódigodelMédico": 10941,
+    "nombre_medico": "MARECOS NUÑEZ, JUAN GUALBERTO"
+  },
+  {
+    "CódigodelMédico": 12412,
+    "nombre_medico": "ORTIZ GAONA, NELSON RAFAEL"
+  },
+  {
+    "CódigodelMédico": 13377,
+    "nombre_medico": "CAPDEVILA AVALOS, PEDRO PABLO"
+  },
+  {
+    "CódigodelMédico": 4872,
+    "nombre_medico": "BAEZ LUGO EMELDA AIDA"
+  },
+  {
+    "CódigodelMédico": 15790,
+    "nombre_medico": "CHAPARRO RODRIGUEZ, LUZ MARIA"
+  },
+  {
+    "CódigodelMédico": 9456,
+    "nombre_medico": "BAEZ NOLDIN, ROCIO CELESTE (C:1,2,3,4,8)"
+  },
+  {
+    "CódigodelMédico": 5903,
+    "nombre_medico": "DE BLECKER MONGES ANNA KARINA"
+  },
+  {
+    "CódigodelMédico": 4016,
+    "nombre_medico": "BAREIRO, GUILLERMO"
+  },
+  {
+    "CódigodelMédico": 17218,
+    "nombre_medico": "BARRETO RIOS, MAURICIO NICOLAS"
+  },
+  {
+    "CódigodelMédico": 8029,
+    "nombre_medico": "ADORNO ARRUA,TERESITA (NIÑOS)"
+  },
+  {
+    "CódigodelMédico": 7610,
+    "nombre_medico": "MIRANDA ESPINOLA DANIELA"
+  },
+  {
+    "CódigodelMédico": 6018,
+    "nombre_medico": "RAMIREZ CABALLERO, LAURA RAQUEL"
+  },
+  {
+    "CódigodelMédico": 21560,
+    "nombre_medico": "MEZA FRANCO, ALAN CLAUDELINO"
+  },
+  {
+    "CódigodelMédico": 5955,
+    "nombre_medico": "VEGA PLANAS,ALDO RAUL (HOMBRO G03)INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 36274,
+    "nombre_medico": "CRESTA BOGADO OSCAR NICOLAS"
+  },
+  {
+    "CódigodelMédico": 7017,
+    "nombre_medico": "LESKE AYALA, CRISTHIAN OSVALDO (G09) INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 10423,
+    "nombre_medico": "LLANES OSCAR"
+  },
+  {
+    "CódigodelMédico": 9760,
+    "nombre_medico": "MARTINEZ LOPEZ ALDO JAVIER"
+  },
+  {
+    "CódigodelMédico": 7035,
+    "nombre_medico": "RIVAROLA GARCETE, HUGO RAMON"
+  },
+  {
+    "CódigodelMédico": 21935,
+    "nombre_medico": "CASCO AYALA, ERASMO DANIEL G11"
+  },
+  {
+    "CódigodelMédico": 4843,
+    "nombre_medico": "CASTILLO RUIZ, ATILIO ADOLFO R"
+  },
+  {
+    "CódigodelMédico": 6710,
+    "nombre_medico": "GOMEZ INSFRAN, CAROLINA BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 6478,
+    "nombre_medico": "PALACIOS FRANCO, JUAN VICENTE"
+  },
+  {
+    "CódigodelMédico": 11590,
+    "nombre_medico": "DR CARLOS AMARILLA"
+  },
+  {
+    "CódigodelMédico": 5321,
+    "nombre_medico": "MARTINESE LOPEZ, ANGEL DANIEL"
+  },
+  {
+    "CódigodelMédico": 16510,
+    "nombre_medico": "GOMEZ RODRIGUEZ, NURIA GISSEL"
+  },
+  {
+    "CódigodelMédico": 4391,
+    "nombre_medico": "GONZALEZ PAVETTI TERESA"
+  },
+  {
+    "CódigodelMédico": 18837,
+    "nombre_medico": "VERA FIGUEREDO GIOVANNA PATRICIA"
+  },
+  {
+    "CódigodelMédico": 14878,
+    "nombre_medico": "RAMIREZ HERMOSILLA CLAUDIA LORENA"
+  },
+  {
+    "CódigodelMédico": 7100,
+    "nombre_medico": "RODRIGUEZ SOSA ROBERTO MANUEL"
+  },
+  {
+    "CódigodelMédico": 14228,
+    "nombre_medico": "MENDIETA FIGUEREDO ISMELDA ROCIO INES"
+  },
+  {
+    "CódigodelMédico": 12982,
+    "nombre_medico": "ROLANDO CARDOZO"
+  },
+  {
+    "CódigodelMédico": 15795,
+    "nombre_medico": "DUARTE LOPEZ, DAVID EDUARDO"
+  },
+  {
+    "CódigodelMédico": 3410,
+    "nombre_medico": "ALVAREZ MARIN, JORGE DANIEL"
+  },
+  {
+    "CódigodelMédico": 24182,
+    "nombre_medico": "RODAS FLEITAS,JOSE ROBERTO"
+  },
+  {
+    "CódigodelMédico": 8086,
+    "nombre_medico": "MARIN VYSOKOLAN MARIA DEL ROSARIO"
+  },
+  {
+    "CódigodelMédico": 13500,
+    "nombre_medico": "ZARACHO RICART, GERARDO SANTIAGO (POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 21852,
+    "nombre_medico": "POHLER SEGOVIA GUILLERMO FEDERICO"
+  },
+  {
+    "CódigodelMédico": 4120,
+    "nombre_medico": "SILVA FIGUEREDO, JUAN RAMON (COLUMNA)"
+  },
+  {
+    "CódigodelMédico": 993783,
+    "nombre_medico": "PATIÑO FLEITAS, DAISY ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 7884,
+    "nombre_medico": "BAREIRO SAMANIEGO MAYDA HERMINIA"
+  },
+  {
+    "CódigodelMédico": 17148,
+    "nombre_medico": "ROMERO ROMERO, MARLENE MONSERRATH"
+  },
+  {
+    "CódigodelMédico": 16093,
+    "nombre_medico": "DELGADO LOMBARDI, NELLY ABELINA"
+  },
+  {
+    "CódigodelMédico": 16364,
+    "nombre_medico": "DUARTE CENTURION, JESUS MANUEL"
+  },
+  {
+    "CódigodelMédico": 11927,
+    "nombre_medico": "CARDENAS MELGAREJO, CARLOS FABIAN (G01)PEDIATRICA"
+  },
+  {
+    "CódigodelMédico": 18274,
+    "nombre_medico": "PONCE GIMENEZ, JULIA ANDREA"
+  },
+  {
+    "CódigodelMédico": 13821,
+    "nombre_medico": "BENITEZ GONZALEZ, VERONICA RAQUEL"
+  },
+  {
+    "CódigodelMédico": 30977,
+    "nombre_medico": "ROBERT GONZALEZ"
+  },
+  {
+    "CódigodelMédico": 12974,
+    "nombre_medico": "GAMARRA DUARTE, ERASMO LUIS"
+  },
+  {
+    "CódigodelMédico": 23697,
+    "nombre_medico": "ARRUA ALEM FERNANDO GABRIEL"
+  },
+  {
+    "CódigodelMédico": 6119,
+    "nombre_medico": "OVIEDO PEÑA MYRIAM ROSSANA"
+  },
+  {
+    "CódigodelMédico": 20635,
+    "nombre_medico": "PAREDES LOPEZ, MARIA BERNARDA"
+  },
+  {
+    "CódigodelMédico": 9459,
+    "nombre_medico": "CORONEL PAREDES,EDILTRUDIS SOLEDAD"
+  },
+  {
+    "CódigodelMédico": 17385,
+    "nombre_medico": "VERA PEREZ, CARLOS ALBERTO"
+  },
+  {
+    "CódigodelMédico": 10661,
+    "nombre_medico": "CINTHIA CAMPUZANO"
+  },
+  {
+    "CódigodelMédico": 18184,
+    "nombre_medico": "FIGUEREDO MORA MARIO ANDRES"
+  },
+  {
+    "CódigodelMédico": 8393,
+    "nombre_medico": "STANLEY SANTOS ROOSEVELT ISAIAS"
+  },
+  {
+    "CódigodelMédico": 14398,
+    "nombre_medico": "LABRANO ELIAS, MONICA MARIA EUGENIA (AN, TROMB, PTI)"
+  },
+  {
+    "CódigodelMédico": 19532,
+    "nombre_medico": "RISSO ALCARAZ PAUL"
+  },
+  {
+    "CódigodelMédico": 10315,
+    "nombre_medico": "OLAZAR ALVARENGA, CLAUDIO RAIMUNDO"
+  },
+  {
+    "CódigodelMédico": 18972,
+    "nombre_medico": "IRIARTE ALDERETE, MARIA VANESSA"
+  },
+  {
+    "CódigodelMédico": 14566,
+    "nombre_medico": "MOLINAS BENITEZ, VICTOR RAMON"
+  },
+  {
+    "CódigodelMédico": 19304,
+    "nombre_medico": "ESCOBAR AGUIAR SANDRA ELIANE"
+  },
+  {
+    "CódigodelMédico": 14440,
+    "nombre_medico": "CACERES CHAPARRO,RODRIGO IGNACIO"
+  },
+  {
+    "CódigodelMédico": 12821,
+    "nombre_medico": "LOPEZ PORTILLO, GUSTAVO BENJAMIN"
+  },
+  {
+    "CódigodelMédico": 19780,
+    "nombre_medico": "SERVIN ESPINOZA PATRICIA VICTORIA"
+  },
+  {
+    "CódigodelMédico": 4903,
+    "nombre_medico": "MONGES TRIGO ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 11809,
+    "nombre_medico": "ANDERSEN, AMADA CRISTINA"
+  },
+  {
+    "CódigodelMédico": 7434,
+    "nombre_medico": "AVILA PEDRETTI MARIA GABRIELA"
+  },
+  {
+    "CódigodelMédico": 26594,
+    "nombre_medico": "SOLIS ROCHE, ADRIAN RENE"
+  },
+  {
+    "CódigodelMédico": 8280,
+    "nombre_medico": "IBAÑEZ GONZALEZ DENIS VALENTIN (POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 17700,
+    "nombre_medico": "ALONSO ACUÑA ANDREA NATHALIA"
+  },
+  {
+    "CódigodelMédico": 13140,
+    "nombre_medico": "ROMERO JIMENEZ, MARIA NILDA"
+  },
+  {
+    "CódigodelMédico": 22998,
+    "nombre_medico": "CAMPUZANO ORTIZ  LARISSA MIRNA BELEN"
+  },
+  {
+    "CódigodelMédico": 20647,
+    "nombre_medico": "TONINA PEREZ, EMILIO DOMINGO"
+  },
+  {
+    "CódigodelMédico": 17376,
+    "nombre_medico": "BENITEZ MARTINEZ, ALVARO ARTURO"
+  },
+  {
+    "CódigodelMédico": 25763,
+    "nombre_medico": "FELTES MARTA MARIA"
+  },
+  {
+    "CódigodelMédico": 5774,
+    "nombre_medico": "CHAMORRO ROMERO, CRISTHIAN ARIEL (RODILLA   G04)"
+  },
+  {
+    "CódigodelMédico": 9914,
+    "nombre_medico": "JIMENEZ AGUILERA, MILCIADES RAMON"
+  },
+  {
+    "CódigodelMédico": 7406,
+    "nombre_medico": "MONTIEL OVIEDO,CARLA MARIA (NIÑOS"
+  },
+  {
+    "CódigodelMédico": 10469,
+    "nombre_medico": "CABALLERO CACERES, KARINA FABIANA"
+  },
+  {
+    "CódigodelMédico": 23679,
+    "nombre_medico": "HUANG LIAO MAICO"
+  },
+  {
+    "CódigodelMédico": 9264,
+    "nombre_medico": "INSFRAN VELAZQUEZ, HORACIO TEODORO (POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 14886,
+    "nombre_medico": "ESTECHE RUIZ, ALEXANDRE (NO CARGAR POR SECRETARIA)"
+  },
+  {
+    "CódigodelMédico": 17056,
+    "nombre_medico": "BENITEZ ADORNO, GUILLERMO GABRIEL (G11)"
+  },
+  {
+    "CódigodelMédico": 22861,
+    "nombre_medico": "AYALA RODRIGUEZ ALEXIS MILENA"
+  },
+  {
+    "CódigodelMédico": 20378,
+    "nombre_medico": "MEDINA VILLALBA FERNANDO JOSE"
+  },
+  {
+    "CódigodelMédico": 4981,
+    "nombre_medico": "VELAZQUEZ CAROLINA"
+  },
+  {
+    "CódigodelMédico": 9583,
+    "nombre_medico": "DIEGO BRITEZ"
+  },
+  {
+    "CódigodelMédico": 993870,
+    "nombre_medico": "PEREIRA DE SILVANO; MARIA ELIZA"
+  },
+  {
+    "CódigodelMédico": 36823,
+    "nombre_medico": "FIGUEREDO PANIAGUA NADIR ANAHI"
+  },
+  {
+    "CódigodelMédico": 7266,
+    "nombre_medico": "VERON AMARILLA OSMAR ISIDRO"
+  },
+  {
+    "CódigodelMédico": 11411,
+    "nombre_medico": "DOMINGUEZ MOREIRA, ELIDA VERONICA"
+  },
+  {
+    "CódigodelMédico": 14473,
+    "nombre_medico": "CANTERO AYALA, ESTEBAN DANIEL"
+  },
+  {
+    "CódigodelMédico": 11650,
+    "nombre_medico": "AHMED CORONEL, SHARLYN"
+  },
+  {
+    "CódigodelMédico": 23223,
+    "nombre_medico": "VEGA TORRES,FERNANDO LUIS"
+  },
+  {
+    "CódigodelMédico": 18845,
+    "nombre_medico": "ESCURRA SANCHEZ, CLARA LIZ"
+  },
+  {
+    "CódigodelMédico": 12003,
+    "nombre_medico": "CACERES JARA, JAZMIN MARIA"
+  },
+  {
+    "CódigodelMédico": 36952,
+    "nombre_medico": "WIEST PANIAGUA INGRID YANINA"
+  },
+  {
+    "CódigodelMédico": 8607,
+    "nombre_medico": "CARRON IMAS CARLA MARIA"
+  },
+  {
+    "CódigodelMédico": 9903,
+    "nombre_medico": "00BARRIENTO ARCE, ANTONIO RAMON (G04)- INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 8832,
+    "nombre_medico": "NACIMIENTO CANTERO, MARIA BELEN"
+  },
+  {
+    "CódigodelMédico": 5943,
+    "nombre_medico": "VERON VIERA JORGE"
+  },
+  {
+    "CódigodelMédico": 10132,
+    "nombre_medico": "GILL PRESENTADO, GILBERTO AGUSTIN"
+  },
+  {
+    "CódigodelMédico": 23113,
+    "nombre_medico": "SILVERO PRIETO SOL THALIA"
+  },
+  {
+    "CódigodelMédico": 12179,
+    "nombre_medico": "OCAMPOS TORRES, FATIMA FELICIA"
+  },
+  {
+    "CódigodelMédico": 5437,
+    "nombre_medico": "OJEDA CONSUELO"
+  },
+  {
+    "CódigodelMédico": 16228,
+    "nombre_medico": "CACERES GENES, MARIA ELENA"
+  },
+  {
+    "CódigodelMédico": 22089,
+    "nombre_medico": "FERNANDEZ BENITEZ, ALVARO JOSE ALEJANDR G11"
+  },
+  {
+    "CódigodelMédico": 15758,
+    "nombre_medico": "SANTANDER BOGADO, CELIA"
+  },
+  {
+    "CódigodelMédico": 22290,
+    "nombre_medico": "VELAZCO CABRERA JORGE ARIEL"
+  },
+  {
+    "CódigodelMédico": 8615,
+    "nombre_medico": "MALDONADO MEZA, SOFIA DAHIANA"
+  },
+  {
+    "CódigodelMédico": 30707,
+    "nombre_medico": "JUAN JOSE DUARTE LUGO"
+  },
+  {
+    "CódigodelMédico": 20716,
+    "nombre_medico": "ALVAREZ FLORENTIN, LETICIA MARIA BELEN"
+  },
+  {
+    "CódigodelMédico": 17005,
+    "nombre_medico": "AMARILLA JARA, ANDREA LORENA"
+  },
+  {
+    "CódigodelMédico": 17449,
+    "nombre_medico": "MUÑOZ SALINAS, ALEJANDRO EMANUEL"
+  },
+  {
+    "CódigodelMédico": 14946,
+    "nombre_medico": "VAZQUEZ ABDALA, RODRIGO JOSE"
+  },
+  {
+    "CódigodelMédico": 13572,
+    "nombre_medico": "ROLON ACOSTA, PABLO DANIEL"
+  },
+  {
+    "CódigodelMédico": 13640,
+    "nombre_medico": "MALLORQUIN TOLEDO, ARMANDO"
+  },
+  {
+    "CódigodelMédico": 16171,
+    "nombre_medico": "OVELAR BENITEZ,ANGEL MAURICIO SIMON"
+  },
+  {
+    "CódigodelMédico": 11584,
+    "nombre_medico": "DOS SANTOS OSORIO, DENIS ADALBERTO (G06)"
+  },
+  {
+    "CódigodelMédico": 8010,
+    "nombre_medico": "MANFREDO DE ALMEIDA, JOAO CARLOS"
+  },
+  {
+    "CódigodelMédico": 999375,
+    "nombre_medico": "GARCIA VENICA CAMILA ALEJANDRA"
+  },
+  {
+    "CódigodelMédico": 11944,
+    "nombre_medico": "GENEZ PAEZ, YRENE MARIA JOSE"
+  },
+  {
+    "CódigodelMédico": 13292,
+    "nombre_medico": "PAMELA APONTE"
+  },
+  {
+    "CódigodelMédico": 16348,
+    "nombre_medico": "GUILLEN AMARILLA, GUILLEN AMARILLA"
+  },
+  {
+    "CódigodelMédico": 11931,
+    "nombre_medico": "GONZALEZ CACERES, MARIA ELENA"
+  },
+  {
+    "CódigodelMédico": 17565,
+    "nombre_medico": "INVERNIZZI PRATS, JUAN MANUEL"
+  },
+  {
+    "CódigodelMédico": 20236,
+    "nombre_medico": "BIGATON, ULISSES ANTONIO"
+  },
+  {
+    "CódigodelMédico": 9918,
+    "nombre_medico": "ESCALANTE DAVALOS ELSA"
+  },
+  {
+    "CódigodelMédico": 14214,
+    "nombre_medico": "ARMOA ALONSO CLAUDIA RUTH"
+  },
+  {
+    "CódigodelMédico": 19426,
+    "nombre_medico": "REYES ESCOBAR, JOSE EDUARDO(G11)"
+  },
+  {
+    "CódigodelMédico": 16366,
+    "nombre_medico": "JIMENEZ PRIETO, NATALIA MARIEL"
+  },
+  {
+    "CódigodelMédico": 33875,
+    "nombre_medico": "BURGOS SERVIN ANGEL ANTONIO"
+  },
+  {
+    "CódigodelMédico": 5031,
+    "nombre_medico": " ACOSTA, ROSA DEL CARMEN"
+  },
+  {
+    "CódigodelMédico": 25373,
+    "nombre_medico": "FERREIRA CABRERA, ABEL"
+  },
+  {
+    "CódigodelMédico": 10743,
+    "nombre_medico": "GUERRERO MORAL ALBA (ADULTOS)"
+  },
+  {
+    "CódigodelMédico": 3330,
+    "nombre_medico": "ORUE DE GONZALEZ ESTELA MARY"
+  },
+  {
+    "CódigodelMédico": 7597,
+    "nombre_medico": "MARTINEZ GONZALEZ AMADO ANTONIO"
+  },
+  {
+    "CódigodelMédico": 20216,
+    "nombre_medico": "BLATTMANN DIETZE, MARIA ELSA"
+  },
+  {
+    "CódigodelMédico": 12185,
+    "nombre_medico": "DRA DAISY AYALA"
+  },
+  {
+    "CódigodelMédico": 36614,
+    "nombre_medico": "SERGIO MENDEZ"
+  },
+  {
+    "CódigodelMédico": 20552,
+    "nombre_medico": "GONZALEZ MIRANDA, CELESTE MARIA JOSE"
+  },
+  {
+    "CódigodelMédico": 15808,
+    "nombre_medico": "BENITEZ BENITEZ ANA BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 14012,
+    "nombre_medico": "ESPINOLA CHAMORRO, FERNANDO FEDERICO"
+  },
+  {
+    "CódigodelMédico": 10467,
+    "nombre_medico": "GARCETE COLMAN,ALDO ANDRES (NIÑOS)"
+  },
+  {
+    "CódigodelMédico": 18286,
+    "nombre_medico": "NUÑEZ SOSA GERMAN JESUS"
+  },
+  {
+    "CódigodelMédico": 13340,
+    "nombre_medico": "BARBOZA ESPINOLA BIANCA RESEDA"
+  },
+  {
+    "CódigodelMédico": 15914,
+    "nombre_medico": "SONIA OCAMPOS"
+  },
+  {
+    "CódigodelMédico": 8905,
+    "nombre_medico": "TORALES ESTIGARRIBIA, NORA DE MARIA"
+  },
+  {
+    "CódigodelMédico": 30509,
+    "nombre_medico": "ESCURRA LISERAS CARLOS RAFAEL"
+  },
+  {
+    "CódigodelMédico": 12491,
+    "nombre_medico": "BOBADILLA BENITEZ, DERLIS HERMINIO (G03)"
+  },
+  {
+    "CódigodelMédico": 12660,
+    "nombre_medico": "LETICIA ESQUIVEL ZARZA"
+  },
+  {
+    "CódigodelMédico": 12181,
+    "nombre_medico": "SHIRLEY LEGUIZAMON"
+  },
+  {
+    "CódigodelMédico": 20886,
+    "nombre_medico": "ADORNO VILLALBA, LAILA MIKAELA"
+  },
+  {
+    "CódigodelMédico": 15716,
+    "nombre_medico": "GOMEZ PAEZ LILIAN LETICIA"
+  },
+  {
+    "CódigodelMédico": 6022,
+    "nombre_medico": "GOMEZ CABAÑAS LEONIDAS LUCIANA"
+  },
+  {
+    "CódigodelMédico": 12885,
+    "nombre_medico": "DORIS CONTRERA"
+  },
+  {
+    "CódigodelMédico": 20631,
+    "nombre_medico": "MILLER TELLECHEA, CLAUDIA MARIA MATILDE"
+  },
+  {
+    "CódigodelMédico": 16999,
+    "nombre_medico": "GIMENEZ CUENCA NOELIA BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 13602,
+    "nombre_medico": "ESTIGARRIBIA DIVITTO, MAYRA NATHALY"
+  },
+  {
+    "CódigodelMédico": 9174,
+    "nombre_medico": "CASTRO NUÑEZ, NESTOR ALCIDES"
+  },
+  {
+    "CódigodelMédico": 21956,
+    "nombre_medico": "GIMENEZ DUARTE CECILIA"
+  },
+  {
+    "CódigodelMédico": 36799,
+    "nombre_medico": "ORTIZ CABRAL ELIAS EMMANUEL MARIA"
+  },
+  {
+    "CódigodelMédico": 11714,
+    "nombre_medico": "PEREIRA UCEDO, JESSICA MARGARITA"
+  },
+  {
+    "CódigodelMédico": 12169,
+    "nombre_medico": "SOTO ROJAS, NELLY ASUNCION"
+  },
+  {
+    "CódigodelMédico": 22003,
+    "nombre_medico": "RAMOS BARRETO,MARCOS ANTONIO G11"
+  },
+  {
+    "CódigodelMédico": 18276,
+    "nombre_medico": "MONZON FERREIRA, ORLANDO RENE"
+  },
+  {
+    "CódigodelMédico": 18081,
+    "nombre_medico": "PUSINERI ESCOBAR,PAOLA MARIA"
+  },
+  {
+    "CódigodelMédico": 12991,
+    "nombre_medico": "SAMUDIO BENEGAS, LETICIA RAQUEL"
+  },
+  {
+    "CódigodelMédico": 8200,
+    "nombre_medico": "GAONA RAMIREZ  EDGAR AGUSTIN"
+  },
+  {
+    "CódigodelMédico": 18988,
+    "nombre_medico": "CAME, FERNANDO A.( HC C.A.A. POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 4213,
+    "nombre_medico": "GOMEZ FERNANDEZ, RAUL ALBERTO"
+  },
+  {
+    "CódigodelMédico": 19487,
+    "nombre_medico": "FERREIRA ROMAN, SANDRA ROCIO"
+  },
+  {
+    "CódigodelMédico": 10647,
+    "nombre_medico": "GUSTAVO AGUERO"
+  },
+  {
+    "CódigodelMédico": 4616,
+    "nombre_medico": "ALVARENGA PRINCIGALLI, JUAN CARLOS (MANO  G05)"
+  },
+  {
+    "CódigodelMédico": 993722,
+    "nombre_medico": "SANTANDER GONZALEZ, SANDRA FABIOLA"
+  },
+  {
+    "CódigodelMédico": 9333,
+    "nombre_medico": "COLARTE JARA, JULIO CESAR"
+  },
+  {
+    "CódigodelMédico": 35914,
+    "nombre_medico": "GONZALEZ MARTINEZ VANESSA AILYN"
+  },
+  {
+    "CódigodelMédico": 10720,
+    "nombre_medico": "BASTOS AUSFELD, MARIA DE FATIMA"
+  },
+  {
+    "CódigodelMédico": 14194,
+    "nombre_medico": "RAQUEL MOLINAS"
+  },
+  {
+    "CódigodelMédico": 13883,
+    "nombre_medico": "RODAS DUARTE, FANNY ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 10079,
+    "nombre_medico": "ACOSTA OCAMPOS,  ERNESTO JOSE"
+  },
+  {
+    "CódigodelMédico": 11252,
+    "nombre_medico": "GONZALEZ NUÑEZ,ROMINA DE LOS ANGELES (NIÑOS)"
+  },
+  {
+    "CódigodelMédico": 12720,
+    "nombre_medico": "TERWINDT OJEDA, NATALIA JACQUELINE"
+  },
+  {
+    "CódigodelMédico": 9396,
+    "nombre_medico": "ORTIZ CHIOLA, PEDRO ADRIAN"
+  },
+  {
+    "CódigodelMédico": 6514,
+    "nombre_medico": "CAÑETE JOSE ALBERTO"
+  },
+  {
+    "CódigodelMédico": 17144,
+    "nombre_medico": "DOMINGUEZ AMARILLA, SANTIAGO LORENZO"
+  },
+  {
+    "CódigodelMédico": 17000,
+    "nombre_medico": "OJEDA ROMAN, ARTURO ALESSANDRO"
+  },
+  {
+    "CódigodelMédico": 6106,
+    "nombre_medico": "ROMERO GOMEZ FABIOLA MARLENE"
+  },
+  {
+    "CódigodelMédico": 15646,
+    "nombre_medico": "MONTIEL CAÑETE, CARLOS (G05)"
+  },
+  {
+    "CódigodelMédico": 10969,
+    "nombre_medico": "CORONEL ARAUJO MARTA ADRIANA"
+  },
+  {
+    "CódigodelMédico": 12119,
+    "nombre_medico": "RUIZ DIAZ ORDOÑEZ, KAREN VIVIANE"
+  },
+  {
+    "CódigodelMédico": 10539,
+    "nombre_medico": "ROMAN RUIZ DIAZ,LOURDES GRACIELA"
+  },
+  {
+    "CódigodelMédico": 13095,
+    "nombre_medico": "MOREL VARELA, AIDA MARIA BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 7619,
+    "nombre_medico": "CANO CANELA LOURDES MONSERRATE"
+  },
+  {
+    "CódigodelMédico": 7371,
+    "nombre_medico": "CORNET FLORES, BRUNO (PIE Y TOBILLO   G06)"
+  },
+  {
+    "CódigodelMédico": 4529,
+    "nombre_medico": "IBIETA GALARZA, FELIX GABRIEL"
+  },
+  {
+    "CódigodelMédico": 11093,
+    "nombre_medico": "JOSE GONZALEZ"
+  },
+  {
+    "CódigodelMédico": 18993,
+    "nombre_medico": "AQUINO INSFRAN, MARIA BELEN (POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 13812,
+    "nombre_medico": "LOPEZ GONZALEZ, CARMEN LILIANA (ONCOLOGIA)"
+  },
+  {
+    "CódigodelMédico": 13072,
+    "nombre_medico": "CABRERA ROMERO, JOSE MANUEL (ONCOLOGIA)"
+  },
+  {
+    "CódigodelMédico": 16029,
+    "nombre_medico": "LEDESMA BRITEZ, CECILIA GISELLE"
+  },
+  {
+    "CódigodelMédico": 10612,
+    "nombre_medico": "DUARTE OVELAR, VICENTE ENRIQUE (G08)-INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 18979,
+    "nombre_medico": "VERONICA ALUJAS"
+  },
+  {
+    "CódigodelMédico": 9064,
+    "nombre_medico": "GAONA RAMIREZ JOSE DERLIS"
+  },
+  {
+    "CódigodelMédico": 7659,
+    "nombre_medico": "LEDESMA MERELES, EDUARDO"
+  },
+  {
+    "CódigodelMédico": 26022,
+    "nombre_medico": "YOMO SATO,ALBERTO HIROSHI"
+  },
+  {
+    "CódigodelMédico": 6040,
+    "nombre_medico": "LANDO BROWNE RENE (C:1,2,4,5,10)"
+  },
+  {
+    "CódigodelMédico": 5169,
+    "nombre_medico": "PUSINERI VILLALBA MARY ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 995649,
+    "nombre_medico": "MARTINEZ GOMEZ VIVIANA MARIA"
+  },
+  {
+    "CódigodelMédico": 15701,
+    "nombre_medico": "ROJAS FRANCO, BRENDA MARGARITA"
+  },
+  {
+    "CódigodelMédico": 14685,
+    "nombre_medico": "IBARRA GOMEZ, DENIXSE"
+  },
+  {
+    "CódigodelMédico": 17129,
+    "nombre_medico": "PAOLA GUERRERO"
+  },
+  {
+    "CódigodelMédico": 10298,
+    "nombre_medico": "MILTOS FRETES, PATRICIA ALEXANDRA"
+  },
+  {
+    "CódigodelMédico": 7552,
+    "nombre_medico": "CABALLERO CACERES, EDUARDO JAVIER"
+  },
+  {
+    "CódigodelMédico": 11706,
+    "nombre_medico": "AGUILERA MAIDANA, DOMINGO JAVIER"
+  },
+  {
+    "CódigodelMédico": 7573,
+    "nombre_medico": "FRANCO CHAVEZ, ROSA ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 4237,
+    "nombre_medico": "DUJAK MARTINEZ, JUAN (G09)"
+  },
+  {
+    "CódigodelMédico": 36824,
+    "nombre_medico": "JONATAN BENITEZ"
+  },
+  {
+    "CódigodelMédico": 9610,
+    "nombre_medico": "RIOS FLECHA, ANDRES AGUSTIN"
+  },
+  {
+    "CódigodelMédico": 26336,
+    "nombre_medico": "GONZALEZ DUARTE FERNANDO FABIAN"
+  },
+  {
+    "CódigodelMédico": 17566,
+    "nombre_medico": "ALVAREZ OVELAR, ROBERTO DANIEL"
+  },
+  {
+    "CódigodelMédico": 8712,
+    "nombre_medico": "MERELES BELOTTO, LUIS"
+  },
+  {
+    "CódigodelMédico": 14007,
+    "nombre_medico": "BRUNO AQUINO, FREDDY JAVIER"
+  },
+  {
+    "CódigodelMédico": 17696,
+    "nombre_medico": "GONZALEZ MARTINEZ, JESSICA ALEJANDRA PAOLA"
+  },
+  {
+    "CódigodelMédico": 13467,
+    "nombre_medico": "SEGOVIA SANABRIA, SILVINA"
+  },
+  {
+    "CódigodelMédico": 5351,
+    "nombre_medico": "AVILA PAIVA, HUMBERTO TADEO (RODILLA  G04)"
+  },
+  {
+    "CódigodelMédico": 8948,
+    "nombre_medico": "RAMIREZ ORTIZ, TATIANA CELINA"
+  },
+  {
+    "CódigodelMédico": 8986,
+    "nombre_medico": "RODRIGUEZ CABALLERO, MARIA GALIANA"
+  },
+  {
+    "CódigodelMédico": 13670,
+    "nombre_medico": "VERA SALINAS, RUFO ADRIAN"
+  },
+  {
+    "CódigodelMédico": 13895,
+    "nombre_medico": "GARCETE ESTIGARRIBIA, DIANA MARIA"
+  },
+  {
+    "CódigodelMédico": 18841,
+    "nombre_medico": "FREDY DUARTE"
+  },
+  {
+    "CódigodelMédico": 23028,
+    "nombre_medico": "MOLINAS GALEANO,MARIA FLORENCIA"
+  },
+  {
+    "CódigodelMédico": 17136,
+    "nombre_medico": "MONTIEL CARDUZ, JORGE ANTONIO"
+  },
+  {
+    "CódigodelMédico": 20179,
+    "nombre_medico": "OTAZU MONGES, HUGO ALEJANDRO"
+  },
+  {
+    "CódigodelMédico": 22978,
+    "nombre_medico": "MEDINA REYES, CRISTHIAN ARIEL"
+  },
+  {
+    "CódigodelMédico": 12334,
+    "nombre_medico": "RAMIREZ SOSA, NATALIA ANDREA"
+  },
+  {
+    "CódigodelMédico": 17387,
+    "nombre_medico": "SANCHEZ SILVA, ALBA ANAHI"
+  },
+  {
+    "CódigodelMédico": 10891,
+    "nombre_medico": "CABRAL DEL PUERTO, JORGE EUMELIO"
+  },
+  {
+    "CódigodelMédico": 10493,
+    "nombre_medico": "DURAN LEITE, FERNANDA MARIA"
+  },
+  {
+    "CódigodelMédico": 8025,
+    "nombre_medico": "ESCOBAR SALDIVAR MELISA SOLANGE"
+  },
+  {
+    "CódigodelMédico": 11764,
+    "nombre_medico": "Médico sin nombre"
+  },
+  {
+    "CódigodelMédico": 5946,
+    "nombre_medico": "AYALA LUGO ROSA MARIA"
+  },
+  {
+    "CódigodelMédico": 15601,
+    "nombre_medico": "LEIVA JACQUET, SAMADI MARGARITA (LMC,MF,TE,PV)"
+  },
+  {
+    "CódigodelMédico": 6017,
+    "nombre_medico": "MALDONADO VERA HUGO JAVIER (POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 7486,
+    "nombre_medico": "FLORENTIN MONICA ESTHER"
+  },
+  {
+    "CódigodelMédico": 20813,
+    "nombre_medico": "SONIA CORONEL"
+  },
+  {
+    "CódigodelMédico": 13870,
+    "nombre_medico": "ALMIRON CORONEL, MARIA TERESA"
+  },
+  {
+    "CódigodelMédico": 13311,
+    "nombre_medico": "CABAÑAS MUÑOZ, RONAL ANTONIO(G02)"
+  },
+  {
+    "CódigodelMédico": 19726,
+    "nombre_medico": "MARTINEZ OJEDA EMILIO RAUL"
+  },
+  {
+    "CódigodelMédico": 19937,
+    "nombre_medico": "ROJAS SALINAS, FRANCISCO RAMON"
+  },
+  {
+    "CódigodelMédico": 6612,
+    "nombre_medico": "MAIDANA AQUINO, AGUSTINA FRANCISCA"
+  },
+  {
+    "CódigodelMédico": 15911,
+    "nombre_medico": "MONGES GARCETE, NELSON DAVID"
+  },
+  {
+    "CódigodelMédico": 9975,
+    "nombre_medico": "ZARATE VALDEZ WALTER S. (C:1,2,4,6,8)"
+  },
+  {
+    "CódigodelMédico": 5334,
+    "nombre_medico": "RODRIGUEZ BAZZANO NERY"
+  },
+  {
+    "CódigodelMédico": 15766,
+    "nombre_medico": "VEGA GONZALEZ MARIANA ELENA"
+  },
+  {
+    "CódigodelMédico": 11278,
+    "nombre_medico": "BERNARD FERNANDEZ RODRIGO FABIAN"
+  },
+  {
+    "CódigodelMédico": 12060,
+    "nombre_medico": "GRANCE SARDI, JUAN MANUEL"
+  },
+  {
+    "CódigodelMédico": 15481,
+    "nombre_medico": "CHAVEZ OLAZAR, MARIA TERESA"
+  },
+  {
+    "CódigodelMédico": 14728,
+    "nombre_medico": "CANATA ESPINOLA MARIA GABRIELA"
+  },
+  {
+    "CódigodelMédico": 12441,
+    "nombre_medico": "VERA DUARTE, RUBEN MIGUEL"
+  },
+  {
+    "CódigodelMédico": 7649,
+    "nombre_medico": "PALACIOS FANTILLI, JESUS XAVIER ( FRACTURAS G08)"
+  },
+  {
+    "CódigodelMédico": 8263,
+    "nombre_medico": "MELGAREJO LLANO, LOURDES ANTONIA"
+  },
+  {
+    "CódigodelMédico": 7057,
+    "nombre_medico": "AVALOS JOSE MANUEL"
+  },
+  {
+    "CódigodelMédico": 5480,
+    "nombre_medico": "RUIZ IBARRA,FERNANDO (NIÑOS    G01)"
+  },
+  {
+    "CódigodelMédico": 14211,
+    "nombre_medico": "Médico sin nombre"
+  },
+  {
+    "CódigodelMédico": 12756,
+    "nombre_medico": "VALINOTTI CABRERA, VANNIA ANDREA"
+  },
+  {
+    "CódigodelMédico": 23382,
+    "nombre_medico": "FERREIRA PRIETO, ROCIO CELESTE"
+  },
+  {
+    "CódigodelMédico": 10792,
+    "nombre_medico": "CRISTALDO RUBEN ANTONIO (C:1,2,4,7,11)"
+  },
+  {
+    "CódigodelMédico": 35987,
+    "nombre_medico": "GONZALEZ RIVEROS LAURA DIANA"
+  },
+  {
+    "CódigodelMédico": 23397,
+    "nombre_medico": "ORUE FIGUEREDO, LENIS ALELI"
+  },
+  {
+    "CódigodelMédico": 19405,
+    "nombre_medico": "CUEVAS ALMANDO, GABRIEL AUGUSTO"
+  },
+  {
+    "CódigodelMédico": 9907,
+    "nombre_medico": "BASABE ROMERO, RUBEN DARIO"
+  },
+  {
+    "CódigodelMédico": 12611,
+    "nombre_medico": "LEZCANO MARTINEZ, ROMINA ANDREA"
+  },
+  {
+    "CódigodelMédico": 19508,
+    "nombre_medico": "FIGUEREDO ALCARAZ, YERUTI MONSERRAT"
+  },
+  {
+    "CódigodelMédico": 10566,
+    "nombre_medico": "MENDOZA CACERES,LAURA ROCIO (NIÑOS)"
+  },
+  {
+    "CódigodelMédico": 13437,
+    "nombre_medico": "ROA ESPINOLA,  ALICIA SOLEDAD"
+  },
+  {
+    "CódigodelMédico": 17600,
+    "nombre_medico": "IBAÑEZ APEZTEGUIA, CELIA ASUNCION"
+  },
+  {
+    "CódigodelMédico": 13659,
+    "nombre_medico": "CELIA STEFANIE, CELIA STEFANI"
+  },
+  {
+    "CódigodelMédico": 17665,
+    "nombre_medico": "MOSQUEIRA CACERES PAUL ENRIQUE"
+  },
+  {
+    "CódigodelMédico": 31990,
+    "nombre_medico": "KIN JUNGH YEON"
+  },
+  {
+    "CódigodelMédico": 10520,
+    "nombre_medico": "LEGAL BALMACEDA EVELIO FABIAN  (SOLO CX CAB Y CUELLO)"
+  },
+  {
+    "CódigodelMédico": 12014,
+    "nombre_medico": "GONZALEZ B., JOSE P. ( HC C.A.A. POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 5397,
+    "nombre_medico": "MALLORQUIN MAYO MARIA MERCEDES (POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 7093,
+    "nombre_medico": "LOPEZ OVELAR HELEN MARIA ROCIO"
+  },
+  {
+    "CódigodelMédico": 12937,
+    "nombre_medico": "ORUE MARTINS, MONICA ROSANA"
+  },
+  {
+    "CódigodelMédico": 17555,
+    "nombre_medico": "PENAYO AGUILERA, TERESITA DEJESUS"
+  },
+  {
+    "CódigodelMédico": 21782,
+    "nombre_medico": "CANO BLAIRES FEDERICO NICOLAS"
+  },
+  {
+    "CódigodelMédico": 16122,
+    "nombre_medico": "LEIVA RIOS, EVELYN JOHANNA"
+  },
+  {
+    "CódigodelMédico": 1906,
+    "nombre_medico": "MERCADO GRAU CHRISTIAN  JAVIER"
+  },
+  {
+    "CódigodelMédico": 15748,
+    "nombre_medico": "INSFRAN MONGELOS, ROSA ISABEL"
+  },
+  {
+    "CódigodelMédico": 30143,
+    "nombre_medico": "EDGAR CABALLERO"
+  },
+  {
+    "CódigodelMédico": 8896,
+    "nombre_medico": "GARCIA MIRANDA,VICTOR MANUEL (MANO G05) - INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 11663,
+    "nombre_medico": "CAÑIZA CABALLERO, LILIANA CONCEPCION"
+  },
+  {
+    "CódigodelMédico": 19088,
+    "nombre_medico": "CRISTALDO MARTINEZ, CRISTHIAN DANIEL (POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 17630,
+    "nombre_medico": "VILLALBA LESME MARILU"
+  },
+  {
+    "CódigodelMédico": 22063,
+    "nombre_medico": "RUIZ,FERNANDA SOLEDAD"
+  },
+  {
+    "CódigodelMédico": 13358,
+    "nombre_medico": "DA COSTA CARVALHO VIDIGAL,THIAGO(G03)(G04)"
+  },
+  {
+    "CódigodelMédico": 9053,
+    "nombre_medico": "HASHIMOTO AMARILLA, SERGIO DIEGO(HOMBRO GO3)"
+  },
+  {
+    "CódigodelMédico": 12156,
+    "nombre_medico": "TORALES AVALOS, GLADYS MARIA ALICIA"
+  },
+  {
+    "CódigodelMédico": 16820,
+    "nombre_medico": "GONZALEZ JACQUET,LAURA CONCEPCION"
+  },
+  {
+    "CódigodelMédico": 9448,
+    "nombre_medico": "VERA SALINAS, DAVID ANTONIO"
+  },
+  {
+    "CódigodelMédico": 6382,
+    "nombre_medico": "CAÑETE AGUIRRE, CARLOS ALBERTO"
+  },
+  {
+    "CódigodelMédico": 26021,
+    "nombre_medico": "VERA EISENKOLBL MATHIAS ARNALDO"
+  },
+  {
+    "CódigodelMédico": 11119,
+    "nombre_medico": "PORTILLO CAÑETE, EMILIA VIOLETA"
+  },
+  {
+    "CódigodelMédico": 6648,
+    "nombre_medico": "ALCARAZ FIGUEREDO, ISABELIANO P. (CATARATA)"
+  },
+  {
+    "CódigodelMédico": 30151,
+    "nombre_medico": "DRA DAHIANA AUGUSTO"
+  },
+  {
+    "CódigodelMédico": 15126,
+    "nombre_medico": "RUIZ DIAZ AGUILAR,ELVIS RUBEN"
+  },
+  {
+    "CódigodelMédico": 8103,
+    "nombre_medico": "ROMAN RUIZ, OLIVIA ROCIO"
+  },
+  {
+    "CódigodelMédico": 15653,
+    "nombre_medico": "ZARZA TORRES GLADYS MARIELA"
+  },
+  {
+    "CódigodelMédico": 36911,
+    "nombre_medico": "NOE ORTIZ NICOLE"
+  },
+  {
+    "CódigodelMédico": 12057,
+    "nombre_medico": "PINTOS FERNANDEZ, MIRNA ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 10236,
+    "nombre_medico": "MIRANDA DE CACERES LOURDES ISABEL"
+  },
+  {
+    "CódigodelMédico": 5129,
+    "nombre_medico": "OVIEDO DE CABALLERO SOFIA"
+  },
+  {
+    "CódigodelMédico": 17553,
+    "nombre_medico": "MARTINEZ ROMAN, MARCOS DAVID"
+  },
+  {
+    "CódigodelMédico": 15915,
+    "nombre_medico": "PATRICIA ESCOBAR"
+  },
+  {
+    "CódigodelMédico": 7714,
+    "nombre_medico": "NUÑEZ GRUNER MIRTHA RAQUEL"
+  },
+  {
+    "CódigodelMédico": 15603,
+    "nombre_medico": "IBARRA TOLEDO, CYNTHIA CAROLINA"
+  },
+  {
+    "CódigodelMédico": 12671,
+    "nombre_medico": "VAZQUEZ MENDOZA,JORGE (NIÑOS)"
+  },
+  {
+    "CódigodelMédico": 15692,
+    "nombre_medico": "MERELES NOGUERA, LEILA MELISSA"
+  },
+  {
+    "CódigodelMédico": 5542,
+    "nombre_medico": "GONZALEZ SONIA"
+  },
+  {
+    "CódigodelMédico": 2597,
+    "nombre_medico": "FERRERO DE ECHAGUE, MARGARITA ANGELICA"
+  },
+  {
+    "CódigodelMédico": 15984,
+    "nombre_medico": "GUERRERO DE BAVAY, ROMINA MARIA ASTRID"
+  },
+  {
+    "CódigodelMédico": 26475,
+    "nombre_medico": "GONZALEZ GAVILAN PABLO QUINTIN"
+  },
+  {
+    "CódigodelMédico": 26310,
+    "nombre_medico": "RICHARD CHAMORRO"
+  },
+  {
+    "CódigodelMédico": 13982,
+    "nombre_medico": "ROSSANA POLLETI"
+  },
+  {
+    "CódigodelMédico": 5199,
+    "nombre_medico": "MARIN SANABRIA, ELIO ARNALDO (ADULTOS)"
+  },
+  {
+    "CódigodelMédico": 8848,
+    "nombre_medico": "AQUINO VALDOVINOS, ALICIA MARIA"
+  },
+  {
+    "CódigodelMédico": 8176,
+    "nombre_medico": "GAUTO BOGADO  OSVALDO AMADEO"
+  },
+  {
+    "CódigodelMédico": 6723,
+    "nombre_medico": "FIGUEREDO ZACARIAS MONICA (GASTROENTEROLOGIA)"
+  },
+  {
+    "CódigodelMédico": 6292,
+    "nombre_medico": "TORRES AGUILAR ELENA RAQUEL"
+  },
+  {
+    "CódigodelMédico": 31326,
+    "nombre_medico": "TORAL SAKAMOTO SUMI MARIA PAZ"
+  },
+  {
+    "CódigodelMédico": 16841,
+    "nombre_medico": "DUARTE BENITEZ FREDY RODRIGO"
+  },
+  {
+    "CódigodelMédico": 13441,
+    "nombre_medico": "SEBRIANO PAREDES MARCELO ALEJANDRO"
+  },
+  {
+    "CódigodelMédico": 5324,
+    "nombre_medico": "INSFRAN HELLMANN, OSVALDO (G08)"
+  },
+  {
+    "CódigodelMédico": 12344,
+    "nombre_medico": "ALMADA RIQUELME, OSCAR ARMANDO"
+  },
+  {
+    "CódigodelMédico": 5153,
+    "nombre_medico": "BENITEZ DE BARRIENTOS LILIA JOSEFINA"
+  },
+  {
+    "CódigodelMédico": 11735,
+    "nombre_medico": "GONZALEZ AMARILLA, ROMINA DEL CARMEN"
+  },
+  {
+    "CódigodelMédico": 23163,
+    "nombre_medico": "KARINA BRIZUELA"
+  },
+  {
+    "CódigodelMédico": 15507,
+    "nombre_medico": "GOMEZ VILLA, VIVIANA BEATRIZ (G11)"
+  },
+  {
+    "CódigodelMédico": 12793,
+    "nombre_medico": "SERVIN CORONEL, JESSICA LORENA"
+  },
+  {
+    "CódigodelMédico": 12341,
+    "nombre_medico": "ARGUELLO TORRES, LISA CAROLINA  (SOLO CX CAB Y CUELLO)"
+  },
+  {
+    "CódigodelMédico": 9059,
+    "nombre_medico": "BLASCO SAPENA JOSE FERNANDO (URO LITIASIS)"
+  },
+  {
+    "CódigodelMédico": 20347,
+    "nombre_medico": "ESTIGARRIBIA OVIEDO, MARIA LUJAN"
+  },
+  {
+    "CódigodelMédico": 14307,
+    "nombre_medico": "PEREZ IBARRA, DAISY BERNARDINA"
+  },
+  {
+    "CódigodelMédico": 15547,
+    "nombre_medico": "BARRETO LOMBARDO ALEXIS DANIEL"
+  },
+  {
+    "CódigodelMédico": 31025,
+    "nombre_medico": "VILLALBA FERNANDEZ JESSICA ANALIA"
+  },
+  {
+    "CódigodelMédico": 21310,
+    "nombre_medico": "YUDICE GONZALEZ"
+  },
+  {
+    "CódigodelMédico": 11043,
+    "nombre_medico": "FARIÑA MENDIETA, CARLOS FEDERICO"
+  },
+  {
+    "CódigodelMédico": 10142,
+    "nombre_medico": "ERNESTO ANDRES VILLALBA FIGARI"
+  },
+  {
+    "CódigodelMédico": 15818,
+    "nombre_medico": "NUÑEZ DA SILVEIRA RODRIGUEZ LIZ GABRIELA"
+  },
+  {
+    "CódigodelMédico": 9782,
+    "nombre_medico": "CABRAL DE PANIAGUA GLADYS"
+  },
+  {
+    "CódigodelMédico": 6958,
+    "nombre_medico": "VERA MORINIGO ARNALDO JAVIER"
+  },
+  {
+    "CódigodelMédico": 23001,
+    "nombre_medico": "ANTUNEZ LOPEZ MATIAS NICOLAS"
+  },
+  {
+    "CódigodelMédico": 15153,
+    "nombre_medico": "ALVAREZ RODRIGUEZ, CINTIA KARINA VIRGINIA"
+  },
+  {
+    "CódigodelMédico": 20634,
+    "nombre_medico": "COLMAN ARCE HUGO DAVID"
+  },
+  {
+    "CódigodelMédico": 10025,
+    "nombre_medico": "ELIZAUR LOPEZ, JUAN GABRIEL"
+  },
+  {
+    "CódigodelMédico": 20608,
+    "nombre_medico": "JARA GOMEZ, PAOLA ANALIA"
+  },
+  {
+    "CódigodelMédico": 11937,
+    "nombre_medico": "CENTURION, JORGE AUGUSTO"
+  },
+  {
+    "CódigodelMédico": 9793,
+    "nombre_medico": "MARIO AREVALOS"
+  },
+  {
+    "CódigodelMédico": 15515,
+    "nombre_medico": "CABRERA ROMAN OSCAR FELICIANO"
+  },
+  {
+    "CódigodelMédico": 17602,
+    "nombre_medico": "RODRIGUEZ LEIVA, ROQUE RAFAEL"
+  },
+  {
+    "CódigodelMédico": 7708,
+    "nombre_medico": "AQUINO FIORIO, FERNANDO DANIEL (MANO  G05)"
+  },
+  {
+    "CódigodelMédico": 9319,
+    "nombre_medico": "OJEDA JACQUET, VICTOR"
+  },
+  {
+    "CódigodelMédico": 16834,
+    "nombre_medico": "GERALDINE DUARTE"
+  },
+  {
+    "CódigodelMédico": 37086,
+    "nombre_medico": "GONZALEZ HERMES GABRIEL OSVALDO"
+  },
+  {
+    "CódigodelMédico": 14942,
+    "nombre_medico": "ZAPATTA MAZACOTTE, YENNY ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 31291,
+    "nombre_medico": "DURE ZARACHO CRISPIN DARIEL"
+  },
+  {
+    "CódigodelMédico": 12843,
+    "nombre_medico": "RIQUELME TORRES, ROMINA MARIA"
+  },
+  {
+    "CódigodelMédico": 11497,
+    "nombre_medico": "CARDOZO VILLAMAYOR, FABIO MAURICIO"
+  },
+  {
+    "CódigodelMédico": 11013,
+    "nombre_medico": "Médico sin nombre"
+  },
+  {
+    "CódigodelMédico": 7962,
+    "nombre_medico": "DOMINGUEZ BLANCO, MARTIN DAVID"
+  },
+  {
+    "CódigodelMédico": 916008,
+    "nombre_medico": "CASCO SAMUDIO, JOSE DEJESUS (G04)"
+  },
+  {
+    "CódigodelMédico": 998814,
+    "nombre_medico": "ENCISO MOLAS NATALIA NOEMI"
+  },
+  {
+    "CódigodelMédico": 107899,
+    "nombre_medico": "FERNANDEZ GOMEZ MARIA MAGDALENA"
+  },
+  {
+    "CódigodelMédico": 9311,
+    "nombre_medico": "GERNHOFER VALDEZ, GERMANO RODOLFO (G02) - INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 11400,
+    "nombre_medico": "D`APOLLO ROA, NATALIA MARIA"
+  },
+  {
+    "CódigodelMédico": 5895,
+    "nombre_medico": "BASTOS DAVALOS, ALBA CONCEPCION"
+  },
+  {
+    "CódigodelMédico": 36600,
+    "nombre_medico": "GARCETE AYALA PATRICIA HAYDEE"
+  },
+  {
+    "CódigodelMédico": 6057,
+    "nombre_medico": "GONZALEZ MIRNA LISA"
+  },
+  {
+    "CódigodelMédico": 18491,
+    "nombre_medico": "MYRIAN LARREA"
+  },
+  {
+    "CódigodelMédico": 23383,
+    "nombre_medico": "JARA LOPEZ JUAN GILBERTO"
+  },
+  {
+    "CódigodelMédico": 20684,
+    "nombre_medico": "VILLALBA RAMIREZ,CLAUDIO MIGDONIO(G11)"
+  },
+  {
+    "CódigodelMédico": 10395,
+    "nombre_medico": "MIGUELANGEL GALEANO"
+  },
+  {
+    "CódigodelMédico": 6742,
+    "nombre_medico": "GONZALEZ RIVEROS,OSVALDO (G02-G08)INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 15846,
+    "nombre_medico": "RODRIGUEZ DUARTE, MARCOS ANDRES"
+  },
+  {
+    "CódigodelMédico": 8597,
+    "nombre_medico": "SOLALINDE CRISTALDO, ADALBERTO"
+  },
+  {
+    "CódigodelMédico": 5134,
+    "nombre_medico": "BLANCO ESPINOLA CLAUDIA FABIOLA (NIÑOS)"
+  },
+  {
+    "CódigodelMédico": 14921,
+    "nombre_medico": "RECALDE, RODNEY RODRIGO"
+  },
+  {
+    "CódigodelMédico": 18043,
+    "nombre_medico": "VALERIA ACEVEDO"
+  },
+  {
+    "CódigodelMédico": 10094,
+    "nombre_medico": "ADORNO RECALDE, RAUL OSVALDO"
+  },
+  {
+    "CódigodelMédico": 20650,
+    "nombre_medico": "ENCISO ZACARIAS, JUAN CARLOS (LITIASIS RENAL EXCLUSIVO)"
+  },
+  {
+    "CódigodelMédico": 21488,
+    "nombre_medico": "DIARTE ESCOBAR, MAGALI"
+  },
+  {
+    "CódigodelMédico": 7380,
+    "nombre_medico": "NUÑEZ CARCEDO, FERNANDO (CADERA - G02)"
+  },
+  {
+    "CódigodelMédico": 27093,
+    "nombre_medico": "MONGES LLANO,DANA MARCELA"
+  },
+  {
+    "CódigodelMédico": 11199,
+    "nombre_medico": "MEDINA ORTIZ, MARIA EUGENIA (C:1,2,3,5,10)"
+  },
+  {
+    "CódigodelMédico": 10664,
+    "nombre_medico": "BRITOS MARIN, RONALD DAVID"
+  },
+  {
+    "CódigodelMédico": 7757,
+    "nombre_medico": "FLORENTIN APONTE GLORIA SANTANA"
+  },
+  {
+    "CódigodelMédico": 7575,
+    "nombre_medico": "BARRIOS GISELA SOLEDAD"
+  },
+  {
+    "CódigodelMédico": 22740,
+    "nombre_medico": "SILVANA CHAMORRO"
+  },
+  {
+    "CódigodelMédico": 18727,
+    "nombre_medico": "VERDECCHIA INSFRAN CYNTHIA PATRICIA"
+  },
+  {
+    "CódigodelMédico": 18852,
+    "nombre_medico": "MEZA LOPEZ, ANDRES WILFRIDO"
+  },
+  {
+    "CódigodelMédico": 6042,
+    "nombre_medico": "PRATT RIVAROLA JULIO CESAR ( ADULTO )"
+  },
+  {
+    "CódigodelMédico": 15016,
+    "nombre_medico": "NUÑEZ ALARCON, ROSMARIE"
+  },
+  {
+    "CódigodelMédico": 23074,
+    "nombre_medico": "VILLALBA SANABRIA ENZO JOAQUIN"
+  },
+  {
+    "CódigodelMédico": 10562,
+    "nombre_medico": "ROMERO DUPLAND, KAREN LETICIA"
+  },
+  {
+    "CódigodelMédico": 10435,
+    "nombre_medico": "ALFONSO RECALDE, SYLVANA SOLEDAD (C:1,2,3,7,11)"
+  },
+  {
+    "CódigodelMédico": 21166,
+    "nombre_medico": "DIARTE ESCOBAR, GLORIA"
+  },
+  {
+    "CódigodelMédico": 2663,
+    "nombre_medico": "CESAR EMILIO FLORES BATTILANA"
+  },
+  {
+    "CódigodelMédico": 23111,
+    "nombre_medico": "DOMINGUEZ KALLUS ANA LUCIA"
+  },
+  {
+    "CódigodelMédico": 18967,
+    "nombre_medico": "VALLEJOS RAMIREZ,DAYANARA LEONOR"
+  },
+  {
+    "CódigodelMédico": 4743,
+    "nombre_medico": "SIMON NUÑEZ REDDY ATILIO"
+  },
+  {
+    "CódigodelMédico": 26057,
+    "nombre_medico": "PABLO DAIUB AYALA"
+  },
+  {
+    "CódigodelMédico": 30158,
+    "nombre_medico": "LIZ IRALA"
+  },
+  {
+    "CódigodelMédico": 13379,
+    "nombre_medico": "FLORES RODRIGUEZ, LESTER RAUL (C:1,2,4,5,6)"
+  },
+  {
+    "CódigodelMédico": 13707,
+    "nombre_medico": "PERALTA IRIARTE, IRENE CAROLINA"
+  },
+  {
+    "CódigodelMédico": 12806,
+    "nombre_medico": "GAUTO ROJAS, JULIO RODRIGO"
+  },
+  {
+    "CódigodelMédico": 7075,
+    "nombre_medico": "KIKUCHI HISAOKA; AKIRA"
+  },
+  {
+    "CódigodelMédico": 18355,
+    "nombre_medico": "BENITEZ BRITEZ CYNTHIA ESTEFANIA"
+  },
+  {
+    "CódigodelMédico": 14197,
+    "nombre_medico": "SANDRA CHAMORRO"
+  },
+  {
+    "CódigodelMédico": 25015,
+    "nombre_medico": "PRIETO LUGO,REMIGIO"
+  },
+  {
+    "CódigodelMédico": 14365,
+    "nombre_medico": "FRETES GONZALEZ, WALTER RENE (G03)"
+  },
+  {
+    "CódigodelMédico": 11568,
+    "nombre_medico": "VEGA LOPEZ, DAYSI ANALY"
+  },
+  {
+    "CódigodelMédico": 5086,
+    "nombre_medico": "VEGA VALDEZ ROSA NOEMI"
+  },
+  {
+    "CódigodelMédico": 23008,
+    "nombre_medico": "COSTANZO JARA JIMENA ABIGAIL"
+  },
+  {
+    "CódigodelMédico": 11090,
+    "nombre_medico": "TOTTIL BARBOTE, JULIO JAVIER"
+  },
+  {
+    "CódigodelMédico": 12044,
+    "nombre_medico": "EIWA OSHIRO, AUGUSTO EDUARDO EIJI(G05)INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 10568,
+    "nombre_medico": "PEÑA GALEANO, ROBERTO DANIEL(G06)"
+  },
+  {
+    "CódigodelMédico": 8043,
+    "nombre_medico": "MARTINEZ LEZCANO MARIA JULIA (CP)"
+  },
+  {
+    "CódigodelMédico": 10431,
+    "nombre_medico": "GIMENEZ ALFONSO, REINALDO LEONOR"
+  },
+  {
+    "CódigodelMédico": 10440,
+    "nombre_medico": "CASAFUZ MARTINEZ, LIZ CAROLINA"
+  },
+  {
+    "CódigodelMédico": 22105,
+    "nombre_medico": "RUIZ DIAZ RUIZ, DOLLY CAROLINA"
+  },
+  {
+    "CódigodelMédico": 8130,
+    "nombre_medico": "KUNZLE OJEDA, CARLOS ALBERTO (G04)- INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 8639,
+    "nombre_medico": "MACHADO MEDINA, GILBERTO"
+  },
+  {
+    "CódigodelMédico": 30092,
+    "nombre_medico": "ALVARENGA CESPEDES,BRUNO ALESSANDRO"
+  },
+  {
+    "CódigodelMédico": 22226,
+    "nombre_medico": "BORJA GONZALEZ, MARINA ANGELICA"
+  },
+  {
+    "CódigodelMédico": 15675,
+    "nombre_medico": "MIRTIS GAMARRA"
+  },
+  {
+    "CódigodelMédico": 18096,
+    "nombre_medico": "ZAYAS VELAZQUEZ, WALTER OSMAR"
+  },
+  {
+    "CódigodelMédico": 20651,
+    "nombre_medico": "BATAGLIA MEYER GIULIANA BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 6318,
+    "nombre_medico": "ACOSTA NUÑEZ, CELESTE NOEMI"
+  },
+  {
+    "CódigodelMédico": 14576,
+    "nombre_medico": "OJEDA ORIHUELA, REBECA GISSELA"
+  },
+  {
+    "CódigodelMédico": 7508,
+    "nombre_medico": "DAVALOS GOIRIZ ADRIANA MARIA - ADULTO"
+  },
+  {
+    "CódigodelMédico": 18717,
+    "nombre_medico": "OVELAR CANTERO, ARACELI LUZ MARINA"
+  },
+  {
+    "CódigodelMédico": 12208,
+    "nombre_medico": "MARIA MAIDANA"
+  },
+  {
+    "CódigodelMédico": 6280,
+    "nombre_medico": "RAMIREZ MOLAS, LUIS BELTRAN"
+  },
+  {
+    "CódigodelMédico": 8817,
+    "nombre_medico": "BARRIOS GONZALEZ, FERNANDO"
+  },
+  {
+    "CódigodelMédico": 16530,
+    "nombre_medico": "LUIS OVELAR"
+  },
+  {
+    "CódigodelMédico": 4899,
+    "nombre_medico": "RODRIGUEZ MARTINEZ ABRAHAM"
+  },
+  {
+    "CódigodelMédico": 11948,
+    "nombre_medico": "CARDENAS ALMADA ROLANDO DAVID"
+  },
+  {
+    "CódigodelMédico": 28025,
+    "nombre_medico": "RUIZ DIAZ OJEDA,ELIO DAVID"
+  },
+  {
+    "CódigodelMédico": 15503,
+    "nombre_medico": "MERELES CASTILLO, CELSO JAVIER (G11)"
+  },
+  {
+    "CódigodelMédico": 30031,
+    "nombre_medico": "SANTIAGO MORENO"
+  },
+  {
+    "CódigodelMédico": 16857,
+    "nombre_medico": "FRANCO BENITEZ, PABLO JOSE"
+  },
+  {
+    "CódigodelMédico": 19131,
+    "nombre_medico": "MEDINA VILLATE, MARIA MERCEDES(G11)"
+  },
+  {
+    "CódigodelMédico": 11225,
+    "nombre_medico": "CABRERA LOPEZ FRANCISCO JAVIER"
+  },
+  {
+    "CódigodelMédico": 11874,
+    "nombre_medico": "AREVALOS, FLORA ELISA (C:1,2,3,7,9)"
+  },
+  {
+    "CódigodelMédico": 13635,
+    "nombre_medico": "IRRAZABAL VERA, DAVID MANUEL"
+  },
+  {
+    "CódigodelMédico": 16180,
+    "nombre_medico": "ACOSTA MEDINA, WILSON ANTONIO(URO GINECOLOGIA)"
+  },
+  {
+    "CódigodelMédico": 10528,
+    "nombre_medico": "CABRERA, CRISTHIAN DANIEL"
+  },
+  {
+    "CódigodelMédico": 6597,
+    "nombre_medico": "YINDE ENCINA, YANIRA ROSSANA"
+  },
+  {
+    "CódigodelMédico": 6780,
+    "nombre_medico": "PAREDES MARGARITA"
+  },
+  {
+    "CódigodelMédico": 31216,
+    "nombre_medico": "JESSICA FRANCO"
+  },
+  {
+    "CódigodelMédico": 20328,
+    "nombre_medico": "FERREIRA MENDIETA, FERNANDO MIGUEL ARTURO"
+  },
+  {
+    "CódigodelMédico": 8307,
+    "nombre_medico": "GARCIA FERNANDEZ NADIA LIZ"
+  },
+  {
+    "CódigodelMédico": 16824,
+    "nombre_medico": "ESTIGARRIBIA CRISTALDO, LARISSA RAMONA"
+  },
+  {
+    "CódigodelMédico": 16629,
+    "nombre_medico": "RIOS ALMADA, JOSE MARIA"
+  },
+  {
+    "CódigodelMédico": 11494,
+    "nombre_medico": "GOMES DURE, LAIS ALINE"
+  },
+  {
+    "CódigodelMédico": 11916,
+    "nombre_medico": "GONZALEZ BARRETO, MARTHA RAQUEL"
+  },
+  {
+    "CódigodelMédico": 30448,
+    "nombre_medico": "SEGOVIA MARTINEZ,MARIA PAZ"
+  },
+  {
+    "CódigodelMédico": 15130,
+    "nombre_medico": "FRANCO GONZALEZ, MATIAS ALBERTO"
+  },
+  {
+    "CódigodelMédico": 64659,
+    "nombre_medico": "QUIÑONEZ SILVERO MELISSA LIZANI"
+  },
+  {
+    "CódigodelMédico": 18713,
+    "nombre_medico": "RAMIREZ SAMUDIO, ANDREA MARIA JOSE"
+  },
+  {
+    "CódigodelMédico": 23713,
+    "nombre_medico": "BOGADO AGUIRRE NELSON ESTEBAN"
+  },
+  {
+    "CódigodelMédico": 14850,
+    "nombre_medico": "ORTEGA SANABRIA, JORGE MANUEL"
+  },
+  {
+    "CódigodelMédico": 11442,
+    "nombre_medico": "CRISTALDO GARAY,  JESSICA CELESTE"
+  },
+  {
+    "CódigodelMédico": 9779,
+    "nombre_medico": "INVERNIZZI CHAMORRO,ROMINA CLAUDIA"
+  },
+  {
+    "CódigodelMédico": 7770,
+    "nombre_medico": "CALDERINI, PATRICIA RAQUEL"
+  },
+  {
+    "CódigodelMédico": 7405,
+    "nombre_medico": "RIVAS MARTINEZ, NOELIA ROCIO (POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 8816,
+    "nombre_medico": "VIVEROS MARTINEZ VICTOR DANIEL"
+  },
+  {
+    "CódigodelMédico": 20588,
+    "nombre_medico": "SANTACRUZ PORTILLO, JAZMIN MARIA"
+  },
+  {
+    "CódigodelMédico": 5783,
+    "nombre_medico": "RAMIREZ CRISTALDO, NORMA DOLLY"
+  },
+  {
+    "CódigodelMédico": 11674,
+    "nombre_medico": "MARCHI BRUSQUETTI, WALTER RAUL"
+  },
+  {
+    "CódigodelMédico": 9462,
+    "nombre_medico": "BARRETO SEGOVIA, LISA MARIA VIOLETA"
+  },
+  {
+    "CódigodelMédico": 20636,
+    "nombre_medico": "VAZQUEZ RIVAS, DIEGO JAVIER(G11)"
+  },
+  {
+    "CódigodelMédico": 5211,
+    "nombre_medico": "SISA ACOSTA, JORGE EDUARDO (CADERA   G02)"
+  },
+  {
+    "CódigodelMédico": 9231,
+    "nombre_medico": "OJEDA LOPEZ, JULIA MARIA GRISELDA"
+  },
+  {
+    "CódigodelMédico": 9934,
+    "nombre_medico": "FRANCO ALMADA, MARIA CAROLINA"
+  },
+  {
+    "CódigodelMédico": 11866,
+    "nombre_medico": "MENDEZ OPORTO, LOURDES EMILCE"
+  },
+  {
+    "CódigodelMédico": 13524,
+    "nombre_medico": "PAREDES BOGADO, JULIO CESAR"
+  },
+  {
+    "CódigodelMédico": 22096,
+    "nombre_medico": "GONZALEZ RAGGIO, NELSON ANDRES(G11)"
+  },
+  {
+    "CódigodelMédico": 6005,
+    "nombre_medico": "BALBUENA NAUMANN, SILVIA RAQUEL"
+  },
+  {
+    "CódigodelMédico": 11463,
+    "nombre_medico": "LLANO LEGUIZAMON, HECTOR DANIEL"
+  },
+  {
+    "CódigodelMédico": 902225,
+    "nombre_medico": "POLETTI DE SOSA CINTHIA RAQUEL"
+  },
+  {
+    "CódigodelMédico": 8564,
+    "nombre_medico": "AYALA MACIEL, DIEGO (G08)"
+  },
+  {
+    "CódigodelMédico": 5751,
+    "nombre_medico": "AGUILAR OLIVEIRA Y SILVA, MANUEL ANGEL (G03-HOMBRO)"
+  },
+  {
+    "CódigodelMédico": 0,
+    "nombre_medico": "MERELES BELOTTO LUIS"
+  },
+  {
+    "CódigodelMédico": 17086,
+    "nombre_medico": "ZACARIAS CROVATO, ALEXANDRA MARIA"
+  },
+  {
+    "CódigodelMédico": 15691,
+    "nombre_medico": "GAONA ARGAÑA, CESAR ALBERTO"
+  },
+  {
+    "CódigodelMédico": 26112,
+    "nombre_medico": "RUIZ DIAZ JARA RIGOBERTO ALVARO NICOLAS"
+  },
+  {
+    "CódigodelMédico": 15731,
+    "nombre_medico": "ROA ESCOBAR, MARIA DE LOS ANGELES"
+  },
+  {
+    "CódigodelMédico": 8198,
+    "nombre_medico": "MARTINEZ LEIVA, MARIA DEL CARMEN"
+  },
+  {
+    "CódigodelMédico": 9453,
+    "nombre_medico": "SANABRIA RODRIGUEZ, CINTHIA ANTOLINA"
+  },
+  {
+    "CódigodelMédico": 5928,
+    "nombre_medico": "PARRA JARA NERY RAMON"
+  },
+  {
+    "CódigodelMédico": 4907,
+    "nombre_medico": "CAZO MARTINEZ MARTA GRACIELA"
+  },
+  {
+    "CódigodelMédico": 36150,
+    "nombre_medico": "ETEBAN ZAPATTINI"
+  },
+  {
+    "CódigodelMédico": 11230,
+    "nombre_medico": "PEREIRA FERREIRA, IVAN ROBERTO"
+  },
+  {
+    "CódigodelMédico": 6852,
+    "nombre_medico": "PORTILLO ESPINOLA, HUGO MARCELO (G04)"
+  },
+  {
+    "CódigodelMédico": 12516,
+    "nombre_medico": "MUÑOZ RODRIGUEZ, RODRIGO JAVIER"
+  },
+  {
+    "CódigodelMédico": 8088,
+    "nombre_medico": "MACIEL GUERREÑO ROLANDO"
+  },
+  {
+    "CódigodelMédico": 7183,
+    "nombre_medico": "MIRIAN CELESTE LOPEZ DE DENIS"
+  },
+  {
+    "CódigodelMédico": 5574,
+    "nombre_medico": "AREVALOS GALEANO NORMA"
+  },
+  {
+    "CódigodelMédico": 31063,
+    "nombre_medico": "MARTINEZ GAVILAN,CAMILA ARASY"
+  },
+  {
+    "CódigodelMédico": 13516,
+    "nombre_medico": "DIAZ ROLON, IVAN JAVIER"
+  },
+  {
+    "CódigodelMédico": 9705,
+    "nombre_medico": "DOMINGUEZ COLMAN, GUSTAVO ADOLFO"
+  },
+  {
+    "CódigodelMédico": 31119,
+    "nombre_medico": "IRALA ARAUJO,DIEGO DANIEL"
+  },
+  {
+    "CódigodelMédico": 22615,
+    "nombre_medico": "RIVAS MARTINEZ, GENARA RAQUEL"
+  },
+  {
+    "CódigodelMédico": 10816,
+    "nombre_medico": "CESAR AQUINO"
+  },
+  {
+    "CódigodelMédico": 13742,
+    "nombre_medico": "VERA GIMENEZ, NOLIA MARIA"
+  },
+  {
+    "CódigodelMédico": 18597,
+    "nombre_medico": "GOMEZ BRUNAGA, FATIMA MARIA (POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 14276,
+    "nombre_medico": "GONZALEZ OZUNA, NATALIA MABEL"
+  },
+  {
+    "CódigodelMédico": 12526,
+    "nombre_medico": "VILLALBA VALLEJOS, ENZO DOMINGO"
+  },
+  {
+    "CódigodelMédico": 8548,
+    "nombre_medico": "CASTELLANO CUBILLA, RODRIGO RAMON(G02-G08)INGAVI DESDE 18/10"
+  },
+  {
+    "CódigodelMédico": 17705,
+    "nombre_medico": "DUARTE DAYHANA BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 6403,
+    "nombre_medico": "GODOY MULLER ELSA RENATE"
+  },
+  {
+    "CódigodelMédico": 13097,
+    "nombre_medico": "MOREL FELTES ANGELICA MERCEDES"
+  },
+  {
+    "CódigodelMédico": 2436,
+    "nombre_medico": "OJEDA DIAZ, DIANA LUZ"
+  },
+  {
+    "CódigodelMédico": 9401,
+    "nombre_medico": "MORINIGO MONTIEL, ADOLFO"
+  },
+  {
+    "CódigodelMédico": 1367,
+    "nombre_medico": "ORTEGA DE AMARILLA SULLY"
+  },
+  {
+    "CódigodelMédico": 22783,
+    "nombre_medico": "CARDOZO CACERES,FRANCISCO JAVIER"
+  },
+  {
+    "CódigodelMédico": 13943,
+    "nombre_medico": "MARECOS VIANA, CECILIA MONSERRAT"
+  },
+  {
+    "CódigodelMédico": 11274,
+    "nombre_medico": "FLORENTIN BARRETO,CYNTHIA ANDREA (NIÑOS)"
+  },
+  {
+    "CódigodelMédico": 18599,
+    "nombre_medico": "ALVARENGA FERREIRA NADIA BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 11487,
+    "nombre_medico": "GOMEZ BLANCO, OSCAR ALEJANDRO"
+  },
+  {
+    "CódigodelMédico": 14956,
+    "nombre_medico": "DIAZ MEZA, LIZ NATALIA"
+  },
+  {
+    "CódigodelMédico": 15151,
+    "nombre_medico": "SILVIO ALBARENGA"
+  },
+  {
+    "CódigodelMédico": 22014,
+    "nombre_medico": "PORTILLO CANDIA ALBERTO SAUL"
+  },
+  {
+    "CódigodelMédico": 12742,
+    "nombre_medico": "RIOS MARTINEZ, CINTHIA CAROLINA"
+  },
+  {
+    "CódigodelMédico": 13006,
+    "nombre_medico": "SALINAS MENDOZA, CESAR FERNANDO (G11)"
+  },
+  {
+    "CódigodelMédico": 25061,
+    "nombre_medico": "ROLON GONZALEZ RODOLFO VALENTIN"
+  },
+  {
+    "CódigodelMédico": 12659,
+    "nombre_medico": "Médico sin nombre"
+  },
+  {
+    "CódigodelMédico": 8114,
+    "nombre_medico": "VUYK CORONEL,CAMILA MARIA"
+  },
+  {
+    "CódigodelMédico": 11443,
+    "nombre_medico": "PEDROZO LOPEZ, FATIMA RAQUEL"
+  },
+  {
+    "CódigodelMédico": 5924,
+    "nombre_medico": "SANDINI CAREGNATO, SILVIA REGINA"
+  },
+  {
+    "CódigodelMédico": 12378,
+    "nombre_medico": "JARA RIVAS, VIVIANO"
+  },
+  {
+    "CódigodelMédico": 15713,
+    "nombre_medico": "DRAGOTTO GALVAN, ANTONELLA"
+  },
+  {
+    "CódigodelMédico": 9618,
+    "nombre_medico": "CARDOZO FERNANDEZ OSVALDO MIGUEL"
+  },
+  {
+    "CódigodelMédico": 9517,
+    "nombre_medico": "GAMARRA RIVAROLA, NATALIA LEONIDAS"
+  },
+  {
+    "CódigodelMédico": 20799,
+    "nombre_medico": "IRUN SANABRIA, GONZALO"
+  },
+  {
+    "CódigodelMédico": 9026,
+    "nombre_medico": "CHAPARRO SEGOVIA EMMA ISABEL"
+  },
+  {
+    "CódigodelMédico": 9027,
+    "nombre_medico": "LARROSA MARIA DEL MAR"
+  },
+  {
+    "CódigodelMédico": 22099,
+    "nombre_medico": "MARICEVICH CASCO, MARIA FERNANDA G11"
+  },
+  {
+    "CódigodelMédico": 10331,
+    "nombre_medico": "MARIA JOSE AQUINO"
+  },
+  {
+    "CódigodelMédico": 8911,
+    "nombre_medico": "ROMERO CUEVAS, MARIA MERCEDES"
+  },
+  {
+    "CódigodelMédico": 7315,
+    "nombre_medico": "PRIETO JAVIER"
+  },
+  {
+    "CódigodelMédico": 9563,
+    "nombre_medico": "FLEITAS PAREDES, MARIA ELENA"
+  },
+  {
+    "CódigodelMédico": 13167,
+    "nombre_medico": "ACOSTA SANABRIA, RODRIGO MARCELO EZEQUIEL"
+  },
+  {
+    "CódigodelMédico": 13017,
+    "nombre_medico": "AMARILLA ORTIZ, ANGELICA DE JESUS"
+  },
+  {
+    "CódigodelMédico": 19279,
+    "nombre_medico": "DA PONTE ROJAS, MARIA NOEMI"
+  },
+  {
+    "CódigodelMédico": 14198,
+    "nombre_medico": "MENDOZA LEIVA, LUIS ALFREDO"
+  },
+  {
+    "CódigodelMédico": 16596,
+    "nombre_medico": "FARIÑA AGUILERA, SARA PATRICIA"
+  },
+  {
+    "CódigodelMédico": 6737,
+    "nombre_medico": "MIERS GRANADA GLORIA ROSSANA -OFTALMOLOGIA"
+  },
+  {
+    "CódigodelMédico": 387,
+    "nombre_medico": "MEDICO COLOPROCTOGIA"
+  },
+  {
+    "CódigodelMédico": 6126,
+    "nombre_medico": "MUÑOZ RODAS DANIEL EUDALDO"
+  },
+  {
+    "CódigodelMédico": 11250,
+    "nombre_medico": "LUIS MIGUEL FIGUEROA RAMIREZ"
+  },
+  {
+    "CódigodelMédico": 98101,
+    "nombre_medico": " GONZALEZ NOGUERA, LILIANA CAROLINA"
+  },
+  {
+    "CódigodelMédico": 12032,
+    "nombre_medico": "ROMBERG,RODRIGO JAVIER(G05)-INGAVI 18/10"
+  },
+  {
+    "CódigodelMédico": 12405,
+    "nombre_medico": "MONTIEL SERVIAN, JOHANNA MARIELA"
+  },
+  {
+    "CódigodelMédico": 13424,
+    "nombre_medico": "LOVERA YERUTA, PEDRO IVAN"
+  },
+  {
+    "CódigodelMédico": 5003,
+    "nombre_medico": "BITTAR SAFUAN CARLOS FERNANDO"
+  },
+  {
+    "CódigodelMédico": 15962,
+    "nombre_medico": "TERESA DE JESUS RAMIREZ"
+  },
+  {
+    "CódigodelMédico": 16923,
+    "nombre_medico": "ARRELLAGA ALONSO, RAFAEL ANIBAL (G11)"
+  },
+  {
+    "CódigodelMédico": 11264,
+    "nombre_medico": "TORRES BERNAL, NOELIA ANAHI"
+  },
+  {
+    "CódigodelMédico": 6365,
+    "nombre_medico": "ROMERO VAZQUEZ, BENIGNA ROSA"
+  },
+  {
+    "CódigodelMédico": 4829,
+    "nombre_medico": "ROGER GUSTAVO MEDINA CABRAL"
+  },
+  {
+    "CódigodelMédico": 4288,
+    "nombre_medico": "RODRIGUEZ GAONA, PEDRO"
+  },
+  {
+    "CódigodelMédico": 16877,
+    "nombre_medico": "VILLALBA SALAS, NATALIA ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 12871,
+    "nombre_medico": "GARCETE MEDINA, MARIA SILVIA"
+  },
+  {
+    "CódigodelMédico": 17123,
+    "nombre_medico": "COLINA FRANCO, KATERINE GISSELLE"
+  },
+  {
+    "CódigodelMédico": 23431,
+    "nombre_medico": "ALVAREZ BENITEZ CESAR DAVID"
+  },
+  {
+    "CódigodelMédico": 10073,
+    "nombre_medico": "GUIDO GROSELLE"
+  },
+  {
+    "CódigodelMédico": 17031,
+    "nombre_medico": "JIMENEZ COLMAN, NIDYA ANTONELLA (POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 25542,
+    "nombre_medico": "MATIAS ARANO"
+  },
+  {
+    "CódigodelMédico": 9771,
+    "nombre_medico": "BURGOS AGUILAR, PERLA SANDRA"
+  },
+  {
+    "CódigodelMédico": 7417,
+    "nombre_medico": "LILIAN CACERES"
+  },
+  {
+    "CódigodelMédico": 17511,
+    "nombre_medico": "BENITEZ GOMEZ ANTONELLA MARIA DEL CARMEN"
+  },
+  {
+    "CódigodelMédico": 25890,
+    "nombre_medico": "CUYER NUÑEZ, JENNIFER AYELEN"
+  },
+  {
+    "CódigodelMédico": 11859,
+    "nombre_medico": "BARTOMEU GIARDINA,ENZO ESTEBAN"
+  },
+  {
+    "CódigodelMédico": 13157,
+    "nombre_medico": "DELGADO GIMENEZ RUBEN ANTONIO"
+  },
+  {
+    "CódigodelMédico": 17643,
+    "nombre_medico": "SALSAMENDI BAZZANO, SAID EMMANUEL"
+  },
+  {
+    "CódigodelMédico": 18496,
+    "nombre_medico": "ROJAS YEZA, ELIAS FERNANDO  G11"
+  },
+  {
+    "CódigodelMédico": 17057,
+    "nombre_medico": "DAVALOS GONZALEZ, KAREN VANESSA"
+  },
+  {
+    "CódigodelMédico": 19523,
+    "nombre_medico": "GOMEZ IRALA MARGHIA KARINNE"
+  },
+  {
+    "CódigodelMédico": 16992,
+    "nombre_medico": "KARINA GARCIA"
+  },
+  {
+    "CódigodelMédico": 7719,
+    "nombre_medico": "GONZALEZ BENITEZ, MONICA MARIA SOL"
+  },
+  {
+    "CódigodelMédico": 11987,
+    "nombre_medico": "GIMENEZ BENITEZ, ALDO ANDRES"
+  },
+  {
+    "CódigodelMédico": 5755,
+    "nombre_medico": "IRRAZABAL DE MAIDANA, MARIA JOSE"
+  },
+  {
+    "CódigodelMédico": 9322,
+    "nombre_medico": "FERNANDEZ SANABRIA, CLAUDIA PATRICIA"
+  },
+  {
+    "CódigodelMédico": 19463,
+    "nombre_medico": "CABRERA SILVERO, GUSTAVO (G01)PEDIATRIA"
+  },
+  {
+    "CódigodelMédico": 7201,
+    "nombre_medico": "OJEDA FRUTOS, ESTEBAN LUIS"
+  },
+  {
+    "CódigodelMédico": 14811,
+    "nombre_medico": "PATRICIA CARDOZO"
+  },
+  {
+    "CódigodelMédico": 11117,
+    "nombre_medico": "MARTINEZ TORALES, FRANCISCO MARTIN"
+  },
+  {
+    "CódigodelMédico": 16907,
+    "nombre_medico": "NOGUERA MORINIGO, LUIS MANUEL"
+  },
+  {
+    "CódigodelMédico": 13969,
+    "nombre_medico": "GOMEZ VERA,ALFREDO JAVIER (NIÑOS)"
+  },
+  {
+    "CódigodelMédico": 998476,
+    "nombre_medico": "ROA BENITEZ ANGELICA BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 6508,
+    "nombre_medico": "BORDON BOVEDA WILMA ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 7846,
+    "nombre_medico": "RIOS ACUÑA, ADRIAN"
+  },
+  {
+    "CódigodelMédico": 4977,
+    "nombre_medico": "MELGAREJO SANABRIA, EDGAR ROMUALDO"
+  },
+  {
+    "CódigodelMédico": 4548,
+    "nombre_medico": "OSORIO FLEITAS MARTA  (SOLO CX CAB Y CUELLO)"
+  },
+  {
+    "CódigodelMédico": 19362,
+    "nombre_medico": "VERGARA BRITEZ, LIZ NOELIA"
+  },
+  {
+    "CódigodelMédico": 14777,
+    "nombre_medico": "TORRES CACERES, ANGEL MARCELO (G02)"
+  },
+  {
+    "CódigodelMédico": 14679,
+    "nombre_medico": "CAPLI, JONATAN OMAR"
+  },
+  {
+    "CódigodelMédico": 12140,
+    "nombre_medico": "BOGADO, FABIO ARIEL (G02)"
+  },
+  {
+    "CódigodelMédico": 7833,
+    "nombre_medico": "SAMANIEGO MORINIGO ALDO ALEJANDRO (URO-ONCOLOGIA)"
+  },
+  {
+    "CódigodelMédico": 11973,
+    "nombre_medico": "GONZALEZ MARTINEZ, HUGO RICARDO (G05)"
+  },
+  {
+    "CódigodelMédico": 6438,
+    "nombre_medico": "VELAZQUEZ HENSTOH EMILCE ELIZABETH"
+  },
+  {
+    "CódigodelMédico": 8962,
+    "nombre_medico": "DAVALOS VILLAGRA, ANA LIZ"
+  },
+  {
+    "CódigodelMédico": 19183,
+    "nombre_medico": "CHAVEZ GIMENEZ, JUAN MANUEL"
+  },
+  {
+    "CódigodelMédico": 5698,
+    "nombre_medico": "YOSHIZAKI, EDUARDO MASAYUKI (COLUMNA   G07)"
+  },
+  {
+    "CódigodelMédico": 21333,
+    "nombre_medico": "ZAYAS MEZA GABINA MARIELA"
+  },
+  {
+    "CódigodelMédico": 14444,
+    "nombre_medico": "CENTURION ADLE, CARLOS DAVID"
+  },
+  {
+    "CódigodelMédico": 20518,
+    "nombre_medico": "VERA ROJAS, PEDRO ARMANDO"
+  },
+  {
+    "CódigodelMédico": 18607,
+    "nombre_medico": "GAMARRA DE MALLADA KAREN NATHALIA"
+  },
+  {
+    "CódigodelMédico": 18643,
+    "nombre_medico": "ALVAREZ REGIS RUTH MARIA CATALINA"
+  },
+  {
+    "CódigodelMédico": 5289,
+    "nombre_medico": "CESPEDES RAMIREZ, LUZ MARIA"
+  },
+  {
+    "CódigodelMédico": 8878,
+    "nombre_medico": "LETICIA DELGADO"
+  },
+  {
+    "CódigodelMédico": 7686,
+    "nombre_medico": "MULLER COVIS, DIETER HUGO (CADERA   G02)"
+  },
+  {
+    "CódigodelMédico": 23093,
+    "nombre_medico": "GIMENEZ FRETES, JOSE SEBASTIAN"
+  },
+  {
+    "CódigodelMédico": 21994,
+    "nombre_medico": "OSVALDO MENDOZA"
+  },
+  {
+    "CódigodelMédico": 12841,
+    "nombre_medico": "GALEANO LURAGHI, SANDRA ELIZABEHT"
+  },
+  {
+    "CódigodelMédico": 16899,
+    "nombre_medico": "LOPEZ BARBOZA, RAMON ALEJANDRO"
+  },
+  {
+    "CódigodelMédico": 11808,
+    "nombre_medico": "MORINIGO BAEZ, JUANA DOLORES"
+  },
+  {
+    "CódigodelMédico": 22093,
+    "nombre_medico": "MONICA FERNANDEZ"
+  },
+  {
+    "CódigodelMédico": 17244,
+    "nombre_medico": "VALENZUELA BENTO, HERMINIO (G07)"
+  },
+  {
+    "CódigodelMédico": 12853,
+    "nombre_medico": "PERALTA GIMENNEZ RUTH MARIA"
+  },
+  {
+    "CódigodelMédico": 12152,
+    "nombre_medico": "BRITEZ BOGADO GLADYS VIVIANA"
+  },
+  {
+    "CódigodelMédico": 14458,
+    "nombre_medico": "DUARTE TORALES, CESAR DAMIAN"
+  },
+  {
+    "CódigodelMédico": 15756,
+    "nombre_medico": "Médico sin nombre"
+  },
+  {
+    "CódigodelMédico": 23642,
+    "nombre_medico": "ARCE MARTINEZ,EDGAR HERNAN"
+  },
+  {
+    "CódigodelMédico": 10753,
+    "nombre_medico": "AGUILERA CAMPUZANO, ORLANDO RUBEN"
+  },
+  {
+    "CódigodelMédico": 10060,
+    "nombre_medico": "VAZQUEZ VERA, LUZ DIANA"
+  },
+  {
+    "CódigodelMédico": 8819,
+    "nombre_medico": "PAREDES DECOUD, CESAR AUGUSTO - CX CABEZA Y CUELLO"
+  },
+  {
+    "CódigodelMédico": 6585,
+    "nombre_medico": "VALINOTTI DELMAS, ELIZABETH ANALIA"
+  },
+  {
+    "CódigodelMédico": 7588,
+    "nombre_medico": "LEGUIZAMON MANZONI, CARLOS ALBERTO"
+  },
+  {
+    "CódigodelMédico": 7444,
+    "nombre_medico": "GIMENEZ COSTAS ALMA MARIA"
+  },
+  {
+    "CódigodelMédico": 17319,
+    "nombre_medico": "RAIMUNDO PINTOS"
+  },
+  {
+    "CódigodelMédico": 12347,
+    "nombre_medico": "PORTILLO DELVALLE, AUGUSTO MANUEL (POLICLINICA)"
+  },
+  {
+    "CódigodelMédico": 10363,
+    "nombre_medico": "BARRIOS VELAZQUEZ, MARIA DE LOS ANGELES"
+  },
+  {
+    "CódigodelMédico": 6127,
+    "nombre_medico": "MONFREDINI SACCOMANI HUGO ARNALDO (AN, POLG)"
+  },
+  {
+    "CódigodelMédico": 7574,
+    "nombre_medico": "LEGUIZAMON ORUE HUGO HILARION"
+  },
+  {
+    "CódigodelMédico": 12413,
+    "nombre_medico": "VIVIANA VANEZZA ALVARENGA"
+  },
+  {
+    "CódigodelMédico": 30401,
+    "nombre_medico": "JOSE GOMEZ"
+  },
+  {
+    "CódigodelMédico": 4613,
+    "nombre_medico": "MEDINA GUTIERREZ JORGE ARMINDO"
+  },
+  {
+    "CódigodelMédico": 10883,
+    "nombre_medico": "CASAS MANCILLA, GUADALUPE TELMA"
+  },
+  {
+    "CódigodelMédico": 18287,
+    "nombre_medico": "OSORIO SALINAS, FRANCISCA ELISA JAZMIN"
+  },
+  {
+    "CódigodelMédico": 5612,
+    "nombre_medico": "ORTEGA OVIEDO SUSANA MARIA MERCEDES"
+  },
+  {
+    "CódigodelMédico": 22779,
+    "nombre_medico": "PEÑA PEREZ, ENRIQUE GONZALO"
+  },
+  {
+    "CódigodelMédico": 8024,
+    "nombre_medico": "BOGGIANO MONICA (TRAUMATOLOGIA GRAL)"
+  },
+  {
+    "CódigodelMédico": 14548,
+    "nombre_medico": "BOVEDA BRIZUELA, CRISTIAN DAVID (G03)"
+  },
+  {
+    "CódigodelMédico": 21181,
+    "nombre_medico": "BARBOZA SANTACRUZ PABLO RENATO"
+  },
+  {
+    "CódigodelMédico": 23080,
+    "nombre_medico": "MARECOS MORALES RICARDO RAMON"
+  },
+  {
+    "CódigodelMédico": 17623,
+    "nombre_medico": "ANNIA DIAZ"
+  },
+  {
+    "CódigodelMédico": 4855,
+    "nombre_medico": "AREVALOS RAMIREZ, DARIO LUIS"
+  },
+  {
+    "CódigodelMédico": 19026,
+    "nombre_medico": "RONALD LOPEZ"
+  },
+  {
+    "CódigodelMédico": 20128,
+    "nombre_medico": "BENITEZ RIOS, JESUS MARCELO"
+  },
+  {
+    "CódigodelMédico": 4965,
+    "nombre_medico": "ROJAS BALBUENA TULIO FABIAN"
+  },
+  {
+    "CódigodelMédico": 13408,
+    "nombre_medico": "ENCISO ZACARIA, VIRGINIA (C:1,2,7,8,9)"
+  },
+  {
+    "CódigodelMédico": 6187,
+    "nombre_medico": "ALSINA PATIÑO, SHIRLEY ANDREA"
+  },
+  {
+    "CódigodelMédico": 15920,
+    "nombre_medico": "JARA TOLEDO FANNY PATRICIA"
+  },
+  {
+    "CódigodelMédico": 11266,
+    "nombre_medico": "ALARCON BERNAL, MARIA LIS"
+  },
+  {
+    "CódigodelMédico": 7598,
+    "nombre_medico": "GIMENEZ CHAVEZ, ANTONIO"
+  },
+  {
+    "CódigodelMédico": 5309,
+    "nombre_medico": "GAMEZ, HECTOR MARCELO"
+  },
+  {
+    "CódigodelMédico": 13960,
+    "nombre_medico": "GLIZT FERNANDEZ, ROMINA BEATRIZ"
+  },
+  {
+    "CódigodelMédico": 18989,
+    "nombre_medico": "CACERES ECHEVERRIA, DIEGO LUIS (G11)"
+  },
+  {
+    "CódigodelMédico": 8613,
+    "nombre_medico": "CUBILLA SALINAS, MARIA ANTONIA"
+  },
+  {
+    "CódigodelMédico": 9570,
+    "nombre_medico": "AMARILLA SILVA, RODRIGO"
+  },
+  {
+    "CódigodelMédico": 11336,
+    "nombre_medico": "LEZCANO VERA GILDA MARIANA"
+  },
+  {
+    "CódigodelMédico": 36944,
+    "nombre_medico": "LIN LIU SANDRA"
+  },
+  {
+    "CódigodelMédico": 12464,
+    "nombre_medico": "PEDROZO SANABRIA FRANCISCO ARIEL"
+  },
+  {
+    "CódigodelMédico": 22509,
+    "nombre_medico": "OJEDA OZUNA TANIA MAGALI"
+  },
+  {
+    "CódigodelMédico": 14131,
+    "nombre_medico": "CARDOZO DAVALOS, LAURA CECILIA"
+  },
+  {
+    "CódigodelMédico": 7437,
+    "nombre_medico": "ESPINOLA, ALFREDO"
+  },
+  {
+    "CódigodelMédico": 25083,
+    "nombre_medico": "ORTIZ BRUNO GABRIEL"
+  },
+  {
+    "CódigodelMédico": 30335,
+    "nombre_medico": "FUNK NEUFELD BRUCE MARCELLO"
+  },
+  {
+    "CódigodelMédico": 8555,
+    "nombre_medico": "FIGUEREDO VILLALBA, CLAUDIO"
+  },
+  {
+    "CódigodelMédico": 19614,
+    "nombre_medico": "JUAN CARLOS JARA"
+  },
+  {
+    "CódigodelMédico": 22138,
+    "nombre_medico": "GIMENEZ BERNAL, ALBER RAMON - (PEDIATRICO)"
+  },
+  {
+    "CódigodelMédico": 8349,
+    "nombre_medico": "ROJAS GALEANO, MABEL"
+  },
+  {
+    "CódigodelMédico": 18939,
+    "nombre_medico": "DUARTE FERNANDEZ, MARCELO FABIAN"
+  },
+  {
+    "CódigodelMédico": 18281,
+    "nombre_medico": "ORIHUELA GARCIA, ANA ALICIA"
+  },
+  {
+    "CódigodelMédico": 18682,
+    "nombre_medico": "BENITEZ ORTELLADO, ADOLFO DAMIAN (G07-G11)"
+  },
+  {
+    "CódigodelMédico": 36745,
+    "nombre_medico": "MARCOS ESPINOLA"
+  },
+  {
+    "CódigodelMédico": 30458,
+    "nombre_medico": "ROMERO GIMENEZ,MARCO ADAN"
+  },
+  {
+    "CódigodelMédico": 19057,
+    "nombre_medico": "BAEZ MARTINEZ, ALEXIS ROBERTO"
+  },
+  {
+    "CódigodelMédico": 998757,
+    "nombre_medico": "ZELAYA CANATA, LETICIA AMALIA"
+  },
+  {
+    "CódigodelMédico": 23689,
+    "nombre_medico": "HOLLER FEDERICO ENRIQUE"
+  },
+  {
+    "CódigodelMédico": 17558,
+    "nombre_medico": "MEDINA CHAVEZ, CELIA"
+  },
+  {
+    "CódigodelMédico": 14713,
+    "nombre_medico": "MARIA NOEL CENTURION"
+  },
+  {
+    "CódigodelMédico": 13399,
+    "nombre_medico": "JOSE MARIA GALEANO DOMINGUEZ"
+  },
+  {
+    "CódigodelMédico": 5600,
+    "nombre_medico": "PIÑEIRO GAMARRA OSCAR MANUEL"
+  },
+  {
+    "CódigodelMédico": 4768,
+    "nombre_medico": "ARCE DE REYES MARIA LIZ"
+  },
+  {
+    "CódigodelMédico": 7664,
+    "nombre_medico": "ARRUA CABALLERO, MARTIN FERNANDO"
+  },
+  {
+    "CódigodelMédico": 14115,
+    "nombre_medico": "PAVETTI PORTILLO, ESTEBAN MANUEL G05- A INGAVI DESDE 18/10"
+  }
+]
