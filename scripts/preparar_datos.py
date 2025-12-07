@@ -14,58 +14,96 @@ class DataProcessor:
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
     def load_and_prepare_data(self) -> pl.DataFrame:
-        # Cargar todos los archivos parquet mensuales
-        parquet_files = list(self.base_dir.glob("recetas_*.parquet"))
+        # 1) Localizar todos los parquet de la carpeta base
+        #    Si prefieres restringir por patrón, cambia "*.parquet" por "recetas_*.parquet"
+        parquet_files = list(self.base_dir.glob("*.parquet"))
         
         if not parquet_files:
             raise ValueError("No se encontraron archivos parquet en la carpeta data_raw")
-        
-        print(f"Procesando {len(parquet_files)} archivos mensuales...")
-        
-        dfs = []
+    
+        # 2) Leer y concatenar todos los archivos
+        dfs: list[pl.DataFrame] = []
         for file in parquet_files:
-            df = pl.read_parquet(file)
-            dfs.append(df)
-        
-        # Combinar todos los DataFrames
-        combined_df = pl.concat(dfs)
-        
-        # Limpiar y transformar datos
-        df = combined_df.with_columns([
-            pl.col("FechaNecesidad").str.strptime(pl.Date, "%Y-%m-%d", strict=False),
-            pl.col("FarmaciaVentanilla").cast(pl.Int32).alias("farmacia_id"),
-            pl.col("NRecetaSAP").cast(pl.Int64),
-            pl.col("CédulaPaciente").cast(pl.Int64),
-            pl.col("CantidadRecetada").cast(pl.Int32),
-            pl.col("CantidadyaDispensada").cast(pl.Int32),
-            pl.col("MedicamentoSAP").cast(pl.Int32),
-            pl.col("StockenFarmaciaVentanilla").cast(pl.Int32),
-            pl.col("CódigodelMédico").cast(pl.Int32).alias("medico_id"),
-            pl.col("Crónico").cast(pl.Int8),
-        ])
-        
-        # Extraer año y mes
-        df = df.with_columns([
-            pl.col("FechaNecesidad").dt.year().alias("anio"),
-            pl.col("FechaNecesidad").dt.month().alias("mes"),
-        ])
-        
-        # Calcular métricas adicionales
-        df = df.with_columns([
-            (pl.col("CantidadRecetada") - pl.col("CantidadyaDispensada"))
-            .clip(0, None)
-            .alias("faltante"),
-            (
-                pl.when(pl.col("CantidadRecetada") > 0)
-                .then(pl.col("CantidadyaDispensada") / pl.col("CantidadRecetada"))
-                .otherwise(0)
+            df_file = pl.read_parquet(file)
+            dfs.append(df_file)
+    
+        df = pl.concat(dfs, how="vertical")
+    
+        # 3) Normalizar FechaNecesidad:
+        #    - Si es Utf8 -> parsear a Date
+        #    - Si es Date/Datetime -> castear a Date
+        if "FechaNecesidad" not in df.columns:
+            raise ValueError("La columna 'FechaNecesidad' no existe en los archivos parquet")
+    
+        fecha_dtype = df.schema["FechaNecesidad"]
+    
+        if fecha_dtype == pl.Utf8:
+            df = df.with_columns(
+                pl.col("FechaNecesidad")
+                .str.strptime(pl.Date, "%Y-%m-%d", strict=False)
+                .alias("FechaNecesidad")
             )
-            .fill_nan(0)
-            .clip(0, 1)
-            .alias("tasa_dispensacion_linea"),
-        ])
-        
+        elif fecha_dtype in (pl.Date, pl.Datetime):
+            df = df.with_columns(
+                pl.col("FechaNecesidad").cast(pl.Date)
+            )
+        else:
+            # Último recurso: convertir a string y luego parsear
+            df = df.with_columns(
+                pl.col("FechaNecesidad")
+                .cast(pl.Utf8)
+                .str.strptime(pl.Date, "%Y-%m-%d", strict=False)
+                .alias("FechaNecesidad")
+            )
+    
+        # 4) Conversión de columnas numéricas a tipos enteros adecuados
+        #    (solo se tocan si existen en el DataFrame)
+    def safe_int_col(name: str, dtype: pl.DataType) -> pl.Expr:
+            if name in df.columns:
+                return pl.col(name).cast(dtype, strict=False)
+            return pl.lit(None, dtype=dtype).alias(name)
+    
+        df = df.with_columns(
+            [
+                safe_int_col("FarmaciaVentanilla", pl.Int32).alias("farmacia_id"),
+                safe_int_col("NRecetaSAP", pl.Int64),
+                safe_int_col("CédulaPaciente", pl.Int64),
+                safe_int_col("CantidadRecetada", pl.Int32),
+                safe_int_col("CantidadyaDispensada", pl.Int32),
+                safe_int_col("MedicamentoSAP", pl.Int32),
+                safe_int_col("StockenFarmaciaVentanilla", pl.Int32),
+                safe_int_col("CódigodelMédico", pl.Int32).alias("medico_id"),
+                safe_int_col("Crónico", pl.Int8),
+            ]
+        )
+    
+        # 5) Componentes de fecha
+        df = df.with_columns(
+            [
+                pl.col("FechaNecesidad").dt.year().alias("anio"),
+                pl.col("FechaNecesidad").dt.month().alias("mes"),
+            ]
+        )
+    
+        # 6) Métricas derivadas
+        df = df.with_columns(
+            [
+                (pl.col("CantidadRecetada") - pl.col("CantidadyaDispensada"))
+                .clip(0, None)
+                .alias("faltante"),
+                (
+                    pl.when(pl.col("CantidadRecetada") > 0)
+                    .then(pl.col("CantidadyaDispensada") / pl.col("CantidadRecetada"))
+                    .otherwise(0)
+                )
+                .fill_nan(0)
+                .clip(0, 1)
+                .alias("tasa_dispensacion_linea"),
+            ]
+        )
+    
         return df
+
 
     def generate_monthly_summary(self, df: pl.DataFrame) -> pl.DataFrame:
         summary = (
