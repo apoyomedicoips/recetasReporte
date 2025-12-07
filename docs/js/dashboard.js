@@ -81,10 +81,13 @@ class Dashboard {
 
         const tasa = totales.recetado > 0 ? totales.dispensado / totales.recetado : 0;
 
-        document.getElementById('kpi-lineas').textContent = Utils.formatNumber(totales.lineas);
-        document.getElementById('kpi-pacientes').textContent = Utils.formatNumber(totales.pacientes);
+        // EN renderKPIs() - usa datos reales:
+        document.getElementById('kpi-lineas').textContent = Utils.formatNumber(totales.total_lineas);
+        document.getElementById('kpi-pacientes').textContent = Utils.formatNumber(totales.pacientes_unicos);
+        document.getElementById('kpi-tasa').textContent = totales.tasa_dispensacion_global?.toFixed(1) + "%" || "0%";
+
+
         document.getElementById('kpi-medicos').textContent = Utils.formatNumber(totales.medicos);
-        document.getElementById('kpi-tasa').textContent = Utils.formatPercentage(tasa);
         document.getElementById('kpi-faltante').textContent = Utils.formatNumber(totales.recetado - totales.dispensado);
         document.getElementById('kpi-cronicos').textContent = totales.pacientes > 0 ?
             Math.round((totales.cronicos / totales.pacientes) * 100) + '%' : '0%';
@@ -275,33 +278,24 @@ class Dashboard {
 
         $(`#${tableId}`).DataTable({
             data: data.slice(0, 100),
+
+
+            // EN renderTableMedicamentos() - actualiza las columnas:
             columns: [
+                { data: "mes", title: "Mes" },
+                { data: "nombre_medicamento", title: "Medicamento" },
+                { data: "lineas", title: "Líneas" },
+                { data: "recetado", title: "Recetado" },
+                { data: "dispensado", title: "Dispensado" },
                 { 
-                    data: null, 
-                    title: 'Mes',
-                    render: function(data, type, row) {
-                        return `${row.anio}-${String(row.mes).padStart(2, '0')}`;
-                    }
+                    data: null,
+                    title: "Faltante",
+                    render: (data) => Utils.formatNumber(data.recetado - data.dispensado)
                 },
-                { data: 'MedicamentoSAP', title: 'Código SAP' },
-                { data: 'lineas', title: 'Líneas' },
-                { data: 'recetado', title: 'Recetado' },
-                { data: 'dispensado', title: 'Dispensado' },
-                { 
-                    data: null, 
-                    title: 'Faltante',
-                    render: function(data, type, row) {
-                        const faltante = row.recetado - row.dispensado;
-                        return `<span class="${faltante > 0 ? 'text-danger' : 'text-success'}">${Utils.formatNumber(faltante)}</span>`;
-                    }
-                },
-                { 
-                    data: 'tasa_global', 
-                    title: 'Tasa %', 
-                    render: d => d ? Utils.formatPercentage(d) : '0%'
-                },
-                { data: 'ranking_mes', title: 'Ranking' }
-            ],
+                { data: "tasa_global", title: "Tasa %", render: d => d?.toFixed(1) + "%" || "0%" },
+                { data: "ranking_mes", title: "Ranking" }
+            ]
+    
             pageLength: 10,
             responsive: true,
             dom: 'Bfrtip',
