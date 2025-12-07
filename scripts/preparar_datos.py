@@ -8,7 +8,7 @@ import polars as pl
 import requests
 
 # TU TOKEN PERSONAL (NUNCA lo compartas)
-GITHUB_TOKEN = "ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # ← REEMPLAZA AQUÍ
+GITHUB_TOKEN = "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"  # ← REEMPLAZA AQUÍ
 
 # Repositorio privado con los Parquet
 RAW_REPO_URL = f"https://{GITHUB_TOKEN}@raw.githubusercontent.com/apoyomedicoips/recteas_mensuales/main"
