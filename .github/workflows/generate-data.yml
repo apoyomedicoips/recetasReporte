@@ -1,44 +1,45 @@
-# .github/workflows/generate-data.yml
 name: Generar Datos Dashboard
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Todos los días a las 2 AM
-  push:
-    paths:
-      - 'scripts/**'
-      - 'data_raw/**'
-  workflow_dispatch:  # Permite ejecución manual
+    - cron: '0 4 * * *'  # Todos los días a las 4 AM
+  workflow_dispatch:
 
 jobs:
-  generar-datos:
+  generar:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write        # Permite hacer push
+      actions: read
+
     steps:
-      - name: Checkout del repositorio
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN_DASHBOARD }}  # Token con permisos
 
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          # QUITAMOS EL CACHE PARA EVITAR EL ERROR
-          # cache: 'pip'  ← ELIMINADO
 
       - name: Instalar dependencias
         run: |
           python -m pip install --upgrade pip
           pip install polars requests pyarrow
 
-      - name: Ejecutar script de procesamiento
+      - name: Procesar datos desde repo privado
+        env:
+          GH_TOKEN_DASHBOARD: ${{ secrets.GH_TOKEN_DASHBOARD }}
         run: |
           cd scripts
           python preparar_datos.py
 
-      - name: Commit y push de datos generados
+      - name: Commit y push (solo si hay cambios)
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add docs/data/* || echo "No hay cambios en data/"
-          git commit -m "Actualización automática de datos $(date +'%Y-%m-%d %H:%M')" || echo "Nada para commitear"
-          git push || echo "No se pudo pushear (quizás no hay cambios)"
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add docs/data/
+          git diff --quiet && git diff --staged --quiet || (
+            git commit -m "Auto-update dashboard $(date +'%Y-%m-%d %H:%M')"
+            git push
+          )
