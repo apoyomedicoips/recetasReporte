@@ -1,4 +1,3 @@
-Python# scripts/preparar_datos.py
 import os
 import requests
 import polars as pl
