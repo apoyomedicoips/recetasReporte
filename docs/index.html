@@ -1,303 +1,153 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <title>IPS Analytics Dashboard</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Dashboard interactivo avanzado para monitoreo de recetas médicas del IPS">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IPS Analytics Dashboard 2025</title>
+  <meta name="description" content="Dashboard interactivo del IPS - Recetas Médicas 2025"/>
 
   <!-- Fuentes -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- Select2 + Flatpickr -->
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"/>
 
   <!-- DataTables -->
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
-
-  <!-- Iconos -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css"/>
+  <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css"/>
 
   <!-- Chart.js -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
 
-  <!-- jQuery + DataTables -->
+  <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
   <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
 
-  <!-- Estilos propios -->
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
-  <!-- Barra de navegación superior -->
+
+  <!-- Navbar -->
   <nav class="navbar">
     <div class="nav-container">
       <div class="nav-brand">
         <i class="fas fa-clinic-medical"></i>
-        <h1>IPS Analytics Dashboard</h1>
-        <span class="badge badge-live"><i class="fas fa-circle"></i> LIVE</span>
+        <h1>IPS Analytics 2025</h1>
+        <span class="badge-live"><i class="fas fa-circle"></i> LIVE</span>
       </div>
-
       <div class="nav-controls">
-        <div class="last-update">
-          <i class="fas fa-sync-alt"></i>
-          <span id="last-update-time">Actualizando...</span>
-        </div>
-
-        <button class="btn btn-primary" id="refresh-btn">
-          <i class="fas fa-redo"></i> Actualizar
-        </button>
-
-        <button class="btn btn-export" id="export-btn">
-          <i class="fas fa-download"></i> Exportar</button>
+        <span class="last-update"><i class="fas fa-sync"></i> <span id="last-update-time">Cargando...</span></span>
+        <button class="btn btn-primary" id="refresh-btn"><i class="fas fa-redo"></i> Actualizar</button>
       </div>
     </div>
   </nav>
 
-  <!-- Contenido principal -->
-  <main class="main-content">
-
-    <!-- Sección de KPIs -->
-    <section class="kpi-section">
-      <div class="kpi-grid">
-        <!-- KPI 1: Total Líneas -->
-        <div class="kpi-card kpi-primary">
-          <div class="kpi-icon">
-            <i class="fas fa-file-prescription"></i>
-          </div>
-          <div class="kpi-content">
-            <h3 id="kpi-total">0</h3>
-            <p>Total líneas de receta</p>
-            <div class="kpi-trend" id="kpi-total-trend">
-              <span>Cargando...</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- KPI 2: Pacientes Únicos -->
-        <div class="kpi-card kpi-success">
-          <div class="kpi-icon">
-            <i class="fas fa-users"></i>
-          </div>
-          <div class="kpi-content">
-            <h3 id="kpi-pacientes">0</h3>
-            <p>Pacientes únicos</p>
-            <div class="kpi-trend" id="kpi-pacientes-trend">
-              <span>Cargando...</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- KPI 3: Médicos Activos -->
-        <div class="kpi-card kpi-warning">
-          <div class="kpi-icon">
-            <i class="fas fa-user-md"></i>
-          </div>
-          <div class="kpi-content">
-            <h3 id="kpi-medicos">0</h3>
-            <p>Médicos activos</p>
-            <div class="kpi-trend" id="kpi-medicos-trend">
-              <span>Cargando...</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- KPI 4: Tasa Dispensación -->
-        <div class="kpi-card kpi-info">
-          <div class="kpi-icon">
-            <i class="fas fa-percentage"></i>
-          </div>
-          <div class="kpi-content">
-            <h3 id="kpi-tasa-dispensacion">0%</h3>
-            <p>Tasa de dispensación global</p>
-            <div class="kpi-trend" id="kpi-tasa-trend">
-              <span>Cargando...</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- KPI 5: Recetas Únicas -->
-        <div class="kpi-card kpi-danger">
-          <div class="kpi-icon">
-            <i class="fas fa-paste"></i>
-          </div>
-          <div class="kpi-content">
-            <h3 id="kpi-recetas">0</h3>
-            <p>Recetas únicas</p>
-            <div class="kpi-trend" id="kpi-recetas-trend">
-              <span>Cargando...</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- KPI 6: Faltante Total -->
-        <div class="kpi-card kpi-secondary">
-          <div class="kpi-icon">
-            <i class="fas fa-times-circle"></i>
-          </div>
-          <div class="kpi-content">
-            <h3 id="kpi-faltante">0</h3>
-            <p>Unidades faltantes</p>
-            <div class="kpi-trend" id="kpi-faltante-trend">
-              <span>Cargando...</span>
-            </div>
-          </div>
+  <div class="main-wrapper">
+    <!-- Panel de Filtros Lateral -->
+    <aside class="sidebar">
+      <h3><i class="fas fa-filter"></i> Filtros Avanzados</h3>
+      <div class="filter-group">
+        <label>Rango de Fechas</label>
+        <input type="text" id="date-range" placeholder="Seleccionar fechas"/>
+      </div>
+      <div class="filter-group">
+        <label>Farmacia</label>
+        <select id="filter-farmacia" multiple></select>
+      </div>
+      <div class="filter-group">
+        <label>Médico</label>
+        <select id="filter-medico" multiple></select>
+      </div>
+      <div class="filter-group">
+        <label>Medicamento SAP</label>
+        <select id="filter-medicamento" multiple></select>
+      </div>
+      <div class="filter-group">
+        <label>Crónico</label>
+        <div class="switch-group">
+          <label><input type="radio" name="cronico" value="all" checked> Todos</label>
+          <label><input type="radio" name="cronico" value="1"> Sí</label>
+          <label><input type="radio" name="cronico" value="0"> No</label>
         </div>
       </div>
-    </section>
+      <div class="filter-group">
+        <label>Tasa Dispensación ≥</label>
+        <input type="range" id="filter-tasa" min="0" max="100" value="0"/>
+        <span id="tasa-value">0%</span>
+      </div>
+      <div class="filter-actions">
+        <button class="btn btn-primary" id="apply-filters">Aplicar Filtros</button>
+        <button class="btn btn-link" id="reset-filters">Limpiar Todo</button>
+      </div>
+    </aside>
 
-    <!-- Sección de gráficos -->
-    <section class="charts-section">
-      <!-- Fila 1: Evolución y Distribución -->
-      <div class="chart-row">
-        <div class="chart-container large">
-          <div class="chart-header">
-            <h3><i class="fas fa-chart-line"></i> Evolución mensual</h3>
-            <div class="chart-controls">
-              <select id="chart-metric" class="form-control-sm">
-                <option value="total_lineas">Líneas totales</option>
-                <option value="pacientes_unicos">Pacientes únicos</option>
-                <option value="total_dispensado">Unidades dispensadas</option>
-                <option value="total_faltante">Unidades faltantes</option>
-              </select>
-            </div>
-          </div>
-          <div class="chart-wrapper">
+    <!-- Contenido Principal -->
+    <main class="main-content">
+      <!-- KPIs -->
+      <section class="kpi-section">
+        <div class="kpi-grid">
+          <div class="kpi-card kpi-primary"><div class="kpi-icon"><i class="fas fa-file-prescription"></i></div><div class="kpi-content"><h3 id="kpi-lineas">0</h3><p>Total Líneas</p></div></div>
+          <div class="kpi-card kpi-success"><div class="kpi-icon"><i class="fas fa-users"></i></div><div class="kpi-content"><h3 id="kpi-pacientes">0</h3><p>Pacientes Únicos</p></div></div>
+          <div class="kpi-card kpi-warning"><div class="kpi-icon"><i class="fas fa-user-md"></i></div><div class="kpi-content"><h3 id="kpi-medicos">0</h3><p>Médicos Activos</p></div></div>
+          <div class="kpi-card kpi-info"><div class="kpi-icon"><i class="fas fa-percentage"></i></div><div class="kpi-content"><h3 id="kpi-tasa">0%</h3><p>Tasa Dispensación</p></div></div>
+          <div class="kpi-card kpi-danger"><div class="kpi-icon"><i class="fas fa-times-circle"></i></div><div class="kpi-content"><h3 id="kpi-faltante">0</h3><p>Unidades Faltantes</p></div></div>
+          <div class="kpi-card kpi-secondary"><div class="kpi-icon"><i class="fas fa-heartbeat"></i></div><div class="kpi-content"><h3 id="kpi-cronicos">0%</h3><p>Pacientes Crónicos</p></div></div>
+        </div>
+      </section>
+
+      <!-- Gráficos -->
+      <section class="charts-section">
+        <div class="chart-row">
+          <div class="chart-container large">
+            <div class="chart-header"><h3>Evolución Mensual</h3></div>
             <canvas id="chart-evolucion"></canvas>
           </div>
-        </div>
-
-        <div class="chart-container medium">
-          <div class="chart-header">
-            <h3><i class="fas fa-chart-pie"></i> Distribución por mes</h3>
-          </div>
-          <div class="chart-wrapper">
-            <canvas id="chart-distribucion-mes"></canvas>
+          <div class="chart-container">
+            <div class="chart-header"><h3>Top 10 Medicamentos</h3></div>
+            <canvas id="chart-top-meds"></canvas>
           </div>
         </div>
-      </div>
+      </section>
 
-      <!-- Fila 2: Comparativa Recetado vs Dispensado -->
-      <div class="chart-row">
-        <div class="chart-container large">
-          <div class="chart-header">
-            <h3><i class="fas fa-balance-scale"></i> Recetado vs Dispensado</h3>
-          </div>
-          <div class="chart-wrapper">
-            <canvas id="chart-comparativa"></canvas>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Tablas y detalles -->
-    <section class="tables-section">
-      <div class="tabs-container">
-        <ul class="tabs-nav">
-          <li class="active" data-tab="tab-medicamentos"><i class="fas fa-pills"></i> Top Medicamentos</li>
-          <li data-tab="tab-resumen"><i class="fas fa-chart-bar"></i> Resumen mensual</li>
-          <li data-tab="tab-detalles"><i class="fas fa-list"></i> Detalles</li>
-        </ul>
-
-        <div class="tabs-content">
-          <!-- Tab 1: Top Medicamentos -->
-          <div id="tab-medicamentos" class="tab-pane active">
-            <div class="table-wrapper">
-              <table id="tabla-medicamentos" class="display nowrap" style="width:100%">
-                <thead>
-                  <tr>
-                    <th>Mes</th>
-                    <th>Medicamento (código)</th>
-                    <th>Líneas</th>
-                    <th>Recetado</th>
-                    <th>Dispensado</th>
-                    <th>Faltante</th>
-                    <th>Tasa disp.</th>
-                    <th>Ranking</th>
-                  </tr>
-                </thead>
-                <tbody id="tabla-medicamentos-body"></tbody>
+      <!-- Tablas -->
+      <section class="tables-section">
+        <div class="tabs-container">
+          <ul class="tabs-nav">
+            <li class="active" data-tab="tab-medicamentos">Top Medicamentos</li>
+            <li data-tab="tab-farmacias">Farmacias</li>
+            <li data-tab="tab-medicos">Médicos</li>
+            <li data-tab="tab-alertas">Alertas</li>
+          </ul>
+          <div class="tabs-content">
+            <div id="tab-medicamentos" class="tab-pane active">
+              <table id="tabla-medicamentos" class="display responsive nowrap" style="width:100%">
+                <thead><tr><th>Mes</th><th>Medicamento</th><th>Líneas</th><th>Recetado</th><th>Dispensado</th><th>Faltante</th><th>Tasa</th></tr></thead>
+                <tbody></tbody>
               </table>
             </div>
-          </div>
-
-          <!-- Tab 2: Resumen mensual -->
-          <div id="tab-resumen" class="tab-pane">
-            <div class="table-wrapper">
-              <table id="tabla-resumen" class="display nowrap" style="width:100%">
-                <thead>
-                  <tr>
-                    <th>Mes</th>
-                    <th>Líneas totales</th>
-                    <th>Recetas únicas</th>
-                    <th>Pacientes únicos</th>
-                    <th>Médicos activos</th>
-                    <th>Recetado</th>
-                    <th>Dispensado</th>
-                    <th>Faltante</th>
-                    <th>Tasa disp.</th>
-                  </tr>
-                </thead>
-                <tbody id="tabla-resumen-body"></tbody>
-              </table>
-            </div>
-          </div>
-
-          <!-- Tab 3: Detalles -->
-          <div id="tab-detalles" class="tab-pane">
-            <div class="info-box">
-              <h3><i class="fas fa-info-circle"></i> Información del sistema</h3>
-              <div class="info-grid">
-                <div class="info-item">
-                  <strong>Total registros:</strong>
-                  <span id="info-total-registros">0</span>
-                </div>
-                <div class="info-item">
-                  <strong>Última actualización:</strong>
-                  <span id="info-ultima-actualizacion">-</span>
-                </div>
-                <div class="info-item">
-                  <strong>Período cubierto:</strong>
-                  <span id="info-periodo">-</span>
-                </div>
-                <div class="info-item">
-                  <strong>Farmacias activas (máximo):</strong>
-                  <span id="info-farmacias">0</span>
-                </div>
-              </div>
-            </div>
+            <!-- Otras pestañas similares -->
           </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
+  </div>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="footer-content">
-      <div class="footer-info">
-        <p><i class="fas fa-database"></i> <strong>Total registros procesados:</strong> <span id="footer-total-records">0</span></p>
-        <p><i class="fas fa-clock"></i> <strong>Última actualización:</strong> <span id="footer-update-time">-</span></p>
-      </div>
-      <div class="footer-actions">
-        <button class="btn btn-link" id="theme-toggle">
-          <i class="fas fa-moon"></i> Tema oscuro
-        </button>
-        <button class="btn btn-link" id="help-btn">
-          <i class="fas fa-question-circle"></i> Ayuda
-        </button>
-      </div>
+      <p>IPS Paraguay © 2025 | Datos actualizados: <span id="footer-update-time">-</span></p>
+      <button id="theme-toggle"><i class="fas fa-moon"></i> Tema Oscuro</button>
     </div>
   </footer>
 
-  <!-- Scripts propios -->
   <script src="js/utils.js"></script>
+  <script src="js/filters.js"></script>
   <script src="js/dashboard.js"></script>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      if (typeof Dashboard !== 'undefined') {
-        const dashboard = new Dashboard();
-        dashboard.init();
-      }
-    });
-  </script>
 </body>
 </html>
