@@ -2,20 +2,22 @@ name: Generar Datos Dashboard
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # Todos los días a las 4 AM
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 jobs:
   generar:
     runs-on: ubuntu-latest
     permissions:
-      contents: write        # Permite hacer push
-      actions: read
+      contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      # CHECKOUT CON TOKEN (OBLIGATORIO)
+      - name: Checkout con token
+        uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_TOKEN_DASHBOARD }}  # Token con permisos
+          token: ${{ secrets.GH_TOKEN_DASHBOARD }}
+          ref: main
 
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -34,12 +36,15 @@ jobs:
           cd scripts
           python preparar_datos.py
 
-      - name: Commit y push (solo si hay cambios)
+      - name: Commit y push solo si hay cambios
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add docs/data/
-          git diff --quiet && git diff --staged --quiet || (
+          
+          if git diff --staged --quiet; then
+            echo "No hay cambios para commitear"
+          else
             git commit -m "Auto-update dashboard $(date +'%Y-%m-%d %H:%M')"
-            git push
-          )
+            git push origin main
+          fi
