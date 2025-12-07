@@ -21,18 +21,18 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Nombres EXACTOS como están en tu repo
 MESES = {
-    1: "01_enero_2025",
-    2: "02_febrero_2025",
-    3: "03_marzo_2025",
-    4: "04_abril_2025",
-    5: "05_mayo_2025",
-    6: "06_junio_2025",
-    7: "07_julio_2025",
-    8: "08_agosto_2025",
-    9: "09_septiembre_2025",
-    10: "10_octubre_2025",
-    11: "11_noviembre_2025",
-    12: "12_diciembre_2025",
+    1: "recetas_01_enero_2025",
+    2: "recetas_02_febrero_2025",
+    3: "recetas_03_marz2025o_2025",
+    4: "recetas_04_abril_2025",
+    5: "recetas_05_mayo_2025",
+    6: "recetas_06_junio_2025",
+    7: "recetas_07_julio_2025",
+    8: "recetas_08_agosto_2025",
+    9: "recetas_09_septiembre_2025",
+    10: "recetas_10_octubre_2025",
+    11: "recetas_11_noviembre_2025",
+    12: "recetas_12_diciembre_2025",
 }
 
 def descargar_parquet(mes: int) -> pl.DataFrame | None:
