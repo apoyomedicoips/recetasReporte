@@ -1,43 +1,45 @@
-name: Generar Datos del Dashboard
+name: Generar Datos Dashboard
 
 on:
+  schedule:
+    - cron: '0 2 * * *'  # Ejecutar diariamente a las 2 AM
   push:
     paths:
-      - 'scripts/preparar_datos.py'
-      - 'recteas_mensuales/**'  # Si usas submodulo o enlace (opcional)
-  schedule:
-    - cron: '0 3 1 * *'  # Ejecuta el día 1 de cada mes a las 3 AM
+      - 'scripts/**'
+      - 'data_raw/**'
+  workflow_dispatch:  # Permitir ejecución manual
 
 jobs:
-  generar-datos:
+  generate-data:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout repositorio
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Configurar Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Instalar dependencias
-        run: |
-          python -m pip install --upgrade pip
-          pip install polars requests pandas
-
-      - name: Ejecutar script de procesamiento
-        run: |
-          cd scripts
-          python preparar_datos.py
-
-      - name: Commit y push de datos generados
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          git add docs/data/*
-          git commit -m "Actualización automática de datos del dashboard - $(date +'%Y-%m-%d %H:%M')" || echo "No hay cambios para commitear"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Checkout repositorio
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+    
+    - name: Instalar dependencias
+      run: |
+        python -m pip install --upgrade pip
+        pip install polars pandas pyarrow
+    
+    - name: Ejecutar script de procesamiento
+      run: |
+        cd scripts
+        python preparar_datos.py
+    
+    - name: Commit y push de cambios
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add docs/data/
+        git commit -m "Actualización automática de datos $(date +'%Y-%m-%d %H:%M')" || echo "No hay cambios"
+        git push origin HEAD:${{ github.ref }}
