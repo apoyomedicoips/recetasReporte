@@ -1,0 +1,43 @@
+name: Generar Datos del Dashboard
+
+on:
+  push:
+    paths:
+      - 'scripts/preparar_datos.py'
+      - 'recteas_mensuales/**'  # Si usas submodulo o enlace (opcional)
+  schedule:
+    - cron: '0 3 1 * *'  # Ejecuta el día 1 de cada mes a las 3 AM
+
+jobs:
+  generar-datos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install polars requests pandas
+
+      - name: Ejecutar script de procesamiento
+        run: |
+          cd scripts
+          python preparar_datos.py
+
+      - name: Commit y push de datos generados
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add docs/data/*
+          git commit -m "Actualización automática de datos del dashboard - $(date +'%Y-%m-%d %H:%M')" || echo "No hay cambios para commitear"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
