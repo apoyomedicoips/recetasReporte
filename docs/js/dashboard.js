@@ -34,14 +34,17 @@ class Dashboard {
 
     async loadAllData() {
         const base = "data";
+
+
+        // CAMBIA POR ESTO (lee todos los archivos nuevos):
         const files = [
             "resumen_mensual.json",
             "top_medicamentos.json",
-            "top_farmacias.json",
-            "top_medicos.json",
-            "alertas.json",
+            "last_update.json",
             "metadata.json",
-            "last_update.json"
+            "filtro_farmacias.json",
+            "filtro_medicos.json",
+            "filtro_medicamentos.json"
         ];
 
         const promises = files.map(file =>
