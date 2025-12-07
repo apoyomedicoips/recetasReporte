@@ -1,38 +1,27 @@
 # scripts/preparar_datos.py
-# DASHBOARD IPS 2025 - PROCESAMIENTO AUTOMÁTICO DESDE PARQUET
-# Ejecuta: python preparar_datos.py
+# VERSIÓN CORREGIDA PARA REPO PRIVADO + PUSH AUTOMÁTICO
 
 from pathlib import Path
 from datetime import datetime
 import json
 import polars as pl
 import requests
-from typing import List
 
-# ========================= CONFIGURACIÓN =========================
-# Repositorio privado con los Parquet mensuales
-RAW_REPO_URL = "https://raw.githubusercontent.com/apoyomedicoips/recteas_mensuales/main"
+# TU TOKEN PERSONAL (NUNCA lo compartas)
+GITHUB_TOKEN = "ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # ← REEMPLAZA AQUÍ
 
-# Carpeta donde se guardarán los JSON para el dashboard
+# Repositorio privado con los Parquet
+RAW_REPO_URL = f"https://{GITHUB_TOKEN}@raw.githubusercontent.com/apoyomedicoips/recteas_mensuales/main"
+
 OUTPUT_DIR = Path(__file__).parent.parent / "docs" / "data"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Nombres exactos de los archivos Parquet (como están en tu repo)
 MESES = {
-    1: "01_enero_2025",
-    2: "02_febrero_2025",
-    3: "03_marzo_2025",
-    4: "04_abril_2025",
-    5: "05_mayo_2025",
-    6: "06_junio_2025",
-    7: "07_julio_2025",
-    8: "08_agosto_2025",
-    9: "09_septiembre_2025",
-    10: "10_octubre_2025",
-    11: "11_noviembre_2025",
-    12: "12_diciembre_2025",
+    1: "01_enero_2025", 2: "02_febrero_2025", 3: "03_marzo_2025",
+    4: "04_abril_2025", 5: "05_mayo_2025", 6: "06_junio_2025",
+    7: "07_julio_2025", 8: "08_agosto_2025", 9: "09_septiembre_2025",
+    10: "10_octubre_2025", 11: "11_noviembre_2025", 12: "12_diciembre_2025",
 }
-# =================================================================
 
 def descargar_parquet(mes: int) -> pl.DataFrame:
     nombre = MESES[mes]
@@ -40,39 +29,29 @@ def descargar_parquet(mes: int) -> pl.DataFrame:
     print(f"Descargando {nombre}... ", end="")
     
     try:
-        response = requests.get(url)
+        response = requests.get(url, timeout=30)
         if response.status_code == 404:
-            print("No encontrado")
+            print("No existe aún")
             return pl.DataFrame()
         response.raise_for_status()
-        
-        # Leer directamente desde bytes
         df = pl.read_parquet(response.content)
         print(f"OK ({len(df):,} filas)")
-        return df
+        return df.with_columns([pl.lit(2025).alias("anio"), pl.lit(mes).alias("mes")])
     except Exception as e:
         print(f"Error: {e}")
         return pl.DataFrame()
 
 def main():
-    print("IPS ANALYTICS 2025 - Procesando datos mensuales desde Parquet\n")
+    print("IPS 2025 - Cargando datos desde repo privado...\n")
     
-    # Descargar y combinar todos los meses
-    dataframes = []
-    for mes in range(1, 13):
-        df = descargar_parquet(mes)
-        if not df.is_empty():
-            df = df.with_columns([
-                pl.lit(2025).alias("anio"),
-                pl.lit(mes).alias("mes")
-            ])
-            dataframes.append(df)
+    dfs = [descargar_parquet(m) for m in range(1, 13)]
+    dfs = [df for df in dfs if not df.is_empty()]
     
-    if not dataframes:
-        print("No se encontraron datos. Verifica que los archivos Parquet existan en el repositorio.")
+    if not dfs:
+        print("No hay datos disponibles aún.")
         return
     
-    print(f"\nCombinando {len(dataframes)} meses...")
+    df = pl.concat(dfs)
     df = pl.concat(dataframes)
     print(f"Total de registros: {len(df):,}\n")
     
