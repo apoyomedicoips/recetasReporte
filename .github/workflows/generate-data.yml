@@ -1,3 +1,4 @@
+# .github/workflows/generate-data.yml
 name: Generar Datos Dashboard
 
 on:
@@ -12,11 +13,11 @@ jobs:
       contents: write
 
     steps:
-      # CHECKOUT CON TOKEN (OBLIGATORIO)
-      - name: Checkout con token
+      - name: Checkout con PAT (OBLIGATORIO)
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_TOKEN_DASHBOARD }}
+          repository: apoyomedicoips/recetasReporte
           ref: main
 
       - name: Configurar Python
@@ -29,22 +30,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install polars requests pyarrow
 
-      - name: Procesar datos desde repo privado
+      - name: Procesar datos
         env:
           GH_TOKEN_DASHBOARD: ${{ secrets.GH_TOKEN_DASHBOARD }}
         run: |
           cd scripts
           python preparar_datos.py
 
-      - name: Commit y push solo si hay cambios
+      - name: Commit y push (solo si hay cambios)
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
-          git add docs/data/
+          git add docs/data/ || echo "No hay archivos"
           
           if git diff --staged --quiet; then
-            echo "No hay cambios para commitear"
+            echo "No hay cambios"
           else
-            git commit -m "Auto-update dashboard $(date +'%Y-%m-%d %H:%M')"
-            git push origin main
+            git commit -m "Auto-update $(date +'%Y-%m-%d %H:%M')"
+            git push https://x-access-token:${{ secrets.GH_TOKEN_DASHBOARD }}@github.com/apoyomedicoips/recetasReporte.git HEAD:main
           fi
