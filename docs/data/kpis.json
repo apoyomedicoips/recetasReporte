@@ -1,0 +1,13 @@
+{
+  "total_registros": 773800,
+  "total_pacientes": 81858,
+  "total_medicos": 935,
+  "total_farmacias": 20,
+  "total_medicamentos": 767,
+  "total_recetado": 23604677,
+  "total_dispensado": 18813508,
+  "total_faltante": 4791169,
+  "tasa_dispensacion_global": 0.7970245896607694,
+  "tasa_faltante_global": 0.20297541033923067,
+  "fecha_generacion": "2025-12-08T07:18:09.097670"
+}

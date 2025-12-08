@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard IPS - Recetas 2025</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .kpi-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .kpi-value {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .kpi-label {
+            color: #666;
+            font-size: 14px;
+        }
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .alert-container {
+            margin-top: 20px;
+        }
+        .alert {
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .alert.warning { background: #fff4e6; border-left: 4px solid #f39c12; }
+        .alert.critical { background: #ffeaea; border-left: 4px solid #e74c3c; }
+        .alert.info { background: #e6f7ff; border-left: 4px solid #3498db; }
+        .footer {
+            text-align: center;
+            color: #666;
+            margin-top: 30px;
+            padding: 20px;
+            font-size: 14px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-heartbeat"></i> Dashboard IPS - Análisis de Recetas 2025</h1>
+            <p>Sistema de monitoreo de prescripciones médicas</p>
+            <p><small>Generado: 2025-12-08 07:18:09</small></p>
+        </div>
+        
+        <div class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-label">Total Recetas</div>
+                <div class="kpi-value">773,800</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">Pacientes Únicos</div>
+                <div class="kpi-value">81,858</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">Tasa Dispensación</div>
+                <div class="kpi-value" style="color: #27ae60;">
+                    79.7%
+                </div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">Total Faltante</div>
+                <div class="kpi-value" style="color: #e74c3c;">
+                    4,791,169
+                </div>
+            </div>
+        </div>
+        
+        <div class="dashboard-grid">
+            <div class="card">
+                <h3><i class="fas fa-chart-line"></i> Resumen por Mes</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mes</th>
+                            <th>Recetas</th>
+                            <th>Pacientes</th>
+                            <th>Tasa Disp.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Mes 1</td><td>64,334</td><td>13,439</td><td>74.5%</td></tr><tr><td>Mes 2</td><td>68,676</td><td>14,685</td><td>78.6%</td></tr><tr><td>Mes 3</td><td>72,067</td><td>15,378</td><td>88.5%</td></tr><tr><td>Mes 4</td><td>72,846</td><td>15,428</td><td>83.3%</td></tr><tr><td>Mes 5</td><td>61,732</td><td>13,522</td><td>76.5%</td></tr><tr><td>Mes 6</td><td>64,291</td><td>14,288</td><td>78.1%</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="card">
+                <h3><i class="fas fa-pills"></i> Top 5 Medicamentos</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Medicamento</th>
+                            <th>Recetado</th>
+                            <th>Dispensado</th>
+                            <th>Faltante</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>ALCOHOL RECTIFICADO al 96%...</td><td>2,346,615</td><td>1,143,990</td><td>1,202,625</td></tr><tr><td>ALCOHOL AL 70%-SOLUCIÓN...</td><td>2,336,755</td><td>1,000,000</td><td>1,336,755</td></tr><tr><td>SOLUCIÓN CONCE/ACIDA P/HEMOD(S...</td><td>1,953,350</td><td>1,952,935</td><td>415</td></tr><tr><td>LOSARTAN POTASICO 50 mg COM...</td><td>853,524</td><td>852,951</td><td>573</td></tr><tr><td>IODOPOVIDONA SOLUCIÓN 7,5 % a ...</td><td>666,980</td><td>458,473</td><td>208,507</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3><i class="fas fa-bell"></i> Alertas del Sistema</h3>
+            <div class="alert-container">
+                <div class="alert critical"><i class="fas fa-exclamation-triangle"></i><div><strong>Faltante alto detectado</strong><br>Total faltante: 4,791,169 unidades</div></div><div class="alert info"><i class="fas fa-check-circle"></i><div><strong>Análisis completado</strong><br>Procesados 773,800 registros</div></div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><i class="fas fa-cogs"></i> Sistema de Análisis IPS v1.0</p>
+            <p>© 2025 IPS Apoyo Médico - Datos actualizados automáticamente</p>
+        </div>
+    </div>
+</body>
+</html>

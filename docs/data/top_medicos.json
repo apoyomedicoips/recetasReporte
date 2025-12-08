@@ -1,0 +1,502 @@
+[
+  {
+    "medico_id": 0,
+    "nombre_medico": "MERELES BELOTTO LUIS",
+    "total_recetas": 50620,
+    "pacientes_unicos": 1297,
+    "total_recetado": 13232127,
+    "total_dispensado": 8501374,
+    "total_faltante": 4730753,
+    "tasa_dispensacion": 0.6424797766829172
+  },
+  {
+    "medico_id": 28025,
+    "nombre_medico": "RUIZ DIAZ OJEDA,ELIO DAVID",
+    "total_recetas": 13000,
+    "pacientes_unicos": 2304,
+    "total_recetado": 84627,
+    "total_dispensado": 84567,
+    "total_faltante": 60,
+    "tasa_dispensacion": 0.9992910064163919
+  },
+  {
+    "medico_id": 30558,
+    "nombre_medico": "SUBELDIA GONZALEZ,MARCOS MARIA",
+    "total_recetas": 11261,
+    "pacientes_unicos": 2007,
+    "total_recetado": 65100,
+    "total_dispensado": 65100,
+    "total_faltante": 0,
+    "tasa_dispensacion": 1.0
+  },
+  {
+    "medico_id": 7770,
+    "nombre_medico": "CALDERINI, PATRICIA RAQUEL",
+    "total_recetas": 9784,
+    "pacientes_unicos": 1059,
+    "total_recetado": 320769,
+    "total_dispensado": 319619,
+    "total_faltante": 1150,
+    "tasa_dispensacion": 0.9964148655262821
+  },
+  {
+    "medico_id": 30151,
+    "nombre_medico": "DRA DAHIANA AUGUSTO",
+    "total_recetas": 9122,
+    "pacientes_unicos": 1367,
+    "total_recetado": 43166,
+    "total_dispensado": 43050,
+    "total_faltante": 116,
+    "tasa_dispensacion": 0.9973126998100357
+  },
+  {
+    "medico_id": 31216,
+    "nombre_medico": "JESSICA FRANCO",
+    "total_recetas": 8774,
+    "pacientes_unicos": 1408,
+    "total_recetado": 49233,
+    "total_dispensado": 49233,
+    "total_faltante": 0,
+    "tasa_dispensacion": 1.0
+  },
+  {
+    "medico_id": 4977,
+    "nombre_medico": "MELGAREJO SANABRIA, EDGAR ROMUALDO",
+    "total_recetas": 8279,
+    "pacientes_unicos": 1057,
+    "total_recetado": 278271,
+    "total_dispensado": 277304,
+    "total_faltante": 967,
+    "tasa_dispensacion": 0.9965249702628014
+  },
+  {
+    "medico_id": 11590,
+    "nombre_medico": "DR CARLOS AMARILLA",
+    "total_recetas": 7994,
+    "pacientes_unicos": 1318,
+    "total_recetado": 71504,
+    "total_dispensado": 71465,
+    "total_faltante": 39,
+    "tasa_dispensacion": 0.999454575967778
+  },
+  {
+    "medico_id": 8926,
+    "nombre_medico": "CARRACELA BARRETO ESTEBAN DARIO",
+    "total_recetas": 7990,
+    "pacientes_unicos": 1227,
+    "total_recetado": 279861,
+    "total_dispensado": 278801,
+    "total_faltante": 1060,
+    "tasa_dispensacion": 0.9962124054441311
+  },
+  {
+    "medico_id": 18643,
+    "nombre_medico": "ALVAREZ REGIS RUTH MARIA CATALINA",
+    "total_recetas": 7944,
+    "pacientes_unicos": 1139,
+    "total_recetado": 257113,
+    "total_dispensado": 256031,
+    "total_faltante": 1082,
+    "tasa_dispensacion": 0.9957917335957341
+  },
+  {
+    "medico_id": 10883,
+    "nombre_medico": "CASAS MANCILLA, GUADALUPE TELMA",
+    "total_recetas": 7889,
+    "pacientes_unicos": 899,
+    "total_recetado": 260180,
+    "total_dispensado": 256961,
+    "total_faltante": 3219,
+    "tasa_dispensacion": 0.987627796141133
+  },
+  {
+    "medico_id": 36274,
+    "nombre_medico": "CRESTA BOGADO OSCAR NICOLAS",
+    "total_recetas": 7066,
+    "pacientes_unicos": 961,
+    "total_recetado": 36976,
+    "total_dispensado": 35787,
+    "total_faltante": 1189,
+    "tasa_dispensacion": 0.9678440069234098
+  },
+  {
+    "medico_id": 21310,
+    "nombre_medico": "YUDICE GONZALEZ",
+    "total_recetas": 6665,
+    "pacientes_unicos": 1372,
+    "total_recetado": 40775,
+    "total_dispensado": 40709,
+    "total_faltante": 66,
+    "tasa_dispensacion": 0.9983813611281422
+  },
+  {
+    "medico_id": 10236,
+    "nombre_medico": "MIRANDA DE CACERES LOURDES ISABEL",
+    "total_recetas": 6290,
+    "pacientes_unicos": 808,
+    "total_recetado": 197686,
+    "total_dispensado": 193226,
+    "total_faltante": 4460,
+    "tasa_dispensacion": 0.9774389688698238
+  },
+  {
+    "medico_id": 36745,
+    "nombre_medico": "MARCOS ESPINOLA",
+    "total_recetas": 6218,
+    "pacientes_unicos": 897,
+    "total_recetado": 34038,
+    "total_dispensado": 33190,
+    "total_faltante": 848,
+    "tasa_dispensacion": 0.9750866678418239
+  },
+  {
+    "medico_id": 26545,
+    "nombre_medico": "TOÑANEZ SALCEDO MARCELO",
+    "total_recetas": 6124,
+    "pacientes_unicos": 1032,
+    "total_recetado": 33718,
+    "total_dispensado": 33698,
+    "total_faltante": 20,
+    "tasa_dispensacion": 0.9994068450086008
+  },
+  {
+    "medico_id": 4221,
+    "nombre_medico": "GONZALEZ DE ALVAREZ ANA",
+    "total_recetas": 5898,
+    "pacientes_unicos": 634,
+    "total_recetado": 201736,
+    "total_dispensado": 200745,
+    "total_faltante": 991,
+    "tasa_dispensacion": 0.9950876392909546
+  },
+  {
+    "medico_id": 33875,
+    "nombre_medico": "BURGOS SERVIN ANGEL ANTONIO",
+    "total_recetas": 5886,
+    "pacientes_unicos": 664,
+    "total_recetado": 24795,
+    "total_dispensado": 23938,
+    "total_faltante": 857,
+    "tasa_dispensacion": 0.9654365799556363
+  },
+  {
+    "medico_id": 12185,
+    "nombre_medico": "DRA DAISY AYALA",
+    "total_recetas": 5867,
+    "pacientes_unicos": 1242,
+    "total_recetado": 48103,
+    "total_dispensado": 48086,
+    "total_faltante": 17,
+    "tasa_dispensacion": 0.9996465916886681
+  },
+  {
+    "medico_id": 31291,
+    "nombre_medico": "DURE ZARACHO CRISPIN DARIEL",
+    "total_recetas": 5779,
+    "pacientes_unicos": 974,
+    "total_recetado": 36650,
+    "total_dispensado": 36621,
+    "total_faltante": 29,
+    "tasa_dispensacion": 0.9992087312414734
+  },
+  {
+    "medico_id": 7575,
+    "nombre_medico": "BARRIOS GISELA SOLEDAD",
+    "total_recetas": 5663,
+    "pacientes_unicos": 778,
+    "total_recetado": 187123,
+    "total_dispensado": 186403,
+    "total_faltante": 720,
+    "tasa_dispensacion": 0.9961522634844461
+  },
+  {
+    "medico_id": 26112,
+    "nombre_medico": "RUIZ DIAZ JARA RIGOBERTO ALVARO NICOLAS",
+    "total_recetas": 5633,
+    "pacientes_unicos": 1078,
+    "total_recetado": 38173,
+    "total_dispensado": 37699,
+    "total_faltante": 474,
+    "tasa_dispensacion": 0.9875828465145522
+  },
+  {
+    "medico_id": 30448,
+    "nombre_medico": "SEGOVIA MARTINEZ,MARIA PAZ",
+    "total_recetas": 5452,
+    "pacientes_unicos": 651,
+    "total_recetado": 24399,
+    "total_dispensado": 24315,
+    "total_faltante": 84,
+    "tasa_dispensacion": 0.9965572359522932
+  },
+  {
+    "medico_id": 6292,
+    "nombre_medico": "TORRES AGUILAR ELENA RAQUEL",
+    "total_recetas": 5405,
+    "pacientes_unicos": 602,
+    "total_recetado": 178686,
+    "total_dispensado": 174691,
+    "total_faltante": 3995,
+    "tasa_dispensacion": 0.9776423446716587
+  },
+  {
+    "medico_id": 26057,
+    "nombre_medico": "PABLO DAIUB AYALA",
+    "total_recetas": 5068,
+    "pacientes_unicos": 940,
+    "total_recetado": 17641,
+    "total_dispensado": 17641,
+    "total_faltante": 0,
+    "tasa_dispensacion": 1.0
+  },
+  {
+    "medico_id": 36824,
+    "nombre_medico": "JONATAN BENITEZ",
+    "total_recetas": 4929,
+    "pacientes_unicos": 473,
+    "total_recetado": 17460,
+    "total_dispensado": 16483,
+    "total_faltante": 977,
+    "tasa_dispensacion": 0.9440435280641466
+  },
+  {
+    "medico_id": 20813,
+    "nombre_medico": "SONIA CORONEL",
+    "total_recetas": 4898,
+    "pacientes_unicos": 901,
+    "total_recetado": 21522,
+    "total_dispensado": 21304,
+    "total_faltante": 218,
+    "tasa_dispensacion": 0.989870829848527
+  },
+  {
+    "medico_id": 8086,
+    "nombre_medico": "MARIN VYSOKOLAN MARIA DEL ROSARIO",
+    "total_recetas": 4664,
+    "pacientes_unicos": 707,
+    "total_recetado": 159728,
+    "total_dispensado": 159243,
+    "total_faltante": 485,
+    "tasa_dispensacion": 0.9969635880997696
+  },
+  {
+    "medico_id": 30707,
+    "nombre_medico": "JUAN JOSE DUARTE LUGO",
+    "total_recetas": 4647,
+    "pacientes_unicos": 1010,
+    "total_recetado": 18370,
+    "total_dispensado": 18370,
+    "total_faltante": 0,
+    "tasa_dispensacion": 1.0
+  },
+  {
+    "medico_id": 12526,
+    "nombre_medico": "VILLALBA VALLEJOS, ENZO DOMINGO",
+    "total_recetas": 4532,
+    "pacientes_unicos": 1287,
+    "total_recetado": 38185,
+    "total_dispensado": 38185,
+    "total_faltante": 0,
+    "tasa_dispensacion": 1.0
+  },
+  {
+    "medico_id": 16510,
+    "nombre_medico": "GOMEZ RODRIGUEZ, NURIA GISSEL",
+    "total_recetas": 4491,
+    "pacientes_unicos": 805,
+    "total_recetado": 140046,
+    "total_dispensado": 139382,
+    "total_faltante": 664,
+    "tasa_dispensacion": 0.995258700712623
+  },
+  {
+    "medico_id": 30509,
+    "nombre_medico": "ESCURRA LISERAS CARLOS RAFAEL",
+    "total_recetas": 4415,
+    "pacientes_unicos": 901,
+    "total_recetado": 18958,
+    "total_dispensado": 18905,
+    "total_faltante": 53,
+    "tasa_dispensacion": 0.9972043464500475
+  },
+  {
+    "medico_id": 3599,
+    "nombre_medico": "JOSE RAMON FERREIRA AYALA",
+    "total_recetas": 4413,
+    "pacientes_unicos": 971,
+    "total_recetado": 134979,
+    "total_dispensado": 134889,
+    "total_faltante": 90,
+    "tasa_dispensacion": 0.9993332296134955
+  },
+  {
+    "medico_id": 6057,
+    "nombre_medico": "GONZALEZ MIRNA LISA",
+    "total_recetas": 4403,
+    "pacientes_unicos": 555,
+    "total_recetado": 143035,
+    "total_dispensado": 142521,
+    "total_faltante": 514,
+    "tasa_dispensacion": 0.9964064739399447
+  },
+  {
+    "medico_id": 31063,
+    "nombre_medico": "MARTINEZ GAVILAN,CAMILA ARASY",
+    "total_recetas": 4363,
+    "pacientes_unicos": 867,
+    "total_recetado": 15678,
+    "total_dispensado": 15614,
+    "total_faltante": 64,
+    "tasa_dispensacion": 0.9959178466641153
+  },
+  {
+    "medico_id": 19726,
+    "nombre_medico": "MARTINEZ OJEDA EMILIO RAUL",
+    "total_recetas": 4340,
+    "pacientes_unicos": 1307,
+    "total_recetado": 38946,
+    "total_dispensado": 38946,
+    "total_faltante": 0,
+    "tasa_dispensacion": 1.0
+  },
+  {
+    "medico_id": 30401,
+    "nombre_medico": "JOSE GOMEZ",
+    "total_recetas": 4322,
+    "pacientes_unicos": 827,
+    "total_recetado": 18613,
+    "total_dispensado": 18509,
+    "total_faltante": 104,
+    "tasa_dispensacion": 0.9944125073873099
+  },
+  {
+    "medico_id": 26022,
+    "nombre_medico": "YOMO SATO,ALBERTO HIROSHI",
+    "total_recetas": 4215,
+    "pacientes_unicos": 824,
+    "total_recetado": 33022,
+    "total_dispensado": 33017,
+    "total_faltante": 5,
+    "tasa_dispensacion": 0.9998485857912907
+  },
+  {
+    "medico_id": 12982,
+    "nombre_medico": "ROLANDO CARDOZO",
+    "total_recetas": 4186,
+    "pacientes_unicos": 945,
+    "total_recetado": 34091,
+    "total_dispensado": 34091,
+    "total_faltante": 0,
+    "tasa_dispensacion": 1.0
+  },
+  {
+    "medico_id": 16899,
+    "nombre_medico": "LOPEZ BARBOZA, RAMON ALEJANDRO",
+    "total_recetas": 4136,
+    "pacientes_unicos": 1023,
+    "total_recetado": 34872,
+    "total_dispensado": 34872,
+    "total_faltante": 0,
+    "tasa_dispensacion": 1.0
+  },
+  {
+    "medico_id": 31019,
+    "nombre_medico": "CENTURION RODRIGUEZ MARCOS RAUL",
+    "total_recetas": 4124,
+    "pacientes_unicos": 686,
+    "total_recetado": 14667,
+    "total_dispensado": 14667,
+    "total_faltante": 0,
+    "tasa_dispensacion": 1.0
+  },
+  {
+    "medico_id": 25890,
+    "nombre_medico": "CUYER NUÑEZ, JENNIFER AYELEN",
+    "total_recetas": 4028,
+    "pacientes_unicos": 802,
+    "total_recetado": 15144,
+    "total_dispensado": 15000,
+    "total_faltante": 144,
+    "tasa_dispensacion": 0.9904912836767037
+  },
+  {
+    "medico_id": 8353,
+    "nombre_medico": "WALTER FARIÑA NARVAREZ",
+    "total_recetas": 4019,
+    "pacientes_unicos": 1120,
+    "total_recetado": 37310,
+    "total_dispensado": 37310,
+    "total_faltante": 0,
+    "tasa_dispensacion": 1.0
+  },
+  {
+    "medico_id": 31991,
+    "nombre_medico": "SANTIAGO AYALA",
+    "total_recetas": 3960,
+    "pacientes_unicos": 502,
+    "total_recetado": 16694,
+    "total_dispensado": 16694,
+    "total_faltante": 0,
+    "tasa_dispensacion": 1.0
+  },
+  {
+    "medico_id": 30458,
+    "nombre_medico": "ROMERO GIMENEZ,MARCO ADAN",
+    "total_recetas": 3925,
+    "pacientes_unicos": 671,
+    "total_recetado": 14310,
+    "total_dispensado": 14305,
+    "total_faltante": 5,
+    "tasa_dispensacion": 0.9996505939902166
+  },
+  {
+    "medico_id": 8962,
+    "nombre_medico": "DAVALOS VILLAGRA, ANA LIZ",
+    "total_recetas": 3891,
+    "pacientes_unicos": 464,
+    "total_recetado": 124610,
+    "total_dispensado": 122180,
+    "total_faltante": 2430,
+    "tasa_dispensacion": 0.9804991573709975
+  },
+  {
+    "medico_id": 30143,
+    "nombre_medico": "EDGAR CABALLERO",
+    "total_recetas": 3887,
+    "pacientes_unicos": 802,
+    "total_recetado": 14757,
+    "total_dispensado": 14536,
+    "total_faltante": 221,
+    "tasa_dispensacion": 0.985024056380023
+  },
+  {
+    "medico_id": 10897,
+    "nombre_medico": "RECALDE IRALA, CELSO ANTONIO",
+    "total_recetas": 3855,
+    "pacientes_unicos": 830,
+    "total_recetado": 28581,
+    "total_dispensado": 28581,
+    "total_faltante": 0,
+    "tasa_dispensacion": 1.0
+  },
+  {
+    "medico_id": 27093,
+    "nombre_medico": "MONGES LLANO,DANA MARCELA",
+    "total_recetas": 3826,
+    "pacientes_unicos": 635,
+    "total_recetado": 14580,
+    "total_dispensado": 14570,
+    "total_faltante": 10,
+    "tasa_dispensacion": 0.9993141289437586
+  },
+  {
+    "medico_id": 30092,
+    "nombre_medico": "ALVARENGA CESPEDES,BRUNO ALESSANDRO",
+    "total_recetas": 3786,
+    "pacientes_unicos": 704,
+    "total_recetado": 15637,
+    "total_dispensado": 15612,
+    "total_faltante": 25,
+    "tasa_dispensacion": 0.9984012278570058
+  }
+]
