@@ -1,1 +1,82 @@
-[2023, 2032, 2037, 2041, 2042, 2043, 2045, 2048, 2049, 2052, 2053, 2061, 2062, 2066, 2090, 2110, 2113, 2122, 2189, 2197]
+[
+  {
+    "FarmaciaVentanilla": 2023,
+    "nombre_farmacia": "FARMACIA INTERNA "
+  },
+  {
+    "FarmaciaVentanilla": 2032,
+    "nombre_farmacia": "FARMACIA QX1"
+  },
+  {
+    "FarmaciaVentanilla": 2037,
+    "nombre_farmacia": "Farmacia desconocida"
+  },
+  {
+    "FarmaciaVentanilla": 2041,
+    "nombre_farmacia": "DEPOSITO INS INTERNADO"
+  },
+  {
+    "FarmaciaVentanilla": 2042,
+    "nombre_farmacia": "FARMACIA POLICLINICA"
+  },
+  {
+    "FarmaciaVentanilla": 2043,
+    "nombre_farmacia": "Farmacia desconocida"
+  },
+  {
+    "FarmaciaVentanilla": 2045,
+    "nombre_farmacia": "FARMACIA URGENCIA INTERNADO"
+  },
+  {
+    "FarmaciaVentanilla": 2048,
+    "nombre_farmacia": "FARMACIA UTI"
+  },
+  {
+    "FarmaciaVentanilla": 2049,
+    "nombre_farmacia": "FARMACIA QX1"
+  },
+  {
+    "FarmaciaVentanilla": 2052,
+    "nombre_farmacia": "FARMACIA AMBULATORIA"
+  },
+  {
+    "FarmaciaVentanilla": 2053,
+    "nombre_farmacia": "DEPOSITO AMBULATORIA"
+  },
+  {
+    "FarmaciaVentanilla": 2061,
+    "nombre_farmacia": "DEPOSITO MED INTERNADO"
+  },
+  {
+    "FarmaciaVentanilla": 2062,
+    "nombre_farmacia": "Farmacia desconocida"
+  },
+  {
+    "FarmaciaVentanilla": 2066,
+    "nombre_farmacia": "FARMACIA QX1"
+  },
+  {
+    "FarmaciaVentanilla": 2090,
+    "nombre_farmacia": "Farmacia desconocida"
+  },
+  {
+    "FarmaciaVentanilla": 2110,
+    "nombre_farmacia": "Farmacia desconocida"
+  },
+  {
+    "FarmaciaVentanilla": 2113,
+    "nombre_farmacia": "Farmacia desconocida"
+  },
+  {
+    "FarmaciaVentanilla": 2122,
+    "nombre_farmacia": "FARMACIA QX2"
+  },
+  {
+    "FarmaciaVentanilla": 2189,
+    "nombre_farmacia": "FARMACIA URGENCIAS AMBULATORIA"
+  },
+  {
+    "FarmaciaVentanilla": 2197,
+    "nombre_farmacia": "FARMACIA QX2"
+  }
+]
