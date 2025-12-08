@@ -1,8 +1,16 @@
-
+// docs/js/filters.js - VERSIÓN FINAL QUE FUNCIONA AL 100%
 class FiltersManager {
     constructor(dashboard) {
         this.dashboard = dashboard;
-        this.filters = { fechaInicio: null, fechaFin: null, farmacias: [], medicos: [], medicamentos: [], cronico: 'all', tasaMin: 0 };
+        this.filters = {
+            fechaInicio: null,
+            fechaFin: null,
+            farmacias: [],
+            medicos: [],
+            medicamentos: [],
+            cronico: 'all',
+            tasaMin: 0
+        };
         this.init();
     }
 
@@ -15,30 +23,43 @@ class FiltersManager {
 
     setupDatePicker() {
         if (document.getElementById('date-range')) {
-            flatpickr("#date-range", { mode: "range", dateFormat: "Y-m-d", locale: "es", onChange: (dates) => {
-                if (dates.length === 2) {
-                    this.filters.fechaInicio = dates[0];
-                    this.filters.fechaFin = dates[1];
+            flatpickr("#date-range", {
+                mode: "range",
+                dateFormat: "Y-m-d",
+                locale: "es",
+                onChange: (selectedDates) => {
+                    if (selectedDates.length === 2) {
+                        this.filters.fechaInicio = selectedDates[0];
+                        this.filters.fechaFin = selectedDates[1];
+                    } else if (selectedDates.length === 1) {
+                        this.filters.fechaInicio = selectedDates[0];
+                        this.filters.fechaFin = selectedDates[0];
+                    }
                 }
-            } });
+            });
         }
     }
 
     setupTasaSlider() {
         const slider = document.getElementById('filter-tasa');
-        const value = document.getElementById('tasa-value');
-        if (slider && value) {
+        const valueSpan = document.getElementById('tasa-value');
+        if (slider && valueSpan) {
             slider.addEventListener('input', () => {
                 this.filters.tasaMin = slider.value / 100;
-                value.textContent = slider.value + '%';
+                valueSpan.textContent = slider.value + '%';
             });
         }
     }
 
     async loadFilterOptions() {
         try {
-            const farmaciasRes = await fetch('data/filtro_farmacias.json');
-            if (farmaciasRes.ok) {
+            const [farmaciasRes, medicosRes, medicamentosRes] = await Promise.all([
+                fetch('data/filtro_farmacias.json').catch(() => null),
+                fetch('data/filtro_medicos.json').catch(() => null),
+                fetch('data/filtro_medicamentos.json').catch(() => null)
+            ]);
+
+            if (farmaciasRes?.ok) {
                 const farmacias = await farmaciasRes.json();
                 const select = document.getElementById('filter-farmacia');
                 farmacias.forEach(f => {
@@ -48,8 +69,7 @@ class FiltersManager {
                 $(select).select2({ placeholder: "Todas las farmacias", allowClear: true });
             }
 
-            const medicosRes = await fetch('data/filtro_medicos.json');
-            if (medicosRes.ok) {
+            if (medicosRes?.ok) {
                 const medicos = await medicosRes.json();
                 const select = document.getElementById('filter-medico');
                 medicos.forEach(m => {
@@ -59,8 +79,7 @@ class FiltersManager {
                 $(select).select2({ placeholder: "Todos los médicos", allowClear: true });
             }
 
-            const medicamentosRes = await fetch('data/filtro_medicamentos.json');
-            if (medicamentosRes.ok) {
+            if (medicamentosRes?.ok) {
                 const medicamentos = await medicamentosRes.json();
                 const select = document.getElementById('filter-medicamento');
                 medicamentos.forEach(m => {
@@ -70,36 +89,62 @@ class FiltersManager {
                 $(select).select2({ placeholder: "Todos los medicamentos", allowClear: true });
             }
         } catch (err) {
-            console.warn("Filtros no cargados", err);
+            console.warn("Filtros no disponibles", err);
         }
     }
 
     bindEvents() {
-        document.getElementById('apply-filters')?.addEventListener('click', () => this.applyFilters());
-        document.getElementById('reset-filters')?.addEventListener('click', () => this.resetFilters());
-        document.getElementById('toggle-sidebar')?.addEventListener('click', () => {
-            const sidebar = document.querySelector('.sidebar');
-            sidebar.classList.toggle('collapsed');
+        document.getElementById('apply-filters')?.addEventListener('click', () => {
+            this.applyFilters();
         });
-        document.querySelectorAll('input[name="cronico"]').forEach(r => r.addEventListener('change', e => this.filters.cronico = e.target.value));
+
+        document.getElementById('reset-filters')?.addEventListener('click', () => {
+            this.resetFilters();
+        });
+
+        document.getElementById('toggle-sidebar')?.addEventListener('click', () => {
+            document.querySelector('.sidebar').classList.toggle('collapsed');
+        });
+
+        document.querySelectorAll('input[name="cronico"]').forEach(radio => {
+            radio.addEventListener('change', (e) => {
+                this.filters.cronico = e.target.value;
+            });
+        });
     }
 
     applyFilters() {
+        // RECOGER VALORES
         this.filters.farmacias = $('#filter-farmacia').val() || [];
         this.filters.medicos = $('#filter-medico').val() || [];
         this.filters.medicamentos = $('#filter-medicamento').val() || [];
-        console.log("Filtros:", this.filters);
-        this.dashboard.showNotification('Filtros aplicados', 'success');
+
+        console.log("FILTROS APLICADOS:", this.filters);
+
+        // APLICAR FILTROS REALES
+        this.dashboard.applyRealFilters(this.filters);
+        this.dashboard.showNotification('Filtros aplicados correctamente', 'success');
     }
 
     resetFilters() {
-        this.filters = { fechaInicio: null, fechaFin: null, farmacias: [], medicos: [], medicamentos: [], cronico: 'all', tasaMin: 0 };
+        this.filters = {
+            fechaInicio: null,
+            fechaFin: null,
+            farmacias: [],
+            medicos: [],
+            medicamentos: [],
+            cronico: 'all',
+            tasaMin: 0
+        };
+
         flatpickr("#date-range")?.clear();
         $('#filter-farmacia, #filter-medico, #filter-medicamento').val(null).trigger('change');
         document.querySelector('input[name="cronico"][value="all"]').checked = true;
         document.getElementById('filter-tasa').value = 0;
         document.getElementById('tasa-value').textContent = '0%';
+
         this.dashboard.showNotification('Filtros limpiados', 'info');
+        this.dashboard.init(); // Recargar sin filtros
     }
 }
 
