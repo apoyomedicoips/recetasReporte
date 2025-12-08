@@ -1,0 +1,12 @@
+{
+  "archivos": [
+    "kpis_globales.json",
+    "analisis_mensual.json",
+    "top_medicamentos.json",
+    "analisis_farmacias.json",
+    "metadata.json",
+    "dashboard_consolidado.json"
+  ],
+  "ultima_actualizacion": "2025-12-08T06:00:31.096964",
+  "total_archivos": 6
+}

@@ -1,0 +1,10 @@
+{
+  "total_registros": 773800,
+  "pacientes_unicos": 81858,
+  "medicos_unicos": 935,
+  "total_recetado": 23604677,
+  "total_dispensado": 18813508,
+  "total_faltante": 4791169,
+  "tasa_dispensacion": 79.70245896607693,
+  "fecha_analisis": "2025-12-08T06:00:30.888269"
+}

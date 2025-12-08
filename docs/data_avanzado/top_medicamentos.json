@@ -1,0 +1,402 @@
+[
+  {
+    "MedicamentoSAP": 10000563,
+    "recetas": 473,
+    "recetado": 2346615,
+    "dispensado": 1143990,
+    "faltante_total": 1202625,
+    "pacientes": 1
+  },
+  {
+    "MedicamentoSAP": 10000722,
+    "recetas": 557,
+    "recetado": 2336755,
+    "dispensado": 1000000,
+    "faltante_total": 1336755,
+    "pacientes": 1
+  },
+  {
+    "MedicamentoSAP": 11001919,
+    "recetas": 144,
+    "recetado": 1953350,
+    "dispensado": 1952935,
+    "faltante_total": 415,
+    "pacientes": 40
+  },
+  {
+    "MedicamentoSAP": 10000305,
+    "recetas": 22282,
+    "recetado": 853524,
+    "dispensado": 852951,
+    "faltante_total": 573,
+    "pacientes": 7324
+  },
+  {
+    "MedicamentoSAP": 10000568,
+    "recetas": 436,
+    "recetado": 666980,
+    "dispensado": 458473,
+    "faltante_total": 208507,
+    "pacientes": 1
+  },
+  {
+    "MedicamentoSAP": 10000567,
+    "recetas": 394,
+    "recetado": 626733,
+    "dispensado": 366263,
+    "faltante_total": 260470,
+    "pacientes": 1
+  },
+  {
+    "MedicamentoSAP": 11001452,
+    "recetas": 2251,
+    "recetado": 578457,
+    "dispensado": 378434,
+    "faltante_total": 200023,
+    "pacientes": 291
+  },
+  {
+    "MedicamentoSAP": 10000138,
+    "recetas": 30758,
+    "recetado": 511216,
+    "dispensado": 509531,
+    "faltante_total": 1685,
+    "pacientes": 23436
+  },
+  {
+    "MedicamentoSAP": 10000050,
+    "recetas": 20323,
+    "recetado": 505242,
+    "dispensado": 504900,
+    "faltante_total": 342,
+    "pacientes": 6845
+  },
+  {
+    "MedicamentoSAP": 10000314,
+    "recetas": 9047,
+    "recetado": 484257,
+    "dispensado": 474339,
+    "faltante_total": 9918,
+    "pacientes": 3355
+  },
+  {
+    "MedicamentoSAP": 10000242,
+    "recetas": 26244,
+    "recetado": 453104,
+    "dispensado": 451425,
+    "faltante_total": 1679,
+    "pacientes": 21284
+  },
+  {
+    "MedicamentoSAP": 10000364,
+    "recetas": 27362,
+    "recetado": 394901,
+    "dispensado": 392943,
+    "faltante_total": 1958,
+    "pacientes": 21130
+  },
+  {
+    "MedicamentoSAP": 10000552,
+    "recetas": 40,
+    "recetado": 349500,
+    "dispensado": 312250,
+    "faltante_total": 37250,
+    "pacientes": 1
+  },
+  {
+    "MedicamentoSAP": 10000111,
+    "recetas": 11972,
+    "recetado": 344868,
+    "dispensado": 344658,
+    "faltante_total": 210,
+    "pacientes": 7505
+  },
+  {
+    "MedicamentoSAP": 10000553,
+    "recetas": 36,
+    "recetado": 314800,
+    "dispensado": 309200,
+    "faltante_total": 5600,
+    "pacientes": 1
+  },
+  {
+    "MedicamentoSAP": 10000221,
+    "recetas": 10100,
+    "recetado": 302985,
+    "dispensado": 302985,
+    "faltante_total": 0,
+    "pacientes": 6849
+  },
+  {
+    "MedicamentoSAP": 11001450,
+    "recetas": 1364,
+    "recetado": 295093,
+    "dispensado": 226626,
+    "faltante_total": 68467,
+    "pacientes": 219
+  },
+  {
+    "MedicamentoSAP": 10000348,
+    "recetas": 15665,
+    "recetado": 291510,
+    "dispensado": 286233,
+    "faltante_total": 5277,
+    "pacientes": 10202
+  },
+  {
+    "MedicamentoSAP": 10000365,
+    "recetas": 18143,
+    "recetado": 290400,
+    "dispensado": 288228,
+    "faltante_total": 2172,
+    "pacientes": 12524
+  },
+  {
+    "MedicamentoSAP": 10000740,
+    "recetas": 16069,
+    "recetado": 282035,
+    "dispensado": 281742,
+    "faltante_total": 293,
+    "pacientes": 12156
+  },
+  {
+    "MedicamentoSAP": 10000433,
+    "recetas": 13114,
+    "recetado": 276121,
+    "dispensado": 275970,
+    "faltante_total": 151,
+    "pacientes": 3738
+  },
+  {
+    "MedicamentoSAP": 10000386,
+    "recetas": 7393,
+    "recetado": 246448,
+    "dispensado": 246393,
+    "faltante_total": 55,
+    "pacientes": 4293
+  },
+  {
+    "MedicamentoSAP": 10000035,
+    "recetas": 11985,
+    "recetado": 237410,
+    "dispensado": 237069,
+    "faltante_total": 341,
+    "pacientes": 3495
+  },
+  {
+    "MedicamentoSAP": 10000007,
+    "recetas": 8820,
+    "recetado": 226154,
+    "dispensado": 226024,
+    "faltante_total": 130,
+    "pacientes": 3286
+  },
+  {
+    "MedicamentoSAP": 10000027,
+    "recetas": 7537,
+    "recetado": 222122,
+    "dispensado": 221612,
+    "faltante_total": 510,
+    "pacientes": 2747
+  },
+  {
+    "MedicamentoSAP": 10000076,
+    "recetas": 7224,
+    "recetado": 217507,
+    "dispensado": 212555,
+    "faltante_total": 4952,
+    "pacientes": 4164
+  },
+  {
+    "MedicamentoSAP": 10000165,
+    "recetas": 6136,
+    "recetado": 212335,
+    "dispensado": 212166,
+    "faltante_total": 169,
+    "pacientes": 2420
+  },
+  {
+    "MedicamentoSAP": 10000094,
+    "recetas": 14223,
+    "recetado": 203199,
+    "dispensado": 201938,
+    "faltante_total": 1261,
+    "pacientes": 10996
+  },
+  {
+    "MedicamentoSAP": 11001498,
+    "recetas": 2691,
+    "recetado": 200789,
+    "dispensado": 177498,
+    "faltante_total": 23291,
+    "pacientes": 383
+  },
+  {
+    "MedicamentoSAP": 10000505,
+    "recetas": 238,
+    "recetado": 190046,
+    "dispensado": 141767,
+    "faltante_total": 48279,
+    "pacientes": 74
+  },
+  {
+    "MedicamentoSAP": 10000146,
+    "recetas": 4084,
+    "recetado": 182103,
+    "dispensado": 181876,
+    "faltante_total": 227,
+    "pacientes": 2713
+  },
+  {
+    "MedicamentoSAP": 10000539,
+    "recetas": 1646,
+    "recetado": 179998,
+    "dispensado": 97586,
+    "faltante_total": 82412,
+    "pacientes": 336
+  },
+  {
+    "MedicamentoSAP": 10000555,
+    "recetas": 43,
+    "recetado": 174400,
+    "dispensado": 170400,
+    "faltante_total": 4000,
+    "pacientes": 1
+  },
+  {
+    "MedicamentoSAP": 11001496,
+    "recetas": 2145,
+    "recetado": 171491,
+    "dispensado": 156712,
+    "faltante_total": 14779,
+    "pacientes": 316
+  },
+  {
+    "MedicamentoSAP": 11001456,
+    "recetas": 1869,
+    "recetado": 161552,
+    "dispensado": 113174,
+    "faltante_total": 48378,
+    "pacientes": 341
+  },
+  {
+    "MedicamentoSAP": 10000046,
+    "recetas": 11984,
+    "recetado": 152683,
+    "dispensado": 151335,
+    "faltante_total": 1348,
+    "pacientes": 9660
+  },
+  {
+    "MedicamentoSAP": 11000356,
+    "recetas": 707,
+    "recetado": 143498,
+    "dispensado": 109000,
+    "faltante_total": 34498,
+    "pacientes": 22
+  },
+  {
+    "MedicamentoSAP": 10000466,
+    "recetas": 4813,
+    "recetado": 141282,
+    "dispensado": 141182,
+    "faltante_total": 100,
+    "pacientes": 4074
+  },
+  {
+    "MedicamentoSAP": 10000084,
+    "recetas": 5163,
+    "recetado": 137328,
+    "dispensado": 137178,
+    "faltante_total": 150,
+    "pacientes": 1398
+  },
+  {
+    "MedicamentoSAP": 10000149,
+    "recetas": 9031,
+    "recetado": 134547,
+    "dispensado": 133489,
+    "faltante_total": 1058,
+    "pacientes": 7952
+  },
+  {
+    "MedicamentoSAP": 10000334,
+    "recetas": 6022,
+    "recetado": 130780,
+    "dispensado": 130657,
+    "faltante_total": 123,
+    "pacientes": 1727
+  },
+  {
+    "MedicamentoSAP": 10000496,
+    "recetas": 16,
+    "recetado": 125000,
+    "dispensado": 109000,
+    "faltante_total": 16000,
+    "pacientes": 1
+  },
+  {
+    "MedicamentoSAP": 11001506,
+    "recetas": 552,
+    "recetado": 112237,
+    "dispensado": 75100,
+    "faltante_total": 37137,
+    "pacientes": 3
+  },
+  {
+    "MedicamentoSAP": 10000295,
+    "recetas": 3695,
+    "recetado": 107841,
+    "dispensado": 107717,
+    "faltante_total": 124,
+    "pacientes": 1163
+  },
+  {
+    "MedicamentoSAP": 10000562,
+    "recetas": 430,
+    "recetado": 92453,
+    "dispensado": 2584,
+    "faltante_total": 89869,
+    "pacientes": 1
+  },
+  {
+    "MedicamentoSAP": 10000040,
+    "recetas": 5339,
+    "recetado": 89699,
+    "dispensado": 89280,
+    "faltante_total": 419,
+    "pacientes": 4881
+  },
+  {
+    "MedicamentoSAP": 11001223,
+    "recetas": 1101,
+    "recetado": 87426,
+    "dispensado": 62679,
+    "faltante_total": 24747,
+    "pacientes": 207
+  },
+  {
+    "MedicamentoSAP": 11001211,
+    "recetas": 44,
+    "recetado": 86739,
+    "dispensado": 43000,
+    "faltante_total": 43739,
+    "pacientes": 1
+  },
+  {
+    "MedicamentoSAP": 10000564,
+    "recetas": 584,
+    "recetado": 86636,
+    "dispensado": 1055,
+    "faltante_total": 85581,
+    "pacientes": 1
+  },
+  {
+    "MedicamentoSAP": 10000506,
+    "recetas": 62,
+    "recetado": 83663,
+    "dispensado": 57000,
+    "faltante_total": 26663,
+    "pacientes": 1
+  }
+]
