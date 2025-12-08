@@ -31,6 +31,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install polars requests pyarrow
 
+
+
+
+
       - name: Procesar datos desde repo privado
         env:
           GH_TOKEN_DASHBOARD: ${{ secrets.GH_TOKEN_DASHBOARD }}
@@ -38,11 +42,19 @@ jobs:
           cd scripts
           python preparar_datos.py
 
-      - name: Commit y push (solo si hay cambios)
+
+
+      - name: Commit y push de cambios
         run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
-          git add docs/data/ || echo "No hay archivos nuevos"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          # Incluir JSON, JS y el index
+          git add docs/data/ docs/js/ docs/index.html
+          git status --short
+          git commit -m "Actualización automática de datos $(date +'%Y-%m-%d %H:%M')" || echo "No hay cambios"
+          git push origin HEAD:${{ github.ref }}
+
+
           
           if git diff --staged --quiet; then
             echo "No hay cambios para commitear"
