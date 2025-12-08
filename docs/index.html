@@ -1,39 +1,25 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>IPS Analytics Dashboard 2025</title>
-  <meta name="description" content="Dashboard oficial del IPS Paraguay - Recetas Médicas 2025"/>
-
-  <!-- Fuentes -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-
-  <!-- Select2 + Flatpickr -->
   <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"/>
-
-  <!-- DataTables -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css"/>
   <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css"/>
-
-  <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-  <!-- jQuery + Plugins -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
   <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
-
-  <!-- Estilos -->
   <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
-
-  <!-- Navbar -->
   <nav class="navbar">
     <div class="nav-container">
       <div class="nav-brand">
@@ -47,41 +33,29 @@
       </div>
     </div>
   </nav>
-
   <div class="main-wrapper">
-    <!-- Sidebar Filtros -->
     <aside class="sidebar">
       <div class="sidebar-header">
         <h3><i class="fas fa-filter"></i> Filtros</h3>
         <button id="toggle-sidebar" class="btn-icon"><i class="fas fa-chevron-left"></i></button>
       </div>
-
       <div class="filters-container">
-        <!-- RANGO DE FECHAS -->
         <div class="filter-group">
           <label>Rango de Fechas</label>
           <input type="text" id="date-range" placeholder="Seleccionar rango"/>
         </div>
-
-        <!-- FARMACIA -->
         <div class="filter-group">
           <label>Farmacia</label>
           <select id="filter-farmacia" multiple style="width: 100%"></select>
         </div>
-
-        <!-- MÉDICO -->
         <div class="filter-group">
           <label>Médico</label>
           <select id="filter-medico" multiple style="width: 100%"></select>
         </div>
-
-        <!-- MEDICAMENTO -->
         <div class="filter-group">
           <label>Medicamento</label>
           <select id="filter-medicamento" multiple style="width: 100%"></select>
         </div>
-
-        <!-- PACIENTE CRÓNICO -->
         <div class="filter-group">
           <label>Paciente Crónico</label>
           <div class="switch-group">
@@ -90,25 +64,18 @@
             <label><input type="radio" name="cronico" value="0"> No</label>
           </div>
         </div>
-
-        <!-- TASA DISPENSACIÓN -->
         <div class="filter-group">
           <label>Tasa Dispensación ≥</label>
           <input type="range" id="filter-tasa" min="0" max="100" value="0"/>
           <span id="tasa-value">0%</span>
         </div>
-
-        <!-- BOTONES -->
         <div class="filter-actions">
           <button class="btn btn-primary" id="apply-filters">Aplicar</button>
           <button class="btn btn-link" id="reset-filters">Limpiar</button>
         </div>
       </div>
     </aside>
-
-    <!-- Contenido Principal -->
     <main class="main-content">
-      <!-- KPIs -->
       <section class="kpi-section">
         <div class="kpi-grid">
           <div class="kpi-card kpi-primary"><div class="kpi-icon"><i class="fas fa-file-prescription"></i></div><div class="kpi-content"><h3 id="kpi-lineas">0</h3><p>Total Líneas</p></div></div>
@@ -119,8 +86,6 @@
           <div class="kpi-card kpi-secondary"><div class="kpi-icon"><i class="fas fa-heartbeat"></i></div><div class="kpi-content"><h3 id="kpi-cronicos">0%</h3><p>Pacientes Crónicos</p></div></div>
         </div>
       </section>
-
-      <!-- Gráficos -->
       <section class="charts-section">
         <div class="chart-row">
           <div class="chart-container large">
@@ -131,8 +96,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Tabla -->
       <section class="tables-section">
         <div class="tabs-container">
           <ul class="tabs-nav">
@@ -161,20 +124,15 @@
       </section>
     </main>
   </div>
-
   <footer class="footer">
     <div class="footer-content">
       <p>IPS Paraguay © 2025 | Datos actualizados: <span id="footer-update-time">-</span></p>
       <button id="theme-toggle"><i class="fas fa-moon"></i> Tema Oscuro</button>
     </div>
   </footer>
-
-  <!-- Scripts -->
   <script src="js/utils.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/dashboard.js"></script>
-
-  <!-- INICIALIZAR TODO -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       window.dashboard = new Dashboard();
