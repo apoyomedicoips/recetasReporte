@@ -57,26 +57,31 @@
       </div>
 
       <div class="filters-container">
+        <!-- RANGO DE FECHAS -->
         <div class="filter-group">
           <label>Rango de Fechas</label>
-          <input type="text" id="date-range" placeholder="Seleccionar"/>
+          <input type="text" id="date-range" placeholder="Seleccionar rango"/>
         </div>
 
+        <!-- FARMACIA -->
         <div class="filter-group">
           <label>Farmacia</label>
-          <select id="filter-farmacia" multiple></select>
+          <select id="filter-farmacia" multiple style="width: 100%"></select>
         </div>
 
+        <!-- MÉDICO -->
         <div class="filter-group">
           <label>Médico</label>
-          <select id="filter-medico" multiple></select>
+          <select id="filter-medico" multiple style="width: 100%"></select>
         </div>
 
+        <!-- MEDICAMENTO -->
         <div class="filter-group">
           <label>Medicamento</label>
-          <select id="filter-medicamento" multiple></select>
+          <select id="filter-medicamento" multiple style="width: 100%"></select>
         </div>
 
+        <!-- PACIENTE CRÓNICO -->
         <div class="filter-group">
           <label>Paciente Crónico</label>
           <div class="switch-group">
@@ -86,12 +91,14 @@
           </div>
         </div>
 
+        <!-- TASA DISPENSACIÓN -->
         <div class="filter-group">
           <label>Tasa Dispensación ≥</label>
           <input type="range" id="filter-tasa" min="0" max="100" value="0"/>
           <span id="tasa-value">0%</span>
         </div>
 
+        <!-- BOTONES -->
         <div class="filter-actions">
           <button class="btn btn-primary" id="apply-filters">Aplicar</button>
           <button class="btn btn-link" id="reset-filters">Limpiar</button>
@@ -125,12 +132,11 @@
         </div>
       </section>
 
-      <!-- Tablas -->
+      <!-- Tabla -->
       <section class="tables-section">
         <div class="tabs-container">
           <ul class="tabs-nav">
             <li class="active" data-tab="tab-medicamentos">Top Medicamentos</li>
-            <li data-tab="tab-resumen">Resumen Mensual</li>
           </ul>
           <div class="tabs-content">
             <div id="tab-medicamentos" class="tab-pane active">
@@ -168,23 +174,11 @@
   <script src="js/filters.js"></script>
   <script src="js/dashboard.js"></script>
 
+  <!-- INICIALIZAR TODO -->
   <script>
-    // Cargar filtros con nombres reales
-    fetch('data/filtro_medicos.json').then(r => r.json()).then(data => {
-      const select = $('#filter-medico');
-      data.forEach(m => select.append(`<option value="${m.CódigodelMédico}">${m.nombre_medico}</option>`));
-      select.select2({ placeholder: "Todos los médicos", allowClear: true });
-    });
-
-    fetch('data/filtro_medicamentos.json').then(r => r.json()).then(data => {
-      const select = $('#filter-medicamento');
-      data.forEach(m => select.append(`<option value="${m.MedicamentoSAP}">${m.nombre_medicamento}</option>`));
-      select.select2({ placeholder: "Todos los medicamentos", allowClear: true });
-    });
-
-    // Toggle sidebar
-    document.getElementById('toggle-sidebar').addEventListener('click', () => {
-      document.querySelector('.sidebar').classList.toggle('collapsed');
+    document.addEventListener('DOMContentLoaded', () => {
+      window.dashboard = new Dashboard();
+      window.dashboard.init();
     });
   </script>
 </body>
