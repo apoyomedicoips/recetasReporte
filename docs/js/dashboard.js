@@ -58,6 +58,28 @@ class Dashboard {
         this.renderTopMedsChart();
     }
 
+
+        // AÑADE ESTO DENTRO DE LA CLASE Dashboard
+    applyRealFilters(filters) {
+        let data = this.data.topMedicamentos;
+    
+        if (filters.farmacias.length > 0) {
+            // Aquí iría el filtro real por farmacia (necesita datos completos)
+            console.log("Filtrando por farmacias:", filters.farmacias);
+        }
+    
+        if (filters.medicos.length > 0) {
+            data = data.filter(row => filters.medicos.includes(String(row.CódigodelMédico)));
+        }
+    
+        if (filters.medicamentos.length > 0) {
+            data = data.filter(row => filters.medicamentos.includes(String(row.MedicamentoSAP)));
+        }
+    
+        // Actualizar tabla con datos filtrados
+        this.renderMedicamentosTable(data.length > 0 ? data : this.data.topMedicamentos);
+    }
+
     renderEvolucionChart() {
         const ctx = document.getElementById('chart-evolucion')?.getContext('2d');
         if (!ctx || !this.data.resumen.length) return;
