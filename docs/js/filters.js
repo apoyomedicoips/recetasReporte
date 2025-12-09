@@ -51,6 +51,23 @@ class FiltersManager {
         }
     }
 
+
+
+    const baseUrl = "data";
+    
+    const [
+      filtrosResp,
+      medsResp,
+      medicosResp,
+      farmaciasResp
+    ] = await Promise.all([
+      fetch(`${baseUrl}/filtros.json`),
+      fetch(`${baseUrl}/filtro_medicamentos.json`),
+      fetch(`${baseUrl}/filtro_medicos.json`),
+      fetch(`${baseUrl}/filtro_farmacias.json`)
+    ]);
+
+
     async loadFilterOptions() {
         try {
             const [farmaciasRes, medicosRes, medicamentosRes] = await Promise.all([
