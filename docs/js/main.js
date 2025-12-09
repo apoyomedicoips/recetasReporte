@@ -1,37 +1,53 @@
 // docs/js/main.js
-// VERSIÓN FINAL 100% FUNCIONAL - IPS 2025
+// VERSIÓN FINAL 100 % FUNCIONAL - ORQUESTADOR DEL TABLERO IPS 2025
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log("IPS Analytics Dashboard 2025 - Iniciando...");
 
-    // Inicializar el dashboard principal
-    if (typeof Dashboard === 'undefined') {
-        console.error("Error: Dashboard no está definido. Revisa dashboard.js");
+    // Verificación básica de dependencias
+    if (typeof Utils === "undefined") {
+        console.error("Error crítico: Utils no está definido. Verifique js/utils.js en index.html.");
+        return;
+    }
+    if (typeof Dashboard === "undefined") {
+        console.error("Error crítico: Dashboard no está definido. Verifique js/dashboard.js en index.html.");
+        return;
+    }
+    if (typeof FiltersManager === "undefined") {
+        console.warn("Aviso: FiltersManager no está definido. El tablero funcionará pero sin filtros avanzados.");
+    }
+
+    // Instanciación del dashboard
+    try {
+        window.dashboard = new Dashboard();
+
+        // init es asíncrono; se captura cualquier error durante la inicialización
+        const initPromise = window.dashboard.init();
+        if (initPromise && typeof initPromise.then === "function") {
+            initPromise.catch(err => {
+                console.error("Error durante la inicialización del dashboard:", err);
+            });
+        }
+
+    } catch (err) {
+        console.error("No fue posible instanciar Dashboard:", err);
         return;
     }
 
-    window.dashboard = new Dashboard();
-    window.dashboard.init();
-
-    // Inicializar filtros (si existe)
-    if (typeof FiltersManager !== 'undefined' && window.dashboard) {
-        window.dashboard.filters = new FiltersManager(window.dashboard);
-    }
-
-    // Estilos globales para animaciones y utilidades
-    const globalStyles = document.createElement('style');
+    // Estilos globales para animaciones y utilidades visuales
+    const globalStyles = document.createElement("style");
     globalStyles.textContent = `
         @keyframes slideIn {
             from { transform: translateX(100%); opacity: 0; }
-            to { transform: translateX(0); opacity: 1; }
+            to   { transform: translateX(0);   opacity: 1; }
         }
         @keyframes slideOut {
-            from { transform: translateX(0); opacity: 1; }
-            to { transform: translateX(100%); opacity: 0; }
+            from { transform: translateX(0);   opacity: 1; }
+            to   { transform: translateX(100%); opacity: 0; }
         }
         @keyframes fadeIn {
             from { opacity: 0; }
-            to { opacity: 1; }
+            to   { opacity: 1; }
         }
 
         .notification {
@@ -41,15 +57,15 @@ document.addEventListener('DOMContentLoaded', () => {
             animation: slideOut 0.4s ease-in forwards;
         }
 
-        .text-danger { color: #ef4444 !important; font-weight: 600; }
+        .text-danger  { color: #ef4444 !important; font-weight: 600; }
         .text-success { color: #10b981 !important; font-weight: 600; }
         .text-warning { color: #f59e0b !important; font-weight: 600; }
-        .text-info { color: #06b6d4 !important; font-weight: 600; }
-        .fw-bold { font-weight: 700 !important; }
-        .text-sm { font-size: 0.875rem; }
-        .text-center { text-align: center; }
+        .text-info    { color: #06b6d4 !important; font-weight: 600; }
+        .fw-bold      { font-weight: 700 !important; }
+        .text-sm      { font-size: 0.875rem; }
+        .text-center  { text-align: center; }
 
-        /* Mejora visual para tablas */
+        /* Ajustes para DataTables */
         .dataTables_wrapper .dataTables_length,
         .dataTables_wrapper .dataTables_filter {
             margin-bottom: 1rem;
@@ -59,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
             color: #64748b;
         }
 
-        /* Loading spinner opcional */
+        /* Indicador de carga */
         .loading {
             display: inline-block;
             width: 20px;
@@ -70,65 +86,80 @@ document.addEventListener('DOMContentLoaded', () => {
             animation: spin 1s linear infinite;
         }
         @keyframes spin {
-            0% { transform: rotate(0deg); }
+            0%   { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
+        }
+
+        /* Tooltip simple */
+        .dashboard-tooltip {
+            position: absolute;
+            background: #1e293b;
+            color: #ffffff;
+            padding: 0.5rem 0.75rem;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            z-index: 1000;
+            white-space: nowrap;
+        }
+        .dashboard-tooltip::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 5px;
+            border-style: solid;
+            border-color: #1e293b transparent transparent transparent;
         }
     `;
     document.head.appendChild(globalStyles);
 
-    // Mensaje de bienvenida en consola
-    console.log("%cIPS Analytics Dashboard 2025", "color: #3b82f6; font-size: 20px; font-weight: bold;");
-    console.log("%cDatos reales del IPS Paraguay - Procesados con Polars", "color: #10b981; font-size: 14px;");
-    console.log("%cDesarrollado con orgullo para el pueblo paraguayo", "color: #ef4444; font-size: 12px;");
-
-    // Tooltip para botones (opcional)
-    const tooltipElements = document.querySelectorAll('[data-tooltip]');
+    // Inicialización de tooltips para elementos con data-tooltip
+    const tooltipElements = document.querySelectorAll("[data-tooltip]");
     tooltipElements.forEach(el => {
-        el.addEventListener('mouseenter', () => {
-            const tooltip = document.createElement('div');
-            tooltip.className = 'tooltip';
-            tooltip.textContent = el.dataset.tooltip;
-            tooltip.style.cssText = `
-                position: absolute;
-                background: #1e293b;
-                color: white;
-                padding: 0.5rem 0.75rem;
-                border-radius: 6px;
-                font-size: 0.875rem;
-                z-index: 1000;
-                top: ${el.offsetTop - 35}px;
-                left: ${el.offsetLeft + el.offsetWidth / 2}px;
-                transform: translateX(-50%);
-                white-space: nowrap;
-            `;
-            tooltip.innerHTML += '<div style="position: absolute; bottom: -5px; left: 50%; transform: translateX(-50%); border: 5px solid transparent; border-top-color: #1e293b;"></div>';
+        el.addEventListener("mouseenter", () => {
+            const text = el.dataset.tooltip;
+            if (!text) return;
+
+            const rect = el.getBoundingClientRect();
+            const tooltip = document.createElement("div");
+            tooltip.className = "dashboard-tooltip";
+            tooltip.textContent = text;
+            tooltip.style.top = `${window.scrollY + rect.top - 36}px`;
+            tooltip.style.left = `${window.scrollX + rect.left + rect.width / 2}px`;
+            tooltip.style.transform = "translateX(-50%)";
+
             document.body.appendChild(tooltip);
-            el.tooltip = tooltip;
+            el._tooltip = tooltip;
         });
-        el.addEventListener('mouseleave', () => {
-            if (el.tooltip) {
-                document.body.removeChild(el.tooltip);
-                el.tooltip = null;
+
+        el.addEventListener("mouseleave", () => {
+            if (el._tooltip) {
+                el._tooltip.remove();
+                el._tooltip = null;
             }
         });
     });
 
-    // Mostrar fecha de carga
-    const now = new Date().toLocaleString('es-PY', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
+    // Mensajes de estado en consola
+    const now = new Date().toLocaleString("es-PY", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
     });
-    console.log(`Dashboard cargado: ${now}`);
+
+    console.log("%cIPS Analytics Dashboard 2025", "color:#3b82f6;font-size:20px;font-weight:bold;");
+    console.log("%cDatos reales del IPS Paraguay, procesados con Polars", "color:#10b981;font-size:14px;");
+    console.log(`Dashboard cargado correctamente a las ${now}`);
 });
 
-// Manejo de errores global (por si algo falla)
-window.addEventListener('error', (e) => {
-    console.error("Error global:", e.error);
+// Manejo global de errores en el navegador
+window.addEventListener("error", (event) => {
+    console.error("Error global no capturado:", event.error || event.message);
 });
 
-window.addEventListener('unhandledrejection', (e) => {
-    console.error("Promesa rechazada:", e.reason);
+window.addEventListener("unhandledrejection", (event) => {
+    console.error("Promesa no manejada:", event.reason);
 });
