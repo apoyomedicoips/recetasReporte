@@ -30,7 +30,7 @@ class Dashboard {
   }
 
   async loadData() {
-    const basePath = 'data';
+    const basePath = 'data_avanzado';
 
     this.data.resumen = await this.safeFetch(`${basePath}/resumen_mensual.json`, []);
     this.data.topMedicamentos = await this.safeFetch(`${basePath}/top_medicamentos.json`, []);
@@ -706,3 +706,4 @@ class Dashboard {
 }
 
 window.Dashboard = Dashboard;
+
