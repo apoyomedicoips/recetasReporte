@@ -1,41 +1,24 @@
-// docs/js/utils.js - UTILIDADES GLOBALES
 const Utils = {
   formatNumber(value) {
     if (value === null || value === undefined || isNaN(value)) return '0';
-    return new Intl.NumberFormat('es-ES').format(value);
+    return new Intl.NumberFormat('es-PY').format(value);
   },
-
   formatPercentage(value, decimals = 1) {
     if (value === null || value === undefined || isNaN(value)) return '0%';
-    const v = Number(value) * 100;
-    return v.toFixed(decimals) + '%';
+    return (Number(value) * 100).toFixed(decimals) + '%';
   },
-
   formatLocalDate(isoString) {
     if (!isoString) return '-';
     try {
-      const d = new Date(isoString);
-      return d.toLocaleString('es-ES', {
-        year: 'numeric',
-        month: 'long',
-        day: '2-digit',
-        hour: '2-digit',
-        minute: '2-digit'
+      return new Date(isoString).toLocaleString('es-PY', {
+        year: 'numeric', month: 'long', day: '2-digit',
+        hour: '2-digit', minute: '2-digit'
       });
-    } catch (e) {
-      return isoString;
-    }
+    } catch { return isoString; }
   },
-
   monthLabel(anio, mes) {
-    const nombres = [
-      'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
-      'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
-    ];
-    const m = Number(mes) - 1;
-    const nombre = m >= 0 && m < 12 ? nombres[m] : mes;
-    return `${nombre} ${anio}`;
+    const meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+    return `${meses[Number(mes)-1]} ${anio}`;
   }
 };
-
 window.Utils = Utils;
