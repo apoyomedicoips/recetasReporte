@@ -1,502 +1,7482 @@
 [
   {
-    "medico_id": 0,
-    "nombre_medico": "MERELES BELOTTO LUIS",
-    "total_recetas": 50620,
-    "pacientes_unicos": 1297,
-    "total_recetado": 13232127,
-    "total_dispensado": 8501374,
-    "total_faltante": 4730753,
-    "tasa_dispensacion": 0.6424797766829172
+    "id": 0,
+    "nombre": "MERELES BELOTTO LUIS",
+    "recetas": 50620,
+    "pacientes": 1297,
+    "medicamentos": 684,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 28025,
-    "nombre_medico": "RUIZ DIAZ OJEDA,ELIO DAVID",
-    "total_recetas": 13000,
-    "pacientes_unicos": 2304,
-    "total_recetado": 84627,
-    "total_dispensado": 84567,
-    "total_faltante": 60,
-    "tasa_dispensacion": 0.9992910064163919
+    "id": 28025,
+    "nombre": "RUIZ DIAZ OJEDA,ELIO DAVID",
+    "recetas": 13000,
+    "pacientes": 2304,
+    "medicamentos": 147,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 30558,
-    "nombre_medico": "SUBELDIA GONZALEZ,MARCOS MARIA",
-    "total_recetas": 11261,
-    "pacientes_unicos": 2007,
-    "total_recetado": 65100,
-    "total_dispensado": 65100,
-    "total_faltante": 0,
-    "tasa_dispensacion": 1.0
+    "id": 30558,
+    "nombre": "SUBELDIA GONZALEZ,MARCOS MARIA",
+    "recetas": 11261,
+    "pacientes": 2007,
+    "medicamentos": 131,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 7770,
-    "nombre_medico": "CALDERINI, PATRICIA RAQUEL",
-    "total_recetas": 9784,
-    "pacientes_unicos": 1059,
-    "total_recetado": 320769,
-    "total_dispensado": 319619,
-    "total_faltante": 1150,
-    "tasa_dispensacion": 0.9964148655262821
+    "id": 7770,
+    "nombre": "CALDERINI, PATRICIA RAQUEL",
+    "recetas": 9784,
+    "pacientes": 1059,
+    "medicamentos": 104,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 30151,
-    "nombre_medico": "DRA DAHIANA AUGUSTO",
-    "total_recetas": 9122,
-    "pacientes_unicos": 1367,
-    "total_recetado": 43166,
-    "total_dispensado": 43050,
-    "total_faltante": 116,
-    "tasa_dispensacion": 0.9973126998100357
+    "id": 30151,
+    "nombre": "DRA DAHIANA AUGUSTO",
+    "recetas": 9122,
+    "pacientes": 1367,
+    "medicamentos": 148,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 31216,
-    "nombre_medico": "JESSICA FRANCO",
-    "total_recetas": 8774,
-    "pacientes_unicos": 1408,
-    "total_recetado": 49233,
-    "total_dispensado": 49233,
-    "total_faltante": 0,
-    "tasa_dispensacion": 1.0
+    "id": 31216,
+    "nombre": "JESSICA FRANCO",
+    "recetas": 8774,
+    "pacientes": 1408,
+    "medicamentos": 122,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 4977,
-    "nombre_medico": "MELGAREJO SANABRIA, EDGAR ROMUALDO",
-    "total_recetas": 8279,
-    "pacientes_unicos": 1057,
-    "total_recetado": 278271,
-    "total_dispensado": 277304,
-    "total_faltante": 967,
-    "tasa_dispensacion": 0.9965249702628014
+    "id": 4977,
+    "nombre": "MELGAREJO SANABRIA, EDGAR ROMUALDO",
+    "recetas": 8279,
+    "pacientes": 1057,
+    "medicamentos": 103,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 11590,
-    "nombre_medico": "DR CARLOS AMARILLA",
-    "total_recetas": 7994,
-    "pacientes_unicos": 1318,
-    "total_recetado": 71504,
-    "total_dispensado": 71465,
-    "total_faltante": 39,
-    "tasa_dispensacion": 0.999454575967778
+    "id": 11590,
+    "nombre": "DR CARLOS AMARILLA",
+    "recetas": 7994,
+    "pacientes": 1318,
+    "medicamentos": 72,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 8926,
-    "nombre_medico": "CARRACELA BARRETO ESTEBAN DARIO",
-    "total_recetas": 7990,
-    "pacientes_unicos": 1227,
-    "total_recetado": 279861,
-    "total_dispensado": 278801,
-    "total_faltante": 1060,
-    "tasa_dispensacion": 0.9962124054441311
+    "id": 8926,
+    "nombre": "CARRACELA BARRETO ESTEBAN DARIO",
+    "recetas": 7990,
+    "pacientes": 1227,
+    "medicamentos": 100,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 18643,
-    "nombre_medico": "ALVAREZ REGIS RUTH MARIA CATALINA",
-    "total_recetas": 7944,
-    "pacientes_unicos": 1139,
-    "total_recetado": 257113,
-    "total_dispensado": 256031,
-    "total_faltante": 1082,
-    "tasa_dispensacion": 0.9957917335957341
+    "id": 18643,
+    "nombre": "ALVAREZ REGIS RUTH MARIA CATALINA",
+    "recetas": 7944,
+    "pacientes": 1139,
+    "medicamentos": 107,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 10883,
-    "nombre_medico": "CASAS MANCILLA, GUADALUPE TELMA",
-    "total_recetas": 7889,
-    "pacientes_unicos": 899,
-    "total_recetado": 260180,
-    "total_dispensado": 256961,
-    "total_faltante": 3219,
-    "tasa_dispensacion": 0.987627796141133
+    "id": 10883,
+    "nombre": "CASAS MANCILLA, GUADALUPE TELMA",
+    "recetas": 7889,
+    "pacientes": 899,
+    "medicamentos": 95,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 36274,
-    "nombre_medico": "CRESTA BOGADO OSCAR NICOLAS",
-    "total_recetas": 7066,
-    "pacientes_unicos": 961,
-    "total_recetado": 36976,
-    "total_dispensado": 35787,
-    "total_faltante": 1189,
-    "tasa_dispensacion": 0.9678440069234098
+    "id": 36274,
+    "nombre": "CRESTA BOGADO OSCAR NICOLAS",
+    "recetas": 7066,
+    "pacientes": 961,
+    "medicamentos": 126,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 21310,
-    "nombre_medico": "YUDICE GONZALEZ",
-    "total_recetas": 6665,
-    "pacientes_unicos": 1372,
-    "total_recetado": 40775,
-    "total_dispensado": 40709,
-    "total_faltante": 66,
-    "tasa_dispensacion": 0.9983813611281422
+    "id": 21310,
+    "nombre": "YUDICE GONZALEZ",
+    "recetas": 6665,
+    "pacientes": 1372,
+    "medicamentos": 146,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 10236,
-    "nombre_medico": "MIRANDA DE CACERES LOURDES ISABEL",
-    "total_recetas": 6290,
-    "pacientes_unicos": 808,
-    "total_recetado": 197686,
-    "total_dispensado": 193226,
-    "total_faltante": 4460,
-    "tasa_dispensacion": 0.9774389688698238
+    "id": 10236,
+    "nombre": "MIRANDA DE CACERES LOURDES ISABEL",
+    "recetas": 6290,
+    "pacientes": 808,
+    "medicamentos": 63,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 36745,
-    "nombre_medico": "MARCOS ESPINOLA",
-    "total_recetas": 6218,
-    "pacientes_unicos": 897,
-    "total_recetado": 34038,
-    "total_dispensado": 33190,
-    "total_faltante": 848,
-    "tasa_dispensacion": 0.9750866678418239
+    "id": 36745,
+    "nombre": "MARCOS ESPINOLA",
+    "recetas": 6218,
+    "pacientes": 897,
+    "medicamentos": 118,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 26545,
-    "nombre_medico": "TOÑANEZ SALCEDO MARCELO",
-    "total_recetas": 6124,
-    "pacientes_unicos": 1032,
-    "total_recetado": 33718,
-    "total_dispensado": 33698,
-    "total_faltante": 20,
-    "tasa_dispensacion": 0.9994068450086008
+    "id": 26545,
+    "nombre": "TOÑANEZ SALCEDO MARCELO",
+    "recetas": 6124,
+    "pacientes": 1032,
+    "medicamentos": 121,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 4221,
-    "nombre_medico": "GONZALEZ DE ALVAREZ ANA",
-    "total_recetas": 5898,
-    "pacientes_unicos": 634,
-    "total_recetado": 201736,
-    "total_dispensado": 200745,
-    "total_faltante": 991,
-    "tasa_dispensacion": 0.9950876392909546
+    "id": 4221,
+    "nombre": "GONZALEZ DE ALVAREZ ANA",
+    "recetas": 5898,
+    "pacientes": 634,
+    "medicamentos": 103,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 33875,
-    "nombre_medico": "BURGOS SERVIN ANGEL ANTONIO",
-    "total_recetas": 5886,
-    "pacientes_unicos": 664,
-    "total_recetado": 24795,
-    "total_dispensado": 23938,
-    "total_faltante": 857,
-    "tasa_dispensacion": 0.9654365799556363
+    "id": 33875,
+    "nombre": "BURGOS SERVIN ANGEL ANTONIO",
+    "recetas": 5886,
+    "pacientes": 664,
+    "medicamentos": 124,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 12185,
-    "nombre_medico": "DRA DAISY AYALA",
-    "total_recetas": 5867,
-    "pacientes_unicos": 1242,
-    "total_recetado": 48103,
-    "total_dispensado": 48086,
-    "total_faltante": 17,
-    "tasa_dispensacion": 0.9996465916886681
+    "id": 12185,
+    "nombre": "DRA DAISY AYALA",
+    "recetas": 5867,
+    "pacientes": 1242,
+    "medicamentos": 100,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 31291,
-    "nombre_medico": "DURE ZARACHO CRISPIN DARIEL",
-    "total_recetas": 5779,
-    "pacientes_unicos": 974,
-    "total_recetado": 36650,
-    "total_dispensado": 36621,
-    "total_faltante": 29,
-    "tasa_dispensacion": 0.9992087312414734
+    "id": 31291,
+    "nombre": "DURE ZARACHO CRISPIN DARIEL",
+    "recetas": 5779,
+    "pacientes": 974,
+    "medicamentos": 129,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 7575,
-    "nombre_medico": "BARRIOS GISELA SOLEDAD",
-    "total_recetas": 5663,
-    "pacientes_unicos": 778,
-    "total_recetado": 187123,
-    "total_dispensado": 186403,
-    "total_faltante": 720,
-    "tasa_dispensacion": 0.9961522634844461
+    "id": 7575,
+    "nombre": "BARRIOS GISELA SOLEDAD",
+    "recetas": 5663,
+    "pacientes": 778,
+    "medicamentos": 96,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 26112,
-    "nombre_medico": "RUIZ DIAZ JARA RIGOBERTO ALVARO NICOLAS",
-    "total_recetas": 5633,
-    "pacientes_unicos": 1078,
-    "total_recetado": 38173,
-    "total_dispensado": 37699,
-    "total_faltante": 474,
-    "tasa_dispensacion": 0.9875828465145522
+    "id": 26112,
+    "nombre": "RUIZ DIAZ JARA RIGOBERTO ALVARO NICOLAS",
+    "recetas": 5633,
+    "pacientes": 1078,
+    "medicamentos": 111,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 30448,
-    "nombre_medico": "SEGOVIA MARTINEZ,MARIA PAZ",
-    "total_recetas": 5452,
-    "pacientes_unicos": 651,
-    "total_recetado": 24399,
-    "total_dispensado": 24315,
-    "total_faltante": 84,
-    "tasa_dispensacion": 0.9965572359522932
+    "id": 30448,
+    "nombre": "SEGOVIA MARTINEZ,MARIA PAZ",
+    "recetas": 5452,
+    "pacientes": 651,
+    "medicamentos": 124,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 6292,
-    "nombre_medico": "TORRES AGUILAR ELENA RAQUEL",
-    "total_recetas": 5405,
-    "pacientes_unicos": 602,
-    "total_recetado": 178686,
-    "total_dispensado": 174691,
-    "total_faltante": 3995,
-    "tasa_dispensacion": 0.9776423446716587
+    "id": 6292,
+    "nombre": "TORRES AGUILAR ELENA RAQUEL",
+    "recetas": 5405,
+    "pacientes": 602,
+    "medicamentos": 55,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 26057,
-    "nombre_medico": "PABLO DAIUB AYALA",
-    "total_recetas": 5068,
-    "pacientes_unicos": 940,
-    "total_recetado": 17641,
-    "total_dispensado": 17641,
-    "total_faltante": 0,
-    "tasa_dispensacion": 1.0
+    "id": 26057,
+    "nombre": "PABLO DAIUB AYALA",
+    "recetas": 5068,
+    "pacientes": 940,
+    "medicamentos": 133,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 36824,
-    "nombre_medico": "JONATAN BENITEZ",
-    "total_recetas": 4929,
-    "pacientes_unicos": 473,
-    "total_recetado": 17460,
-    "total_dispensado": 16483,
-    "total_faltante": 977,
-    "tasa_dispensacion": 0.9440435280641466
+    "id": 36824,
+    "nombre": "JONATAN BENITEZ",
+    "recetas": 4929,
+    "pacientes": 473,
+    "medicamentos": 102,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 20813,
-    "nombre_medico": "SONIA CORONEL",
-    "total_recetas": 4898,
-    "pacientes_unicos": 901,
-    "total_recetado": 21522,
-    "total_dispensado": 21304,
-    "total_faltante": 218,
-    "tasa_dispensacion": 0.989870829848527
+    "id": 20813,
+    "nombre": "SONIA CORONEL",
+    "recetas": 4898,
+    "pacientes": 901,
+    "medicamentos": 153,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 8086,
-    "nombre_medico": "MARIN VYSOKOLAN MARIA DEL ROSARIO",
-    "total_recetas": 4664,
-    "pacientes_unicos": 707,
-    "total_recetado": 159728,
-    "total_dispensado": 159243,
-    "total_faltante": 485,
-    "tasa_dispensacion": 0.9969635880997696
+    "id": 8086,
+    "nombre": "MARIN VYSOKOLAN MARIA DEL ROSARIO",
+    "recetas": 4664,
+    "pacientes": 707,
+    "medicamentos": 90,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 30707,
-    "nombre_medico": "JUAN JOSE DUARTE LUGO",
-    "total_recetas": 4647,
-    "pacientes_unicos": 1010,
-    "total_recetado": 18370,
-    "total_dispensado": 18370,
-    "total_faltante": 0,
-    "tasa_dispensacion": 1.0
+    "id": 30707,
+    "nombre": "JUAN JOSE DUARTE LUGO",
+    "recetas": 4647,
+    "pacientes": 1010,
+    "medicamentos": 139,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 12526,
-    "nombre_medico": "VILLALBA VALLEJOS, ENZO DOMINGO",
-    "total_recetas": 4532,
-    "pacientes_unicos": 1287,
-    "total_recetado": 38185,
-    "total_dispensado": 38185,
-    "total_faltante": 0,
-    "tasa_dispensacion": 1.0
+    "id": 12526,
+    "nombre": "VILLALBA VALLEJOS, ENZO DOMINGO",
+    "recetas": 4532,
+    "pacientes": 1287,
+    "medicamentos": 62,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 16510,
-    "nombre_medico": "GOMEZ RODRIGUEZ, NURIA GISSEL",
-    "total_recetas": 4491,
-    "pacientes_unicos": 805,
-    "total_recetado": 140046,
-    "total_dispensado": 139382,
-    "total_faltante": 664,
-    "tasa_dispensacion": 0.995258700712623
+    "id": 16510,
+    "nombre": "GOMEZ RODRIGUEZ, NURIA GISSEL",
+    "recetas": 4491,
+    "pacientes": 805,
+    "medicamentos": 96,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 30509,
-    "nombre_medico": "ESCURRA LISERAS CARLOS RAFAEL",
-    "total_recetas": 4415,
-    "pacientes_unicos": 901,
-    "total_recetado": 18958,
-    "total_dispensado": 18905,
-    "total_faltante": 53,
-    "tasa_dispensacion": 0.9972043464500475
+    "id": 30509,
+    "nombre": "ESCURRA LISERAS CARLOS RAFAEL",
+    "recetas": 4415,
+    "pacientes": 901,
+    "medicamentos": 140,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 3599,
-    "nombre_medico": "JOSE RAMON FERREIRA AYALA",
-    "total_recetas": 4413,
-    "pacientes_unicos": 971,
-    "total_recetado": 134979,
-    "total_dispensado": 134889,
-    "total_faltante": 90,
-    "tasa_dispensacion": 0.9993332296134955
+    "id": 3599,
+    "nombre": "JOSE RAMON FERREIRA AYALA",
+    "recetas": 4413,
+    "pacientes": 971,
+    "medicamentos": 101,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 6057,
-    "nombre_medico": "GONZALEZ MIRNA LISA",
-    "total_recetas": 4403,
-    "pacientes_unicos": 555,
-    "total_recetado": 143035,
-    "total_dispensado": 142521,
-    "total_faltante": 514,
-    "tasa_dispensacion": 0.9964064739399447
+    "id": 6057,
+    "nombre": "GONZALEZ MIRNA LISA",
+    "recetas": 4403,
+    "pacientes": 555,
+    "medicamentos": 95,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 31063,
-    "nombre_medico": "MARTINEZ GAVILAN,CAMILA ARASY",
-    "total_recetas": 4363,
-    "pacientes_unicos": 867,
-    "total_recetado": 15678,
-    "total_dispensado": 15614,
-    "total_faltante": 64,
-    "tasa_dispensacion": 0.9959178466641153
+    "id": 31063,
+    "nombre": "MARTINEZ GAVILAN,CAMILA ARASY",
+    "recetas": 4363,
+    "pacientes": 867,
+    "medicamentos": 143,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 19726,
-    "nombre_medico": "MARTINEZ OJEDA EMILIO RAUL",
-    "total_recetas": 4340,
-    "pacientes_unicos": 1307,
-    "total_recetado": 38946,
-    "total_dispensado": 38946,
-    "total_faltante": 0,
-    "tasa_dispensacion": 1.0
+    "id": 19726,
+    "nombre": "MARTINEZ OJEDA EMILIO RAUL",
+    "recetas": 4340,
+    "pacientes": 1307,
+    "medicamentos": 66,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 30401,
-    "nombre_medico": "JOSE GOMEZ",
-    "total_recetas": 4322,
-    "pacientes_unicos": 827,
-    "total_recetado": 18613,
-    "total_dispensado": 18509,
-    "total_faltante": 104,
-    "tasa_dispensacion": 0.9944125073873099
+    "id": 30401,
+    "nombre": "JOSE GOMEZ",
+    "recetas": 4322,
+    "pacientes": 827,
+    "medicamentos": 122,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 26022,
-    "nombre_medico": "YOMO SATO,ALBERTO HIROSHI",
-    "total_recetas": 4215,
-    "pacientes_unicos": 824,
-    "total_recetado": 33022,
-    "total_dispensado": 33017,
-    "total_faltante": 5,
-    "tasa_dispensacion": 0.9998485857912907
+    "id": 26022,
+    "nombre": "YOMO SATO,ALBERTO HIROSHI",
+    "recetas": 4215,
+    "pacientes": 824,
+    "medicamentos": 102,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 12982,
-    "nombre_medico": "ROLANDO CARDOZO",
-    "total_recetas": 4186,
-    "pacientes_unicos": 945,
-    "total_recetado": 34091,
-    "total_dispensado": 34091,
-    "total_faltante": 0,
-    "tasa_dispensacion": 1.0
+    "id": 12982,
+    "nombre": "ROLANDO CARDOZO",
+    "recetas": 4186,
+    "pacientes": 945,
+    "medicamentos": 72,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 16899,
-    "nombre_medico": "LOPEZ BARBOZA, RAMON ALEJANDRO",
-    "total_recetas": 4136,
-    "pacientes_unicos": 1023,
-    "total_recetado": 34872,
-    "total_dispensado": 34872,
-    "total_faltante": 0,
-    "tasa_dispensacion": 1.0
+    "id": 16899,
+    "nombre": "LOPEZ BARBOZA, RAMON ALEJANDRO",
+    "recetas": 4136,
+    "pacientes": 1023,
+    "medicamentos": 106,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 31019,
-    "nombre_medico": "CENTURION RODRIGUEZ MARCOS RAUL",
-    "total_recetas": 4124,
-    "pacientes_unicos": 686,
-    "total_recetado": 14667,
-    "total_dispensado": 14667,
-    "total_faltante": 0,
-    "tasa_dispensacion": 1.0
+    "id": 31019,
+    "nombre": "CENTURION RODRIGUEZ MARCOS RAUL",
+    "recetas": 4124,
+    "pacientes": 686,
+    "medicamentos": 123,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 25890,
-    "nombre_medico": "CUYER NUÑEZ, JENNIFER AYELEN",
-    "total_recetas": 4028,
-    "pacientes_unicos": 802,
-    "total_recetado": 15144,
-    "total_dispensado": 15000,
-    "total_faltante": 144,
-    "tasa_dispensacion": 0.9904912836767037
+    "id": 25890,
+    "nombre": "CUYER NUÑEZ, JENNIFER AYELEN",
+    "recetas": 4028,
+    "pacientes": 802,
+    "medicamentos": 138,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 8353,
-    "nombre_medico": "WALTER FARIÑA NARVAREZ",
-    "total_recetas": 4019,
-    "pacientes_unicos": 1120,
-    "total_recetado": 37310,
-    "total_dispensado": 37310,
-    "total_faltante": 0,
-    "tasa_dispensacion": 1.0
+    "id": 8353,
+    "nombre": "WALTER FARIÑA NARVAREZ",
+    "recetas": 4019,
+    "pacientes": 1120,
+    "medicamentos": 64,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 31991,
-    "nombre_medico": "SANTIAGO AYALA",
-    "total_recetas": 3960,
-    "pacientes_unicos": 502,
-    "total_recetado": 16694,
-    "total_dispensado": 16694,
-    "total_faltante": 0,
-    "tasa_dispensacion": 1.0
+    "id": 31991,
+    "nombre": "SANTIAGO AYALA",
+    "recetas": 3960,
+    "pacientes": 502,
+    "medicamentos": 107,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 30458,
-    "nombre_medico": "ROMERO GIMENEZ,MARCO ADAN",
-    "total_recetas": 3925,
-    "pacientes_unicos": 671,
-    "total_recetado": 14310,
-    "total_dispensado": 14305,
-    "total_faltante": 5,
-    "tasa_dispensacion": 0.9996505939902166
+    "id": 30458,
+    "nombre": "ROMERO GIMENEZ,MARCO ADAN",
+    "recetas": 3925,
+    "pacientes": 671,
+    "medicamentos": 118,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 8962,
-    "nombre_medico": "DAVALOS VILLAGRA, ANA LIZ",
-    "total_recetas": 3891,
-    "pacientes_unicos": 464,
-    "total_recetado": 124610,
-    "total_dispensado": 122180,
-    "total_faltante": 2430,
-    "tasa_dispensacion": 0.9804991573709975
+    "id": 8962,
+    "nombre": "DAVALOS VILLAGRA, ANA LIZ",
+    "recetas": 3891,
+    "pacientes": 464,
+    "medicamentos": 54,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 30143,
-    "nombre_medico": "EDGAR CABALLERO",
-    "total_recetas": 3887,
-    "pacientes_unicos": 802,
-    "total_recetado": 14757,
-    "total_dispensado": 14536,
-    "total_faltante": 221,
-    "tasa_dispensacion": 0.985024056380023
+    "id": 30143,
+    "nombre": "EDGAR CABALLERO",
+    "recetas": 3887,
+    "pacientes": 802,
+    "medicamentos": 139,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 10897,
-    "nombre_medico": "RECALDE IRALA, CELSO ANTONIO",
-    "total_recetas": 3855,
-    "pacientes_unicos": 830,
-    "total_recetado": 28581,
-    "total_dispensado": 28581,
-    "total_faltante": 0,
-    "tasa_dispensacion": 1.0
+    "id": 10897,
+    "nombre": "RECALDE IRALA, CELSO ANTONIO",
+    "recetas": 3855,
+    "pacientes": 830,
+    "medicamentos": 77,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 27093,
-    "nombre_medico": "MONGES LLANO,DANA MARCELA",
-    "total_recetas": 3826,
-    "pacientes_unicos": 635,
-    "total_recetado": 14580,
-    "total_dispensado": 14570,
-    "total_faltante": 10,
-    "tasa_dispensacion": 0.9993141289437586
+    "id": 27093,
+    "nombre": "MONGES LLANO,DANA MARCELA",
+    "recetas": 3826,
+    "pacientes": 635,
+    "medicamentos": 134,
+    "especialidad": "No especificada"
   },
   {
-    "medico_id": 30092,
-    "nombre_medico": "ALVARENGA CESPEDES,BRUNO ALESSANDRO",
-    "total_recetas": 3786,
-    "pacientes_unicos": 704,
-    "total_recetado": 15637,
-    "total_dispensado": 15612,
-    "total_faltante": 25,
-    "tasa_dispensacion": 0.9984012278570058
+    "id": 30092,
+    "nombre": "ALVARENGA CESPEDES,BRUNO ALESSANDRO",
+    "recetas": 3786,
+    "pacientes": 704,
+    "medicamentos": 119,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14570,
+    "nombre": "PEDRO LUGO",
+    "recetas": 3766,
+    "pacientes": 709,
+    "medicamentos": 119,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14123,
+    "nombre": "MORAN MACIEL, PAUL ELIAS",
+    "recetas": 3644,
+    "pacientes": 646,
+    "medicamentos": 100,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10720,
+    "nombre": "BASTOS AUSFELD, MARIA DE FATIMA",
+    "recetas": 3619,
+    "pacientes": 601,
+    "medicamentos": 83,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 30158,
+    "nombre": "LIZ IRALA",
+    "recetas": 3585,
+    "pacientes": 698,
+    "medicamentos": 127,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7714,
+    "nombre": "NUÑEZ GRUNER MIRTHA RAQUEL",
+    "recetas": 3501,
+    "pacientes": 507,
+    "medicamentos": 47,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 25373,
+    "nombre": "FERREIRA CABRERA, ABEL",
+    "recetas": 3431,
+    "pacientes": 691,
+    "medicamentos": 142,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 26594,
+    "nombre": "SOLIS ROCHE, ADRIAN RENE",
+    "recetas": 3309,
+    "pacientes": 832,
+    "medicamentos": 132,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 31990,
+    "nombre": "KIN JUNGH YEON",
+    "recetas": 3278,
+    "pacientes": 662,
+    "medicamentos": 141,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12208,
+    "nombre": "MARIA MAIDANA",
+    "recetas": 3170,
+    "pacientes": 655,
+    "medicamentos": 118,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 31119,
+    "nombre": "IRALA ARAUJO,DIEGO DANIEL",
+    "recetas": 3157,
+    "pacientes": 669,
+    "medicamentos": 100,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11093,
+    "nombre": "JOSE GONZALEZ",
+    "recetas": 3152,
+    "pacientes": 948,
+    "medicamentos": 61,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22093,
+    "nombre": "MONICA FERNANDEZ",
+    "recetas": 3114,
+    "pacientes": 744,
+    "medicamentos": 70,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20716,
+    "nombre": "ALVAREZ FLORENTIN, LETICIA MARIA BELEN",
+    "recetas": 3099,
+    "pacientes": 213,
+    "medicamentos": 88,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12067,
+    "nombre": "TELMA SILVEROS",
+    "recetas": 3049,
+    "pacientes": 863,
+    "medicamentos": 62,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4906,
+    "nombre": "OLMEDO FERREIRA FRANCISCO S",
+    "recetas": 3029,
+    "pacientes": 426,
+    "medicamentos": 37,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7075,
+    "nombre": "KIKUCHI HISAOKA; AKIRA",
+    "recetas": 2998,
+    "pacientes": 782,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18599,
+    "nombre": "ALVARENGA FERREIRA NADIA BEATRIZ",
+    "recetas": 2950,
+    "pacientes": 681,
+    "medicamentos": 104,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11090,
+    "nombre": "TOTTIL BARBOTE, JULIO JAVIER",
+    "recetas": 2900,
+    "pacientes": 831,
+    "medicamentos": 127,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15151,
+    "nombre": "SILVIO ALBARENGA",
+    "recetas": 2897,
+    "pacientes": 570,
+    "medicamentos": 90,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 25763,
+    "nombre": "FELTES MARTA MARIA",
+    "recetas": 2833,
+    "pacientes": 519,
+    "medicamentos": 89,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6018,
+    "nombre": "RAMIREZ CABALLERO, LAURA RAQUEL",
+    "recetas": 2817,
+    "pacientes": 623,
+    "medicamentos": 51,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14445,
+    "nombre": "ORTIZ MELGAREJO, FERNANDO                                 ,",
+    "recetas": 2782,
+    "pacientes": 913,
+    "medicamentos": 88,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20179,
+    "nombre": "OTAZU MONGES, HUGO ALEJANDRO",
+    "recetas": 2759,
+    "pacientes": 705,
+    "medicamentos": 93,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13670,
+    "nombre": "VERA SALINAS, RUFO ADRIAN",
+    "recetas": 2699,
+    "pacientes": 609,
+    "medicamentos": 73,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5086,
+    "nombre": "VEGA VALDEZ ROSA NOEMI",
+    "recetas": 2684,
+    "pacientes": 455,
+    "medicamentos": 41,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14942,
+    "nombre": "ZAPATTA MAZACOTTE, YENNY ELIZABETH",
+    "recetas": 2677,
+    "pacientes": 686,
+    "medicamentos": 100,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18287,
+    "nombre": "OSORIO SALINAS, FRANCISCA ELISA JAZMIN",
+    "recetas": 2617,
+    "pacientes": 749,
+    "medicamentos": 68,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10315,
+    "nombre": "OLAZAR ALVARENGA, CLAUDIO RAIMUNDO",
+    "recetas": 2558,
+    "pacientes": 687,
+    "medicamentos": 75,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 21782,
+    "nombre": "CANO BLAIRES FEDERICO NICOLAS",
+    "recetas": 2526,
+    "pacientes": 614,
+    "medicamentos": 101,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13292,
+    "nombre": "PAMELA APONTE",
+    "recetas": 2514,
+    "pacientes": 814,
+    "medicamentos": 52,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7776,
+    "nombre": "ARZA FERNANDEZ; MIGUEL BENIGNO",
+    "recetas": 2497,
+    "pacientes": 571,
+    "medicamentos": 26,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6010,
+    "nombre": "SOSA AQUINO LUCIA",
+    "recetas": 2470,
+    "pacientes": 341,
+    "medicamentos": 66,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14594,
+    "nombre": "GOMEZ MOLINAS, VICTOR MANUEL",
+    "recetas": 2390,
+    "pacientes": 697,
+    "medicamentos": 63,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 30335,
+    "nombre": "FUNK NEUFELD BRUCE MARCELLO",
+    "recetas": 2363,
+    "pacientes": 454,
+    "medicamentos": 109,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13167,
+    "nombre": "ACOSTA SANABRIA, RODRIGO MARCELO EZEQUIEL",
+    "recetas": 2357,
+    "pacientes": 306,
+    "medicamentos": 43,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22421,
+    "nombre": "JIMENEZ BOGADO DAISY LETICIA",
+    "recetas": 2228,
+    "pacientes": 528,
+    "medicamentos": 84,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 36044,
+    "nombre": "MARIA JOSE LAFARJA",
+    "recetas": 2162,
+    "pacientes": 558,
+    "medicamentos": 49,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14194,
+    "nombre": "RAQUEL MOLINAS",
+    "recetas": 2057,
+    "pacientes": 475,
+    "medicamentos": 138,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16596,
+    "nombre": "FARIÑA AGUILERA, SARA PATRICIA",
+    "recetas": 2046,
+    "pacientes": 677,
+    "medicamentos": 76,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10789,
+    "nombre": "LARAN DUARTE, VIOLETA MARIA",
+    "recetas": 2024,
+    "pacientes": 319,
+    "medicamentos": 37,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12412,
+    "nombre": "ORTIZ GAONA, NELSON RAFAEL",
+    "recetas": 1993,
+    "pacientes": 259,
+    "medicamentos": 42,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 26395,
+    "nombre": "SILGUERO GONZALEZ, FATIMA INES",
+    "recetas": 1987,
+    "pacientes": 795,
+    "medicamentos": 81,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 30977,
+    "nombre": "ROBERT GONZALEZ",
+    "recetas": 1984,
+    "pacientes": 93,
+    "medicamentos": 89,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9782,
+    "nombre": "CABRAL DE PANIAGUA GLADYS",
+    "recetas": 1983,
+    "pacientes": 453,
+    "medicamentos": 88,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7722,
+    "nombre": "FLEITAS CABRERA, CYNTHIA RAFAELA VERONICA",
+    "recetas": 1959,
+    "pacientes": 393,
+    "medicamentos": 66,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19304,
+    "nombre": "ESCOBAR AGUIAR SANDRA ELIANE",
+    "recetas": 1934,
+    "pacientes": 454,
+    "medicamentos": 99,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12974,
+    "nombre": "GAMARRA DUARTE, ERASMO LUIS",
+    "recetas": 1931,
+    "pacientes": 464,
+    "medicamentos": 75,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13140,
+    "nombre": "ROMERO JIMENEZ, MARIA NILDA",
+    "recetas": 1899,
+    "pacientes": 227,
+    "medicamentos": 138,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11568,
+    "nombre": "VEGA LOPEZ, DAYSI ANALY",
+    "recetas": 1895,
+    "pacientes": 353,
+    "medicamentos": 137,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13108,
+    "nombre": "QUEVEDO SAMANIEGO, LARISSA",
+    "recetas": 1885,
+    "pacientes": 461,
+    "medicamentos": 54,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14197,
+    "nombre": "SANDRA CHAMORRO",
+    "recetas": 1860,
+    "pacientes": 482,
+    "medicamentos": 93,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17470,
+    "nombre": "RUTH OLMEDO",
+    "recetas": 1849,
+    "pacientes": 134,
+    "medicamentos": 134,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8878,
+    "nombre": "LETICIA DELGADO",
+    "recetas": 1846,
+    "pacientes": 504,
+    "medicamentos": 83,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13424,
+    "nombre": "LOVERA YERUTA, PEDRO IVAN",
+    "recetas": 1836,
+    "pacientes": 626,
+    "medicamentos": 64,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 21333,
+    "nombre": "ZAYAS MEZA GABINA MARIELA",
+    "recetas": 1811,
+    "pacientes": 111,
+    "medicamentos": 73,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5542,
+    "nombre": "GONZALEZ SONIA",
+    "recetas": 1802,
+    "pacientes": 452,
+    "medicamentos": 51,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 26571,
+    "nombre": "DA ROSA PINHEIRO SEBASTIAO MILTON",
+    "recetas": 1788,
+    "pacientes": 87,
+    "medicamentos": 81,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12004,
+    "nombre": "NATALIA CONCEPCION CANIZA REYES",
+    "recetas": 1774,
+    "pacientes": 175,
+    "medicamentos": 133,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13707,
+    "nombre": "PERALTA IRIARTE, IRENE CAROLINA",
+    "recetas": 1772,
+    "pacientes": 91,
+    "medicamentos": 119,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11497,
+    "nombre": "CARDOZO VILLAMAYOR, FABIO MAURICIO",
+    "recetas": 1748,
+    "pacientes": 474,
+    "medicamentos": 41,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15731,
+    "nombre": "ROA ESCOBAR, MARIA DE LOS ANGELES",
+    "recetas": 1739,
+    "pacientes": 425,
+    "medicamentos": 52,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11735,
+    "nombre": "GONZALEZ AMARILLA, ROMINA DEL CARMEN",
+    "recetas": 1733,
+    "pacientes": 329,
+    "medicamentos": 60,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12460,
+    "nombre": "GONZALEZ AGUILERA, ANA LUZ MARIA",
+    "recetas": 1723,
+    "pacientes": 460,
+    "medicamentos": 65,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14811,
+    "nombre": "PATRICIA CARDOZO",
+    "recetas": 1682,
+    "pacientes": 480,
+    "medicamentos": 119,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 98101,
+    "nombre": " GONZALEZ NOGUERA, LILIANA CAROLINA",
+    "recetas": 1662,
+    "pacientes": 523,
+    "medicamentos": 49,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 21994,
+    "nombre": "OSVALDO MENDOZA",
+    "recetas": 1654,
+    "pacientes": 424,
+    "medicamentos": 73,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12181,
+    "nombre": "SHIRLEY LEGUIZAMON",
+    "recetas": 1654,
+    "pacientes": 249,
+    "medicamentos": 135,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15914,
+    "nombre": "SONIA OCAMPOS",
+    "recetas": 1649,
+    "pacientes": 406,
+    "medicamentos": 86,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18276,
+    "nombre": "MONZON FERREIRA, ORLANDO RENE",
+    "recetas": 1636,
+    "pacientes": 267,
+    "medicamentos": 141,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 26475,
+    "nombre": "GONZALEZ GAVILAN PABLO QUINTIN",
+    "recetas": 1620,
+    "pacientes": 461,
+    "medicamentos": 99,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15758,
+    "nombre": "SANTANDER BOGADO, CELIA",
+    "recetas": 1608,
+    "pacientes": 267,
+    "medicamentos": 139,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13047,
+    "nombre": "DIEGO BENITEZ",
+    "recetas": 1538,
+    "pacientes": 324,
+    "medicamentos": 120,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16220,
+    "nombre": "MARCOS LOPEZ",
+    "recetas": 1533,
+    "pacientes": 453,
+    "medicamentos": 62,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9333,
+    "nombre": "COLARTE JARA, JULIO CESAR",
+    "recetas": 1528,
+    "pacientes": 217,
+    "medicamentos": 82,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13982,
+    "nombre": "ROSSANA POLLETI",
+    "recetas": 1522,
+    "pacientes": 578,
+    "medicamentos": 73,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12931,
+    "nombre": "GALEANO VENIALGO, ANA CLAUDIA",
+    "recetas": 1521,
+    "pacientes": 500,
+    "medicamentos": 57,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17133,
+    "nombre": "DIAMELA ACOSTA",
+    "recetas": 1513,
+    "pacientes": 351,
+    "medicamentos": 97,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14198,
+    "nombre": "MENDOZA LEIVA, LUIS ALFREDO",
+    "recetas": 1509,
+    "pacientes": 510,
+    "medicamentos": 84,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12937,
+    "nombre": "ORUE MARTINS, MONICA ROSANA",
+    "recetas": 1505,
+    "pacientes": 430,
+    "medicamentos": 86,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 25542,
+    "nombre": "MATIAS ARANO",
+    "recetas": 1495,
+    "pacientes": 418,
+    "medicamentos": 99,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14728,
+    "nombre": "CANATA ESPINOLA MARIA GABRIELA",
+    "recetas": 1486,
+    "pacientes": 225,
+    "medicamentos": 41,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10794,
+    "nombre": "ENCINA AGUILERA, SALOME KARINA",
+    "recetas": 1481,
+    "pacientes": 487,
+    "medicamentos": 56,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14946,
+    "nombre": "VAZQUEZ ABDALA, RODRIGO JOSE",
+    "recetas": 1477,
+    "pacientes": 263,
+    "medicamentos": 30,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10298,
+    "nombre": "MILTOS FRETES, PATRICIA ALEXANDRA",
+    "recetas": 1463,
+    "pacientes": 242,
+    "medicamentos": 39,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12742,
+    "nombre": "RIOS MARTINEZ, CINTHIA CAROLINA",
+    "recetas": 1461,
+    "pacientes": 518,
+    "medicamentos": 70,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15606,
+    "nombre": "GARCIA ZAYAS, JORGE ABEL",
+    "recetas": 1457,
+    "pacientes": 366,
+    "medicamentos": 62,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16366,
+    "nombre": "JIMENEZ PRIETO, NATALIA MARIEL",
+    "recetas": 1407,
+    "pacientes": 148,
+    "medicamentos": 130,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17558,
+    "nombre": "MEDINA CHAVEZ, CELIA",
+    "recetas": 1360,
+    "pacientes": 207,
+    "medicamentos": 139,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12352,
+    "nombre": "RODRIGUEZ ESQUIVEL, MARIA GLORIA",
+    "recetas": 1359,
+    "pacientes": 287,
+    "medicamentos": 44,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13659,
+    "nombre": "CELIA STEFANIE, CELIA STEFANI",
+    "recetas": 1354,
+    "pacientes": 334,
+    "medicamentos": 60,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18979,
+    "nombre": "VERONICA ALUJAS",
+    "recetas": 1354,
+    "pacientes": 444,
+    "medicamentos": 104,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16877,
+    "nombre": "VILLALBA SALAS, NATALIA ELIZABETH",
+    "recetas": 1353,
+    "pacientes": 139,
+    "medicamentos": 120,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7035,
+    "nombre": "RIVAROLA GARCETE, HUGO RAMON",
+    "recetas": 1347,
+    "pacientes": 193,
+    "medicamentos": 132,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12174,
+    "nombre": "CRISTIAN BOGADO",
+    "recetas": 1339,
+    "pacientes": 249,
+    "medicamentos": 105,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10647,
+    "nombre": "GUSTAVO AGUERO",
+    "recetas": 1322,
+    "pacientes": 390,
+    "medicamentos": 91,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15920,
+    "nombre": "JARA TOLEDO FANNY PATRICIA",
+    "recetas": 1301,
+    "pacientes": 468,
+    "medicamentos": 51,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16308,
+    "nombre": "SILVIA PALACIOS",
+    "recetas": 1291,
+    "pacientes": 320,
+    "medicamentos": 110,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10612,
+    "nombre": "DUARTE OVELAR, VICENTE ENRIQUE (G08)-INGAVI DESDE 18/10",
+    "recetas": 1285,
+    "pacientes": 303,
+    "medicamentos": 25,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22142,
+    "nombre": "FLECHA VARGAS ALICIA MAGALI",
+    "recetas": 1278,
+    "pacientes": 455,
+    "medicamentos": 48,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9583,
+    "nombre": "DIEGO BRITEZ",
+    "recetas": 1261,
+    "pacientes": 429,
+    "medicamentos": 53,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19491,
+    "nombre": "MIRENA FRANCO",
+    "recetas": 1252,
+    "pacientes": 307,
+    "medicamentos": 89,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22042,
+    "nombre": "BECKER AMARILLA, SHIRLEY MONZERRAT",
+    "recetas": 1252,
+    "pacientes": 202,
+    "medicamentos": 132,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15766,
+    "nombre": "VEGA GONZALEZ MARIANA ELENA",
+    "recetas": 1242,
+    "pacientes": 586,
+    "medicamentos": 57,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12678,
+    "nombre": "JUAN JARA",
+    "recetas": 1218,
+    "pacientes": 302,
+    "medicamentos": 124,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9570,
+    "nombre": "AMARILLA SILVA, RODRIGO",
+    "recetas": 1215,
+    "pacientes": 284,
+    "medicamentos": 25,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 26310,
+    "nombre": "RICHARD CHAMORRO",
+    "recetas": 1196,
+    "pacientes": 315,
+    "medicamentos": 101,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15126,
+    "nombre": "RUIZ DIAZ AGUILAR,ELVIS RUBEN",
+    "recetas": 1195,
+    "pacientes": 199,
+    "medicamentos": 132,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4084,
+    "nombre": "LLANO GIACUMMO, JOSE DOMINGO (G09) - INGAVI DESDE 18/10",
+    "recetas": 1195,
+    "pacientes": 473,
+    "medicamentos": 22,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7017,
+    "nombre": "LESKE AYALA, CRISTHIAN OSVALDO (G09) INGAVI DESDE 18/10",
+    "recetas": 1185,
+    "pacientes": 376,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5895,
+    "nombre": "BASTOS DAVALOS, ALBA CONCEPCION",
+    "recetas": 1184,
+    "pacientes": 335,
+    "medicamentos": 43,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 21560,
+    "nombre": "MEZA FRANCO, ALAN CLAUDELINO",
+    "recetas": 1177,
+    "pacientes": 260,
+    "medicamentos": 116,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8103,
+    "nombre": "ROMAN RUIZ, OLIVIA ROCIO",
+    "recetas": 1173,
+    "pacientes": 412,
+    "medicamentos": 48,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11701,
+    "nombre": "VILLALBA SAUCEDO, MARCOS",
+    "recetas": 1171,
+    "pacientes": 493,
+    "medicamentos": 69,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10562,
+    "nombre": "ROMERO DUPLAND, KAREN LETICIA",
+    "recetas": 1170,
+    "pacientes": 388,
+    "medicamentos": 47,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9322,
+    "nombre": "FERNANDEZ SANABRIA, CLAUDIA PATRICIA",
+    "recetas": 1162,
+    "pacientes": 407,
+    "medicamentos": 53,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7090,
+    "nombre": "BRIZUELA SAMUDIO ADRIANA MABEL",
+    "recetas": 1154,
+    "pacientes": 520,
+    "medicamentos": 39,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12793,
+    "nombre": "SERVIN CORONEL, JESSICA LORENA",
+    "recetas": 1131,
+    "pacientes": 431,
+    "medicamentos": 55,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17387,
+    "nombre": "SANCHEZ SILVA, ALBA ANAHI",
+    "recetas": 1125,
+    "pacientes": 243,
+    "medicamentos": 40,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4237,
+    "nombre": "DUJAK MARTINEZ, JUAN (G09)",
+    "recetas": 1093,
+    "pacientes": 484,
+    "medicamentos": 26,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11944,
+    "nombre": "GENEZ PAEZ, YRENE MARIA JOSE",
+    "recetas": 1089,
+    "pacientes": 330,
+    "medicamentos": 46,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17129,
+    "nombre": "PAOLA GUERRERO",
+    "recetas": 1084,
+    "pacientes": 124,
+    "medicamentos": 122,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10395,
+    "nombre": "MIGUELANGEL GALEANO",
+    "recetas": 1059,
+    "pacientes": 244,
+    "medicamentos": 107,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4768,
+    "nombre": "ARCE DE REYES MARIA LIZ",
+    "recetas": 1049,
+    "pacientes": 458,
+    "medicamentos": 39,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7417,
+    "nombre": "LILIAN CACERES",
+    "recetas": 1048,
+    "pacientes": 475,
+    "medicamentos": 46,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15911,
+    "nombre": "MONGES GARCETE, NELSON DAVID",
+    "recetas": 1030,
+    "pacientes": 209,
+    "medicamentos": 22,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12882,
+    "nombre": "TORRES IBARROLA, ARTURO JUVENCIO",
+    "recetas": 1018,
+    "pacientes": 237,
+    "medicamentos": 35,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12991,
+    "nombre": "SAMUDIO BENEGAS, LETICIA RAQUEL",
+    "recetas": 1018,
+    "pacientes": 89,
+    "medicamentos": 122,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11119,
+    "nombre": "PORTILLO CAÑETE, EMILIA VIOLETA",
+    "recetas": 1009,
+    "pacientes": 169,
+    "medicamentos": 28,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12057,
+    "nombre": "PINTOS FERNANDEZ, MIRNA ELIZABETH",
+    "recetas": 1007,
+    "pacientes": 207,
+    "medicamentos": 134,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5031,
+    "nombre": " ACOSTA, ROSA DEL CARMEN",
+    "recetas": 1003,
+    "pacientes": 170,
+    "medicamentos": 61,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 26190,
+    "nombre": "YANINA FRANCO",
+    "recetas": 995,
+    "pacientes": 218,
+    "medicamentos": 90,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5943,
+    "nombre": "VERON VIERA JORGE",
+    "recetas": 993,
+    "pacientes": 282,
+    "medicamentos": 40,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22509,
+    "nombre": "OJEDA OZUNA TANIA MAGALI",
+    "recetas": 985,
+    "pacientes": 48,
+    "medicamentos": 54,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13097,
+    "nombre": "MOREL FELTES ANGELICA MERCEDES",
+    "recetas": 983,
+    "pacientes": 341,
+    "medicamentos": 48,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16522,
+    "nombre": "YOLANDA ESCOBAR",
+    "recetas": 981,
+    "pacientes": 178,
+    "medicamentos": 115,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11667,
+    "nombre": "YUDIS GALEANO, MAGNA MARIA REBECA",
+    "recetas": 979,
+    "pacientes": 346,
+    "medicamentos": 92,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18967,
+    "nombre": "VALLEJOS RAMIREZ,DAYANARA LEONOR",
+    "recetas": 977,
+    "pacientes": 151,
+    "medicamentos": 47,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17319,
+    "nombre": "RAIMUNDO PINTOS",
+    "recetas": 976,
+    "pacientes": 119,
+    "medicamentos": 121,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13437,
+    "nombre": "ROA ESPINOLA,  ALICIA SOLEDAD",
+    "recetas": 973,
+    "pacientes": 93,
+    "medicamentos": 109,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7619,
+    "nombre": "CANO CANELA LOURDES MONSERRATE",
+    "recetas": 962,
+    "pacientes": 382,
+    "medicamentos": 42,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8494,
+    "nombre": "FLEITAS ESCOBAR, HECTOR LUIS (G09)",
+    "recetas": 951,
+    "pacientes": 251,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17705,
+    "nombre": "DUARTE DAYHANA BEATRIZ",
+    "recetas": 951,
+    "pacientes": 161,
+    "medicamentos": 55,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11400,
+    "nombre": "D`APOLLO ROA, NATALIA MARIA",
+    "recetas": 949,
+    "pacientes": 378,
+    "medicamentos": 50,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19026,
+    "nombre": "RONALD LOPEZ",
+    "recetas": 947,
+    "pacientes": 409,
+    "medicamentos": 54,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 37086,
+    "nombre": "GONZALEZ HERMES GABRIEL OSVALDO",
+    "recetas": 943,
+    "pacientes": 68,
+    "medicamentos": 73,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14307,
+    "nombre": "PEREZ IBARRA, DAISY BERNARDINA",
+    "recetas": 943,
+    "pacientes": 153,
+    "medicamentos": 130,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9453,
+    "nombre": "SANABRIA RODRIGUEZ, CINTHIA ANTOLINA",
+    "recetas": 937,
+    "pacientes": 338,
+    "medicamentos": 50,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 36614,
+    "nombre": "SERGIO MENDEZ",
+    "recetas": 935,
+    "pacientes": 316,
+    "medicamentos": 74,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20588,
+    "nombre": "SANTACRUZ PORTILLO, JAZMIN MARIA",
+    "recetas": 926,
+    "pacientes": 399,
+    "medicamentos": 53,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15939,
+    "nombre": "GALEANO MARIN, MILCA RAQUEL",
+    "recetas": 914,
+    "pacientes": 121,
+    "medicamentos": 124,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20886,
+    "nombre": "ADORNO VILLALBA, LAILA MIKAELA",
+    "recetas": 914,
+    "pacientes": 150,
+    "medicamentos": 49,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6042,
+    "nombre": "PRATT RIVAROLA JULIO CESAR ( ADULTO )",
+    "recetas": 910,
+    "pacientes": 248,
+    "medicamentos": 36,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7249,
+    "nombre": "CASCO NUÑEZ, ENRIQUE ALCIDES (COLUMNA   G07)",
+    "recetas": 910,
+    "pacientes": 223,
+    "medicamentos": 25,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12152,
+    "nombre": "BRITEZ BOGADO GLADYS VIVIANA",
+    "recetas": 902,
+    "pacientes": 292,
+    "medicamentos": 50,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17600,
+    "nombre": "IBAÑEZ APEZTEGUIA, CELIA ASUNCION",
+    "recetas": 897,
+    "pacientes": 101,
+    "medicamentos": 117,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17000,
+    "nombre": "OJEDA ROMAN, ARTURO ALESSANDRO",
+    "recetas": 887,
+    "pacientes": 82,
+    "medicamentos": 127,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12441,
+    "nombre": "VERA DUARTE, RUBEN MIGUEL",
+    "recetas": 876,
+    "pacientes": 131,
+    "medicamentos": 123,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18355,
+    "nombre": "BENITEZ BRITEZ CYNTHIA ESTEFANIA",
+    "recetas": 874,
+    "pacientes": 263,
+    "medicamentos": 51,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18038,
+    "nombre": "NOELIA AZUAGA",
+    "recetas": 873,
+    "pacientes": 185,
+    "medicamentos": 107,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9204,
+    "nombre": "DE CASTRO C RICARDO (G12)- INGAVI DESDE 18/10",
+    "recetas": 872,
+    "pacientes": 186,
+    "medicamentos": 30,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23689,
+    "nombre": "HOLLER FEDERICO ENRIQUE",
+    "recetas": 871,
+    "pacientes": 293,
+    "medicamentos": 47,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12686,
+    "nombre": "SANTACRUZ FLOR, VANESSA ELIZABETH",
+    "recetas": 865,
+    "pacientes": 80,
+    "medicamentos": 105,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10469,
+    "nombre": "CABALLERO CACERES, KARINA FABIANA",
+    "recetas": 865,
+    "pacientes": 203,
+    "medicamentos": 29,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18513,
+    "nombre": "AGUERO QUIROGA,YENNY ANA ANTONIA",
+    "recetas": 863,
+    "pacientes": 114,
+    "medicamentos": 104,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12413,
+    "nombre": "VIVIANA VANEZZA ALVARENGA",
+    "recetas": 846,
+    "pacientes": 173,
+    "medicamentos": 93,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17700,
+    "nombre": "ALONSO ACUÑA ANDREA NATHALIA",
+    "recetas": 842,
+    "pacientes": 360,
+    "medicamentos": 45,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10034,
+    "nombre": "PAKRAVAN FIGUEREDO MIGUEL ANGEL",
+    "recetas": 839,
+    "pacientes": 181,
+    "medicamentos": 61,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19183,
+    "nombre": "CHAVEZ GIMENEZ, JUAN MANUEL",
+    "recetas": 836,
+    "pacientes": 209,
+    "medicamentos": 45,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18491,
+    "nombre": "MYRIAN LARREA",
+    "recetas": 833,
+    "pacientes": 140,
+    "medicamentos": 136,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23713,
+    "nombre": "BOGADO AGUIRRE NELSON ESTEBAN",
+    "recetas": 829,
+    "pacientes": 276,
+    "medicamentos": 37,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16348,
+    "nombre": "GUILLEN AMARILLA, GUILLEN AMARILLA",
+    "recetas": 827,
+    "pacientes": 100,
+    "medicamentos": 103,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14131,
+    "nombre": "CARDOZO DAVALOS, LAURA CECILIA",
+    "recetas": 827,
+    "pacientes": 80,
+    "medicamentos": 105,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19937,
+    "nombre": "ROJAS SALINAS, FRANCISCO RAMON",
+    "recetas": 825,
+    "pacientes": 113,
+    "medicamentos": 121,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12990,
+    "nombre": "ARCE ACUÑA, DERLIS RAFAEL",
+    "recetas": 823,
+    "pacientes": 82,
+    "medicamentos": 107,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14956,
+    "nombre": "DIAZ MEZA, LIZ NATALIA",
+    "recetas": 819,
+    "pacientes": 72,
+    "medicamentos": 106,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17244,
+    "nombre": "VALENZUELA BENTO, HERMINIO (G07)",
+    "recetas": 818,
+    "pacientes": 251,
+    "medicamentos": 32,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14679,
+    "nombre": "CAPLI, JONATAN OMAR",
+    "recetas": 815,
+    "pacientes": 78,
+    "medicamentos": 123,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12334,
+    "nombre": "RAMIREZ SOSA, NATALIA ANDREA",
+    "recetas": 810,
+    "pacientes": 246,
+    "medicamentos": 100,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16837,
+    "nombre": "BAZAN ZARACHO ADRIAN DAVID",
+    "recetas": 810,
+    "pacientes": 75,
+    "medicamentos": 114,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18184,
+    "nombre": "FIGUEREDO MORA MARIO ANDRES",
+    "recetas": 808,
+    "pacientes": 89,
+    "medicamentos": 103,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17630,
+    "nombre": "VILLALBA LESME MARILU",
+    "recetas": 798,
+    "pacientes": 281,
+    "medicamentos": 48,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 26498,
+    "nombre": "ZARACHO APARICIO,MAX RODRIGO SEBASTIAN",
+    "recetas": 796,
+    "pacientes": 251,
+    "medicamentos": 71,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13516,
+    "nombre": "DIAZ ROLON, IVAN JAVIER",
+    "recetas": 786,
+    "pacientes": 88,
+    "medicamentos": 101,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10816,
+    "nombre": "CESAR AQUINO",
+    "recetas": 784,
+    "pacientes": 108,
+    "medicamentos": 120,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11174,
+    "nombre": "LEGAL, CHRISTIAN GABRIEL",
+    "recetas": 782,
+    "pacientes": 208,
+    "medicamentos": 63,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14228,
+    "nombre": "MENDIETA FIGUEREDO ISMELDA ROCIO INES",
+    "recetas": 773,
+    "pacientes": 111,
+    "medicamentos": 128,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14007,
+    "nombre": "BRUNO AQUINO, FREDDY JAVIER",
+    "recetas": 765,
+    "pacientes": 84,
+    "medicamentos": 110,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8905,
+    "nombre": "TORALES ESTIGARRIBIA, NORA DE MARIA",
+    "recetas": 765,
+    "pacientes": 125,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13136,
+    "nombre": "RAMIREZ ORTIZ, HILDA ELIZABETH",
+    "recetas": 764,
+    "pacientes": 186,
+    "medicamentos": 113,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8564,
+    "nombre": "AYALA MACIEL, DIEGO (G08)",
+    "recetas": 761,
+    "pacientes": 239,
+    "medicamentos": 24,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11937,
+    "nombre": "CENTURION, JORGE AUGUSTO",
+    "recetas": 759,
+    "pacientes": 124,
+    "medicamentos": 83,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8401,
+    "nombre": "FERREIRA VILLALBA VICTOR DANIEL",
+    "recetas": 754,
+    "pacientes": 233,
+    "medicamentos": 78,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10753,
+    "nombre": "AGUILERA CAMPUZANO, ORLANDO RUBEN",
+    "recetas": 753,
+    "pacientes": 74,
+    "medicamentos": 113,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13333,
+    "nombre": "BURGOS FLORES, JULIO CESAR",
+    "recetas": 752,
+    "pacientes": 208,
+    "medicamentos": 41,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4582,
+    "nombre": "SANTACRUZ DE GONZALEZ MARTHA BEATRIZ",
+    "recetas": 740,
+    "pacientes": 225,
+    "medicamentos": 42,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19247,
+    "nombre": "CORONEL SOLIZ, CARLOS RUBEN (G07- G11)",
+    "recetas": 738,
+    "pacientes": 202,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15675,
+    "nombre": "MIRTIS GAMARRA",
+    "recetas": 737,
+    "pacientes": 83,
+    "medicamentos": 100,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19614,
+    "nombre": "JUAN CARLOS JARA",
+    "recetas": 736,
+    "pacientes": 114,
+    "medicamentos": 104,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23517,
+    "nombre": "PINO GONZALEZ JOSE MANUEL",
+    "recetas": 734,
+    "pacientes": 271,
+    "medicamentos": 83,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14713,
+    "nombre": "MARIA NOEL CENTURION",
+    "recetas": 733,
+    "pacientes": 105,
+    "medicamentos": 111,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13032,
+    "nombre": "MANAVELLA BRUSQUETTI, FABIO DAVID",
+    "recetas": 729,
+    "pacientes": 66,
+    "medicamentos": 103,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16834,
+    "nombre": "GERALDINE DUARTE",
+    "recetas": 727,
+    "pacientes": 178,
+    "medicamentos": 122,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6742,
+    "nombre": "GONZALEZ RIVEROS,OSVALDO (G02-G08)INGAVI DESDE 18/10",
+    "recetas": 719,
+    "pacientes": 197,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10331,
+    "nombre": "MARIA JOSE AQUINO",
+    "recetas": 717,
+    "pacientes": 101,
+    "medicamentos": 99,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13017,
+    "nombre": "AMARILLA ORTIZ, ANGELICA DE JESUS",
+    "recetas": 715,
+    "pacientes": 75,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15547,
+    "nombre": "BARRETO LOMBARDO ALEXIS DANIEL",
+    "recetas": 710,
+    "pacientes": 73,
+    "medicamentos": 112,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23163,
+    "nombre": "KARINA BRIZUELA",
+    "recetas": 706,
+    "pacientes": 195,
+    "medicamentos": 82,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19673,
+    "nombre": "ANIBAL ZUCCHINI",
+    "recetas": 703,
+    "pacientes": 61,
+    "medicamentos": 109,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20552,
+    "nombre": "GONZALEZ MIRANDA, CELESTE MARIA JOSE",
+    "recetas": 702,
+    "pacientes": 104,
+    "medicamentos": 117,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 387,
+    "nombre": "MEDICO COLOPROCTOGIA",
+    "recetas": 700,
+    "pacientes": 276,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11815,
+    "nombre": "BAEZ MACIEL, VALENTINO JAVIER",
+    "recetas": 699,
+    "pacientes": 71,
+    "medicamentos": 115,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15962,
+    "nombre": "TERESA DE JESUS RAMIREZ",
+    "recetas": 698,
+    "pacientes": 74,
+    "medicamentos": 109,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10633,
+    "nombre": "DOLDAN OTAZO CHRISTIAN AMADO",
+    "recetas": 698,
+    "pacientes": 69,
+    "medicamentos": 104,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15846,
+    "nombre": "RODRIGUEZ DUARTE, MARCOS ANDRES",
+    "recetas": 697,
+    "pacientes": 65,
+    "medicamentos": 100,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16992,
+    "nombre": "KARINA GARCIA",
+    "recetas": 686,
+    "pacientes": 103,
+    "medicamentos": 112,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15818,
+    "nombre": "NUÑEZ DA SILVEIRA RODRIGUEZ LIZ GABRIELA",
+    "recetas": 686,
+    "pacientes": 352,
+    "medicamentos": 48,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13821,
+    "nombre": "BENITEZ GONZALEZ, VERONICA RAQUEL",
+    "recetas": 685,
+    "pacientes": 64,
+    "medicamentos": 91,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5755,
+    "nombre": "IRRAZABAL DE MAIDANA, MARIA JOSE",
+    "recetas": 685,
+    "pacientes": 27,
+    "medicamentos": 45,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16127,
+    "nombre": "CUEVAS ZAPATA, LIZ MARINA",
+    "recetas": 684,
+    "pacientes": 87,
+    "medicamentos": 106,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10073,
+    "nombre": "GUIDO GROSELLE",
+    "recetas": 684,
+    "pacientes": 132,
+    "medicamentos": 114,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 30031,
+    "nombre": "SANTIAGO MORENO",
+    "recetas": 677,
+    "pacientes": 283,
+    "medicamentos": 66,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18043,
+    "nombre": "VALERIA ACEVEDO",
+    "recetas": 675,
+    "pacientes": 158,
+    "medicamentos": 100,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13095,
+    "nombre": "MOREL VARELA, AIDA MARIA BEATRIZ",
+    "recetas": 675,
+    "pacientes": 58,
+    "medicamentos": 100,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14764,
+    "nombre": "MARTA JORGELINA DIAZ",
+    "recetas": 674,
+    "pacientes": 84,
+    "medicamentos": 86,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14214,
+    "nombre": "ARMOA ALONSO CLAUDIA RUTH",
+    "recetas": 669,
+    "pacientes": 72,
+    "medicamentos": 111,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11809,
+    "nombre": "ANDERSEN, AMADA CRISTINA",
+    "recetas": 669,
+    "pacientes": 93,
+    "medicamentos": 97,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 25061,
+    "nombre": "ROLON GONZALEZ RODOLFO VALENTIN",
+    "recetas": 668,
+    "pacientes": 153,
+    "medicamentos": 72,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16228,
+    "nombre": "CACERES GENES, MARIA ELENA",
+    "recetas": 666,
+    "pacientes": 196,
+    "medicamentos": 38,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5435,
+    "nombre": "PORRO HALLEY, MARIO CIRO (G04) -INGAVI DESDE 18/10",
+    "recetas": 654,
+    "pacientes": 193,
+    "medicamentos": 25,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22740,
+    "nombre": "SILVANA CHAMORRO",
+    "recetas": 654,
+    "pacientes": 172,
+    "medicamentos": 72,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10528,
+    "nombre": "CABRERA, CRISTHIAN DANIEL",
+    "recetas": 652,
+    "pacientes": 67,
+    "medicamentos": 107,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16312,
+    "nombre": "PERALTA GONZÁLEZ, ANDREA BENICIA",
+    "recetas": 650,
+    "pacientes": 94,
+    "medicamentos": 109,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13313,
+    "nombre": "FLEITAS BERNAL, EDILBERTO RAMON",
+    "recetas": 650,
+    "pacientes": 100,
+    "medicamentos": 55,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12156,
+    "nombre": "TORALES AVALOS, GLADYS MARIA ALICIA",
+    "recetas": 649,
+    "pacientes": 104,
+    "medicamentos": 95,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12821,
+    "nombre": "LOPEZ PORTILLO, GUSTAVO BENJAMIN",
+    "recetas": 646,
+    "pacientes": 98,
+    "medicamentos": 96,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18286,
+    "nombre": "NUÑEZ SOSA GERMAN JESUS",
+    "recetas": 646,
+    "pacientes": 301,
+    "medicamentos": 49,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18972,
+    "nombre": "IRIARTE ALDERETE, MARIA VANESSA",
+    "recetas": 645,
+    "pacientes": 98,
+    "medicamentos": 108,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7597,
+    "nombre": "MARTINEZ GONZALEZ AMADO ANTONIO",
+    "recetas": 644,
+    "pacientes": 339,
+    "medicamentos": 54,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22099,
+    "nombre": "MARICEVICH CASCO, MARIA FERNANDA G11",
+    "recetas": 642,
+    "pacientes": 201,
+    "medicamentos": 37,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7588,
+    "nombre": "LEGUIZAMON MANZONI, CARLOS ALBERTO",
+    "recetas": 636,
+    "pacientes": 70,
+    "medicamentos": 97,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19532,
+    "nombre": "RISSO ALCARAZ PAUL",
+    "recetas": 631,
+    "pacientes": 237,
+    "medicamentos": 41,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13399,
+    "nombre": "JOSE MARIA GALEANO DOMINGUEZ",
+    "recetas": 626,
+    "pacientes": 70,
+    "medicamentos": 103,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7486,
+    "nombre": "FLORENTIN MONICA ESTHER",
+    "recetas": 626,
+    "pacientes": 66,
+    "medicamentos": 96,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7649,
+    "nombre": "PALACIOS FANTILLI, JESUS XAVIER ( FRACTURAS G08)",
+    "recetas": 625,
+    "pacientes": 163,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9174,
+    "nombre": "CASTRO NUÑEZ, NESTOR ALCIDES",
+    "recetas": 624,
+    "pacientes": 97,
+    "medicamentos": 100,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6022,
+    "nombre": "GOMEZ CABAÑAS LEONIDAS LUCIANA",
+    "recetas": 619,
+    "pacientes": 60,
+    "medicamentos": 103,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6852,
+    "nombre": "PORTILLO ESPINOLA, HUGO MARCELO (G04)",
+    "recetas": 618,
+    "pacientes": 152,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13621,
+    "nombre": "ROMERO GRANCE LUZ MARIA JOSE",
+    "recetas": 616,
+    "pacientes": 65,
+    "medicamentos": 103,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20518,
+    "nombre": "VERA ROJAS, PEDRO ARMANDO",
+    "recetas": 616,
+    "pacientes": 77,
+    "medicamentos": 89,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5211,
+    "nombre": "SISA ACOSTA, JORGE EDUARDO (CADERA   G02)",
+    "recetas": 612,
+    "pacientes": 169,
+    "medicamentos": 24,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8712,
+    "nombre": "MERELES BELOTTO, LUIS",
+    "recetas": 612,
+    "pacientes": 118,
+    "medicamentos": 117,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10941,
+    "nombre": "MARECOS NUÑEZ, JUAN GUALBERTO",
+    "recetas": 610,
+    "pacientes": 56,
+    "medicamentos": 106,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15748,
+    "nombre": "INSFRAN MONGELOS, ROSA ISABEL",
+    "recetas": 601,
+    "pacientes": 49,
+    "medicamentos": 104,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 25846,
+    "nombre": "JUNNIOR FERREIRA",
+    "recetas": 600,
+    "pacientes": 182,
+    "medicamentos": 56,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 36944,
+    "nombre": "LIN LIU SANDRA",
+    "recetas": 596,
+    "pacientes": 220,
+    "medicamentos": 63,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8181,
+    "nombre": "TORRES TRIGO, MARCOS (G03)",
+    "recetas": 596,
+    "pacientes": 147,
+    "medicamentos": 26,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22003,
+    "nombre": "RAMOS BARRETO,MARCOS ANTONIO G11",
+    "recetas": 592,
+    "pacientes": 215,
+    "medicamentos": 54,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8613,
+    "nombre": "CUBILLA SALINAS, MARIA ANTONIA",
+    "recetas": 590,
+    "pacientes": 125,
+    "medicamentos": 46,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18708,
+    "nombre": "MARIN VALL, NELSON RODRIGO (G06-G11)",
+    "recetas": 584,
+    "pacientes": 169,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9549,
+    "nombre": "FERNANDEZ GONZALEZ, GABRIELA GISSEL",
+    "recetas": 571,
+    "pacientes": 241,
+    "medicamentos": 31,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23381,
+    "nombre": "MERCADO BENITEZ, MARIA LAURA",
+    "recetas": 564,
+    "pacientes": 190,
+    "medicamentos": 39,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12542,
+    "nombre": "ROLON FIGUEREDO,DIEGO ORLANDO",
+    "recetas": 563,
+    "pacientes": 74,
+    "medicamentos": 93,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10664,
+    "nombre": "BRITOS MARIN, RONALD DAVID",
+    "recetas": 562,
+    "pacientes": 60,
+    "medicamentos": 87,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16171,
+    "nombre": "OVELAR BENITEZ,ANGEL MAURICIO SIMON",
+    "recetas": 557,
+    "pacientes": 257,
+    "medicamentos": 37,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16629,
+    "nombre": "RIOS ALMADA, JOSE MARIA",
+    "recetas": 555,
+    "pacientes": 81,
+    "medicamentos": 100,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5381,
+    "nombre": "VALDEZ CRISTALDO RODNEY A",
+    "recetas": 554,
+    "pacientes": 283,
+    "medicamentos": 41,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18989,
+    "nombre": "CACERES ECHEVERRIA, DIEGO LUIS (G11)",
+    "recetas": 553,
+    "pacientes": 92,
+    "medicamentos": 31,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12169,
+    "nombre": "SOTO ROJAS, NELLY ASUNCION",
+    "recetas": 551,
+    "pacientes": 57,
+    "medicamentos": 94,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14721,
+    "nombre": "TAMARA FIOROTTÓ",
+    "recetas": 550,
+    "pacientes": 70,
+    "medicamentos": 95,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 26110,
+    "nombre": "PRATS AREVALOS, DIEGO MARTIN",
+    "recetas": 547,
+    "pacientes": 185,
+    "medicamentos": 39,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12179,
+    "nombre": "OCAMPOS TORRES, FATIMA FELICIA",
+    "recetas": 545,
+    "pacientes": 55,
+    "medicamentos": 97,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15795,
+    "nombre": "DUARTE LOPEZ, DAVID EDUARDO",
+    "recetas": 545,
+    "pacientes": 54,
+    "medicamentos": 98,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 21488,
+    "nombre": "DIARTE ESCOBAR, MAGALI",
+    "recetas": 545,
+    "pacientes": 77,
+    "medicamentos": 101,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 26336,
+    "nombre": "GONZALEZ DUARTE FERNANDO FABIAN",
+    "recetas": 541,
+    "pacientes": 142,
+    "medicamentos": 63,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8200,
+    "nombre": "GAONA RAMIREZ  EDGAR AGUSTIN",
+    "recetas": 541,
+    "pacientes": 148,
+    "medicamentos": 44,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17665,
+    "nombre": "MOSQUEIRA CACERES PAUL ENRIQUE",
+    "recetas": 540,
+    "pacientes": 57,
+    "medicamentos": 96,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11948,
+    "nombre": "CARDENAS ALMADA ROLANDO DAVID",
+    "recetas": 533,
+    "pacientes": 71,
+    "medicamentos": 95,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23380,
+    "nombre": "SANTACRUZ DUARTE RICHARD",
+    "recetas": 532,
+    "pacientes": 155,
+    "medicamentos": 52,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23697,
+    "nombre": "ARRUA ALEM FERNANDO GABRIEL",
+    "recetas": 532,
+    "pacientes": 160,
+    "medicamentos": 47,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8548,
+    "nombre": "CASTELLANO CUBILLA, RODRIGO RAMON(G02-G08)INGAVI DESDE 18/10",
+    "recetas": 524,
+    "pacientes": 150,
+    "medicamentos": 26,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9914,
+    "nombre": "JIMENEZ AGUILERA, MILCIADES RAMON",
+    "recetas": 524,
+    "pacientes": 89,
+    "medicamentos": 75,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12025,
+    "nombre": "SOLEDAD IBAÑEZ",
+    "recetas": 523,
+    "pacientes": 80,
+    "medicamentos": 105,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 21935,
+    "nombre": "CASCO AYALA, ERASMO DANIEL G11",
+    "recetas": 522,
+    "pacientes": 180,
+    "medicamentos": 31,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17136,
+    "nombre": "MONTIEL CARDUZ, JORGE ANTONIO",
+    "recetas": 520,
+    "pacientes": 81,
+    "medicamentos": 101,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17152,
+    "nombre": "SANABRIA BAEZ NATHALIA HAIDEE",
+    "recetas": 520,
+    "pacientes": 75,
+    "medicamentos": 101,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19780,
+    "nombre": "SERVIN ESPINOZA PATRICIA VICTORIA",
+    "recetas": 520,
+    "pacientes": 54,
+    "medicamentos": 98,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15915,
+    "nombre": "PATRICIA ESCOBAR",
+    "recetas": 517,
+    "pacientes": 90,
+    "medicamentos": 103,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20347,
+    "nombre": "ESTIGARRIBIA OVIEDO, MARIA LUJAN",
+    "recetas": 516,
+    "pacientes": 357,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14685,
+    "nombre": "IBARRA GOMEZ, DENIXSE",
+    "recetas": 514,
+    "pacientes": 60,
+    "medicamentos": 91,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5924,
+    "nombre": "SANDINI CAREGNATO, SILVIA REGINA",
+    "recetas": 514,
+    "pacientes": 44,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22779,
+    "nombre": "PEÑA PEREZ, ENRIQUE GONZALO",
+    "recetas": 512,
+    "pacientes": 71,
+    "medicamentos": 88,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11494,
+    "nombre": "GOMES DURE, LAIS ALINE",
+    "recetas": 505,
+    "pacientes": 52,
+    "medicamentos": 94,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19508,
+    "nombre": "FIGUEREDO ALCARAZ, YERUTI MONSERRAT",
+    "recetas": 503,
+    "pacientes": 179,
+    "medicamentos": 37,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10239,
+    "nombre": "MONTIEL OVIEDO, LUIS ENRIQUE (G04)INGAVI DESDE 18/10",
+    "recetas": 500,
+    "pacientes": 155,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22014,
+    "nombre": "PORTILLO CANDIA ALBERTO SAUL",
+    "recetas": 497,
+    "pacientes": 150,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11650,
+    "nombre": "AHMED CORONEL, SHARLYN",
+    "recetas": 495,
+    "pacientes": 134,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22096,
+    "nombre": "GONZALEZ RAGGIO, NELSON ANDRES(G11)",
+    "recetas": 494,
+    "pacientes": 201,
+    "medicamentos": 33,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11916,
+    "nombre": "GONZALEZ BARRETO, MARTHA RAQUEL",
+    "recetas": 493,
+    "pacientes": 146,
+    "medicamentos": 32,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16031,
+    "nombre": "LOPEZ GONZALEZ, JUAN MANUEL",
+    "recetas": 492,
+    "pacientes": 44,
+    "medicamentos": 93,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15503,
+    "nombre": "MERELES CASTILLO, CELSO JAVIER (G11)",
+    "recetas": 487,
+    "pacientes": 160,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8160,
+    "nombre": "BARBOZA ACOSTA, LUIS ORLANDO",
+    "recetas": 486,
+    "pacientes": 50,
+    "medicamentos": 95,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13602,
+    "nombre": "ESTIGARRIBIA DIVITTO, MAYRA NATHALY",
+    "recetas": 482,
+    "pacientes": 71,
+    "medicamentos": 96,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11973,
+    "nombre": "GONZALEZ MARTINEZ, HUGO RICARDO (G05)",
+    "recetas": 479,
+    "pacientes": 145,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12140,
+    "nombre": "BOGADO, FABIO ARIEL (G02)",
+    "recetas": 477,
+    "pacientes": 149,
+    "medicamentos": 36,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20684,
+    "nombre": "VILLALBA RAMIREZ,CLAUDIO MIGDONIO(G11)",
+    "recetas": 476,
+    "pacientes": 125,
+    "medicamentos": 24,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19335,
+    "nombre": "SALVIONI ZARACHO, CESAR HERNAN (G05)",
+    "recetas": 475,
+    "pacientes": 172,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5324,
+    "nombre": "INSFRAN HELLMANN, OSVALDO (G08)",
+    "recetas": 475,
+    "pacientes": 123,
+    "medicamentos": 38,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6005,
+    "nombre": "BALBUENA NAUMANN, SILVIA RAQUEL",
+    "recetas": 472,
+    "pacientes": 35,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12853,
+    "nombre": "PERALTA GIMENNEZ RUTH MARIA",
+    "recetas": 471,
+    "pacientes": 80,
+    "medicamentos": 92,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7686,
+    "nombre": "MULLER COVIS, DIETER HUGO (CADERA   G02)",
+    "recetas": 471,
+    "pacientes": 142,
+    "medicamentos": 24,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5774,
+    "nombre": "CHAMORRO ROMERO, CRISTHIAN ARIEL (RODILLA   G04)",
+    "recetas": 468,
+    "pacientes": 143,
+    "medicamentos": 25,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5698,
+    "nombre": "YOSHIZAKI, EDUARDO MASAYUKI (COLUMNA   G07)",
+    "recetas": 466,
+    "pacientes": 200,
+    "medicamentos": 11,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9903,
+    "nombre": "00BARRIENTO ARCE, ANTONIO RAMON (G04)- INGAVI DESDE 18/10",
+    "recetas": 466,
+    "pacientes": 136,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12500,
+    "nombre": "BOVEDA BRIZUELA, LUZ CARINA",
+    "recetas": 465,
+    "pacientes": 143,
+    "medicamentos": 72,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23074,
+    "nombre": "VILLALBA SANABRIA ENZO JOAQUIN",
+    "recetas": 465,
+    "pacientes": 146,
+    "medicamentos": 45,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14276,
+    "nombre": "GONZALEZ OZUNA, NATALIA MABEL",
+    "recetas": 463,
+    "pacientes": 51,
+    "medicamentos": 38,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19523,
+    "nombre": "GOMEZ IRALA MARGHIA KARINNE",
+    "recetas": 462,
+    "pacientes": 151,
+    "medicamentos": 37,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 26021,
+    "nombre": "VERA EISENKOLBL MATHIAS ARNALDO",
+    "recetas": 460,
+    "pacientes": 139,
+    "medicamentos": 44,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20525,
+    "nombre": "ACUÑA RIVEROS ROCIO MARLENE",
+    "recetas": 456,
+    "pacientes": 152,
+    "medicamentos": 43,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11591,
+    "nombre": "DOLDAN AYALA LAURA ELIZABETH",
+    "recetas": 452,
+    "pacientes": 55,
+    "medicamentos": 90,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 916008,
+    "nombre": "CASCO SAMUDIO, JOSE DEJESUS (G04)",
+    "recetas": 452,
+    "pacientes": 140,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7380,
+    "nombre": "NUÑEZ CARCEDO, FERNANDO (CADERA - G02)",
+    "recetas": 445,
+    "pacientes": 115,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11584,
+    "nombre": "DOS SANTOS OSORIO, DENIS ADALBERTO (G06)",
+    "recetas": 444,
+    "pacientes": 148,
+    "medicamentos": 26,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13311,
+    "nombre": "CABAÑAS MUÑOZ, RONAL ANTONIO(G02)",
+    "recetas": 443,
+    "pacientes": 134,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14576,
+    "nombre": "OJEDA ORIHUELA, REBECA GISSELA",
+    "recetas": 439,
+    "pacientes": 79,
+    "medicamentos": 105,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23168,
+    "nombre": "MELGAREJO GIMENEZ FEDERICO EDUARDO",
+    "recetas": 435,
+    "pacientes": 155,
+    "medicamentos": 37,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9348,
+    "nombre": "JARA VERON, JUAN JOSE",
+    "recetas": 434,
+    "pacientes": 126,
+    "medicamentos": 41,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4743,
+    "nombre": "SIMON NUÑEZ REDDY ATILIO",
+    "recetas": 428,
+    "pacientes": 127,
+    "medicamentos": 43,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9459,
+    "nombre": "CORONEL PAREDES,EDILTRUDIS SOLEDAD",
+    "recetas": 428,
+    "pacientes": 95,
+    "medicamentos": 26,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23171,
+    "nombre": "ZUNINI MENDOZA,FIORELLA",
+    "recetas": 420,
+    "pacientes": 169,
+    "medicamentos": 34,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6508,
+    "nombre": "BORDON BOVEDA WILMA ELIZABETH",
+    "recetas": 420,
+    "pacientes": 170,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4613,
+    "nombre": "MEDINA GUTIERREZ JORGE ARMINDO",
+    "recetas": 419,
+    "pacientes": 177,
+    "medicamentos": 35,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16923,
+    "nombre": "ARRELLAGA ALONSO, RAFAEL ANIBAL (G11)",
+    "recetas": 415,
+    "pacientes": 155,
+    "medicamentos": 28,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8920,
+    "nombre": "FARIÑA BOBADILLA, MARIA CRISTINA",
+    "recetas": 413,
+    "pacientes": 102,
+    "medicamentos": 43,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5751,
+    "nombre": "AGUILAR OLIVEIRA Y SILVA, MANUEL ANGEL (G03-HOMBRO)",
+    "recetas": 408,
+    "pacientes": 167,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7372,
+    "nombre": "FERREIRA GARAYO, LILIANA ROCIO BEATRIZ",
+    "recetas": 401,
+    "pacientes": 154,
+    "medicamentos": 38,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12516,
+    "nombre": "MUÑOZ RODRIGUEZ, RODRIGO JAVIER",
+    "recetas": 400,
+    "pacientes": 62,
+    "medicamentos": 86,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8130,
+    "nombre": "KUNZLE OJEDA, CARLOS ALBERTO (G04)- INGAVI DESDE 18/10",
+    "recetas": 398,
+    "pacientes": 129,
+    "medicamentos": 24,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4016,
+    "nombre": "BAREIRO, GUILLERMO",
+    "recetas": 395,
+    "pacientes": 216,
+    "medicamentos": 26,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15120,
+    "nombre": "RUIZ DIAZ AGUILAR, ELVIS RUBEN",
+    "recetas": 389,
+    "pacientes": 89,
+    "medicamentos": 86,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12044,
+    "nombre": "EIWA OSHIRO, AUGUSTO EDUARDO EIJI(G05)INGAVI DESDE 18/10",
+    "recetas": 388,
+    "pacientes": 152,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19279,
+    "nombre": "DA PONTE ROJAS, MARIA NOEMI",
+    "recetas": 387,
+    "pacientes": 195,
+    "medicamentos": 34,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11581,
+    "nombre": "VARGAS BALOTTA, JOSE DAVID",
+    "recetas": 386,
+    "pacientes": 126,
+    "medicamentos": 26,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5955,
+    "nombre": "VEGA PLANAS,ALDO RAUL (HOMBRO G03)INGAVI DESDE 18/10",
+    "recetas": 379,
+    "pacientes": 125,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10661,
+    "nombre": "CINTHIA CAMPUZANO",
+    "recetas": 374,
+    "pacientes": 149,
+    "medicamentos": 59,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4431,
+    "nombre": "FERREIRA N. MARIA ELENA",
+    "recetas": 373,
+    "pacientes": 211,
+    "medicamentos": 28,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18727,
+    "nombre": "VERDECCHIA INSFRAN CYNTHIA PATRICIA",
+    "recetas": 371,
+    "pacientes": 153,
+    "medicamentos": 46,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 25891,
+    "nombre": "JUAN FRETES",
+    "recetas": 370,
+    "pacientes": 148,
+    "medicamentos": 29,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22089,
+    "nombre": "FERNANDEZ BENITEZ, ALVARO JOSE ALEJANDR G11",
+    "recetas": 369,
+    "pacientes": 106,
+    "medicamentos": 47,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13157,
+    "nombre": "DELGADO GIMENEZ RUBEN ANTONIO",
+    "recetas": 368,
+    "pacientes": 49,
+    "medicamentos": 79,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19426,
+    "nombre": "REYES ESCOBAR, JOSE EDUARDO(G11)",
+    "recetas": 367,
+    "pacientes": 126,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17511,
+    "nombre": "BENITEZ GOMEZ ANTONELLA MARIA DEL CARMEN",
+    "recetas": 366,
+    "pacientes": 106,
+    "medicamentos": 26,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9760,
+    "nombre": "MARTINEZ LOPEZ ALDO JAVIER",
+    "recetas": 366,
+    "pacientes": 144,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11278,
+    "nombre": "BERNARD FERNANDEZ RODRIGO FABIAN",
+    "recetas": 365,
+    "pacientes": 140,
+    "medicamentos": 35,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12093,
+    "nombre": "RAMIREZ RODRIGUEZ, LUIS ALBERTO",
+    "recetas": 358,
+    "pacientes": 152,
+    "medicamentos": 28,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5153,
+    "nombre": "BENITEZ DE BARRIENTOS LILIA JOSEFINA",
+    "recetas": 356,
+    "pacientes": 216,
+    "medicamentos": 32,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 21181,
+    "nombre": "BARBOZA SANTACRUZ PABLO RENATO",
+    "recetas": 355,
+    "pacientes": 147,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11808,
+    "nombre": "MORINIGO BAEZ, JUANA DOLORES",
+    "recetas": 351,
+    "pacientes": 59,
+    "medicamentos": 88,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16093,
+    "nombre": "DELGADO LOMBARDI, NELLY ABELINA",
+    "recetas": 351,
+    "pacientes": 71,
+    "medicamentos": 66,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8198,
+    "nombre": "MARTINEZ LEIVA, MARIA DEL CARMEN",
+    "recetas": 349,
+    "pacientes": 35,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20236,
+    "nombre": "BIGATON, ULISSES ANTONIO",
+    "recetas": 349,
+    "pacientes": 54,
+    "medicamentos": 76,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13377,
+    "nombre": "CAPDEVILA AVALOS, PEDRO PABLO",
+    "recetas": 348,
+    "pacientes": 30,
+    "medicamentos": 71,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14444,
+    "nombre": "CENTURION ADLE, CARLOS DAVID",
+    "recetas": 347,
+    "pacientes": 73,
+    "medicamentos": 60,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5574,
+    "nombre": "AREVALOS GALEANO NORMA",
+    "recetas": 346,
+    "pacientes": 26,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8176,
+    "nombre": "GAUTO BOGADO  OSVALDO AMADEO",
+    "recetas": 346,
+    "pacientes": 160,
+    "medicamentos": 29,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4903,
+    "nombre": "MONGES TRIGO ELIZABETH",
+    "recetas": 340,
+    "pacientes": 28,
+    "medicamentos": 24,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23028,
+    "nombre": "MOLINAS GALEANO,MARIA FLORENCIA",
+    "recetas": 340,
+    "pacientes": 173,
+    "medicamentos": 33,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13358,
+    "nombre": "DA COSTA CARVALHO VIDIGAL,THIAGO(G03)(G04)",
+    "recetas": 338,
+    "pacientes": 112,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10891,
+    "nombre": "CABRAL DEL PUERTO, JORGE EUMELIO",
+    "recetas": 338,
+    "pacientes": 52,
+    "medicamentos": 68,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7153,
+    "nombre": "CABRERA VILLALBA, SONIA RAQUEL",
+    "recetas": 337,
+    "pacientes": 33,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9053,
+    "nombre": "HASHIMOTO AMARILLA, SERGIO DIEGO(HOMBRO GO3)",
+    "recetas": 336,
+    "pacientes": 145,
+    "medicamentos": 11,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8896,
+    "nombre": "GARCIA MIRANDA,VICTOR MANUEL (MANO G05) - INGAVI DESDE 18/10",
+    "recetas": 336,
+    "pacientes": 92,
+    "medicamentos": 26,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 993870,
+    "nombre": "PEREIRA DE SILVANO; MARIA ELIZA",
+    "recetas": 334,
+    "pacientes": 190,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22991,
+    "nombre": "NATALIA AYALA",
+    "recetas": 328,
+    "pacientes": 68,
+    "medicamentos": 41,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16911,
+    "nombre": "ROMERO MERLO, MORAIMA DE LOS ANGELES",
+    "recetas": 328,
+    "pacientes": 49,
+    "medicamentos": 85,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14285,
+    "nombre": "MOREL BAEZ, BLAS SEBASTIAN",
+    "recetas": 324,
+    "pacientes": 34,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6447,
+    "nombre": "GARCIA ARCE, ALCIDES MANUEL (MANO   G05)",
+    "recetas": 323,
+    "pacientes": 103,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12841,
+    "nombre": "GALEANO LURAGHI, SANDRA ELIZABEHT",
+    "recetas": 318,
+    "pacientes": 32,
+    "medicamentos": 22,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12718,
+    "nombre": "NOGUERA ROMAN, LIDIA SUSANA",
+    "recetas": 312,
+    "pacientes": 152,
+    "medicamentos": 29,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11893,
+    "nombre": "ACHON FORNO, GERARDO (G06-PIE Y TOBILLO)",
+    "recetas": 311,
+    "pacientes": 112,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20766,
+    "nombre": "BOGGINO GIMENEZ, HIRAN GUILLERMO ( G11 )",
+    "recetas": 310,
+    "pacientes": 101,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5437,
+    "nombre": "OJEDA CONSUELO",
+    "recetas": 310,
+    "pacientes": 28,
+    "medicamentos": 33,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17602,
+    "nombre": "RODRIGUEZ LEIVA, ROQUE RAFAEL",
+    "recetas": 309,
+    "pacientes": 31,
+    "medicamentos": 26,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14115,
+    "nombre": "PAVETTI PORTILLO, ESTEBAN MANUEL G05- A INGAVI DESDE 18/10",
+    "recetas": 306,
+    "pacientes": 129,
+    "medicamentos": 24,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5738,
+    "nombre": "OLMEDO BAREIRO, AURORA BEATRIZ",
+    "recetas": 305,
+    "pacientes": 32,
+    "medicamentos": 34,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6597,
+    "nombre": "YINDE ENCINA, YANIRA ROSSANA",
+    "recetas": 304,
+    "pacientes": 33,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11230,
+    "nombre": "PEREIRA FERREIRA, IVAN ROBERTO",
+    "recetas": 304,
+    "pacientes": 151,
+    "medicamentos": 24,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16999,
+    "nombre": "GIMENEZ CUENCA NOELIA BEATRIZ",
+    "recetas": 302,
+    "pacientes": 55,
+    "medicamentos": 80,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12611,
+    "nombre": "LEZCANO MARTINEZ, ROMINA ANDREA",
+    "recetas": 302,
+    "pacientes": 32,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9027,
+    "nombre": "LARROSA MARIA DEL MAR",
+    "recetas": 301,
+    "pacientes": 24,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20636,
+    "nombre": "VAZQUEZ RIVAS, DIEGO JAVIER(G11)",
+    "recetas": 297,
+    "pacientes": 87,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8817,
+    "nombre": "BARRIOS GONZALEZ, FERNANDO",
+    "recetas": 296,
+    "pacientes": 127,
+    "medicamentos": 32,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7371,
+    "nombre": "CORNET FLORES, BRUNO (PIE Y TOBILLO   G06)",
+    "recetas": 296,
+    "pacientes": 96,
+    "medicamentos": 22,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7708,
+    "nombre": "AQUINO FIORIO, FERNANDO DANIEL (MANO  G05)",
+    "recetas": 292,
+    "pacientes": 108,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14921,
+    "nombre": "RECALDE, RODNEY RODRIGO",
+    "recetas": 291,
+    "pacientes": 38,
+    "medicamentos": 79,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 3973,
+    "nombre": "ORTIZ CHAVEZ JORGE MANUEL",
+    "recetas": 291,
+    "pacientes": 159,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9907,
+    "nombre": "BASABE ROMERO, RUBEN DARIO",
+    "recetas": 290,
+    "pacientes": 38,
+    "medicamentos": 76,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11264,
+    "nombre": "TORRES BERNAL, NOELIA ANAHI",
+    "recetas": 285,
+    "pacientes": 27,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11225,
+    "nombre": "CABRERA LOPEZ FRANCISCO JAVIER",
+    "recetas": 285,
+    "pacientes": 31,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14548,
+    "nombre": "BOVEDA BRIZUELA, CRISTIAN DAVID (G03)",
+    "recetas": 283,
+    "pacientes": 98,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18911,
+    "nombre": "RAMIREZ PANE CHRISTIAN ALBERTO",
+    "recetas": 282,
+    "pacientes": 119,
+    "medicamentos": 30,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12660,
+    "nombre": "LETICIA ESQUIVEL ZARZA",
+    "recetas": 282,
+    "pacientes": 30,
+    "medicamentos": 78,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15603,
+    "nombre": "IBARRA TOLEDO, CYNTHIA CAROLINA",
+    "recetas": 281,
+    "pacientes": 138,
+    "medicamentos": 28,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16841,
+    "nombre": "DUARTE BENITEZ FREDY RODRIGO",
+    "recetas": 281,
+    "pacientes": 49,
+    "medicamentos": 89,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18597,
+    "nombre": "GOMEZ BRUNAGA, FATIMA MARIA (POLICLINICA)",
+    "recetas": 279,
+    "pacientes": 22,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7093,
+    "nombre": "LOPEZ OVELAR HELEN MARIA ROCIO",
+    "recetas": 277,
+    "pacientes": 28,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17557,
+    "nombre": "BRACHO CHAMORRO JUAN MARINO",
+    "recetas": 277,
+    "pacientes": 75,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9462,
+    "nombre": "BARRETO SEGOVIA, LISA MARIA VIOLETA",
+    "recetas": 275,
+    "pacientes": 33,
+    "medicamentos": 77,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13459,
+    "nombre": "RIVAS MARTINEZ, OSVALDO DIOSNEL (G02)",
+    "recetas": 273,
+    "pacientes": 78,
+    "medicamentos": 32,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9705,
+    "nombre": "DOMINGUEZ COLMAN, GUSTAVO ADOLFO",
+    "recetas": 270,
+    "pacientes": 131,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9264,
+    "nombre": "INSFRAN VELAZQUEZ, HORACIO TEODORO (POLICLINICA)",
+    "recetas": 269,
+    "pacientes": 24,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4843,
+    "nombre": "CASTILLO RUIZ, ATILIO ADOLFO R",
+    "recetas": 268,
+    "pacientes": 27,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 21852,
+    "nombre": "POHLER SEGOVIA GUILLERMO FEDERICO",
+    "recetas": 266,
+    "pacientes": 108,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16029,
+    "nombre": "LEDESMA BRITEZ, CECILIA GISELLE",
+    "recetas": 265,
+    "pacientes": 38,
+    "medicamentos": 73,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23642,
+    "nombre": "ARCE MARTINEZ,EDGAR HERNAN",
+    "recetas": 265,
+    "pacientes": 81,
+    "medicamentos": 28,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18951,
+    "nombre": "CORRALES COSCIA, NATALIA MARIA",
+    "recetas": 265,
+    "pacientes": 39,
+    "medicamentos": 74,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8639,
+    "nombre": "MACHADO MEDINA, GILBERTO",
+    "recetas": 265,
+    "pacientes": 27,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20635,
+    "nombre": "PAREDES LOPEZ, MARIA BERNARDA",
+    "recetas": 264,
+    "pacientes": 98,
+    "medicamentos": 41,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14365,
+    "nombre": "FRETES GONZALEZ, WALTER RENE (G03)",
+    "recetas": 263,
+    "pacientes": 102,
+    "medicamentos": 24,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7405,
+    "nombre": "RIVAS MARTINEZ, NOELIA ROCIO (POLICLINICA)",
+    "recetas": 263,
+    "pacientes": 23,
+    "medicamentos": 25,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13640,
+    "nombre": "MALLORQUIN TOLEDO, ARMANDO",
+    "recetas": 262,
+    "pacientes": 25,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6403,
+    "nombre": "GODOY MULLER ELSA RENATE",
+    "recetas": 262,
+    "pacientes": 24,
+    "medicamentos": 36,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15646,
+    "nombre": "MONTIEL CAÑETE, CARLOS (G05)",
+    "recetas": 259,
+    "pacientes": 94,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19131,
+    "nombre": "MEDINA VILLATE, MARIA MERCEDES(G11)",
+    "recetas": 258,
+    "pacientes": 95,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14068,
+    "nombre": "ALVARENGA SALCEDO, GONZALO PAUL (G03)",
+    "recetas": 250,
+    "pacientes": 102,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9966,
+    "nombre": "FRETES CLAUDIA CONCEPCION",
+    "recetas": 248,
+    "pacientes": 118,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 998476,
+    "nombre": "ROA BENITEZ ANGELICA BEATRIZ",
+    "recetas": 247,
+    "pacientes": 170,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8848,
+    "nombre": "AQUINO VALDOVINOS, ALICIA MARIA",
+    "recetas": 247,
+    "pacientes": 24,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14864,
+    "nombre": "COLMAN SANTANDER, IRIS YOHANA",
+    "recetas": 247,
+    "pacientes": 38,
+    "medicamentos": 73,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9610,
+    "nombre": "RIOS FLECHA, ANDRES AGUSTIN",
+    "recetas": 237,
+    "pacientes": 49,
+    "medicamentos": 60,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7659,
+    "nombre": "LEDESMA MERELES, EDUARDO",
+    "recetas": 237,
+    "pacientes": 39,
+    "medicamentos": 24,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15507,
+    "nombre": "GOMEZ VILLA, VIVIANA BEATRIZ (G11)",
+    "recetas": 234,
+    "pacientes": 92,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14777,
+    "nombre": "TORRES CACERES, ANGEL MARCELO (G02)",
+    "recetas": 234,
+    "pacientes": 101,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11892,
+    "nombre": "VILLAGRA CORONEL,LUIS MIGUEL PASCASIO(G04)INGAVI DESDE 18/10",
+    "recetas": 232,
+    "pacientes": 66,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5340,
+    "nombre": "APARICIO MEZA, MARIA DEL ROCIO",
+    "recetas": 231,
+    "pacientes": 18,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23431,
+    "nombre": "ALVAREZ BENITEZ CESAR DAVID",
+    "recetas": 230,
+    "pacientes": 54,
+    "medicamentos": 46,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10431,
+    "nombre": "GIMENEZ ALFONSO, REINALDO LEONOR",
+    "recetas": 230,
+    "pacientes": 40,
+    "medicamentos": 61,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18274,
+    "nombre": "PONCE GIMENEZ, JULIA ANDREA",
+    "recetas": 229,
+    "pacientes": 37,
+    "medicamentos": 61,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 36911,
+    "nombre": "NOE ORTIZ NICOLE",
+    "recetas": 223,
+    "pacientes": 84,
+    "medicamentos": 53,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18682,
+    "nombre": "BENITEZ ORTELLADO, ADOLFO DAMIAN (G07-G11)",
+    "recetas": 222,
+    "pacientes": 86,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6126,
+    "nombre": "MUÑOZ RODAS DANIEL EUDALDO",
+    "recetas": 222,
+    "pacientes": 116,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16122,
+    "nombre": "LEIVA RIOS, EVELYN JOHANNA",
+    "recetas": 220,
+    "pacientes": 34,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11891,
+    "nombre": "MARTINEZ PINEDA, JOSE MANUEL (G04)",
+    "recetas": 219,
+    "pacientes": 98,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17056,
+    "nombre": "BENITEZ ADORNO, GUILLERMO GABRIEL (G11)",
+    "recetas": 219,
+    "pacientes": 75,
+    "medicamentos": 22,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19872,
+    "nombre": "PEREIRA ACHAR,ROSSANA NATHALIA",
+    "recetas": 218,
+    "pacientes": 102,
+    "medicamentos": 49,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 27280,
+    "nombre": "IBARRA BENITEZ BRUNO GUSTAVO",
+    "recetas": 218,
+    "pacientes": 79,
+    "medicamentos": 52,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5351,
+    "nombre": "AVILA PAIVA, HUMBERTO TADEO (RODILLA  G04)",
+    "recetas": 217,
+    "pacientes": 104,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 3924,
+    "nombre": "FELICIANO HERRERA AGUAYO",
+    "recetas": 216,
+    "pacientes": 24,
+    "medicamentos": 35,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6119,
+    "nombre": "OVIEDO PEÑA MYRIAM ROSSANA",
+    "recetas": 216,
+    "pacientes": 66,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11931,
+    "nombre": "GONZALEZ CACERES, MARIA ELENA",
+    "recetas": 215,
+    "pacientes": 21,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23113,
+    "nombre": "SILVERO PRIETO SOL THALIA",
+    "recetas": 213,
+    "pacientes": 52,
+    "medicamentos": 37,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11116,
+    "nombre": "PELLEGRINI ACOSTA, ENRIQUE FABIAN",
+    "recetas": 213,
+    "pacientes": 116,
+    "medicamentos": 24,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11336,
+    "nombre": "LEZCANO VERA GILDA MARIANA",
+    "recetas": 212,
+    "pacientes": 85,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13500,
+    "nombre": "ZARACHO RICART, GERARDO SANTIAGO (POLICLINICA)",
+    "recetas": 211,
+    "pacientes": 19,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10493,
+    "nombre": "DURAN LEITE, FERNANDA MARIA",
+    "recetas": 210,
+    "pacientes": 43,
+    "medicamentos": 36,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15713,
+    "nombre": "DRAGOTTO GALVAN, ANTONELLA",
+    "recetas": 209,
+    "pacientes": 102,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4829,
+    "nombre": "ROGER GUSTAVO MEDINA CABRAL",
+    "recetas": 207,
+    "pacientes": 110,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7610,
+    "nombre": "MIRANDA ESPINOLA DANIELA",
+    "recetas": 206,
+    "pacientes": 19,
+    "medicamentos": 30,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12756,
+    "nombre": "VALINOTTI CABRERA, VANNIA ANDREA",
+    "recetas": 206,
+    "pacientes": 22,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18607,
+    "nombre": "GAMARRA DE MALLADA KAREN NATHALIA",
+    "recetas": 204,
+    "pacientes": 115,
+    "medicamentos": 32,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13524,
+    "nombre": "PAREDES BOGADO, JULIO CESAR",
+    "recetas": 203,
+    "pacientes": 21,
+    "medicamentos": 46,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12075,
+    "nombre": "CENTURION, JESSICA MARIA TERESITA",
+    "recetas": 201,
+    "pacientes": 140,
+    "medicamentos": 25,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23679,
+    "nombre": "HUANG LIAO MAICO",
+    "recetas": 198,
+    "pacientes": 76,
+    "medicamentos": 50,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8118,
+    "nombre": "PEREIRA, NORMA CAROLINA",
+    "recetas": 196,
+    "pacientes": 13,
+    "medicamentos": 24,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 36952,
+    "nombre": "WIEST PANIAGUA INGRID YANINA",
+    "recetas": 196,
+    "pacientes": 68,
+    "medicamentos": 45,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4946,
+    "nombre": "CESPEDES ALDANA, OLGA HURI",
+    "recetas": 195,
+    "pacientes": 19,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18721,
+    "nombre": "ORTELLADO,IRINA GUISSELLE",
+    "recetas": 193,
+    "pacientes": 21,
+    "medicamentos": 53,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9311,
+    "nombre": "GERNHOFER VALDEZ, GERMANO RODOLFO (G02) - INGAVI DESDE 18/10",
+    "recetas": 192,
+    "pacientes": 76,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 3330,
+    "nombre": "ORUE DE GONZALEZ ESTELA MARY",
+    "recetas": 190,
+    "pacientes": 19,
+    "medicamentos": 32,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14049,
+    "nombre": "ARZAMENDIA DAVALOS, SADY PAOLA",
+    "recetas": 190,
+    "pacientes": 20,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13441,
+    "nombre": "SEBRIANO PAREDES MARCELO ALEJANDRO",
+    "recetas": 190,
+    "pacientes": 40,
+    "medicamentos": 61,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7201,
+    "nombre": "OJEDA FRUTOS, ESTEBAN LUIS",
+    "recetas": 189,
+    "pacientes": 41,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9986,
+    "nombre": "GIUBI MARRELLI GUSTAVO ALEJANDRO G02",
+    "recetas": 187,
+    "pacientes": 86,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 2597,
+    "nombre": "FERRERO DE ECHAGUE, MARGARITA ANGELICA",
+    "recetas": 187,
+    "pacientes": 12,
+    "medicamentos": 30,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4120,
+    "nombre": "SILVA FIGUEREDO, JUAN RAMON (COLUMNA)",
+    "recetas": 185,
+    "pacientes": 61,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16180,
+    "nombre": "ACOSTA MEDINA, WILSON ANTONIO(URO GINECOLOGIA)",
+    "recetas": 185,
+    "pacientes": 74,
+    "medicamentos": 37,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 36799,
+    "nombre": "ORTIZ CABRAL ELIAS EMMANUEL MARIA",
+    "recetas": 185,
+    "pacientes": 69,
+    "medicamentos": 46,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6017,
+    "nombre": "MALDONADO VERA HUGO JAVIER (POLICLINICA)",
+    "recetas": 182,
+    "pacientes": 19,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13467,
+    "nombre": "SEGOVIA SANABRIA, SILVINA",
+    "recetas": 181,
+    "pacientes": 58,
+    "medicamentos": 76,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13960,
+    "nombre": "GLIZT FERNANDEZ, ROMINA BEATRIZ",
+    "recetas": 180,
+    "pacientes": 25,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7861,
+    "nombre": "FRACHI SIENRA HUGO F.(POLICLINICA)",
+    "recetas": 178,
+    "pacientes": 13,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19057,
+    "nombre": "BAEZ MARTINEZ, ALEXIS ROBERTO",
+    "recetas": 176,
+    "pacientes": 57,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8010,
+    "nombre": "MANFREDO DE ALMEIDA, JOAO CARLOS",
+    "recetas": 176,
+    "pacientes": 57,
+    "medicamentos": 67,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13651,
+    "nombre": "GONZALEZ RIVEROS NILSA ROMINA",
+    "recetas": 175,
+    "pacientes": 29,
+    "medicamentos": 44,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8280,
+    "nombre": "IBAÑEZ GONZALEZ DENIS VALENTIN (POLICLINICA)",
+    "recetas": 175,
+    "pacientes": 14,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20633,
+    "nombre": "HERMOSILLA ALMIRON,LIZ PABLA",
+    "recetas": 175,
+    "pacientes": 68,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11443,
+    "nombre": "PEDROZO LOPEZ, FATIMA RAQUEL",
+    "recetas": 174,
+    "pacientes": 26,
+    "medicamentos": 29,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8684,
+    "nombre": "SOTO VALIENTE   SANDRA MARIA",
+    "recetas": 174,
+    "pacientes": 24,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13870,
+    "nombre": "ALMIRON CORONEL, MARIA TERESA",
+    "recetas": 174,
+    "pacientes": 89,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7331,
+    "nombre": "ROMERO ESTIGARRIBIA DANIEL GERONIMO",
+    "recetas": 173,
+    "pacientes": 53,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17314,
+    "nombre": "MARTINEZ ZARATE, MONICA MICHELLE",
+    "recetas": 173,
+    "pacientes": 91,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9934,
+    "nombre": "FRANCO ALMADA, MARIA CAROLINA",
+    "recetas": 173,
+    "pacientes": 29,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12885,
+    "nombre": "DORIS CONTRERA",
+    "recetas": 172,
+    "pacientes": 31,
+    "medicamentos": 63,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9509,
+    "nombre": "BORDENAVE GAMARRA, LAURA GERALDINE",
+    "recetas": 172,
+    "pacientes": 28,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11825,
+    "nombre": "ARRUA MARTINEZ, ANALIA RAQUEL",
+    "recetas": 172,
+    "pacientes": 84,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5185,
+    "nombre": "LANDO BROWNE SERGIO",
+    "recetas": 168,
+    "pacientes": 16,
+    "medicamentos": 24,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7962,
+    "nombre": "DOMINGUEZ BLANCO, MARTIN DAVID",
+    "recetas": 166,
+    "pacientes": 11,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9618,
+    "nombre": "CARDOZO FERNANDEZ OSVALDO MIGUEL",
+    "recetas": 164,
+    "pacientes": 17,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9918,
+    "nombre": "ESCALANTE DAVALOS ELSA",
+    "recetas": 157,
+    "pacientes": 28,
+    "medicamentos": 74,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9448,
+    "nombre": "VERA SALINAS, DAVID ANTONIO",
+    "recetas": 157,
+    "pacientes": 90,
+    "medicamentos": 31,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 995649,
+    "nombre": "MARTINEZ GOMEZ VIVIANA MARIA",
+    "recetas": 156,
+    "pacientes": 90,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19088,
+    "nombre": "CRISTALDO MARTINEZ, CRISTHIAN DANIEL (POLICLINICA)",
+    "recetas": 155,
+    "pacientes": 21,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9793,
+    "nombre": "MARIO AREVALOS",
+    "recetas": 155,
+    "pacientes": 36,
+    "medicamentos": 67,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18496,
+    "nombre": "ROJAS YEZA, ELIAS FERNANDO  G11",
+    "recetas": 154,
+    "pacientes": 38,
+    "medicamentos": 32,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6478,
+    "nombre": "PALACIOS FRANCO, JUAN VICENTE",
+    "recetas": 154,
+    "pacientes": 81,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12464,
+    "nombre": "PEDROZO SANABRIA FRANCISCO ARIEL",
+    "recetas": 154,
+    "pacientes": 15,
+    "medicamentos": 40,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 998757,
+    "nombre": "ZELAYA CANATA, LETICIA AMALIA",
+    "recetas": 152,
+    "pacientes": 86,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 31326,
+    "nombre": "TORAL SAKAMOTO SUMI MARIA PAZ",
+    "recetas": 151,
+    "pacientes": 57,
+    "medicamentos": 50,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22063,
+    "nombre": "RUIZ,FERNANDA SOLEDAD",
+    "recetas": 148,
+    "pacientes": 31,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10568,
+    "nombre": "PEÑA GALEANO, ROBERTO DANIEL(G06)",
+    "recetas": 147,
+    "pacientes": 56,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 25927,
+    "nombre": "IVAN CABALLERO",
+    "recetas": 144,
+    "pacientes": 62,
+    "medicamentos": 43,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 999375,
+    "nombre": "GARCIA VENICA CAMILA ALEJANDRA",
+    "recetas": 144,
+    "pacientes": 99,
+    "medicamentos": 11,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17031,
+    "nombre": "JIMENEZ COLMAN, NIDYA ANTONELLA (POLICLINICA)",
+    "recetas": 143,
+    "pacientes": 16,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16364,
+    "nombre": "DUARTE CENTURION, JESUS MANUEL",
+    "recetas": 143,
+    "pacientes": 16,
+    "medicamentos": 51,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17144,
+    "nombre": "DOMINGUEZ AMARILLA, SANTIAGO LORENZO",
+    "recetas": 141,
+    "pacientes": 18,
+    "medicamentos": 54,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 36823,
+    "nombre": "FIGUEREDO PANIAGUA NADIR ANAHI",
+    "recetas": 141,
+    "pacientes": 56,
+    "medicamentos": 37,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23383,
+    "nombre": "JARA LOPEZ JUAN GILBERTO",
+    "recetas": 140,
+    "pacientes": 44,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11266,
+    "nombre": "ALARCON BERNAL, MARIA LIS",
+    "recetas": 138,
+    "pacientes": 11,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16824,
+    "nombre": "ESTIGARRIBIA CRISTALDO, LARISSA RAMONA",
+    "recetas": 137,
+    "pacientes": 25,
+    "medicamentos": 51,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13742,
+    "nombre": "VERA GIMENEZ, NOLIA MARIA",
+    "recetas": 137,
+    "pacientes": 14,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22290,
+    "nombre": "VELAZCO CABRERA JORGE ARIEL",
+    "recetas": 136,
+    "pacientes": 62,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15130,
+    "nombre": "FRANCO GONZALEZ, MATIAS ALBERTO",
+    "recetas": 136,
+    "pacientes": 24,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13193,
+    "nombre": "IRALA RUIZ, DAVID GUSTAVO",
+    "recetas": 135,
+    "pacientes": 33,
+    "medicamentos": 49,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10992,
+    "nombre": "PORTILLO MONTIEL, ROGER ANIBAL",
+    "recetas": 134,
+    "pacientes": 11,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22998,
+    "nombre": "CAMPUZANO ORTIZ  LARISSA MIRNA BELEN",
+    "recetas": 134,
+    "pacientes": 62,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7846,
+    "nombre": "RIOS ACUÑA, ADRIAN",
+    "recetas": 134,
+    "pacientes": 25,
+    "medicamentos": 62,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7757,
+    "nombre": "FLORENTIN APONTE GLORIA SANTANA",
+    "recetas": 133,
+    "pacientes": 28,
+    "medicamentos": 66,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15808,
+    "nombre": "BENITEZ BENITEZ ANA BEATRIZ",
+    "recetas": 132,
+    "pacientes": 45,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12032,
+    "nombre": "ROMBERG,RODRIGO JAVIER(G05)-INGAVI 18/10",
+    "recetas": 131,
+    "pacientes": 51,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17005,
+    "nombre": "AMARILLA JARA, ANDREA LORENA",
+    "recetas": 131,
+    "pacientes": 28,
+    "medicamentos": 47,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14886,
+    "nombre": "ESTECHE RUIZ, ALEXANDRE (NO CARGAR POR SECRETARIA)",
+    "recetas": 131,
+    "pacientes": 11,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 993722,
+    "nombre": "SANTANDER GONZALEZ, SANDRA FABIOLA",
+    "recetas": 129,
+    "pacientes": 76,
+    "medicamentos": 10,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13966,
+    "nombre": "DIAZ BORDON, GLORIA ALEJANDRA",
+    "recetas": 128,
+    "pacientes": 20,
+    "medicamentos": 63,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 1906,
+    "nombre": "MERCADO GRAU CHRISTIAN  JAVIER",
+    "recetas": 128,
+    "pacientes": 77,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 2436,
+    "nombre": "OJEDA DIAZ, DIANA LUZ",
+    "recetas": 127,
+    "pacientes": 74,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11866,
+    "nombre": "MENDEZ OPORTO, LOURDES EMILCE",
+    "recetas": 127,
+    "pacientes": 8,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23016,
+    "nombre": "RAMIREZ NUÑEZ OSCAR ADRIAN",
+    "recetas": 125,
+    "pacientes": 35,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13895,
+    "nombre": "GARCETE ESTIGARRIBIA, DIANA MARIA",
+    "recetas": 123,
+    "pacientes": 66,
+    "medicamentos": 26,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22861,
+    "nombre": "AYALA RODRIGUEZ ALEXIS MILENA",
+    "recetas": 121,
+    "pacientes": 41,
+    "medicamentos": 29,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15701,
+    "nombre": "ROJAS FRANCO, BRENDA MARGARITA",
+    "recetas": 121,
+    "pacientes": 60,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 30148,
+    "nombre": "OJEDA MUÑOZ HORACIO AARON",
+    "recetas": 121,
+    "pacientes": 39,
+    "medicamentos": 36,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6187,
+    "nombre": "ALSINA PATIÑO, SHIRLEY ANDREA",
+    "recetas": 119,
+    "pacientes": 14,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17696,
+    "nombre": "GONZALEZ MARTINEZ, JESSICA ALEJANDRA PAOLA",
+    "recetas": 117,
+    "pacientes": 62,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18993,
+    "nombre": "AQUINO INSFRAN, MARIA BELEN (POLICLINICA)",
+    "recetas": 114,
+    "pacientes": 10,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 3410,
+    "nombre": "ALVAREZ MARIN, JORGE DANIEL",
+    "recetas": 114,
+    "pacientes": 12,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6710,
+    "nombre": "GOMEZ INSFRAN, CAROLINA BEATRIZ",
+    "recetas": 113,
+    "pacientes": 14,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5783,
+    "nombre": "RAMIREZ CRISTALDO, NORMA DOLLY",
+    "recetas": 112,
+    "pacientes": 13,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15481,
+    "nombre": "CHAVEZ OLAZAR, MARIA TERESA",
+    "recetas": 109,
+    "pacientes": 15,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9699,
+    "nombre": "SAMANIEGO MORINIGO,SADY DAHIANA (URO-GINECOLOGIA)",
+    "recetas": 109,
+    "pacientes": 64,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12344,
+    "nombre": "ALMADA RIQUELME, OSCAR ARMANDO",
+    "recetas": 108,
+    "pacientes": 75,
+    "medicamentos": 11,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10094,
+    "nombre": "ADORNO RECALDE, RAUL OSVALDO",
+    "recetas": 106,
+    "pacientes": 65,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 64659,
+    "nombre": "QUIÑONEZ SILVERO MELISSA LIZANI",
+    "recetas": 105,
+    "pacientes": 65,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 36600,
+    "nombre": "GARCETE AYALA PATRICIA HAYDEE",
+    "recetas": 102,
+    "pacientes": 40,
+    "medicamentos": 36,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8307,
+    "nombre": "GARCIA FERNANDEZ NADIA LIZ",
+    "recetas": 101,
+    "pacientes": 13,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8948,
+    "nombre": "RAMIREZ ORTIZ, TATIANA CELINA",
+    "recetas": 101,
+    "pacientes": 10,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6780,
+    "nombre": "PAREDES MARGARITA",
+    "recetas": 101,
+    "pacientes": 10,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9989,
+    "nombre": "ARZAMENDIA CASELLI, CARLOS EDUARDO",
+    "recetas": 100,
+    "pacientes": 68,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9779,
+    "nombre": "INVERNIZZI CHAMORRO,ROMINA CLAUDIA",
+    "recetas": 97,
+    "pacientes": 10,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 24182,
+    "nombre": "RODAS FLEITAS,JOSE ROBERTO",
+    "recetas": 97,
+    "pacientes": 19,
+    "medicamentos": 29,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10539,
+    "nombre": "ROMAN RUIZ DIAZ,LOURDES GRACIELA",
+    "recetas": 96,
+    "pacientes": 14,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13943,
+    "nombre": "MARECOS VIANA, CECILIA MONSERRAT",
+    "recetas": 95,
+    "pacientes": 10,
+    "medicamentos": 11,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7573,
+    "nombre": "FRANCO CHAVEZ, ROSA ELIZABETH",
+    "recetas": 95,
+    "pacientes": 8,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 35914,
+    "nombre": "GONZALEZ MARTINEZ VANESSA AILYN",
+    "recetas": 94,
+    "pacientes": 36,
+    "medicamentos": 33,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19405,
+    "nombre": "CUEVAS ALMANDO, GABRIEL AUGUSTO",
+    "recetas": 92,
+    "pacientes": 44,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11043,
+    "nombre": "FARIÑA MENDIETA, CARLOS FEDERICO",
+    "recetas": 91,
+    "pacientes": 10,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17148,
+    "nombre": "ROMERO ROMERO, MARLENE MONSERRATH",
+    "recetas": 91,
+    "pacientes": 11,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12806,
+    "nombre": "GAUTO ROJAS, JULIO RODRIGO",
+    "recetas": 89,
+    "pacientes": 49,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20634,
+    "nombre": "COLMAN ARCE HUGO DAVID",
+    "recetas": 89,
+    "pacientes": 22,
+    "medicamentos": 41,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10197,
+    "nombre": "MONTIEL OVIEDO, RUBEN ANTONIO",
+    "recetas": 89,
+    "pacientes": 32,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18988,
+    "nombre": "CAME, FERNANDO A.( HC C.A.A. POLICLINICA)",
+    "recetas": 88,
+    "pacientes": 13,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7833,
+    "nombre": "SAMANIEGO MORINIGO ALDO ALEJANDRO (URO-ONCOLOGIA)",
+    "recetas": 87,
+    "pacientes": 48,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15016,
+    "nombre": "NUÑEZ ALARCON, ROSMARIE",
+    "recetas": 86,
+    "pacientes": 7,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12119,
+    "nombre": "RUIZ DIAZ ORDOÑEZ, KAREN VIVIANE",
+    "recetas": 86,
+    "pacientes": 21,
+    "medicamentos": 10,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16820,
+    "nombre": "GONZALEZ JACQUET,LAURA CONCEPCION",
+    "recetas": 83,
+    "pacientes": 9,
+    "medicamentos": 48,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13883,
+    "nombre": "RODAS DUARTE, FANNY ELIZABETH",
+    "recetas": 83,
+    "pacientes": 17,
+    "medicamentos": 41,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 998814,
+    "nombre": "ENCISO MOLAS NATALIA NOEMI",
+    "recetas": 81,
+    "pacientes": 52,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6723,
+    "nombre": "FIGUEREDO ZACARIAS MONICA (GASTROENTEROLOGIA)",
+    "recetas": 81,
+    "pacientes": 40,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14506,
+    "nombre": "ARCE MARTINEZ, MARIA GISELLE (POLICLINICA)",
+    "recetas": 80,
+    "pacientes": 11,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6106,
+    "nombre": "ROMERO GOMEZ FABIOLA MARLENE",
+    "recetas": 80,
+    "pacientes": 5,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17376,
+    "nombre": "BENITEZ MARTINEZ, ALVARO ARTURO",
+    "recetas": 78,
+    "pacientes": 13,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8961,
+    "nombre": "PRADO CANTERO, ROBERTO DARIO",
+    "recetas": 78,
+    "pacientes": 10,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10811,
+    "nombre": "MARTINEZ GALEANO ALVARO",
+    "recetas": 76,
+    "pacientes": 49,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11987,
+    "nombre": "GIMENEZ BENITEZ, ALDO ANDRES",
+    "recetas": 76,
+    "pacientes": 8,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4872,
+    "nombre": "BAEZ LUGO EMELDA AIDA",
+    "recetas": 76,
+    "pacientes": 5,
+    "medicamentos": 11,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18837,
+    "nombre": "VERA FIGUEREDO GIOVANNA PATRICIA",
+    "recetas": 76,
+    "pacientes": 8,
+    "medicamentos": 20,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22978,
+    "nombre": "MEDINA REYES, CRISTHIAN ARIEL",
+    "recetas": 76,
+    "pacientes": 30,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5334,
+    "nombre": "RODRIGUEZ BAZZANO NERY",
+    "recetas": 76,
+    "pacientes": 44,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7595,
+    "nombre": "MOLINAS AYALA ANIBAL ELIAS",
+    "recetas": 75,
+    "pacientes": 6,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11017,
+    "nombre": "ARCE KITA, JUAN SEBASTIAN",
+    "recetas": 75,
+    "pacientes": 11,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 35987,
+    "nombre": "GONZALEZ RIVEROS LAURA DIANA",
+    "recetas": 75,
+    "pacientes": 26,
+    "medicamentos": 35,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 994766,
+    "nombre": "SETRINI ALVAREZ, JESSICA ELIZABETH",
+    "recetas": 75,
+    "pacientes": 45,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 1367,
+    "nombre": "ORTEGA DE AMARILLA SULLY",
+    "recetas": 75,
+    "pacientes": 49,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10435,
+    "nombre": "ALFONSO RECALDE, SYLVANA SOLEDAD (C:1,2,3,7,11)",
+    "recetas": 74,
+    "pacientes": 11,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9514,
+    "nombre": "DUARTE ESTECHE, ROSS CAROLINA",
+    "recetas": 74,
+    "pacientes": 37,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18096,
+    "nombre": "ZAYAS VELAZQUEZ, WALTER OSMAR",
+    "recetas": 74,
+    "pacientes": 32,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9563,
+    "nombre": "FLEITAS PAREDES, MARIA ELENA",
+    "recetas": 73,
+    "pacientes": 8,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20328,
+    "nombre": "FERREIRA MENDIETA, FERNANDO MIGUEL ARTURO",
+    "recetas": 71,
+    "pacientes": 23,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17449,
+    "nombre": "MUÑOZ SALINAS, ALEJANDRO EMANUEL",
+    "recetas": 71,
+    "pacientes": 21,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18081,
+    "nombre": "PUSINERI ESCOBAR,PAOLA MARIA",
+    "recetas": 71,
+    "pacientes": 10,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9034,
+    "nombre": "ARCE AYALA NATHALIA MARIA",
+    "recetas": 71,
+    "pacientes": 7,
+    "medicamentos": 22,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20651,
+    "nombre": "BATAGLIA MEYER GIULIANA BEATRIZ",
+    "recetas": 70,
+    "pacientes": 46,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15790,
+    "nombre": "CHAPARRO RODRIGUEZ, LUZ MARIA",
+    "recetas": 68,
+    "pacientes": 20,
+    "medicamentos": 36,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7434,
+    "nombre": "AVILA PEDRETTI MARIA GABRIELA",
+    "recetas": 67,
+    "pacientes": 9,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10132,
+    "nombre": "GILL PRESENTADO, GILBERTO AGUSTIN",
+    "recetas": 67,
+    "pacientes": 29,
+    "medicamentos": 39,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13340,
+    "nombre": "BARBOZA ESPINOLA BIANCA RESEDA",
+    "recetas": 64,
+    "pacientes": 20,
+    "medicamentos": 42,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 25083,
+    "nombre": "ORTIZ BRUNO GABRIEL",
+    "recetas": 64,
+    "pacientes": 14,
+    "medicamentos": 29,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8911,
+    "nombre": "ROMERO CUEVAS, MARIA MERCEDES",
+    "recetas": 63,
+    "pacientes": 4,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5169,
+    "nombre": "PUSINERI VILLALBA MARY ELIZABETH",
+    "recetas": 63,
+    "pacientes": 5,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9975,
+    "nombre": "ZARATE VALDEZ WALTER S. (C:1,2,4,6,8)",
+    "recetas": 62,
+    "pacientes": 11,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17086,
+    "nombre": "ZACARIAS CROVATO, ALEXANDRA MARIA",
+    "recetas": 62,
+    "pacientes": 8,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 3289,
+    "nombre": "MENACHO EGUEZ ELIAS ARMANDO",
+    "recetas": 62,
+    "pacientes": 7,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20216,
+    "nombre": "BLATTMANN DIETZE, MARIA ELSA",
+    "recetas": 60,
+    "pacientes": 14,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7057,
+    "nombre": "AVALOS JOSE MANUEL",
+    "recetas": 60,
+    "pacientes": 43,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11859,
+    "nombre": "BARTOMEU GIARDINA,ENZO ESTEBAN",
+    "recetas": 59,
+    "pacientes": 41,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17063,
+    "nombre": "ESPINOLA ROA, IVAN REINERIO",
+    "recetas": 59,
+    "pacientes": 20,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13408,
+    "nombre": "ENCISO ZACARIA, VIRGINIA (C:1,2,7,8,9)",
+    "recetas": 58,
+    "pacientes": 12,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13906,
+    "nombre": "VERA FLORENTIN, JORGE DAVID (G01)PEDIATRICA",
+    "recetas": 58,
+    "pacientes": 26,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16857,
+    "nombre": "FRANCO BENITEZ, PABLO JOSE",
+    "recetas": 58,
+    "pacientes": 10,
+    "medicamentos": 36,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15692,
+    "nombre": "MERELES NOGUERA, LEILA MELISSA",
+    "recetas": 58,
+    "pacientes": 24,
+    "medicamentos": 26,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 997739,
+    "nombre": "CABRERA RIVEROS CLAUDIA VIVIANA",
+    "recetas": 58,
+    "pacientes": 39,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6899,
+    "nombre": "MENDOZA, WILMA GRACIELA",
+    "recetas": 58,
+    "pacientes": 8,
+    "medicamentos": 10,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9401,
+    "nombre": "MORINIGO MONTIEL, ADOLFO",
+    "recetas": 57,
+    "pacientes": 14,
+    "medicamentos": 22,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19487,
+    "nombre": "FERREIRA ROMAN, SANDRA ROCIO",
+    "recetas": 57,
+    "pacientes": 19,
+    "medicamentos": 41,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11663,
+    "nombre": "CAÑIZA CABALLERO, LILIANA CONCEPCION",
+    "recetas": 55,
+    "pacientes": 16,
+    "medicamentos": 38,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15653,
+    "nombre": "ZARZA TORRES GLADYS MARIELA",
+    "recetas": 54,
+    "pacientes": 11,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12980,
+    "nombre": "ESTIGARRIBIA ALONSO, EVELYN RAQUEL",
+    "recetas": 53,
+    "pacientes": 8,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4981,
+    "nombre": "VELAZQUEZ CAROLINA",
+    "recetas": 53,
+    "pacientes": 8,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23021,
+    "nombre": "RUBIANI HERMOSILLA  LARISSA MARIA JOSE",
+    "recetas": 53,
+    "pacientes": 16,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18805,
+    "nombre": "ZARACHO, JUAN CARLOS",
+    "recetas": 53,
+    "pacientes": 30,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 999459,
+    "nombre": "RIVAROLA MARTINEZ, EVA BEATRIZ",
+    "recetas": 53,
+    "pacientes": 16,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12347,
+    "nombre": "PORTILLO DELVALLE, AUGUSTO MANUEL (POLICLINICA)",
+    "recetas": 52,
+    "pacientes": 6,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23080,
+    "nombre": "MARECOS MORALES RICARDO RAMON",
+    "recetas": 51,
+    "pacientes": 10,
+    "medicamentos": 26,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14566,
+    "nombre": "MOLINAS BENITEZ, VICTOR RAMON",
+    "recetas": 51,
+    "pacientes": 4,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22783,
+    "nombre": "CARDOZO CACERES,FRANCISCO JAVIER",
+    "recetas": 50,
+    "pacientes": 7,
+    "medicamentos": 34,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 25015,
+    "nombre": "PRIETO LUGO,REMIGIO",
+    "recetas": 50,
+    "pacientes": 11,
+    "medicamentos": 29,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10754,
+    "nombre": "RECALDE ROMERO, CYNTIA ELIZABETH",
+    "recetas": 50,
+    "pacientes": 6,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10025,
+    "nombre": "ELIZAUR LOPEZ, JUAN GABRIEL",
+    "recetas": 50,
+    "pacientes": 3,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 993084,
+    "nombre": "FLEITAS REYES,ARNALDO (MAXILOFACIAL)",
+    "recetas": 49,
+    "pacientes": 25,
+    "medicamentos": 11,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5003,
+    "nombre": "BITTAR SAFUAN CARLOS FERNANDO",
+    "recetas": 49,
+    "pacientes": 29,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6585,
+    "nombre": "VALINOTTI DELMAS, ELIZABETH ANALIA",
+    "recetas": 49,
+    "pacientes": 5,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19362,
+    "nombre": "VERGARA BRITEZ, LIZ NOELIA",
+    "recetas": 49,
+    "pacientes": 6,
+    "medicamentos": 28,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20799,
+    "nombre": "IRUN SANABRIA, GONZALO",
+    "recetas": 48,
+    "pacientes": 11,
+    "medicamentos": 28,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9406,
+    "nombre": "CYNTIA CAROLINA ARREDONDO VILLALBA",
+    "recetas": 47,
+    "pacientes": 5,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22226,
+    "nombre": "BORJA GONZALEZ, MARINA ANGELICA",
+    "recetas": 47,
+    "pacientes": 27,
+    "medicamentos": 22,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5235,
+    "nombre": "FERNANDEZ GUSTAVO",
+    "recetas": 47,
+    "pacientes": 5,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9231,
+    "nombre": "OJEDA LOPEZ, JULIA MARIA GRISELDA",
+    "recetas": 47,
+    "pacientes": 13,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10145,
+    "nombre": "CESPEDES SERVIAN, LAURA LETICIA",
+    "recetas": 46,
+    "pacientes": 15,
+    "medicamentos": 33,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17555,
+    "nombre": "PENAYO AGUILERA, TERESITA DEJESUS",
+    "recetas": 46,
+    "pacientes": 16,
+    "medicamentos": 25,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23397,
+    "nombre": "ORUE FIGUEREDO, LENIS ALELI",
+    "recetas": 45,
+    "pacientes": 9,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 31025,
+    "nombre": "VILLALBA FERNANDEZ JESSICA ANALIA",
+    "recetas": 44,
+    "pacientes": 7,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4855,
+    "nombre": "AREVALOS RAMIREZ, DARIO LUIS",
+    "recetas": 43,
+    "pacientes": 4,
+    "medicamentos": 10,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 107899,
+    "nombre": "FERNANDEZ GOMEZ MARIA MAGDALENA",
+    "recetas": 43,
+    "pacientes": 9,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5309,
+    "nombre": "GAMEZ, HECTOR MARCELO",
+    "recetas": 43,
+    "pacientes": 12,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11874,
+    "nombre": "AREVALOS, FLORA ELISA (C:1,2,3,7,9)",
+    "recetas": 43,
+    "pacientes": 5,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20631,
+    "nombre": "MILLER TELLECHEA, CLAUDIA MARIA MATILDE",
+    "recetas": 43,
+    "pacientes": 6,
+    "medicamentos": 15,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12843,
+    "nombre": "RIQUELME TORRES, ROMINA MARIA",
+    "recetas": 41,
+    "pacientes": 5,
+    "medicamentos": 10,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 32902,
+    "nombre": "LOPEZ AGUIRRE PATRICIA LORENA",
+    "recetas": 41,
+    "pacientes": 19,
+    "medicamentos": 24,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 995052,
+    "nombre": "PIMIENTA AGUILERA; RUTH ELIANA",
+    "recetas": 41,
+    "pacientes": 27,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8607,
+    "nombre": "CARRON IMAS CARLA MARIA",
+    "recetas": 41,
+    "pacientes": 9,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5612,
+    "nombre": "ORTEGA OVIEDO SUSANA MARIA MERCEDES",
+    "recetas": 41,
+    "pacientes": 22,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15716,
+    "nombre": "GOMEZ PAEZ LILIAN LETICIA",
+    "recetas": 40,
+    "pacientes": 13,
+    "medicamentos": 32,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11714,
+    "nombre": "PEREIRA UCEDO, JESSICA MARGARITA",
+    "recetas": 39,
+    "pacientes": 4,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17553,
+    "nombre": "MARTINEZ ROMAN, MARCOS DAVID",
+    "recetas": 39,
+    "pacientes": 9,
+    "medicamentos": 27,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6365,
+    "nombre": "ROMERO VAZQUEZ, BENIGNA ROSA",
+    "recetas": 39,
+    "pacientes": 5,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6958,
+    "nombre": "VERA MORINIGO ARNALDO JAVIER",
+    "recetas": 39,
+    "pacientes": 5,
+    "medicamentos": 11,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8114,
+    "nombre": "VUYK CORONEL,CAMILA MARIA",
+    "recetas": 38,
+    "pacientes": 28,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20608,
+    "nombre": "JARA GOMEZ, PAOLA ANALIA",
+    "recetas": 37,
+    "pacientes": 5,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20650,
+    "nombre": "ENCISO ZACARIAS, JUAN CARLOS (LITIASIS RENAL EXCLUSIVO)",
+    "recetas": 36,
+    "pacientes": 20,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17218,
+    "nombre": "BARRETO RIOS, MAURICIO NICOLAS",
+    "recetas": 36,
+    "pacientes": 7,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18025,
+    "nombre": "ERNESTO CABALLERO",
+    "recetas": 35,
+    "pacientes": 15,
+    "medicamentos": 16,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8088,
+    "nombre": "MACIEL GUERREÑO ROLANDO",
+    "recetas": 34,
+    "pacientes": 3,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 902225,
+    "nombre": "POLETTI DE SOSA CINTHIA RAQUEL",
+    "recetas": 33,
+    "pacientes": 10,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18717,
+    "nombre": "OVELAR CANTERO, ARACELI LUZ MARINA",
+    "recetas": 33,
+    "pacientes": 13,
+    "medicamentos": 22,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9042,
+    "nombre": "LOPEZ FERNANDEZ, LUZ MARISOL",
+    "recetas": 33,
+    "pacientes": 5,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10142,
+    "nombre": "ERNESTO ANDRES VILLALBA FIGARI",
+    "recetas": 33,
+    "pacientes": 3,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7266,
+    "nombre": "VERON AMARILLA OSMAR ISIDRO",
+    "recetas": 33,
+    "pacientes": 23,
+    "medicamentos": 11,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7552,
+    "nombre": "CABALLERO CACERES, EDUARDO JAVIER",
+    "recetas": 31,
+    "pacientes": 2,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23634,
+    "nombre": "TORRES ALFONZO, DAVINIA MAGALI",
+    "recetas": 31,
+    "pacientes": 8,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10207,
+    "nombre": "PALACIOS CATEBRA, RUBEN MARCELO",
+    "recetas": 31,
+    "pacientes": 3,
+    "medicamentos": 10,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9396,
+    "nombre": "ORTIZ CHIOLA, PEDRO ADRIAN",
+    "recetas": 31,
+    "pacientes": 2,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17385,
+    "nombre": "VERA PEREZ, CARLOS ALBERTO",
+    "recetas": 31,
+    "pacientes": 9,
+    "medicamentos": 22,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17123,
+    "nombre": "COLINA FRANCO, KATERINE GISSELLE",
+    "recetas": 30,
+    "pacientes": 16,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4288,
+    "nombre": "RODRIGUEZ GAONA, PEDRO",
+    "recetas": 30,
+    "pacientes": 2,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11706,
+    "nombre": "AGUILERA MAIDANA, DOMINGO JAVIER",
+    "recetas": 30,
+    "pacientes": 18,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11442,
+    "nombre": "CRISTALDO GARAY,  JESSICA CELESTE",
+    "recetas": 30,
+    "pacientes": 18,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11181,
+    "nombre": "VIGO LUGO, LILIANA BEATRIZ",
+    "recetas": 29,
+    "pacientes": 7,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8864,
+    "nombre": "BARRIOS CABALLERO, LIZ MARLENE",
+    "recetas": 29,
+    "pacientes": 2,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12005,
+    "nombre": "JIMENEZ DE PANE, VIOLETA MARIA",
+    "recetas": 28,
+    "pacientes": 7,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23382,
+    "nombre": "FERREIRA PRIETO, ROCIO CELESTE",
+    "recetas": 27,
+    "pacientes": 12,
+    "medicamentos": 22,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18450,
+    "nombre": "LEGUIZAMON ROMERO, EFREN GUSTAVO(G11)",
+    "recetas": 27,
+    "pacientes": 6,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 2663,
+    "nombre": "CESAR EMILIO FLORES BATTILANA",
+    "recetas": 26,
+    "pacientes": 4,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5129,
+    "nombre": "OVIEDO DE CABALLERO SOFIA",
+    "recetas": 26,
+    "pacientes": 14,
+    "medicamentos": 10,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8916,
+    "nombre": "CATALDI LEMIR SANDRA",
+    "recetas": 26,
+    "pacientes": 14,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7527,
+    "nombre": "GIMENEZ LEWCHUK, NATALIA NOEMI",
+    "recetas": 26,
+    "pacientes": 3,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18939,
+    "nombre": "DUARTE FERNANDEZ, MARCELO FABIAN",
+    "recetas": 25,
+    "pacientes": 16,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15711,
+    "nombre": "BALMACEDA RODRIGUES, BRENDA BETSABET",
+    "recetas": 25,
+    "pacientes": 18,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8728,
+    "nombre": "CABALLERO ZARATE CELIA MAGALI",
+    "recetas": 25,
+    "pacientes": 1,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11487,
+    "nombre": "GOMEZ BLANCO, OSCAR ALEJANDRO",
+    "recetas": 25,
+    "pacientes": 10,
+    "medicamentos": 23,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4529,
+    "nombre": "IBIETA GALARZA, FELIX GABRIEL",
+    "recetas": 25,
+    "pacientes": 7,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10060,
+    "nombre": "VAZQUEZ VERA, LUZ DIANA",
+    "recetas": 24,
+    "pacientes": 2,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4616,
+    "nombre": "ALVARENGA PRINCIGALLI, JUAN CARLOS (MANO  G05)",
+    "recetas": 24,
+    "pacientes": 11,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12405,
+    "nombre": "MONTIEL SERVIAN, JOHANNA MARIELA",
+    "recetas": 24,
+    "pacientes": 11,
+    "medicamentos": 17,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8349,
+    "nombre": "ROJAS GALEANO, MABEL",
+    "recetas": 24,
+    "pacientes": 2,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13006,
+    "nombre": "SALINAS MENDOZA, CESAR FERNANDO (G11)",
+    "recetas": 24,
+    "pacientes": 11,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10478,
+    "nombre": "CRISTALDO FLOR, CARLOS RAMON (G02)",
+    "recetas": 24,
+    "pacientes": 11,
+    "medicamentos": 11,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14878,
+    "nombre": "RAMIREZ HERMOSILLA CLAUDIA LORENA",
+    "recetas": 24,
+    "pacientes": 12,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18713,
+    "nombre": "RAMIREZ SAMUDIO, ANDREA MARIA JOSE",
+    "recetas": 24,
+    "pacientes": 12,
+    "medicamentos": 10,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11927,
+    "nombre": "CARDENAS MELGAREJO, CARLOS FABIAN (G01)PEDIATRICA",
+    "recetas": 23,
+    "pacientes": 13,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11044,
+    "nombre": "FLEITAS RUIZ, YRMA MARIELA",
+    "recetas": 23,
+    "pacientes": 11,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6737,
+    "nombre": "MIERS GRANADA GLORIA ROSSANA -OFTALMOLOGIA",
+    "recetas": 23,
+    "pacientes": 2,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 21956,
+    "nombre": "GIMENEZ DUARTE CECILIA",
+    "recetas": 23,
+    "pacientes": 8,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14850,
+    "nombre": "ORTEGA SANABRIA, JORGE MANUEL",
+    "recetas": 23,
+    "pacientes": 5,
+    "medicamentos": 10,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7508,
+    "nombre": "DAVALOS GOIRIZ ADRIANA MARIA - ADULTO",
+    "recetas": 23,
+    "pacientes": 3,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20765,
+    "nombre": "CAÑETE SILGUERO, LUIS FERNANDO",
+    "recetas": 22,
+    "pacientes": 14,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23093,
+    "nombre": "GIMENEZ FRETES, JOSE SEBASTIAN",
+    "recetas": 22,
+    "pacientes": 6,
+    "medicamentos": 18,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5397,
+    "nombre": "MALLORQUIN MAYO MARIA MERCEDES (POLICLINICA)",
+    "recetas": 22,
+    "pacientes": 2,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5422,
+    "nombre": "RAMIREZ GONZALEZ LUIS ALBERTO",
+    "recetas": 21,
+    "pacientes": 13,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14012,
+    "nombre": "ESPINOLA CHAMORRO, FERNANDO FEDERICO",
+    "recetas": 21,
+    "pacientes": 2,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17565,
+    "nombre": "INVERNIZZI PRATS, JUAN MANUEL",
+    "recetas": 21,
+    "pacientes": 4,
+    "medicamentos": 21,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8087,
+    "nombre": "GALLEANO RUIZ, HUMBERTO NICOLAS (G01-G12)",
+    "recetas": 21,
+    "pacientes": 12,
+    "medicamentos": 11,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9074,
+    "nombre": "AMARILLA JIMENEZ, OSMAR SEGUNDO",
+    "recetas": 21,
+    "pacientes": 7,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7444,
+    "nombre": "GIMENEZ COSTAS ALMA MARIA",
+    "recetas": 20,
+    "pacientes": 2,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5480,
+    "nombre": "RUIZ IBARRA,FERNANDO (NIÑOS    G01)",
+    "recetas": 20,
+    "pacientes": 14,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5946,
+    "nombre": "AYALA LUGO ROSA MARIA",
+    "recetas": 20,
+    "pacientes": 4,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12139,
+    "nombre": "DELGADILLO BENITEZ, PEDRO DANIEL",
+    "recetas": 20,
+    "pacientes": 2,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9026,
+    "nombre": "CHAPARRO SEGOVIA EMMA ISABEL",
+    "recetas": 20,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15515,
+    "nombre": "CABRERA ROMAN OSCAR FELICIANO",
+    "recetas": 20,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19463,
+    "nombre": "CABRERA SILVERO, GUSTAVO (G01)PEDIATRIA",
+    "recetas": 20,
+    "pacientes": 3,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17057,
+    "nombre": "DAVALOS GONZALEZ, KAREN VANESSA",
+    "recetas": 19,
+    "pacientes": 8,
+    "medicamentos": 19,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 993377,
+    "nombre": "CRISTALDO KEGLER PAOLA MARLENE",
+    "recetas": 19,
+    "pacientes": 16,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9490,
+    "nombre": "MENDEZ RAMIREZ,SAMUEL(URO-ONCOLOGIA)",
+    "recetas": 19,
+    "pacientes": 14,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18845,
+    "nombre": "ESCURRA SANCHEZ, CLARA LIZ",
+    "recetas": 19,
+    "pacientes": 5,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8092,
+    "nombre": "LEIVA COLMAN CYNTHIA",
+    "recetas": 18,
+    "pacientes": 2,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8986,
+    "nombre": "RODRIGUEZ CABALLERO, MARIA GALIANA",
+    "recetas": 18,
+    "pacientes": 4,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13514,
+    "nombre": "CACERES BENITEZ, TERESA VIRGINIA",
+    "recetas": 18,
+    "pacientes": 5,
+    "medicamentos": 13,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7664,
+    "nombre": "ARRUA CABALLERO, MARTIN FERNANDO",
+    "recetas": 18,
+    "pacientes": 4,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6612,
+    "nombre": "MAIDANA AQUINO, AGUSTINA FRANCISCA",
+    "recetas": 18,
+    "pacientes": 4,
+    "medicamentos": 10,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4213,
+    "nombre": "GOMEZ FERNANDEZ, RAUL ALBERTO",
+    "recetas": 17,
+    "pacientes": 2,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11411,
+    "nombre": "DOMINGUEZ MOREIRA, ELIDA VERONICA",
+    "recetas": 17,
+    "pacientes": 5,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8024,
+    "nombre": "BOGGIANO MONICA (TRAUMATOLOGIA GRAL)",
+    "recetas": 17,
+    "pacientes": 4,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5289,
+    "nombre": "CESPEDES RAMIREZ, LUZ MARIA",
+    "recetas": 17,
+    "pacientes": 9,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7971,
+    "nombre": "ROLON RUIZ DIAZ, ANGEL RICARDO",
+    "recetas": 16,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11250,
+    "nombre": "LUIS MIGUEL FIGUEROA RAMIREZ",
+    "recetas": 16,
+    "pacientes": 6,
+    "medicamentos": 12,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15440,
+    "nombre": "SOSA PEREZ,DAREL (URO-GINECOLOGIA)",
+    "recetas": 16,
+    "pacientes": 14,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15725,
+    "nombre": "LEZCANO MARTIN, MARIA AZUCENA",
+    "recetas": 16,
+    "pacientes": 2,
+    "medicamentos": 14,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12014,
+    "nombre": "GONZALEZ B., JOSE P. ( HC C.A.A. POLICLINICA)",
+    "recetas": 16,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8555,
+    "nombre": "FIGUEREDO VILLALBA, CLAUDIO",
+    "recetas": 16,
+    "pacientes": 1,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8882,
+    "nombre": "SERVIN MORENO, OSCAR ARTURO",
+    "recetas": 16,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8615,
+    "nombre": "MALDONADO MEZA, SOFIA DAHIANA",
+    "recetas": 16,
+    "pacientes": 2,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7574,
+    "nombre": "LEGUIZAMON ORUE HUGO HILARION",
+    "recetas": 15,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8263,
+    "nombre": "MELGAREJO LLANO, LOURDES ANTONIA",
+    "recetas": 15,
+    "pacientes": 9,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13635,
+    "nombre": "IRRAZABAL VERA, DAVID MANUEL",
+    "recetas": 15,
+    "pacientes": 4,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5199,
+    "nombre": "MARIN SANABRIA, ELIO ARNALDO (ADULTOS)",
+    "recetas": 15,
+    "pacientes": 1,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9064,
+    "nombre": "GAONA RAMIREZ JOSE DERLIS",
+    "recetas": 15,
+    "pacientes": 10,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13379,
+    "nombre": "FLORES RODRIGUEZ, LESTER RAUL (C:1,2,4,5,6)",
+    "recetas": 15,
+    "pacientes": 3,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11117,
+    "nombre": "MARTINEZ TORALES, FRANCISCO MARTIN",
+    "recetas": 15,
+    "pacientes": 11,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 351199,
+    "nombre": "SILGUERO LOPEZ OSMAR",
+    "recetas": 15,
+    "pacientes": 4,
+    "medicamentos": 10,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10440,
+    "nombre": "CASAFUZ MARTINEZ, LIZ CAROLINA",
+    "recetas": 15,
+    "pacientes": 1,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10363,
+    "nombre": "BARRIOS VELAZQUEZ, MARIA DE LOS ANGELES",
+    "recetas": 15,
+    "pacientes": 2,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14458,
+    "nombre": "DUARTE TORALES, CESAR DAMIAN",
+    "recetas": 14,
+    "pacientes": 4,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11252,
+    "nombre": "GONZALEZ NUÑEZ,ROMINA DE LOS ANGELES (NIÑOS)",
+    "recetas": 14,
+    "pacientes": 5,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8832,
+    "nombre": "NACIMIENTO CANTERO, MARIA BELEN",
+    "recetas": 14,
+    "pacientes": 5,
+    "medicamentos": 10,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6514,
+    "nombre": "CAÑETE JOSE ALBERTO",
+    "recetas": 14,
+    "pacientes": 6,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4391,
+    "nombre": "GONZALEZ PAVETTI TERESA",
+    "recetas": 14,
+    "pacientes": 2,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6318,
+    "nombre": "ACOSTA NUÑEZ, CELESTE NOEMI",
+    "recetas": 14,
+    "pacientes": 3,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12341,
+    "nombre": "ARGUELLO TORRES, LISA CAROLINA  (SOLO CX CAB Y CUELLO)",
+    "recetas": 14,
+    "pacientes": 11,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7392,
+    "nombre": "RAMIREZ JORGE LUIS",
+    "recetas": 14,
+    "pacientes": 8,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10743,
+    "nombre": "GUERRERO MORAL ALBA (ADULTOS)",
+    "recetas": 13,
+    "pacientes": 2,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16907,
+    "nombre": "NOGUERA MORINIGO, LUIS MANUEL",
+    "recetas": 13,
+    "pacientes": 7,
+    "medicamentos": 11,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11463,
+    "nombre": "LLANO LEGUIZAMON, HECTOR DANIEL",
+    "recetas": 13,
+    "pacientes": 4,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10566,
+    "nombre": "MENDOZA CACERES,LAURA ROCIO (NIÑOS)",
+    "recetas": 13,
+    "pacientes": 2,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6438,
+    "nombre": "VELAZQUEZ HENSTOH EMILCE ELIZABETH",
+    "recetas": 13,
+    "pacientes": 8,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19410,
+    "nombre": "ACUÑA PIRIS GABRIEL CRISTINO",
+    "recetas": 13,
+    "pacientes": 3,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7183,
+    "nombre": "MIRIAN CELESTE LOPEZ DE DENIS",
+    "recetas": 12,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9771,
+    "nombre": "BURGOS AGUILAR, PERLA SANDRA",
+    "recetas": 12,
+    "pacientes": 1,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9319,
+    "nombre": "OJEDA JACQUET, VICTOR",
+    "recetas": 12,
+    "pacientes": 2,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11274,
+    "nombre": "FLORENTIN BARRETO,CYNTHIA ANDREA (NIÑOS)",
+    "recetas": 12,
+    "pacientes": 4,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12892,
+    "nombre": "RAMIREZ CANTERO, ALEJANDRA",
+    "recetas": 11,
+    "pacientes": 2,
+    "medicamentos": 11,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7884,
+    "nombre": "BAREIRO SAMANIEGO MAYDA HERMINIA",
+    "recetas": 11,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8393,
+    "nombre": "STANLEY SANTOS ROOSEVELT ISAIAS",
+    "recetas": 11,
+    "pacientes": 10,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7598,
+    "nombre": "GIMENEZ CHAVEZ, ANTONIO",
+    "recetas": 11,
+    "pacientes": 1,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5321,
+    "nombre": "MARTINESE LOPEZ, ANGEL DANIEL",
+    "recetas": 11,
+    "pacientes": 2,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18598,
+    "nombre": "OJEDA VILLASBOA, DERLIS JOEL",
+    "recetas": 11,
+    "pacientes": 5,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10079,
+    "nombre": "ACOSTA OCAMPOS,  ERNESTO JOSE",
+    "recetas": 11,
+    "pacientes": 3,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11273,
+    "nombre": "PAREDES GARCIA, MARIA LAURA (C:1,2,3,8,11)",
+    "recetas": 10,
+    "pacientes": 2,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9456,
+    "nombre": "BAEZ NOLDIN, ROCIO CELESTE (C:1,2,3,4,8)",
+    "recetas": 10,
+    "pacientes": 3,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12720,
+    "nombre": "TERWINDT OJEDA, NATALIA JACQUELINE",
+    "recetas": 10,
+    "pacientes": 3,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11674,
+    "nombre": "MARCHI BRUSQUETTI, WALTER RAUL",
+    "recetas": 10,
+    "pacientes": 7,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8597,
+    "nombre": "SOLALINDE CRISTALDO, ADALBERTO",
+    "recetas": 10,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8025,
+    "nombre": "ESCOBAR SALDIVAR MELISA SOLANGE",
+    "recetas": 10,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6586,
+    "nombre": "MALDONADO OCAMPO, GUSTAVO JAVIER",
+    "recetas": 10,
+    "pacientes": 4,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17623,
+    "nombre": "ANNIA DIAZ",
+    "recetas": 10,
+    "pacientes": 1,
+    "medicamentos": 9,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12491,
+    "nombre": "BOBADILLA BENITEZ, DERLIS HERMINIO (G03)",
+    "recetas": 9,
+    "pacientes": 8,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 21946,
+    "nombre": "GONZALEZ AQUINO, ALEXIS DARIO",
+    "recetas": 9,
+    "pacientes": 3,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14440,
+    "nombre": "CACERES CHAPARRO,RODRIGO IGNACIO",
+    "recetas": 9,
+    "pacientes": 4,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23111,
+    "nombre": "DOMINGUEZ KALLUS ANA LUCIA",
+    "recetas": 9,
+    "pacientes": 2,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20275,
+    "nombre": "MOLINAS MORAEZ,CLARA BEATRIZ",
+    "recetas": 9,
+    "pacientes": 4,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6230,
+    "nombre": "GAUNA DE CENTURION CINTHIA (C:1,2,4,5,6)",
+    "recetas": 9,
+    "pacientes": 2,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5134,
+    "nombre": "BLANCO ESPINOLA CLAUDIA FABIOLA (NIÑOS)",
+    "recetas": 8,
+    "pacientes": 2,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9532,
+    "nombre": "GOTO GONZALEZ, RUBEN YASUJI",
+    "recetas": 8,
+    "pacientes": 3,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4899,
+    "nombre": "RODRIGUEZ MARTINEZ ABRAHAM",
+    "recetas": 8,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12625,
+    "nombre": "ESPINOLA BENITEZ, MARIELA",
+    "recetas": 8,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20647,
+    "nombre": "TONINA PEREZ, EMILIO DOMINGO",
+    "recetas": 8,
+    "pacientes": 5,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10520,
+    "nombre": "LEGAL BALMACEDA EVELIO FABIAN  (SOLO CX CAB Y CUELLO)",
+    "recetas": 8,
+    "pacientes": 6,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18852,
+    "nombre": "MEZA LOPEZ, ANDRES WILFRIDO",
+    "recetas": 8,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10423,
+    "nombre": "LLANES OSCAR",
+    "recetas": 8,
+    "pacientes": 2,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12060,
+    "nombre": "GRANCE SARDI, JUAN MANUEL",
+    "recetas": 8,
+    "pacientes": 1,
+    "medicamentos": 8,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23223,
+    "nombre": "VEGA TORRES,FERNANDO LUIS",
+    "recetas": 8,
+    "pacientes": 2,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6382,
+    "nombre": "CAÑETE AGUIRRE, CARLOS ALBERTO",
+    "recetas": 8,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5928,
+    "nombre": "PARRA JARA NERY RAMON",
+    "recetas": 7,
+    "pacientes": 3,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15691,
+    "nombre": "GAONA ARGAÑA, CESAR ALBERTO",
+    "recetas": 7,
+    "pacientes": 2,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10792,
+    "nombre": "CRISTALDO RUBEN ANTONIO (C:1,2,4,7,11)",
+    "recetas": 7,
+    "pacientes": 2,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7315,
+    "nombre": "PRIETO JAVIER",
+    "recetas": 7,
+    "pacientes": 5,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22105,
+    "nombre": "RUIZ DIAZ RUIZ, DOLLY CAROLINA",
+    "recetas": 7,
+    "pacientes": 4,
+    "medicamentos": 7,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 19037,
+    "nombre": "SEGOVIA ORTIZ, SERGIO SAUL (G01)PEDIATRICA",
+    "recetas": 7,
+    "pacientes": 4,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23008,
+    "nombre": "COSTANZO JARA JIMENA ABIGAIL",
+    "recetas": 7,
+    "pacientes": 3,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8043,
+    "nombre": "MARTINEZ LEZCANO MARIA JULIA (CP)",
+    "recetas": 6,
+    "pacientes": 1,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 16530,
+    "nombre": "LUIS OVELAR",
+    "recetas": 6,
+    "pacientes": 1,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 21925,
+    "nombre": "GIMENEZ OJEDA, THALIA",
+    "recetas": 6,
+    "pacientes": 2,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13072,
+    "nombre": "CABRERA ROMERO, JOSE MANUEL (ONCOLOGIA)",
+    "recetas": 6,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9517,
+    "nombre": "GAMARRA RIVAROLA, NATALIA LEONIDAS",
+    "recetas": 6,
+    "pacientes": 5,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7719,
+    "nombre": "GONZALEZ BENITEZ, MONICA MARIA SOL",
+    "recetas": 6,
+    "pacientes": 1,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13572,
+    "nombre": "ROLON ACOSTA, PABLO DANIEL",
+    "recetas": 6,
+    "pacientes": 4,
+    "medicamentos": 6,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4907,
+    "nombre": "CAZO MARTINEZ MARTA GRACIELA",
+    "recetas": 6,
+    "pacientes": 2,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14398,
+    "nombre": "LABRANO ELIAS, MONICA MARIA EUGENIA (AN, TROMB, PTI)",
+    "recetas": 6,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6280,
+    "nombre": "RAMIREZ MOLAS, LUIS BELTRAN",
+    "recetas": 6,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7707,
+    "nombre": "TORRES DURE MERCEDES",
+    "recetas": 6,
+    "pacientes": 2,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12871,
+    "nombre": "GARCETE MEDINA, MARIA SILVIA",
+    "recetas": 6,
+    "pacientes": 2,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13812,
+    "nombre": "LOPEZ GONZALEZ, CARMEN LILIANA (ONCOLOGIA)",
+    "recetas": 6,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4548,
+    "nombre": "OSORIO FLEITAS MARTA  (SOLO CX CAB Y CUELLO)",
+    "recetas": 6,
+    "pacientes": 4,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 21166,
+    "nombre": "DIARTE ESCOBAR, GLORIA",
+    "recetas": 5,
+    "pacientes": 1,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6127,
+    "nombre": "MONFREDINI SACCOMANI HUGO ARNALDO (AN, POLG)",
+    "recetas": 5,
+    "pacientes": 1,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 4965,
+    "nombre": "ROJAS BALBUENA TULIO FABIAN",
+    "recetas": 5,
+    "pacientes": 5,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12378,
+    "nombre": "JARA RIVAS, VIVIANO",
+    "recetas": 5,
+    "pacientes": 2,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12003,
+    "nombre": "CACERES JARA, JAZMIN MARIA",
+    "recetas": 5,
+    "pacientes": 1,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22615,
+    "nombre": "RIVAS MARTINEZ, GENARA RAQUEL",
+    "recetas": 5,
+    "pacientes": 1,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12731,
+    "nombre": "WATANABE UMEYAMA, NANCY KAORI",
+    "recetas": 5,
+    "pacientes": 3,
+    "medicamentos": 5,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5903,
+    "nombre": "DE BLECKER MONGES ANNA KARINA",
+    "recetas": 4,
+    "pacientes": 2,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11013,
+    "nombre": "Médico sin nombre",
+    "recetas": 4,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10969,
+    "nombre": "CORONEL ARAUJO MARTA ADRIANA",
+    "recetas": 4,
+    "pacientes": 3,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14211,
+    "nombre": "Médico sin nombre",
+    "recetas": 4,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11199,
+    "nombre": "MEDINA ORTIZ, MARIA EUGENIA (C:1,2,3,5,10)",
+    "recetas": 4,
+    "pacientes": 2,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8816,
+    "nombre": "VIVEROS MARTINEZ VICTOR DANIEL",
+    "recetas": 4,
+    "pacientes": 2,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14955,
+    "nombre": "CASTRO LOPEZ MARIA ANGELICA",
+    "recetas": 4,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15489,
+    "nombre": "VARGAS BARRIOS, LARISSA ANALI",
+    "recetas": 4,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 23001,
+    "nombre": "ANTUNEZ LOPEZ MATIAS NICOLAS",
+    "recetas": 4,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17643,
+    "nombre": "SALSAMENDI BAZZANO, SAID EMMANUEL",
+    "recetas": 4,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18281,
+    "nombre": "ORIHUELA GARCIA, ANA ALICIA",
+    "recetas": 4,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12659,
+    "nombre": "Médico sin nombre",
+    "recetas": 4,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7100,
+    "nombre": "RODRIGUEZ SOSA ROBERTO MANUEL",
+    "recetas": 4,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 149194,
+    "nombre": "DIANA MOLINAS",
+    "recetas": 4,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22399,
+    "nombre": "SANCHEZ JARA ENMANUEL JOSE DARIO",
+    "recetas": 4,
+    "pacientes": 2,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12908,
+    "nombre": "OCAMPOS , PATRICIA MARIELA (ADULTO)",
+    "recetas": 4,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15601,
+    "nombre": "LEIVA JACQUET, SAMADI MARGARITA (LMC,MF,TE,PV)",
+    "recetas": 4,
+    "pacientes": 1,
+    "medicamentos": 4,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14587,
+    "nombre": "JACQUET MEYER, NORMA ADRIANA",
+    "recetas": 3,
+    "pacientes": 2,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12776,
+    "nombre": "CORREA MONGELOS, MARCELO DAVID",
+    "recetas": 3,
+    "pacientes": 1,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8029,
+    "nombre": "ADORNO ARRUA,TERESITA (NIÑOS)",
+    "recetas": 3,
+    "pacientes": 1,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15984,
+    "nombre": "GUERRERO DE BAVAY, ROMINA MARIA ASTRID",
+    "recetas": 3,
+    "pacientes": 2,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9095,
+    "nombre": "MARTINEZ GAMARRA, CESAR MANUEL (ADULTO)",
+    "recetas": 3,
+    "pacientes": 1,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6040,
+    "nombre": "LANDO BROWNE RENE (C:1,2,4,5,10)",
+    "recetas": 3,
+    "pacientes": 1,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7406,
+    "nombre": "MONTIEL OVIEDO,CARLA MARIA (NIÑOS",
+    "recetas": 3,
+    "pacientes": 1,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 6648,
+    "nombre": "ALCARAZ FIGUEREDO, ISABELIANO P. (CATARATA)",
+    "recetas": 3,
+    "pacientes": 1,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20128,
+    "nombre": "BENITEZ RIOS, JESUS MARCELO",
+    "recetas": 3,
+    "pacientes": 1,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 36151,
+    "nombre": "DAHIANA ARGUELLO",
+    "recetas": 3,
+    "pacientes": 1,
+    "medicamentos": 3,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 8819,
+    "nombre": "PAREDES DECOUD, CESAR AUGUSTO - CX CABEZA Y CUELLO",
+    "recetas": 2,
+    "pacientes": 2,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10457,
+    "nombre": "VILLALBA, PATRICIA (ADULTO)",
+    "recetas": 2,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 17566,
+    "nombre": "ALVAREZ OVELAR, ROBERTO DANIEL",
+    "recetas": 2,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15988,
+    "nombre": "RECALDE RUIZ,LAURA SOLEDAD",
+    "recetas": 2,
+    "pacientes": 2,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 12671,
+    "nombre": "VAZQUEZ MENDOZA,JORGE (NIÑOS)",
+    "recetas": 2,
+    "pacientes": 1,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 5600,
+    "nombre": "PIÑEIRO GAMARRA OSCAR MANUEL",
+    "recetas": 2,
+    "pacientes": 1,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15756,
+    "nombre": "Médico sin nombre",
+    "recetas": 2,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13587,
+    "nombre": "TORRES VELAZQUEZ, LIZ SANDRA FABIOLA",
+    "recetas": 2,
+    "pacientes": 2,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 13969,
+    "nombre": "GOMEZ VERA,ALFREDO JAVIER (NIÑOS)",
+    "recetas": 2,
+    "pacientes": 1,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 18841,
+    "nombre": "FREDY DUARTE",
+    "recetas": 2,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 7437,
+    "nombre": "ESPINOLA, ALFREDO",
+    "recetas": 2,
+    "pacientes": 1,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 36150,
+    "nombre": "ETEBAN ZAPATTINI",
+    "recetas": 2,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 10467,
+    "nombre": "GARCETE COLMAN,ALDO ANDRES (NIÑOS)",
+    "recetas": 2,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 22138,
+    "nombre": "GIMENEZ BERNAL, ALBER RAMON - (PEDIATRICO)",
+    "recetas": 2,
+    "pacientes": 1,
+    "medicamentos": 2,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 9059,
+    "nombre": "BLASCO SAPENA JOSE FERNANDO (URO LITIASIS)",
+    "recetas": 1,
+    "pacientes": 1,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 15153,
+    "nombre": "ALVAREZ RODRIGUEZ, CINTIA KARINA VIRGINIA",
+    "recetas": 1,
+    "pacientes": 1,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 20378,
+    "nombre": "MEDINA VILLALBA FERNANDO JOSE",
+    "recetas": 1,
+    "pacientes": 1,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 1536,
+    "nombre": "PARIS DE SEGOVIA, BEATRIZ ELIZABETH",
+    "recetas": 1,
+    "pacientes": 1,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 11764,
+    "nombre": "Médico sin nombre",
+    "recetas": 1,
+    "pacientes": 1,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 14473,
+    "nombre": "CANTERO AYALA, ESTEBAN DANIEL",
+    "recetas": 1,
+    "pacientes": 1,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
+  },
+  {
+    "id": 993783,
+    "nombre": "PATIÑO FLEITAS, DAISY ELIZABETH",
+    "recetas": 1,
+    "pacientes": 1,
+    "medicamentos": 1,
+    "especialidad": "No especificada"
   }
 ]
