@@ -1,0 +1,252 @@
+[
+  {
+    "MedicamentoSAP":"11001919",
+    "TextoBreveMedicamento":"SOLUCIÓN CONCE\/ACIDA P\/HEMOD(SOLUCIÓN A)",
+    "total":9293670
+  },
+  {
+    "MedicamentoSAP":"10000563",
+    "TextoBreveMedicamento":"ALCOHOL RECTIFICADO al 96%",
+    "total":5713957
+  },
+  {
+    "MedicamentoSAP":"10000722",
+    "TextoBreveMedicamento":"ALCOHOL AL 70%-SOLUCIÓN",
+    "total":5640610
+  },
+  {
+    "MedicamentoSAP":"10000305",
+    "TextoBreveMedicamento":"LOSARTAN POTASICO 50 mg COM",
+    "total":2110613
+  },
+  {
+    "MedicamentoSAP":"10000567",
+    "TextoBreveMedicamento":"IODOPOVIDONA JABÓN LÍQUIDO 7,5 % a 8%",
+    "total":1579110
+  },
+  {
+    "MedicamentoSAP":"10000568",
+    "TextoBreveMedicamento":"IODOPOVIDONA SOLUCIÓN 7,5 % a 10%",
+    "total":1579017
+  },
+  {
+    "MedicamentoSAP":"11001452",
+    "TextoBreveMedicamento":"GUANTE MEDIANO NO ESTÉRIL",
+    "total":1318775
+  },
+  {
+    "MedicamentoSAP":"10000050",
+    "TextoBreveMedicamento":"ATORVASTATINA 40mg COM",
+    "total":1246066
+  },
+  {
+    "MedicamentoSAP":"10000314",
+    "TextoBreveMedicamento":"METFORMINA 850 mg COM",
+    "total":1233720
+  },
+  {
+    "MedicamentoSAP":"10000138",
+    "TextoBreveMedicamento":"DICLOFENAC 50mg COM",
+    "total":1225955
+  },
+  {
+    "MedicamentoSAP":"10000242",
+    "TextoBreveMedicamento":"IBUPROFENO 400 mg CAP\/COM",
+    "total":1092498
+  },
+  {
+    "MedicamentoSAP":"10000539",
+    "TextoBreveMedicamento":"SOL SALINA ISOTÓNICA 0,90% SC 1000mL",
+    "total":986661
+  },
+  {
+    "MedicamentoSAP":"10000364",
+    "TextoBreveMedicamento":"PARACETAMOL 500 mg COM",
+    "total":921069
+  },
+  {
+    "MedicamentoSAP":"10000111",
+    "TextoBreveMedicamento":"CITIDIN 5 + URIDIN 5 (5mg+3 mg) CAP",
+    "total":819691
+  },
+  {
+    "MedicamentoSAP":"10000553",
+    "TextoBreveMedicamento":"FLA POLI COMP STD P AD S FIB LACT GLUTEN",
+    "total":755600
+  },
+  {
+    "MedicamentoSAP":"10000221",
+    "TextoBreveMedicamento":"GLUCOSAM+CONDROI+SULF1500+1200+250mg POL",
+    "total":736975
+  },
+  {
+    "MedicamentoSAP":"10000365",
+    "TextoBreveMedicamento":"PARACETAMOL + CODEINA 500 mg\/30 mg COM",
+    "total":709406
+  },
+  {
+    "MedicamentoSAP":"11001450",
+    "TextoBreveMedicamento":"GUANTE GRANDE NO ESTÉRIL",
+    "total":709406
+  },
+  {
+    "MedicamentoSAP":"10000348",
+    "TextoBreveMedicamento":"OMEPRAZOL 20 mg CAP",
+    "total":688881
+  },
+  {
+    "MedicamentoSAP":"10000433",
+    "TextoBreveMedicamento":"TELMISARTAN 80mg COM",
+    "total":666775
+  },
+  {
+    "MedicamentoSAP":"10000740",
+    "TextoBreveMedicamento":"DICLOFENAC POTASICO 75 MG CAPSULA",
+    "total":658175
+  },
+  {
+    "MedicamentoSAP":"10000552",
+    "TextoBreveMedicamento":"FLA POLI COM STD PAD C\/FIBR S\/LACT,GLUT",
+    "total":653500
+  },
+  {
+    "MedicamentoSAP":"10000386",
+    "TextoBreveMedicamento":"PREGABALINA 75 mg CAP",
+    "total":589672
+  },
+  {
+    "MedicamentoSAP":"10000035",
+    "TextoBreveMedicamento":"AMLODIPINA 10mg COM",
+    "total":565154
+  },
+  {
+    "MedicamentoSAP":"10000007",
+    "TextoBreveMedicamento":"AC. ACETIL SALICILICO 100-125mg COM\/MCAP",
+    "total":546431
+  },
+  {
+    "MedicamentoSAP":"10000027",
+    "TextoBreveMedicamento":"ALPRAZOLAN 0,5mg COM",
+    "total":513418
+  },
+  {
+    "MedicamentoSAP":"10000165",
+    "TextoBreveMedicamento":"ENALAPRIL 20mg COM",
+    "total":506181
+  },
+  {
+    "MedicamentoSAP":"11001498",
+    "TextoBreveMedicamento":"JERINGA DESE.10CC C\/AG 21GX1 1\/2 PUN\/ENR",
+    "total":497297
+  },
+  {
+    "MedicamentoSAP":"10000076",
+    "TextoBreveMedicamento":"CALCIO CO3 + VITD3 500mg+400 UI COM",
+    "total":493685
+  },
+  {
+    "MedicamentoSAP":"10000094",
+    "TextoBreveMedicamento":"CETIRIZINA 10mg COM",
+    "total":487055
+  },
+  {
+    "MedicamentoSAP":"10000505",
+    "TextoBreveMedicamento":"VASELINA LÍQUIDA",
+    "total":444683
+  },
+  {
+    "MedicamentoSAP":"11001496",
+    "TextoBreveMedicamento":"JERINGA DESECHABLE 5 CC C\/AGUJA",
+    "total":434706
+  },
+  {
+    "MedicamentoSAP":"10000555",
+    "TextoBreveMedicamento":"FLA P.COM ESP HIPERGLIC LIB D LACYGLUT",
+    "total":420000
+  },
+  {
+    "MedicamentoSAP":"10000146",
+    "TextoBreveMedicamento":"DIOSMINA 600mg COM",
+    "total":407655
+  },
+  {
+    "MedicamentoSAP":"11001456",
+    "TextoBreveMedicamento":"GUANTE QUIRÚRGICO N°7 1\/2 ESTÉRIL",
+    "total":387802
+  },
+  {
+    "MedicamentoSAP":"10000046",
+    "TextoBreveMedicamento":"ANTIGRIPAL (Formula Mínima) COM",
+    "total":386730
+  },
+  {
+    "MedicamentoSAP":"10000496",
+    "TextoBreveMedicamento":"FORMOL 40 %",
+    "total":349013
+  },
+  {
+    "MedicamentoSAP":"10000562",
+    "TextoBreveMedicamento":"ALCOHOL EN GEL 70%",
+    "total":339143
+  },
+  {
+    "MedicamentoSAP":"10000466",
+    "TextoBreveMedicamento":"VITAMINA C 500mg COM",
+    "total":332960
+  },
+  {
+    "MedicamentoSAP":"11000356",
+    "TextoBreveMedicamento":"TIRA REA P\/DET DE GLU EN SANG C\/GLUC DIG",
+    "total":332530
+  },
+  {
+    "MedicamentoSAP":"10000084",
+    "TextoBreveMedicamento":"CARVEDILOL 12,5mg COM",
+    "total":331626
+  },
+  {
+    "MedicamentoSAP":"10000149",
+    "TextoBreveMedicamento":"DIPIRONA 500mg COM",
+    "total":317682
+  },
+  {
+    "MedicamentoSAP":"10000334",
+    "TextoBreveMedicamento":"NEBIVOLOL 5 mg COM",
+    "total":307672
+  },
+  {
+    "MedicamentoSAP":"10000295",
+    "TextoBreveMedicamento":"LEVOTIROXINA SODICA 100 mcg COM",
+    "total":261770
+  },
+  {
+    "MedicamentoSAP":"11001506",
+    "TextoBreveMedicamento":"MÁSCARA QUIRÚRGICA DESCARTABLE",
+    "total":246500
+  },
+  {
+    "MedicamentoSAP":"10000506",
+    "TextoBreveMedicamento":"VASELINA SOLIDA",
+    "total":216340
+  },
+  {
+    "MedicamentoSAP":"11001223",
+    "TextoBreveMedicamento":"APOSITO TRANS 6CMx7CM+-2 HIPO P\/FIJA CAT",
+    "total":210294
+  },
+  {
+    "MedicamentoSAP":"10000040",
+    "TextoBreveMedicamento":"AMOXICILINA + SULBACTAM 875mg+125mg COM",
+    "total":209431
+  },
+  {
+    "MedicamentoSAP":"10000660",
+    "TextoBreveMedicamento":"DAPAGLIFLOZINA 10 MG",
+    "total":204175
+  },
+  {
+    "MedicamentoSAP":"10000391",
+    "TextoBreveMedicamento":"PROPINOXATO+CLONIXINATO10+125 mg COMP",
+    "total":192646
+  }
+]

@@ -8,7 +8,7 @@
     "recetas_unicas":45842,
     "total_recetado":4632618,
     "total_dispensado":3538445,
-    "tasa_dispensacion":0.7638110891
+    "tasa_dispensacion":0.763811
   },
   {
     "año":2025,
@@ -19,7 +19,7 @@
     "recetas_unicas":41360,
     "total_recetado":4224109,
     "total_dispensado":3524330,
-    "tasa_dispensacion":0.834336898
+    "tasa_dispensacion":0.834337
   },
   {
     "año":2025,
@@ -30,7 +30,7 @@
     "recetas_unicas":51235,
     "total_recetado":4770005,
     "total_dispensado":3930288,
-    "tasa_dispensacion":0.8239588847
+    "tasa_dispensacion":0.823959
   },
   {
     "año":2025,
@@ -41,7 +41,7 @@
     "recetas_unicas":49841,
     "total_recetado":8144999,
     "total_dispensado":7212424,
-    "tasa_dispensacion":0.8855033622
+    "tasa_dispensacion":0.885503
   },
   {
     "año":2025,
@@ -52,7 +52,7 @@
     "recetas_unicas":53995,
     "total_recetado":4571890,
     "total_dispensado":3258883,
-    "tasa_dispensacion":0.7128087071
+    "tasa_dispensacion":0.712809
   },
   {
     "año":2025,
@@ -63,7 +63,7 @@
     "recetas_unicas":55824,
     "total_recetado":5226697,
     "total_dispensado":3615466,
-    "tasa_dispensacion":0.6917305518
+    "tasa_dispensacion":0.691731
   },
   {
     "año":2025,
@@ -74,7 +74,7 @@
     "recetas_unicas":56891,
     "total_recetado":5992802,
     "total_dispensado":4659135,
-    "tasa_dispensacion":0.7774551871
+    "tasa_dispensacion":0.777455
   },
   {
     "año":2025,
@@ -85,7 +85,7 @@
     "recetas_unicas":54301,
     "total_recetado":7554902,
     "total_dispensado":6198196,
-    "tasa_dispensacion":0.820420437
+    "tasa_dispensacion":0.82042
   },
   {
     "año":2025,
@@ -96,7 +96,7 @@
     "recetas_unicas":54120,
     "total_recetado":8513633,
     "total_dispensado":7214496,
-    "tasa_dispensacion":0.8474050972
+    "tasa_dispensacion":0.847405
   },
   {
     "año":2025,
@@ -107,7 +107,7 @@
     "recetas_unicas":58772,
     "total_recetado":5583753,
     "total_dispensado":4384171,
-    "tasa_dispensacion":0.7851656404
+    "tasa_dispensacion":0.785166
   },
   {
     "año":2025,
@@ -118,7 +118,7 @@
     "recetas_unicas":16794,
     "total_recetado":1999876,
     "total_dispensado":1622022,
-    "tasa_dispensacion":0.8110612858
+    "tasa_dispensacion":0.811061
   },
   {
     "año":2025,
@@ -129,6 +129,6 @@
     "recetas_unicas":8148,
     "total_recetado":818822,
     "total_dispensado":635056,
-    "tasa_dispensacion":0.775572713
+    "tasa_dispensacion":0.775573
   }
 ]
