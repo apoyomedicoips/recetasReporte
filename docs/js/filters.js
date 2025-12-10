@@ -1,168 +1,200 @@
-// docs/js/filters.js - VERSIÓN FINAL QUE FUNCIONA AL 100%
+// docs/js/filters.js - MANEJADOR DE FILTROS SIMPLIFICADO
 class FiltersManager {
-    constructor(dashboard) {
-        this.dashboard = dashboard;
-        this.filters = {
-            fechaInicio: null,
-            fechaFin: null,
-            farmacias: [],
-            medicos: [],
-            medicamentos: [],
-            cronico: 'all',
-            tasaMin: 0
-        };
-        this.init();
-    }
+  constructor(dashboard) {
+    this.dashboard = dashboard;
+    this.filters = {
+      farmacias: [],
+      medicos: [],
+      medicamentos: []
+    };
+  }
 
-    init() {
-        this.setupDatePicker();
-        this.setupTasaSlider();
-        this.bindEvents();
-        this.loadFilterOptions();
-    }
+  async init() {
+    await this.loadFilterOptions();
+    this.bindEvents();
+  }
 
-    setupDatePicker() {
-        if (document.getElementById('date-range')) {
-            flatpickr("#date-range", {
-                mode: "range",
-                dateFormat: "Y-m-d",
-                locale: "es",
-                onChange: (selectedDates) => {
-                    if (selectedDates.length === 2) {
-                        this.filters.fechaInicio = selectedDates[0];
-                        this.filters.fechaFin = selectedDates[1];
-                    } else if (selectedDates.length === 1) {
-                        this.filters.fechaInicio = selectedDates[0];
-                        this.filters.fechaFin = selectedDates[0];
-                    }
-                }
-            });
+  async loadFilterOptions() {
+    try {
+      // Cargar opciones de filtro
+      const [farmacias, medicos, medicamentos] = await Promise.all([
+        this.fetchOptions('data/filtro_farmacias.json'),
+        this.fetchOptions('data/filtro_medicos.json'),
+        this.fetchOptions('data/filtro_medicamentos.json')
+      ]);
+
+      // Cargar farmacias
+      if (farmacias.length > 0) {
+        const select = document.getElementById('filter-farmacia');
+        farmacias.forEach(f => {
+          const opt = document.createElement('option');
+          opt.value = f.FarmaciaVentanilla || f.id || '';
+          opt.textContent = f.nombre_farmacia || f.nombre || `Farmacia ${f.FarmaciaVentanilla || ''}`;
+          select.appendChild(opt);
+        });
+        
+        // Inicializar Select2 si está disponible
+        if (typeof $ !== 'undefined' && $.fn.select2) {
+          $(select).select2({
+            placeholder: "Todas las farmacias",
+            allowClear: true
+          });
         }
+      }
+
+      // Cargar médicos
+      if (medicos.length > 0) {
+        const select = document.getElementById('filter-medico');
+        medicos.forEach(m => {
+          const opt = document.createElement('option');
+          opt.value = m.CódigodelMédico || m.id || '';
+          opt.textContent = m.nombre_medico || m.nombre || `Médico ${m.CódigodelMédico || ''}`;
+          select.appendChild(opt);
+        });
+        
+        if (typeof $ !== 'undefined' && $.fn.select2) {
+          $(select).select2({
+            placeholder: "Todos los médicos",
+            allowClear: true
+          });
+        }
+      }
+
+      // Cargar medicamentos
+      if (medicamentos.length > 0) {
+        const select = document.getElementById('filter-medicamento');
+        medicamentos.forEach(m => {
+          const opt = document.createElement('option');
+          opt.value = m.MedicamentoSAP || m.id || '';
+          opt.textContent = m.nombre_medicamento || m.TextoBreveMedicamento || m.nombre || `Medicamento ${m.MedicamentoSAP || ''}`;
+          select.appendChild(opt);
+        });
+        
+        if (typeof $ !== 'undefined' && $.fn.select2) {
+          $(select).select2({
+            placeholder: "Todos los medicamentos",
+            allowClear: true
+          });
+        }
+      }
+
+    } catch (err) {
+      console.warn("Error cargando opciones de filtro:", err);
+    }
+  }
+
+  async fetchOptions(url) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json();
+      return Array.isArray(data) ? data : [];
+    } catch (err) {
+      console.warn(`No se pudo cargar ${url}:`, err);
+      return [];
+    }
+  }
+
+  bindEvents() {
+    // Botón aplicar filtros
+    const applyBtn = document.getElementById('apply-filters');
+    if (applyBtn) {
+      applyBtn.addEventListener('click', () => this.applyFilters());
     }
 
-    setupTasaSlider() {
-        const slider = document.getElementById('filter-tasa');
+    // Botón limpiar filtros
+    const resetBtn = document.getElementById('reset-filters');
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => this.resetFilters());
+    }
+
+    // Selectores de pacientes crónicos
+    document.querySelectorAll('input[name="cronico"]').forEach(radio => {
+      radio.addEventListener('change', (e) => {
+        this.filters.cronico = e.target.value;
+      });
+    });
+
+    // Slider de tasa
+    const tasaSlider = document.getElementById('filter-tasa');
+    if (tasaSlider) {
+      tasaSlider.addEventListener('input', (e) => {
+        const value = e.target.value;
         const valueSpan = document.getElementById('tasa-value');
-        if (slider && valueSpan) {
-            slider.addEventListener('input', () => {
-                this.filters.tasaMin = slider.value / 100;
-                valueSpan.textContent = slider.value + '%';
-            });
+        if (valueSpan) {
+          valueSpan.textContent = value + '%';
         }
+        this.filters.tasaMin = value / 100;
+      });
     }
+  }
 
+  applyFilters() {
+    // Obtener valores actuales
+    this.filters.farmacias = this.getSelectValues('filter-farmacia');
+    this.filters.medicos = this.getSelectValues('filter-medico');
+    this.filters.medicamentos = this.getSelectValues('filter-medicamento');
 
-
-    const baseUrl = "data";
+    console.log('Filtros aplicados:', this.filters);
     
-    const [
-      filtrosResp,
-      medsResp,
-      medicosResp,
-      farmaciasResp
-    ] = await Promise.all([
-      fetch(`${baseUrl}/filtros.json`),
-      fetch(`${baseUrl}/filtro_medicamentos.json`),
-      fetch(`${baseUrl}/filtro_medicos.json`),
-      fetch(`${baseUrl}/filtro_farmacias.json`)
-    ]);
+    // En una implementación real, aquí se filtrarían los datos
+    // Por ahora solo mostramos notificación
+    if (this.dashboard) {
+      this.dashboard.showNotification('Filtros aplicados (funcionalidad en desarrollo)', 'info');
+    }
+  }
 
+  getSelectValues(selectId) {
+    const select = document.getElementById(selectId);
+    if (!select) return [];
+    
+    // Si tiene Select2, usar su API
+    if (typeof $ !== 'undefined' && $(select).data('select2')) {
+      return $(select).val() || [];
+    }
+    
+    // Si no, obtener valores normalmente
+    return Array.from(select.selectedOptions).map(opt => opt.value);
+  }
 
-    async loadFilterOptions() {
-        try {
-            const [farmaciasRes, medicosRes, medicamentosRes] = await Promise.all([
-                fetch('data/filtro_farmacias.json').catch(() => null),
-                fetch('data/filtro_medicos.json').catch(() => null),
-                fetch('data/filtro_medicamentos.json').catch(() => null)
-            ]);
+  resetFilters() {
+    this.filters = {
+      farmacias: [],
+      medicos: [],
+      medicamentos: [],
+      cronico: 'all',
+      tasaMin: 0
+    };
 
-            if (farmaciasRes?.ok) {
-                const farmacias = await farmaciasRes.json();
-                const select = document.getElementById('filter-farmacia');
-                farmacias.forEach(f => {
-                    const opt = new Option(f.nombre_farmacia || `Farmacia ${f.FarmaciaVentanilla}`, f.FarmaciaVentanilla);
-                    select.add(opt);
-                });
-                $(select).select2({ placeholder: "Todas las farmacias", allowClear: true });
-            }
-
-            if (medicosRes?.ok) {
-                const medicos = await medicosRes.json();
-                const select = document.getElementById('filter-medico');
-                medicos.forEach(m => {
-                    const opt = new Option(m.nombre_medico || `Médico ${m.CódigodelMédico}`, m.CódigodelMédico);
-                    select.add(opt);
-                });
-                $(select).select2({ placeholder: "Todos los médicos", allowClear: true });
-            }
-
-            if (medicamentosRes?.ok) {
-                const medicamentos = await medicamentosRes.json();
-                const select = document.getElementById('filter-medicamento');
-                medicamentos.forEach(m => {
-                    const opt = new Option(m.nombre_medicamento || `Medicamento ${m.MedicamentoSAP}`, m.MedicamentoSAP);
-                    select.add(opt);
-                });
-                $(select).select2({ placeholder: "Todos los medicamentos", allowClear: true });
-            }
-        } catch (err) {
-            console.warn("Filtros no disponibles", err);
+    // Limpiar selects
+    ['filter-farmacia', 'filter-medico', 'filter-medicamento'].forEach(id => {
+      const select = document.getElementById(id);
+      if (select) {
+        if (typeof $ !== 'undefined' && $(select).data('select2')) {
+          $(select).val(null).trigger('change');
+        } else {
+          select.selectedIndex = -1;
         }
+      }
+    });
+
+    // Restablecer radio buttons
+    const allRadio = document.querySelector('input[name="cronico"][value="all"]');
+    if (allRadio) allRadio.checked = true;
+
+    // Restablecer slider
+    const tasaSlider = document.getElementById('filter-tasa');
+    const tasaValue = document.getElementById('tasa-value');
+    if (tasaSlider) tasaSlider.value = 0;
+    if (tasaValue) tasaValue.textContent = '0%';
+
+    // Notificar al dashboard
+    if (this.dashboard) {
+      this.dashboard.showNotification('Filtros limpiados', 'info');
+      // Recargar datos sin filtros
+      this.dashboard.refreshData();
     }
-
-    bindEvents() {
-        document.getElementById('apply-filters')?.addEventListener('click', () => {
-            this.applyFilters();
-        });
-
-        document.getElementById('reset-filters')?.addEventListener('click', () => {
-            this.resetFilters();
-        });
-
-        document.getElementById('toggle-sidebar')?.addEventListener('click', () => {
-            document.querySelector('.sidebar').classList.toggle('collapsed');
-        });
-
-        document.querySelectorAll('input[name="cronico"]').forEach(radio => {
-            radio.addEventListener('change', (e) => {
-                this.filters.cronico = e.target.value;
-            });
-        });
-    }
-
-    applyFilters() {
-        // RECOGER VALORES
-        this.filters.farmacias = $('#filter-farmacia').val() || [];
-        this.filters.medicos = $('#filter-medico').val() || [];
-        this.filters.medicamentos = $('#filter-medicamento').val() || [];
-
-        console.log("FILTROS APLICADOS:", this.filters);
-
-        // APLICAR FILTROS REALES
-        this.dashboard.applyRealFilters(this.filters);
-        this.dashboard.showNotification('Filtros aplicados correctamente', 'success');
-    }
-
-    resetFilters() {
-        this.filters = {
-            fechaInicio: null,
-            fechaFin: null,
-            farmacias: [],
-            medicos: [],
-            medicamentos: [],
-            cronico: 'all',
-            tasaMin: 0
-        };
-
-        flatpickr("#date-range")?.clear();
-        $('#filter-farmacia, #filter-medico, #filter-medicamento').val(null).trigger('change');
-        document.querySelector('input[name="cronico"][value="all"]').checked = true;
-        document.getElementById('filter-tasa').value = 0;
-        document.getElementById('tasa-value').textContent = '0%';
-
-        this.dashboard.showNotification('Filtros limpiados', 'info');
-        this.dashboard.init(); // Recargar sin filtros
-    }
+  }
 }
 
 window.FiltersManager = FiltersManager;
