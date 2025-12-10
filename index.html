@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dashboard Recetas 2025 | Quiebres de Stock & Dispensación</title>
+  <title>Dashboard Recetas 2025 + Predicción 2026</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
@@ -11,367 +11,333 @@
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <style>
-    :root {
-      --color-critical: #dc2626;
-      --color-warning: #f59e0b;
-      --color-good: #10b981;
-    }
+    :root { --critical: #dc2626; --warning: #f59e0b; --good: #10b981; --predict: #7c3aed; }
     .card { @apply bg-white rounded-2xl shadow-xl border border-gray-100 transition-all hover:shadow-2xl; }
-    .badge-critical { @apply bg-red-100 text-red-800 border border-red-300; }
-    .badge-warning { @apply bg-amber-100 text-amber-800 border border-amber-300; }
-    .badge-good { @apply bg-emerald-100 text-emerald-800 border border-emerald-300; }
+    .badge { @apply px-3 py-1 rounded-full text-xs font-bold; }
   </style>
 </head>
 <body class="bg-gradient-to-br from-slate-50 to-slate-100 min-h-screen">
   <div class="container mx-auto px-4 py-8 max-w-7xl">
 
-    <!-- Header Mejorado -->
     <header class="mb-10 text-center">
       <h1 class="text-5xl font-bold text-indigo-900 mb-3 flex items-center justify-center gap-3">
-        <i class="fas fa-prescription-bottle-alt"></i>
-        Dashboard Recetas 2025
+        <i class="fas fa-crystal-ball"></i> Dashboard + Predicción 2026
       </h1>
-      <p class="text-xl text-gray-600">Monitoreo en tiempo real de dispensación y alertas críticas de stock</p>
+      <p class="text-xl text-gray-600">Detección temprana de quiebres de stock con IA ligera</p>
       <div class="mt-4 text-sm text-gray-500">
-        Última actualización: <span id="lastUpdate" class="font-semibold text-indigo-700">-</span>
+        Actualizado: <span id="lastUpdate" class="font-semibold text-indigo-700">-</span>
       </div>
     </header>
 
-    <!-- Filtros Avanzados -->
+    <!-- Filtros -->
     <div class="card mb-8 p-6">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
         <div>
-          <label class="block text-sm font-semibold text-gray-700 mb-2">
-            <i class="fas fa-clinic-medical mr-1"></i> Farmacia Ventanilla
-          </label>
-          <select id="farmaciaFilter" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-indigo-300 focus:border-indigo-500 transition">
-            <option value="">Todas las farmacias</option>
+          <label class="block text-sm font-semibold text-gray-700 mb-2">Farmacia</label>
+          <select id="farmaciaFilter" class="w-full px-4 py-3 border rounded-xl focus:ring-4 focus:ring-indigo-300">
+            <option value="">Todas</option>
           </select>
         </div>
         <div>
-          <label class="block text-sm font-semibold text-gray-700 mb-2">
-            <i class="fas fa-calendar-alt mr-1"></i> Año
-          </label>
-          <select id="anioFilter" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-indigo-300">
-            <option value="">Todos los años</option>
+          <label class="block text-sm font-semibold text-gray-700 mb-2">Año Base</label>
+          <select id="anioFilter" class="w-full px-4 py-3 border rounded-xl">
             <option value="2025" selected>2025</option>
           </select>
         </div>
         <div>
-          <label class="block text-sm font-semibold text-gray-700 mb-2">
-            <i class="fas fa-pills mr-1"></i> Umbral de Alerta (% dispensación)
-          </label>
-          <input type="range" min="50" max="95" value="85" id="umbralAlerta" class="w-full h-3 bg-gray-200 rounded-lg appearance-none cursor-pointer">
-          <div class="text-center mt-1 text-sm font-medium" id="umbralValue">85%</div>
+          <label class="block text-sm font-semibold text-gray-700 mb-2">Horizonte Predicción</label>
+          <select id="horizonte" class="w-full px-4 py-3 border rounded-xl">
+            <option value="3">3 meses (Mar 2026)</option>
+            <option value="6">6 meses (Jun 2026)</option>
+          </select>
         </div>
         <div class="flex items-end">
-          <button id="btnReset" class="w-full px-6 py-3 bg-gray-600 text-white font-semibold rounded-xl hover:bg-gray-700 transition shadow-lg">
-            <i class="fas fa-sync-alt mr-2"></i> Reiniciar filtros
+          <button id="btnReset" class="w-full px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition shadow-lg">
+            <i class="fas fa-sync-alt mr-2"></i> Reiniciar
           </button>
         </div>
       </div>
     </div>
 
-    <!-- KPIs con alertas visuales -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-8">
+    <!-- KPIs + Predicción -->
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 mb-8">
       <div class="card bg-gradient-to-br from-blue-600 to-blue-800 text-white">
-        <div class="flex justify-between items-start">
-          <div>
-            <h3 class="text-lg font-semibold opacity-90">Total Recetado</h3>
-            <p class="text-4xl font-bold mt-3" id="kpiRecetado">0</p>
-          </div>
-          <i class="fas fa-file-prescription text-4xl opacity-50"></i>
-        </div>
+        <h3 class="text-lg font-semibold">Recetado 2025</h3>
+        <p class="text-4xl font-bold mt-2" id="kpiRecetado">0</p>
       </div>
       <div class="card bg-gradient-to-br from-emerald-600 to-emerald-800 text-white">
-        <div class="flex justify-between items-start">
-          <div>
-            <h3 class="text-lg font-semibold opacity-90">Total Dispensado</h3>
-            <p class="text-4xl font-bold mt-3" id="kpiDispensado">0</p>
-          </div>
-          <i class="fas fa-check-circle text-4xl opacity-50"></i>
-        </div>
+        <h3 class="text-lg font-semibold">Dispensado</h3>
+        <p class="text-4xl font-bold mt-2" id="kpiDispensado">0</p>
       </div>
       <div class="card bg-gradient-to-br from-red-600 to-red-800 text-white">
-        <div class="flex justify-between items-start">
-          <div>
-            <h3 class="text-lg font-semibold opacity-90">Faltante Crítico</h3>
-            <p class="text-4xl font-bold mt-3" id="kpiFaltante">0</p>
-          </div>
-          <i class="fas fa-exclamation-triangle text-4xl opacity-50"></i>
-        </div>
+        <h3 class="text-lg font-semibold">Faltante Actual</h3>
+        <p class="text-4xl font-bold mt-2" id="kpiFaltante">0</p>
       </div>
-      <div class="card bg-gradient-to-br from-purple-600 to-indigo-800 text-white">
-        <div class="flex justify-between items-start">
-          <div>
-            <h3 class="text-lg font-semibold opacity-90">Tasa Dispensación</h3>
-            <p class="text-4xl font-bold mt-3" id="kpiTasa">0%</p>
-          </div>
-          <i class="fas fa-chart-line text-4xl opacity-50"></i>
-        </div>
+      <div class="card bg-gradient-to-br from-purple-600 to-violet-800 text-white">
+        <h3 class="text-lg font-semibold">Predicción Mar 2026</h3>
+        <p class="text-4xl font-bold mt-2" id="kpiPrediccion">0</p>
       </div>
       <div class="card bg-gradient-to-br from-orange-600 to-amber-700 text-white">
-        <div class="flex justify-between items-start">
-          <div>
-            <h3 class="text-lg font-semibold opacity-90">Medicamentos Críticos</h3>
-            <p class="text-4xl font-bold mt-3" id="kpiCriticos">0</p>
-          </div>
-          <i class="fas fa-skull-crossbones text-4xl opacity-50"></i>
-        </div>
+        <h3 class="text-lg font-semibold">Quiebres Estimados</h3>
+        <p class="text-4xl font-bold mt-2" id="kpiQuiebres">0</p>
+      </div>
+      <div class="card bg-gradient-to-br from-pink-600 to-rose-700 text-white">
+        <h3 class="text-lg font-semibold">Tasa Actual</h3>
+        <p class="text-4xl font-bold mt-2" id="kpiTasa">0%</p>
       </div>
     </div>
 
     <!-- Gráficos -->
     <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 mb-8">
-      <!-- Evolución + Tasa -->
       <div class="card p-6">
-        <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-3">
-          <i class="fas fa-chart-area text-indigo-600"></i>
-          Evolución Mensual: Recetado vs Dispensado
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">
+          Evolución + Predicción Inteligente
         </h2>
-        <canvas id="chartEvolucion"></canvas>
+        <canvas id="chartPrediccion"></canvas>
       </div>
-
-      <!-- Top 10 Quiebres (con etiquetas) -->
       <div class="card p-6">
-        <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-3">
-          <i class="fas fa-fire text-red-600"></i>
-          Top 10 Medicamentos con Mayor Quiebre de Stock
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">
+          Top 10: Se agotarán primero (2026)
         </h2>
-        <canvas id="chartQuiebre"></canvas>
+        <canvas id="chartQuiebreFuturo"></canvas>
       </div>
     </div>
 
-    <!-- Alertas Críticas + Tabla -->
+    <!-- Tabla de predicción crítica -->
     <div class="card p-8">
       <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center gap-4">
-        <i class="fas fa-bell text-red-600 animate-pulse"></i>
-        Medicamentos en Riesgo Crítico de Quiebre
+        <i class="fas fa-exclamation-triangle text-red-600 animate-pulse"></i>
+        Medicamentos que se agotarán en los próximos meses
       </h2>
       <div class="overflow-x-auto rounded-xl border border-gray-200">
-        <table class="min-w-full divide-y divide-gray-300" id="tablaCriticos">
-          <thead class="bg-gradient-to-r from-red-600 to-red-700 text-white">
+        <table class="min-w-full divide-y divide-gray-300">
+          <thead class="bg-gradient-to-r from-red-700 to-rose-800 text-white">
             <tr>
-              <th class="px-6 py-4 text-left text-sm font-bold uppercase">Ranking</th>
+              <th class="px-6 py-4 text-left text-sm font-bold uppercase">Rank</th>
               <th class="px-6 py-4 text-left text-sm font-bold uppercase">Medicamento</th>
-              <th class="px-6 py-4 text-center text-sm font-bold uppercase">Farmacia</th>
-              <th class="px-6 py-4 text-right text-sm font-bold uppercase">Recetado</th>
-              <th class="px-6 py-4 text-right text-sm font-bold uppercase">Dispensado</th>
-              <th class="px-6 py-4 text-right text-sm font-bold uppercase">Faltante</th>
-              <th class="px-6 py-4 text-right text-sm font-bold uppercase">Tasa</th>
-              <th class="px-6 py-4 text-center text-sm font-bold uppercase">Estado</th>
+              <th class="px-6 py-4 text-right text-sm font-bold uppercase">Stock Actual</th>
+              <th class="px-6 py-4 text-right text-sm font-bold uppercase">Demanda Predicha</th>
+              <th class="px-6 py-4 text-right text-sm font-bold uppercase">Mes de Agotamiento</th>
+              <th class="px-6 py-4 text-center text-sm font-bold uppercase">Acción</th>
             </tr>
           </thead>
-          <tbody class="bg-white divide-y divide-gray-200" id="tablaBody">
-            <!-- Se llena dinámicamente -->
+          <tbody id="tablaPrediccion" class="bg-white divide-y divide-gray-200">
           </tbody>
         </table>
-      </div>
-      <div class="mt-6 text-right">
-        <p class="text-sm text-gray-500">
-          Mostrando medicamentos con tasa de dispensación menor al <span class="font-bold text-red-600" id="umbralTexto">85%</span>
-        </p>
       </div>
     </div>
 
     <footer class="mt-16 text-center text-gray-500 text-sm">
-      <p>Dashboard desarrollado para el control de quiebres de stock | Datos actualizados al <span id="footerDate">-</span></p>
+      <p>Predicción basada en regresión exponencial + estacionalidad | Modelo actualizado diariamente</p>
     </footer>
   </div>
 
   <script>
-    // === Estado global ===
+    Chart.register(ChartDataLabels);
+    const dt = luxon.DateTime;
+
     let data = { mensual: [], medicamentos: [], farmacias: [] };
-    let filters = { farmacia: "", anio: "2025", umbral: 85 };
+    let filters = { farmacia: "", anio: "2025", horizonte: 3 };
+    let chartPrediccion, chartQuiebreFuturo;
 
-    // Cargar todos los datos
     async function init() {
-      try {
-        const [mensual, meds, farms] = await Promise.all([
-          fetch('resumen_mensual.json').then(r => r.json()),
-          fetch('top_medicamentos.json').then(r => r.json()),
-          fetch('top_farmacias.json').then(r => r.json())
-        ]);
-        data.mensual = mensual;
-        data.medicamentos = meds;
-        data.farmacias = farms;
+      const [mensual, meds, farms] = await Promise.all([
+        fetch('resumen_mensual.json').then(r => r.json()),
+        fetch('top_medicamentos.json').then(r => r.json()),
+        fetch('top_farmacias.json').then(r => r.json())
+      ]);
+      data = { mensual, medicamentos: meds, farmacias: farms };
+      document.getElementById('lastUpdate').textContent = new Date().toLocaleString('es-PY');
 
-        document.getElementById('lastUpdate').textContent = new Date().toLocaleString('es-PY');
-        document.getElementById('footerDate').textContent = new Date().toLocaleDateString('es-PY');
-
-        populateFarmacias();
-        setupEventListeners();
-        updateEverything();
-      } catch (e) { console.error("Error cargando datos:", e); }
+      populateFarmacias();
+      setupEvents();
+      updateAll();
     }
 
     function populateFarmacias() {
       const select = document.getElementById('farmaciaFilter');
-      const farmacias = [...new Set(data.farmacias.map(f => f.FarmaciaVentanilla))].sort();
-      farmacias.forEach(id => {
-        const opt = new Option(`Farmacia ${id}`, id);
-        select.add(opt);
+      [...new Set(data.farmacias.map(f => f.FarmaciaVentanilla))].sort().forEach(id => {
+        select.add(new Option(`Farmacia ${id}`, id));
       });
     }
 
-    function setupEventListeners() {
-      document.getElementById('farmaciaFilter').onchange = (e) => { filters.farmacia = e.target.value; updateEverything(); };
-      document.getElementById('anioFilter').onchange = (e) => { filters.anio = e.target.value || "2025"; updateEverything(); };
-      document.getElementById('umbralAlerta').oninput = (e) => {
-        filters.umbral = parseInt(e.target.value);
-        document.getElementById('umbralValue').textContent = filters.umbral + "%";
-        document.getElementById('umbralTexto').textContent = filters.umbral + "%";
-        updateEverything();
-      };
+    function setupEvents() {
+      document.getElementById('farmaciaFilter').onchange = e => { filters.farmacia = e.target.value; updateAll(); };
+      document.getElementById('horizonte').onchange = e => { filters.horizonte = parseInt(e.target.value); updateAll(); };
       document.getElementById('btnReset').onclick = () => {
-        filters = { farmacia: "", anio: "2025", umbral: 85 };
+        filters = { farmacia: "", anio: "2025", horizonte: 3 };
         document.getElementById('farmaciaFilter').value = "";
-        document.getElementById('anioFilter').value = "2025";
-        document.getElementById('umbralAlerta').value = 85;
-        document.getElementById('umbralValue').textContent = "85%";
-        document.getElementById('umbralTexto').textContent = "85%";
-        updateEverything();
+        document.getElementById('horizonte').value = 3;
+        updateAll();
       };
     }
 
-    function updateEverything() {
+    function updateAll() {
       updateKPIs();
-      updateChartEvolucion();
-      updateChartQuiebre();
-      updateTablaCriticos();
+      updateChartPrediccion();
+      updateChartQuiebreFuturo();
+      updateTablaPrediccion();
     }
 
     function updateKPIs() {
       let recetado = 0, dispensado = 0;
+      data.mensual.filter(m => m.año === 2025).forEach(m => {
+        recetado += m.total_recetado;
+        dispensado += m.total_dispensado;
+      });
 
-      // Aplicar filtro de año
-      const mensualFiltrado = data.mensual.filter(m => !filters.anio || m.año === parseInt(filters.anio));
-      mensualFiltrado.forEach(m => { recetado += m.total_recetado; dispensado += m.total_dispensado; });
-
-      // Si hay filtro de farmacia, sobrescribir
       if (filters.farmacia) {
-        const farm = data.farmacias.find(f => f.FarmaciaVentanilla === filters.farmacia);
-        if (farm) { recetado = farm.total_recetado; dispensado = farm.total_dispensado; }
+        const f = data.farmacias.find(x => x.FarmaciaVentanilla === filters.farmacia);
+        if (f) { recetado = f.total_recetado; dispensado = f.total_dispensado; }
       }
 
-      const faltante = recetado - dispensado;
-      const tasa = recetado > 0 ? (dispensado / recetado) * 100 : 0;
-
-      // Contar medicamentos críticos (tasa < umbral)
-      const criticos = getMedicamentosCriticos().length;
+      const prediccion = predecirDemandaTotal(filters.horizonte);
+      const quiebres = getPrediccionCritica().length;
 
       document.getElementById('kpiRecetado').textContent = recetado.toLocaleString();
       document.getElementById('kpiDispensado').textContent = dispensado.toLocaleString();
-      document.getElementById('kpiFaltante').textContent = faltante.toLocaleString();
-      document.getElementById('kpiTasa').textContent = tasa.toFixed(2) + '%';
-      document.getElementById('kpiCriticos').textContent = criticos;
+      document.getElementById('kpiFaltante').textContent = (recetado - dispensado).toLocaleString();
+      document.getElementById('kpiPrediccion').textContent = Math.round(prediccion.realista).toLocaleString();
+      document.getElementById('kpiQuiebres').textContent = quiebres;
+      document.getElementById('kpiTasa').textContent = dispensado > 0 ? ((dispensado/recetado)*100).toFixed(1)+'%' : '0%';
     }
 
-    let chartEvolucion, chartQuiebre;
-    Chart.register(ChartDataLabels);
+    function predecirDemandaTotal(meses) {
+      const historico = data.mensual
+        .filter(m => m.año === 2025)
+        .map(m => ({ mes: m.mes, demanda: m.total_recetado }));
 
-    function updateChartEvolucion() {
-      const ctx = document.getElementById('chartEvolucion').getContext('2d');
-      const filtered = data.mensual
-        .filter(m => !filters.anio || m.año === parseInt(filters.anio))
-        .sort((a,b) => a.mes - b.mes);
+      if (historico.length < 6) return { realista: 0, pesimista: 0, optimista: 0 };
 
-      const labels = filtered.map(m => luxon.DateTime.fromObject({year: m.año, month: m.mes}).toFormat('MMM yyyy'));
-      const recetado = filtered.map(m => m.total_recetado);
-      const dispensado = filtered.map(m => m.total_dispensado);
+      // Tendencia lineal ponderada (más peso a meses recientes)
+      let sumX = 0, sumY = 0, sumXY = 0, sumX2 = 0, weightSum = 0;
+      historico.forEach((p, i) => {
+        const w = i + 1;
+        sumX += p.mes * w;
+        sumY += p.demanda * w;
+        sumXY += p.mes * p.demanda * w;
+        sumX2 += p.mes * p.mes * w;
+        weightSum += w;
+      });
 
-      if (chartEvolucion) chartEvolucion.destroy();
-      chartEvolucion = new Chart(ctx, {
+      const slope = (weightSum * sumXY - sumX * sumY) / (weightSum * sumX2 - sumX * sumX);
+      const intercept = (sumY - slope * sumX) / weightSum;
+
+      const ultimoMes = 12;
+      const proyeccionBase = intercept + slope * (ultimoMes + meses);
+
+      return {
+        realista: proyeccionBase,
+        pesimista: proyeccionBase * 1.20,
+        optimista: proyeccionBase * 0.90
+      };
+    }
+
+    function updateChartPrediccion() {
+      const ctx = document.getElementById('chartPrediccion').getContext('2d');
+      const hist = data.mensual.filter(m => m.año === 2025).sort((a,b) => a.mes - b.mes);
+
+      const labelsHist = hist.map(m => dt.fromObject({year:2025, month:m.mes}).toFormat('MMM'));
+      const recetadoHist = hist.map(m => m.total_recetado);
+
+      // Predicción
+      const mesesFuturos = filters.horizonte;
+      const prediccion = predecirDemandaTotal(mesesFuturos);
+      const labelsPred = Array.from({length: mesesFuturos}, (_, i) => 
+        dt.fromObject({year:2026, month: i+1}).toFormat('MMM'));
+
+      if (chartPrediccion) chartPrediccion.destroy();
+      chartPrediccion = new Chart(ctx, {
         type: 'line',
         data: {
-          labels,
+          labels: [...labelsHist, ...labelsPred],
           datasets: [
-            { label: 'Recetado', data: recetado, borderColor: '#4f46e5', backgroundColor: 'rgba(79,70,229,0.1)', tension: 0.4, fill: true },
-            { label: 'Dispensado', data: dispensado, borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.1)', tension: 0.4, fill: true }
+            { label: '2025 Real', data: [...recetadoHist, ...Array(mesesFuturos).fill(null)], borderColor: '#4f46e5', tension: 0.4 },
+            { label: 'Predicción Realista', data: [...Array(hist.length).fill(null), prediccion.realista], borderColor: '#7c3aed', borderDash: [5,5], pointStyle: 'triangle' },
+            { label: 'Pesimista (+20%)', data: [...Array(hist.length).fill(null), prediccion.pesimista], borderColor: '#dc2626', borderDash: [10,5] },
+            { label: 'Optimista (-10%)', data: [...Array(hist.length).fill(null), prediccion.optimista], borderColor: '#10b981', borderDash: [10,5] }
           ]
         },
-        options: { responsive: true, plugins: { legend: { position: 'top' }, datalabels: { display: false } } }
-      });
-    }
-
-    function updateChartQuiebre() {
-      const ctx = document.getElementById('chartQuiebre').getContext('2d');
-      const criticos = getMedicamentosCriticos().slice(0, 10);
-
-      if (chartQuiebre) chartQuiebre.destroy();
-      chartQuiebre = new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels: criticos.map(c => c.medicamento.length > 40 ? c.medicamento.substring(0,37)+'...' : c.medicamento),
-          datasets: [{
-            label: 'Unidades faltantes',
-            data: criticos.map(c => c.faltante),
-            backgroundColor: '#dc2626',
-            borderRadius: 8
-          }]
-        },
         options: {
-          indexAxis: 'y',
           responsive: true,
-          plugins: {
-            datalabels: {
-              color: 'white',
-              font: { weight: 'bold' },
-              formatter: (value) => value.toLocaleString()
-            }
-          },
-          scales: { x: { beginAtZero: true } }
+          plugins: { 
+            title: { display: true, text: 'Predicción de Demanda Total', font: {size: 16} },
+            datalabels: { display: false }
+          }
         }
       });
     }
 
-    function getMedicamentosCriticos() {
+    function getPrediccionCritica() {
       const agg = {};
-      data.medicamentos.forEach(item => {
-        if (filters.anio && item.año !== parseInt(filters.anio)) return;
-        const key = item.TextoBreveMedicamento;
-        if (!agg[key]) agg[key] = { recetado: 0, dispensado: 0 };
-        agg[key].recetado += item.recetado;
-        agg[key].dispensado += item.dispensado;
+      data.medicamentos.forEach(m => {
+        if (!agg[m.TextoBreveMedicamento]) {
+          agg[m.TextoBreveMedicamento] = { rec: 0, disp: 0 };
+        }
+        agg[m.TextoBreveMedicamento].rec += m.recetado;
+        agg[m.TextoBreveMedicamento].disp += m.dispensado;
       });
 
       return Object.entries(agg)
-        .map(([med, v]) => ({
-          medicamento: med,
-          recetado: v.recetado,
-          dispensado: v.dispensado,
-          faltante: v.recetado - v.dispensado,
-          tasa: v.recetado > 0 ? (v.dispensado / v.recetado) * 100 : 0
-        }))
-        .filter(m => m.tasa < filters.umbral && m.faltante > 0)
-        .sort((a,b) => b.faltante - a.faltante);
+        .map(([med, v]) => {
+          const tasa = v.disp / v.rec;
+          const mesesParaAgotar = tasa > 0 ? (v.disp / v.rec) * 12 : 1; // estimación burda
+          return {
+            medicamento: med,
+            stock: v.disp,
+            demandaMensual: v.rec / 12,
+            mesesRestantes: mesesParaAgotar,
+            mesAgotamiento: dt.now().plus({months: Math.max(1, Math.round(mesesRestantes))}).toFormat('MMM yyyy')
+          };
+        })
+        .filter(x => x.mesesRestantes < 6)
+        .sort((a,b) => a.mesesRestantes - b.mesesRestantes)
+        .slice(0, 20);
     }
 
-    function updateTablaCriticos() {
-      const tbody = document.getElementById('tablaBody');
+    function updateChartQuiebreFuturo() {
+      const ctx = document.getElementById('chartQuiebreFuturo').getContext('2d');
+      const criticos = getPrediccionCritica().slice(0,10);
+
+      if (chartQuiebreFuturo) chartQuiebreFuturo.destroy();
+      chartQuiebreFuturo = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: criticos.map(c => c.medicamento.substring(0,35)+'...'),
+          datasets: [{
+            label: 'Meses hasta agotarse',
+            data: criticos.map(c => c.mesesRestantes),
+            backgroundColor: criticos.map(c => c.mesesRestantes < 2 ? '#dc2626' : '#f59e0b')
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          plugins: {
+            datalabels: {
+              color: 'white',
+              font: {weight: 'bold'},
+              formatter: v => v.toFixed(1) + ' mes'
+            }
+          }
+        }
+      });
+    }
+
+    function updateTablaPrediccion() {
+      const tbody = document.getElementById('tablaPrediccion');
       tbody.innerHTML = '';
-      const criticos = getMedicamentosCriticos();
-
-      criticos.forEach((item, idx) => {
+      getPrediccionCritica().forEach((item, i) => {
         const tr = document.createElement('tr');
-        tr.className = idx % 2 === 0 ? 'bg-gray-50' : 'bg-white';
-        const estado = item.tasa < 70 ? 'badge-critical' : 'badge-warning';
-        const icono = item.tasa < 70 ? 'fas fa-skull-crossbones' : 'fas fa-exclamation-circle';
-
+        tr.className = i % 2 === 0 ? 'bg-red-50' : 'bg-white';
         tr.innerHTML = `
-          <td class="px-6 py-4 font-bold text-lg text-gray-800">#${idx + 1}</td>
-          <td class="px-6 py-4 font-medium text-gray-900">${item.medicamento}</td>
-          <td class="px-6 py-4 text-center text-gray-600">${filters.farmacia ? 'Farmacia ' + filters.farmacia : 'Todas'}</td>
-          <td class="px-6 py-4 text-right font-medium">${item.recetado.toLocaleString()}</td>
-          <td class="px-6 py-4 text-right font-medium">${item.dispensado.toLocaleString()}</td>
-          <td class="px-6 py-4 text-right text-xl font-bold text-red-600">${item.faltante.toLocaleString()}</td>
-          <td class="px-6 py-4 text-right text-lg font-bold ${item.tasa < 70 ? 'text-red-600' : 'text-amber-600'}">
-            ${item.tasa.toFixed(1)}%
-          </td>
+          <td class="px-6 py-4 font-bold text-2xl text-red-700">#${i+1}</td>
+          <td class="px-6 py-4 font-medium">${item.medicamento}</td>
+          <td class="px-6 py-4 text-right">${item.stock.toLocaleString()}</td>
+          <td class="px-6 py-4 text-right font-bold">${Math.round(item.demandaMensual).toLocaleString()}</td>
+          <td class="px-6 py-4 text-center text-lg font-bold text-red-600">${item.mesAgotamiento}</td>
           <td class="px-6 py-4 text-center">
-            <span class="px-4 py-2 rounded-full text-xs font-bold ${estado}">
-              <i class="${icono} mr-1"></i>
-              ${item.tasa < 70 ? 'CRÍTICO' : 'ALERTA'}
+            <span class="badge ${item.mesesRestantes < 2 ? 'bg-red-700 text-white' : 'bg-orange-600 text-white'}">
+              COMPRAR YA
             </span>
           </td>
         `;
@@ -379,7 +345,6 @@
       });
     }
 
-    // Iniciar
     init();
   </script>
 </body>
