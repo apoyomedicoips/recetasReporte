@@ -1,340 +1,386 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dashboard Recetas 2025 | Reporte Farmacias</title>
+  <title>Dashboard Recetas 2025 | Quiebres de Stock & Dispensación</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.3.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <style>
-    body { font-family: 'Inter', system-ui, sans-serif; }
-    .card { @apply bg-white rounded-xl shadow-lg p-6 border border-gray-100; }
+    :root {
+      --color-critical: #dc2626;
+      --color-warning: #f59e0b;
+      --color-good: #10b981;
+    }
+    .card { @apply bg-white rounded-2xl shadow-xl border border-gray-100 transition-all hover:shadow-2xl; }
+    .badge-critical { @apply bg-red-100 text-red-800 border border-red-300; }
+    .badge-warning { @apply bg-amber-100 text-amber-800 border border-amber-300; }
+    .badge-good { @apply bg-emerald-100 text-emerald-800 border border-emerald-300; }
   </style>
 </head>
-<body class="bg-gray-50 min-h-screen">
+<body class="bg-gradient-to-br from-slate-50 to-slate-100 min-h-screen">
   <div class="container mx-auto px-4 py-8 max-w-7xl">
 
-    <!-- Header -->
-    <header class="mb-8">
-      <h1 class="text-4xl font-bold text-indigo-800 mb-2">Dashboard Recetas 2025</h1>
-      <p class="text-gray-600">Análisis de dispensación y detección de quiebres de stock</p>
+    <!-- Header Mejorado -->
+    <header class="mb-10 text-center">
+      <h1 class="text-5xl font-bold text-indigo-900 mb-3 flex items-center justify-center gap-3">
+        <i class="fas fa-prescription-bottle-alt"></i>
+        Dashboard Recetas 2025
+      </h1>
+      <p class="text-xl text-gray-600">Monitoreo en tiempo real de dispensación y alertas críticas de stock</p>
+      <div class="mt-4 text-sm text-gray-500">
+        Última actualización: <span id="lastUpdate" class="font-semibold text-indigo-700">-</span>
+      </div>
     </header>
 
-    <!-- Filtros -->
-    <div class="card mb-8">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Filtros Avanzados -->
+    <div class="card mb-8 p-6">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
         <div>
-          <label class="block text-sm font-medium text-gray-700 mb-2">Farmacia Ventanilla</label>
-          <select id="farmaciaFilter" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+          <label class="block text-sm font-semibold text-gray-700 mb-2">
+            <i class="fas fa-clinic-medical mr-1"></i> Farmacia Ventanilla
+          </label>
+          <select id="farmaciaFilter" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-indigo-300 focus:border-indigo-500 transition">
             <option value="">Todas las farmacias</option>
           </select>
         </div>
         <div>
-          <label class="block text-sm font-medium text-gray-700 mb-2">Año</label>
-          <select id="anioFilter" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+          <label class="block text-sm font-semibold text-gray-700 mb-2">
+            <i class="fas fa-calendar-alt mr-1"></i> Año
+          </label>
+          <select id="anioFilter" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-indigo-300">
             <option value="">Todos los años</option>
             <option value="2025" selected>2025</option>
           </select>
         </div>
+        <div>
+          <label class="block text-sm font-semibold text-gray-700 mb-2">
+            <i class="fas fa-pills mr-1"></i> Umbral de Alerta (% dispensación)
+          </label>
+          <input type="range" min="50" max="95" value="85" id="umbralAlerta" class="w-full h-3 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+          <div class="text-center mt-1 text-sm font-medium" id="umbralValue">85%</div>
+        </div>
         <div class="flex items-end">
-          <div class="text-sm text-gray-500">
-            Última actualización: <span id="lastUpdate">-</span>
-          </div>
+          <button id="btnReset" class="w-full px-6 py-3 bg-gray-600 text-white font-semibold rounded-xl hover:bg-gray-700 transition shadow-lg">
+            <i class="fas fa-sync-alt mr-2"></i> Reiniciar filtros
+          </button>
         </div>
       </div>
     </div>
 
-    <!-- KPIs -->
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-      <div class="card bg-gradient-to-br from-blue-500 to-blue-600 text-white">
-        <h3 class="text-lg font-semibold">Total Recetado</h3>
-        <p class="text-3xl font-bold mt-2" id="kpiRecetado">0</p>
+    <!-- KPIs con alertas visuales -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-8">
+      <div class="card bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="text-lg font-semibold opacity-90">Total Recetado</h3>
+            <p class="text-4xl font-bold mt-3" id="kpiRecetado">0</p>
+          </div>
+          <i class="fas fa-file-prescription text-4xl opacity-50"></i>
+        </div>
       </div>
-      <div class="card bg-gradient-to-br from-green-500 to-emerald-600 text-white">
-        <h3 class="text-lg font-semibold">Total Dispensado</h3>
-        <p class="text-3xl font-bold mt-2" id="kpiDispensado">0</p>
+      <div class="card bg-gradient-to-br from-emerald-600 to-emerald-800 text-white">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="text-lg font-semibold opacity-90">Total Dispensado</h3>
+            <p class="text-4xl font-bold mt-3" id="kpiDispensado">0</p>
+          </div>
+          <i class="fas fa-check-circle text-4xl opacity-50"></i>
+        </div>
       </div>
-      <div class="card bg-gradient-to-br from-yellow-500 to-amber-600 text-white">
-        <h3 class="text-lg font-semibold">Faltante Crítico</h3>
-        <p class="text-3xl font-bold mt-2" id="kpiFaltante">0</p>
+      <div class="card bg-gradient-to-br from-red-600 to-red-800 text-white">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="text-lg font-semibold opacity-90">Faltante Crítico</h3>
+            <p class="text-4xl font-bold mt-3" id="kpiFaltante">0</p>
+          </div>
+          <i class="fas fa-exclamation-triangle text-4xl opacity-50"></i>
+        </div>
       </div>
-      <div class="card bg-gradient-to-br from-purple-500 to-indigo-600 text-white">
-        <h3 class="text-lg font-semibold">Tasa de Dispensación</h3>
-        <p class="text-3xl font-bold mt-2" id="kpiTasa">0%</p>
+      <div class="card bg-gradient-to-br from-purple-600 to-indigo-800 text-white">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="text-lg font-semibold opacity-90">Tasa Dispensación</h3>
+            <p class="text-4xl font-bold mt-3" id="kpiTasa">0%</p>
+          </div>
+          <i class="fas fa-chart-line text-4xl opacity-50"></i>
+        </div>
+      </div>
+      <div class="card bg-gradient-to-br from-orange-600 to-amber-700 text-white">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="text-lg font-semibold opacity-90">Medicamentos Críticos</h3>
+            <p class="text-4xl font-bold mt-3" id="kpiCriticos">0</p>
+          </div>
+          <i class="fas fa-skull-crossbones text-4xl opacity-50"></i>
+        </div>
       </div>
     </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-      <!-- Gráfico Evolución Mensual -->
-      <div class="card">
-        <h2 class="text-2xl font-bold text-gray-800 mb-4">Evolución Mensual: Recetado vs Dispensado</h2>
+    <!-- Gráficos -->
+    <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 mb-8">
+      <!-- Evolución + Tasa -->
+      <div class="card p-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-3">
+          <i class="fas fa-chart-area text-indigo-600"></i>
+          Evolución Mensual: Recetado vs Dispensado
+        </h2>
         <canvas id="chartEvolucion"></canvas>
       </div>
 
-      <!-- Gráfico Quiebre de Stock (Top 10 medicamentos con mayor faltante) -->
-      <div class="card">
-        <h2 class="text-2xl font-bold text-gray-800 mb-4">Top 10 Medicamentos con Mayor Faltante (Quiebre de Stock)</h2>
+      <!-- Top 10 Quiebres (con etiquetas) -->
+      <div class="card p-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-3">
+          <i class="fas fa-fire text-red-600"></i>
+          Top 10 Medicamentos con Mayor Quiebre de Stock
+        </h2>
         <canvas id="chartQuiebre"></canvas>
       </div>
     </div>
 
-    <!-- Tabla Top Faltantes -->
-    <div class="card">
-      <h2 class="text-2xl font-bold text-gray-800 mb-6">Top Faltantes por Medicamento (Filtrado)</h2>
-      <div class="overflow-x-auto">
-        <table class="min-w-full divide-y divide-gray-200" id="tablaFaltantes">
-          <thead class="bg-gray-50">
+    <!-- Alertas Críticas + Tabla -->
+    <div class="card p-8">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center gap-4">
+        <i class="fas fa-bell text-red-600 animate-pulse"></i>
+        Medicamentos en Riesgo Crítico de Quiebre
+      </h2>
+      <div class="overflow-x-auto rounded-xl border border-gray-200">
+        <table class="min-w-full divide-y divide-gray-300" id="tablaCriticos">
+          <thead class="bg-gradient-to-r from-red-600 to-red-700 text-white">
             <tr>
-              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Medicamento</th>
-              <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Recetado</th>
-              <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Dispensado</th>
-              <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Faltante</th>
-              <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Tasa</th>
+              <th class="px-6 py-4 text-left text-sm font-bold uppercase">Ranking</th>
+              <th class="px-6 py-4 text-left text-sm font-bold uppercase">Medicamento</th>
+              <th class="px-6 py-4 text-center text-sm font-bold uppercase">Farmacia</th>
+              <th class="px-6 py-4 text-right text-sm font-bold uppercase">Recetado</th>
+              <th class="px-6 py-4 text-right text-sm font-bold uppercase">Dispensado</th>
+              <th class="px-6 py-4 text-right text-sm font-bold uppercase">Faltante</th>
+              <th class="px-6 py-4 text-right text-sm font-bold uppercase">Tasa</th>
+              <th class="px-6 py-4 text-center text-sm font-bold uppercase">Estado</th>
             </tr>
           </thead>
           <tbody class="bg-white divide-y divide-gray-200" id="tablaBody">
-            <!-- Rellenado dinámicamente -->
+            <!-- Se llena dinámicamente -->
           </tbody>
         </table>
       </div>
+      <div class="mt-6 text-right">
+        <p class="text-sm text-gray-500">
+          Mostrando medicamentos con tasa de dispensación menor al <span class="font-bold text-red-600" id="umbralTexto">85%</span>
+        </p>
+      </div>
     </div>
+
+    <footer class="mt-16 text-center text-gray-500 text-sm">
+      <p>Dashboard desarrollado para el control de quiebres de stock | Datos actualizados al <span id="footerDate">-</span></p>
+    </footer>
   </div>
 
   <script>
-    // Estado global
-    let resumenMensual = [];
-    let topMedicamentos = [];
-    let topFarmacias = [];
-    let selectedFarmacia = "";
-    let selectedAnio = "2025";
+    // === Estado global ===
+    let data = { mensual: [], medicamentos: [], farmacias: [] };
+    let filters = { farmacia: "", anio: "2025", umbral: 85 };
 
-    // Cargar datos
-    async function loadData() {
+    // Cargar todos los datos
+    async function init() {
       try {
-        const [res1, res2, res3] = await Promise.all([
+        const [mensual, meds, farms] = await Promise.all([
           fetch('resumen_mensual.json').then(r => r.json()),
           fetch('top_medicamentos.json').then(r => r.json()),
           fetch('top_farmacias.json').then(r => r.json())
         ]);
-        resumenMensual = res1;
-        topMedicamentos = res2;
-        topFarmacias = res3;
+        data.mensual = mensual;
+        data.medicamentos = meds;
+        data.farmacias = farms;
 
         document.getElementById('lastUpdate').textContent = new Date().toLocaleString('es-PY');
+        document.getElementById('footerDate').textContent = new Date().toLocaleDateString('es-PY');
 
-        populateFarmaciaFilter();
-        updateDashboard();
-      } catch (err) {
-        console.error("Error cargando datos:", err);
-      }
+        populateFarmacias();
+        setupEventListeners();
+        updateEverything();
+      } catch (e) { console.error("Error cargando datos:", e); }
     }
 
-    function populateFarmaciaFilter() {
+    function populateFarmacias() {
       const select = document.getElementById('farmaciaFilter');
-      const farmacias = [...new Set(topFarmacias.map(f => f.FarmaciaVentanilla))].sort();
+      const farmacias = [...new Set(data.farmacias.map(f => f.FarmaciaVentanilla))].sort();
       farmacias.forEach(id => {
-        const opt = document.createElement('option');
-        opt.value = id;
-        opt.textContent = `Farmacia ${id}`;
-        select.appendChild(opt);
+        const opt = new Option(`Farmacia ${id}`, id);
+        select.add(opt);
       });
     }
 
-    // Filtros reactivos
-    document.getElementById('farmaciaFilter').addEventListener('change', (e) => {
-      selectedFarmacia = e.target.value;
-      updateDashboard();
-    });
+    function setupEventListeners() {
+      document.getElementById('farmaciaFilter').onchange = (e) => { filters.farmacia = e.target.value; updateEverything(); };
+      document.getElementById('anioFilter').onchange = (e) => { filters.anio = e.target.value || "2025"; updateEverything(); };
+      document.getElementById('umbralAlerta').oninput = (e) => {
+        filters.umbral = parseInt(e.target.value);
+        document.getElementById('umbralValue').textContent = filters.umbral + "%";
+        document.getElementById('umbralTexto').textContent = filters.umbral + "%";
+        updateEverything();
+      };
+      document.getElementById('btnReset').onclick = () => {
+        filters = { farmacia: "", anio: "2025", umbral: 85 };
+        document.getElementById('farmaciaFilter').value = "";
+        document.getElementById('anioFilter').value = "2025";
+        document.getElementById('umbralAlerta').value = 85;
+        document.getElementById('umbralValue').textContent = "85%";
+        document.getElementById('umbralTexto').textContent = "85%";
+        updateEverything();
+      };
+    }
 
-    document.getElementById('anioFilter').addEventListener('change', (e) => {
-      selectedAnio = e.target.value || "2025";
-      updateDashboard();
-    });
-
-    // Actualizar todo el dashboard
-    function updateDashboard() {
+    function updateEverything() {
       updateKPIs();
       updateChartEvolucion();
-      updateChartQuiebreStock();
-      updateTablaFaltantes();
+      updateChartQuiebre();
+      updateTablaCriticos();
     }
 
     function updateKPIs() {
-      let totalRecetado = 0;
-      let totalDispensado = 0;
+      let recetado = 0, dispensado = 0;
 
-      const filteredMensual = resumenMensual.filter(m => {
-        const matchAnio = !selectedAnio || m.año === parseInt(selectedAnio);
-        return matchAnio;
-      });
+      // Aplicar filtro de año
+      const mensualFiltrado = data.mensual.filter(m => !filters.anio || m.año === parseInt(filters.anio));
+      mensualFiltrado.forEach(m => { recetado += m.total_recetado; dispensado += m.total_dispensado; });
 
-      filteredMensual.forEach(m => {
-        totalRecetado += m.total_recetado;
-        totalDispensado += m.total_dispensado;
-      });
-
-      // Si hay filtro de farmacia, usar top_farmacias
-      if (selectedFarmacia) {
-        const farmacia = topFarmacias.find(f => f.FarmaciaVentanilla === selectedFarmacia);
-        if (farmacia) {
-          totalRecetado = farmacia.total_recetado;
-          totalDispensado = farmacia.total_dispensado;
-        }
+      // Si hay filtro de farmacia, sobrescribir
+      if (filters.farmacia) {
+        const farm = data.farmacias.find(f => f.FarmaciaVentanilla === filters.farmacia);
+        if (farm) { recetado = farm.total_recetado; dispensado = farm.total_dispensado; }
       }
 
-      const faltante = totalRecetado - totalDispensado;
-      const tasa = totalRecetado > 0 ? (totalDispensado / totalRecetado) * 100 : 0;
+      const faltante = recetado - dispensado;
+      const tasa = recetado > 0 ? (dispensado / recetado) * 100 : 0;
 
-      document.getElementById('kpiRecetado').textContent = totalRecetado.toLocaleString();
-      document.getElementById('kpiDispensado').textContent = totalDispensado.toLocaleString();
+      // Contar medicamentos críticos (tasa < umbral)
+      const criticos = getMedicamentosCriticos().length;
+
+      document.getElementById('kpiRecetado').textContent = recetado.toLocaleString();
+      document.getElementById('kpiDispensado').textContent = dispensado.toLocaleString();
       document.getElementById('kpiFaltante').textContent = faltante.toLocaleString();
       document.getElementById('kpiTasa').textContent = tasa.toFixed(2) + '%';
+      document.getElementById('kpiCriticos').textContent = criticos;
     }
 
     let chartEvolucion, chartQuiebre;
+    Chart.register(ChartDataLabels);
 
     function updateChartEvolucion() {
       const ctx = document.getElementById('chartEvolucion').getContext('2d');
-      const labels = [];
-      const recetado = [];
-      const dispensado = [];
+      const filtered = data.mensual
+        .filter(m => !filters.anio || m.año === parseInt(filters.anio))
+        .sort((a,b) => a.mes - b.mes);
 
-      const filtered = resumenMensual
-        .filter(m => !selectedAnio || m.año === parseInt(selectedAnio))
-        .sort((a, b) => a.mes - b.mes);
-
-      filtered.forEach(m => {
-        labels.push(luxon.DateTime.fromObject({ year: m.año, month: m.mes }).toFormat('MMM yyyy'));
-        recetado.push(m.total_recetado);
-        dispensado.push(m.total_dispensado);
-      });
+      const labels = filtered.map(m => luxon.DateTime.fromObject({year: m.año, month: m.mes}).toFormat('MMM yyyy'));
+      const recetado = filtered.map(m => m.total_recetado);
+      const dispensado = filtered.map(m => m.total_dispensado);
 
       if (chartEvolucion) chartEvolucion.destroy();
-
       chartEvolucion = new Chart(ctx, {
         type: 'line',
         data: {
           labels,
           datasets: [
-            {
-              label: 'Recetado',
-              data: recetado,
-              borderColor: '#6366f1',
-              backgroundColor: 'rgba(99, 102, 241, 0.1)',
-              tension: 0.4,
-              fill: true
-            },
-            {
-              label: 'Dispensado',
-              data: dispensado,
-              borderColor: '#10b981',
-              backgroundColor: 'rgba(16, 185, 129, 0.1)',
-              tension: 0.4,
-              fill: true
-            }
+            { label: 'Recetado', data: recetado, borderColor: '#4f46e5', backgroundColor: 'rgba(79,70,229,0.1)', tension: 0.4, fill: true },
+            { label: 'Dispensado', data: dispensado, borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.1)', tension: 0.4, fill: true }
           ]
         },
-        options: {
-          responsive: true,
-          plugins: { legend: { position: 'top' } },
-          scales: { y: { beginAtZero: false } }
-        }
+        options: { responsive: true, plugins: { legend: { position: 'top' }, datalabels: { display: false } } }
       });
     }
 
-    function updateChartQuiebreStock() {
+    function updateChartQuiebre() {
       const ctx = document.getElementById('chartQuiebre').getContext('2d');
-
-      const agg = {};
-      topMedicamentos.forEach(item => {
-        if (selectedAnio && item.año !== parseInt(selectedAnio)) return;
-        const key = item.TextoBreveMedicamento;
-        if (!agg[key]) {
-          agg[key] = { recetado: 0, dispensado: 0 };
-        }
-        agg[key].recetado += item.recetado;
-        agg[key].dispensado += item.dispensado;
-      });
-
-      const data = Object.entries(agg)
-        .map(([med, vals]) => ({
-          medicamento: med.length > 50 ? med.substring(0,47)+'...' : med,
-          faltante: vals.recetado - vals.dispensado
-        }))
-        .filter(d => d.faltante > 0)
-        .sort((a, b) => b.faltante - a.faltante)
-        .slice(0, 10);
+      const criticos = getMedicamentosCriticos().slice(0, 10);
 
       if (chartQuiebre) chartQuiebre.destroy();
-
       chartQuiebre = new Chart(ctx, {
         type: 'bar',
         data: {
-          labels: data.map(d => d.medicamento),
+          labels: criticos.map(c => c.medicamento.length > 40 ? c.medicamento.substring(0,37)+'...' : c.medicamento),
           datasets: [{
-            label: 'Faltante (Unidades)',
-            data: data.map(d => d.faltante),
-            backgroundColor: '#ef4444',
-            borderColor: '#dc2626',
-            borderWidth: 1
+            label: 'Unidades faltantes',
+            data: criticos.map(c => c.faltante),
+            backgroundColor: '#dc2626',
+            borderRadius: 8
           }]
         },
         options: {
           indexAxis: 'y',
           responsive: true,
           plugins: {
-            legend: { display: false },
-            tooltip: { callbacks: { label: ctx => `${ctx.raw.toLocaleString()} unidades faltantes` }}
+            datalabels: {
+              color: 'white',
+              font: { weight: 'bold' },
+              formatter: (value) => value.toLocaleString()
+            }
           },
           scales: { x: { beginAtZero: true } }
         }
       });
     }
 
-    function updateTablaFaltantes() {
-      const tbody = document.getElementById('tablaBody');
-      tbody.innerHTML = '';
-
+    function getMedicamentosCriticos() {
       const agg = {};
-      topMedicamentos.forEach(item => {
-        if (selectedAnio && item.año !== parseInt(selectedAnio)) return;
+      data.medicamentos.forEach(item => {
+        if (filters.anio && item.año !== parseInt(filters.anio)) return;
         const key = item.TextoBreveMedicamento;
         if (!agg[key]) agg[key] = { recetado: 0, dispensado: 0 };
         agg[key].recetado += item.recetado;
         agg[key].dispensado += item.dispensado;
       });
 
-      const rows = Object.entries(agg)
-        .map(([med, vals]) => ({
+      return Object.entries(agg)
+        .map(([med, v]) => ({
           medicamento: med,
-          recetado: vals.recetado,
-          dispensado: vals.dispensado,
-          faltante: vals.recetado - vals.dispensado,
-          tasa: vals.recetado > 0 ? (vals.dispensado / vals.recetado) : 0
+          recetado: v.recetado,
+          dispensado: v.dispensado,
+          faltante: v.recetado - v.dispensado,
+          tasa: v.recetado > 0 ? (v.dispensado / v.recetado) * 100 : 0
         }))
-        .filter(r => r.faltante > 0)
-        .sort((a, b) => b.faltante - a.faltante);
+        .filter(m => m.tasa < filters.umbral && m.faltante > 0)
+        .sort((a,b) => b.faltante - a.faltante);
+    }
 
-      rows.forEach(r => {
+    function updateTablaCriticos() {
+      const tbody = document.getElementById('tablaBody');
+      tbody.innerHTML = '';
+      const criticos = getMedicamentosCriticos();
+
+      criticos.forEach((item, idx) => {
         const tr = document.createElement('tr');
-        tr.className = 'hover:bg-gray-50';
+        tr.className = idx % 2 === 0 ? 'bg-gray-50' : 'bg-white';
+        const estado = item.tasa < 70 ? 'badge-critical' : 'badge-warning';
+        const icono = item.tasa < 70 ? 'fas fa-skull-crossbones' : 'fas fa-exclamation-circle';
+
         tr.innerHTML = `
-          <td class="px-6 py-4 text-sm text-gray-900 whitespace-nowrap">${r.medicamento}</td>
-          <td class="px-6 py-4 text-sm text-right text-gray-700">${r.recetado.toLocaleString()}</td>
-          <td class="px-6 py-4 text-sm text-right text-gray-700">${r.dispensado.toLocaleString()}</td>
-          <td class="px-6 py-4 text-sm text-right font-semibold text-red-600">${r.faltante.toLocaleString()}</td>
-          <td class="px-6 py-4 text-sm text-right ${r.tasa < 0.8 ? 'text-red-600' : 'text-green-600'}">
-            ${(r.tasa * 100).toFixed(1)}%
+          <td class="px-6 py-4 font-bold text-lg text-gray-800">#${idx + 1}</td>
+          <td class="px-6 py-4 font-medium text-gray-900">${item.medicamento}</td>
+          <td class="px-6 py-4 text-center text-gray-600">${filters.farmacia ? 'Farmacia ' + filters.farmacia : 'Todas'}</td>
+          <td class="px-6 py-4 text-right font-medium">${item.recetado.toLocaleString()}</td>
+          <td class="px-6 py-4 text-right font-medium">${item.dispensado.toLocaleString()}</td>
+          <td class="px-6 py-4 text-right text-xl font-bold text-red-600">${item.faltante.toLocaleString()}</td>
+          <td class="px-6 py-4 text-right text-lg font-bold ${item.tasa < 70 ? 'text-red-600' : 'text-amber-600'}">
+            ${item.tasa.toFixed(1)}%
+          </td>
+          <td class="px-6 py-4 text-center">
+            <span class="px-4 py-2 rounded-full text-xs font-bold ${estado}">
+              <i class="${icono} mr-1"></i>
+              ${item.tasa < 70 ? 'CRÍTICO' : 'ALERTA'}
+            </span>
           </td>
         `;
         tbody.appendChild(tr);
       });
     }
 
-    // Inicializar
-    loadData();
+    // Iniciar
+    init();
   </script>
 </body>
 </html>
