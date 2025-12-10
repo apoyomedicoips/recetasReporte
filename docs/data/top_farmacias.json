@@ -1,182 +1,263 @@
 [
   {
-    "id": 2052,
-    "nombre_farmacia": "FARMACIA AMBULATORIA",
-    "totalLineas": 219738,
-    "pacientesAtendidos": 32183,
-    "medicamentosUnicos": 222,
-    "tasaDispensacion": 99.4,
-    "eficiencia": 99.4
+    "FarmaciaVentanilla":"2052",
+    "total_lineas":529234,
+    "pacientes_unicos":52374,
+    "total_recetado":16891219,
+    "total_dispensado":16768276,
+    "faltante":122943,
+    "tasa_dispensacion":0.9927214845
   },
   {
-    "id": 2189,
-    "nombre_farmacia": "FARMACIA URGENCIAS AMBULATORIA",
-    "totalLineas": 183119,
-    "pacientesAtendidos": 37276,
-    "medicamentosUnicos": 159,
-    "tasaDispensacion": 98.9,
-    "eficiencia": 98.9
+    "FarmaciaVentanilla":"2189",
+    "total_lineas":438695,
+    "pacientes_unicos":70519,
+    "total_recetado":3834664,
+    "total_dispensado":3816223,
+    "faltante":18441,
+    "tasa_dispensacion":0.9951909737
   },
   {
-    "id": 2023,
-    "nombre_farmacia": "FARMACIA INTERNA ",
-    "totalLineas": 175315,
-    "pacientesAtendidos": 7857,
-    "medicamentosUnicos": 346,
-    "tasaDispensacion": 97.9,
-    "eficiencia": 97.9
+    "FarmaciaVentanilla":"2023",
+    "total_lineas":418913,
+    "pacientes_unicos":13858,
+    "total_recetado":2848430,
+    "total_dispensado":2687806,
+    "faltante":160624,
+    "tasa_dispensacion":0.9436096376
   },
   {
-    "id": 2042,
-    "nombre_farmacia": "FARMACIA POLICLINICA",
-    "totalLineas": 75943,
-    "pacientesAtendidos": 16544,
-    "medicamentosUnicos": 197,
-    "tasaDispensacion": 99.4,
-    "eficiencia": 99.4
+    "FarmaciaVentanilla":"2042",
+    "total_lineas":184110,
+    "pacientes_unicos":28527,
+    "total_recetado":2463269,
+    "total_dispensado":2450679,
+    "faltante":12590,
+    "tasa_dispensacion":0.9948889058
   },
   {
-    "id": 2048,
-    "nombre_farmacia": "FARMACIA UTI",
-    "totalLineas": 53643,
-    "pacientesAtendidos": 638,
-    "medicamentosUnicos": 346,
-    "tasaDispensacion": 95.9,
-    "eficiencia": 95.9
+    "FarmaciaVentanilla":"2048",
+    "total_lineas":129691,
+    "pacientes_unicos":962,
+    "total_recetado":2130618,
+    "total_dispensado":1457146,
+    "faltante":673472,
+    "tasa_dispensacion":0.6839076737
   },
   {
-    "id": 2045,
-    "nombre_farmacia": "FARMACIA URGENCIA INTERNADO",
-    "totalLineas": 41970,
-    "pacientesAtendidos": 2646,
-    "medicamentosUnicos": 246,
-    "tasaDispensacion": 99.6,
-    "eficiencia": 99.6
+    "FarmaciaVentanilla":"2045",
+    "total_lineas":101534,
+    "pacientes_unicos":5371,
+    "total_recetado":351398,
+    "total_dispensado":348682,
+    "faltante":2716,
+    "tasa_dispensacion":0.9922708723
   },
   {
-    "id": 2041,
-    "nombre_farmacia": "DEPOSITO INS INTERNADO",
-    "totalLineas": 23341,
-    "pacientesAtendidos": 2,
-    "medicamentosUnicos": 368,
-    "tasaDispensacion": 53.4,
-    "eficiencia": 53.4
+    "FarmaciaVentanilla":"2041",
+    "total_lineas":55327,
+    "pacientes_unicos":4,
+    "total_recetado":30856357,
+    "total_dispensado":19845633,
+    "faltante":11010724,
+    "tasa_dispensacion":0.6431618937
   },
   {
-    "id": 2113,
-    "nombre_farmacia": "Farmacia desconocida",
-    "totalLineas": 234,
-    "pacientesAtendidos": 1,
-    "medicamentosUnicos": 15,
-    "tasaDispensacion": 94.9,
-    "eficiencia": 94.9
+    "FarmaciaVentanilla":"2113",
+    "total_lineas":462,
+    "pacientes_unicos":0,
+    "total_recetado":2107965,
+    "total_dispensado":1994615,
+    "faltante":113350,
+    "tasa_dispensacion":0.9462277599
   },
   {
-    "id": 2061,
-    "nombre_farmacia": "DEPOSITO MED INTERNADO",
-    "totalLineas": 154,
-    "pacientesAtendidos": 1,
-    "medicamentosUnicos": 91,
-    "tasaDispensacion": 7.0,
-    "eficiencia": 7.0
+    "FarmaciaVentanilla":"2061",
+    "total_lineas":388,
+    "pacientes_unicos":0,
+    "total_recetado":62598,
+    "total_dispensado":7037,
+    "faltante":55561,
+    "tasa_dispensacion":0.1124157321
   },
   {
-    "id": 2053,
-    "nombre_farmacia": "DEPOSITO AMBULATORIA",
-    "totalLineas": 99,
-    "pacientesAtendidos": 1,
-    "medicamentosUnicos": 43,
-    "tasaDispensacion": 50.1,
-    "eficiencia": 50.1
+    "FarmaciaVentanilla":"2037",
+    "total_lineas":367,
+    "pacientes_unicos":0,
+    "total_recetado":364400,
+    "total_dispensado":361418,
+    "faltante":2982,
+    "tasa_dispensacion":0.991816685
   },
   {
-    "id": 2049,
-    "nombre_farmacia": "FARMACIA QX1",
-    "totalLineas": 78,
-    "pacientesAtendidos": 1,
-    "medicamentosUnicos": 37,
-    "tasaDispensacion": 95.9,
-    "eficiencia": 95.9
+    "FarmaciaVentanilla":"2049",
+    "total_lineas":181,
+    "pacientes_unicos":0,
+    "total_recetado":23803,
+    "total_dispensado":23179,
+    "faltante":624,
+    "tasa_dispensacion":0.973784817
   },
   {
-    "id": 2037,
-    "nombre_farmacia": "Farmacia desconocida",
-    "totalLineas": 57,
-    "pacientesAtendidos": 1,
-    "medicamentosUnicos": 40,
-    "tasaDispensacion": 100.0,
-    "eficiencia": 100.0
+    "FarmaciaVentanilla":"2053",
+    "total_lineas":150,
+    "pacientes_unicos":0,
+    "total_recetado":43259,
+    "total_dispensado":25326,
+    "faltante":17933,
+    "tasa_dispensacion":0.5854504265
   },
   {
-    "id": 2032,
-    "nombre_farmacia": "FARMACIA QX1",
-    "totalLineas": 52,
-    "pacientesAtendidos": 1,
-    "medicamentosUnicos": 52,
-    "tasaDispensacion": 100.0,
-    "eficiencia": 100.0
+    "FarmaciaVentanilla":"2197",
+    "total_lineas":69,
+    "pacientes_unicos":0,
+    "total_recetado":1681,
+    "total_dispensado":1681,
+    "faltante":0,
+    "tasa_dispensacion":1.0
   },
   {
-    "id": 2197,
-    "nombre_farmacia": "FARMACIA QX2",
-    "totalLineas": 37,
-    "pacientesAtendidos": 1,
-    "medicamentosUnicos": 37,
-    "tasaDispensacion": 100.0,
-    "eficiencia": 100.0
+    "FarmaciaVentanilla":"2001",
+    "total_lineas":54,
+    "pacientes_unicos":0,
+    "total_recetado":2128,
+    "total_dispensado":2128,
+    "faltante":0,
+    "tasa_dispensacion":1.0
   },
   {
-    "id": 2122,
-    "nombre_farmacia": "FARMACIA QX2",
-    "totalLineas": 11,
-    "pacientesAtendidos": 1,
-    "medicamentosUnicos": 11,
-    "tasaDispensacion": 100.0,
-    "eficiencia": 100.0
+    "FarmaciaVentanilla":"2032",
+    "total_lineas":52,
+    "pacientes_unicos":0,
+    "total_recetado":2460,
+    "total_dispensado":2460,
+    "faltante":0,
+    "tasa_dispensacion":1.0
   },
   {
-    "id": 2043,
-    "nombre_farmacia": "Farmacia desconocida",
-    "totalLineas": 3,
-    "pacientesAtendidos": 1,
-    "medicamentosUnicos": 3,
-    "tasaDispensacion": 0.0,
-    "eficiencia": 0.0
+    "FarmaciaVentanilla":"2122",
+    "total_lineas":11,
+    "pacientes_unicos":0,
+    "total_recetado":101,
+    "total_dispensado":101,
+    "faltante":0,
+    "tasa_dispensacion":1.0
   },
   {
-    "id": 2090,
-    "nombre_farmacia": "Farmacia desconocida",
-    "totalLineas": 3,
-    "pacientesAtendidos": 1,
-    "medicamentosUnicos": 3,
-    "tasaDispensacion": 0.0,
-    "eficiencia": 0.0
+    "FarmaciaVentanilla":"2043",
+    "total_lineas":7,
+    "pacientes_unicos":0,
+    "total_recetado":38155,
+    "total_dispensado":0,
+    "faltante":38155,
+    "tasa_dispensacion":0.0
   },
   {
-    "id": 2110,
-    "nombre_farmacia": "Farmacia desconocida",
-    "totalLineas": 1,
-    "pacientesAtendidos": 1,
-    "medicamentosUnicos": 1,
-    "tasaDispensacion": 0.0,
-    "eficiencia": 0.0
+    "FarmaciaVentanilla":"2090",
+    "total_lineas":3,
+    "pacientes_unicos":0,
+    "total_recetado":81,
+    "total_dispensado":0,
+    "faltante":81,
+    "tasa_dispensacion":0.0
   },
   {
-    "id": 2066,
-    "nombre_farmacia": "FARMACIA QX1",
-    "totalLineas": 1,
-    "pacientesAtendidos": 1,
-    "medicamentosUnicos": 1,
-    "tasaDispensacion": 0.0,
-    "eficiencia": 0.0
+    "FarmaciaVentanilla":"2071",
+    "total_lineas":2,
+    "pacientes_unicos":0,
+    "total_recetado":600,
+    "total_dispensado":0,
+    "faltante":600,
+    "tasa_dispensacion":0.0
   },
   {
-    "id": 2062,
-    "nombre_farmacia": "Farmacia desconocida",
-    "totalLineas": 1,
-    "pacientesAtendidos": 1,
-    "medicamentosUnicos": 1,
-    "tasaDispensacion": 0.0,
-    "eficiencia": 0.0
+    "FarmaciaVentanilla":"2062",
+    "total_lineas":2,
+    "pacientes_unicos":0,
+    "total_recetado":10200,
+    "total_dispensado":0,
+    "faltante":10200,
+    "tasa_dispensacion":0.0
+  },
+  {
+    "FarmaciaVentanilla":"2065",
+    "total_lineas":2,
+    "pacientes_unicos":0,
+    "total_recetado":200,
+    "total_dispensado":200,
+    "faltante":0,
+    "tasa_dispensacion":1.0
+  },
+  {
+    "FarmaciaVentanilla":"2110",
+    "total_lineas":2,
+    "pacientes_unicos":1,
+    "total_recetado":60,
+    "total_dispensado":0,
+    "faltante":60,
+    "tasa_dispensacion":0.0
+  },
+  {
+    "FarmaciaVentanilla":"2034",
+    "total_lineas":1,
+    "pacientes_unicos":0,
+    "total_recetado":63,
+    "total_dispensado":63,
+    "faltante":0,
+    "tasa_dispensacion":1.0
+  },
+  {
+    "FarmaciaVentanilla":"2000",
+    "total_lineas":1,
+    "pacientes_unicos":0,
+    "total_recetado":100,
+    "total_dispensado":0,
+    "faltante":100,
+    "tasa_dispensacion":0.0
+  },
+  {
+    "FarmaciaVentanilla":"2005",
+    "total_lineas":1,
+    "pacientes_unicos":0,
+    "total_recetado":36,
+    "total_dispensado":0,
+    "faltante":36,
+    "tasa_dispensacion":0.0
+  },
+  {
+    "FarmaciaVentanilla":"2035",
+    "total_lineas":1,
+    "pacientes_unicos":0,
+    "total_recetado":30,
+    "total_dispensado":30,
+    "faltante":0,
+    "tasa_dispensacion":1.0
+  },
+  {
+    "FarmaciaVentanilla":"2050",
+    "total_lineas":1,
+    "pacientes_unicos":0,
+    "total_recetado":50,
+    "total_dispensado":50,
+    "faltante":0,
+    "tasa_dispensacion":1.0
+  },
+  {
+    "FarmaciaVentanilla":"2058",
+    "total_lineas":1,
+    "pacientes_unicos":0,
+    "total_recetado":50,
+    "total_dispensado":50,
+    "faltante":0,
+    "tasa_dispensacion":1.0
+  },
+  {
+    "FarmaciaVentanilla":"2066",
+    "total_lineas":1,
+    "pacientes_unicos":1,
+    "total_recetado":2,
+    "total_dispensado":0,
+    "faltante":2,
+    "tasa_dispensacion":0.0
   }
 ]

@@ -1,3070 +1,3662 @@
 [
   {
-    "id": 10000001,
-    "nombre": "ACENOCUMAROL 4mg COM"
+    "MedicamentoSAP":"10000305",
+    "TextoBreveMedicamento":"LOSARTAN POTASICO 50 mg COM"
   },
   {
-    "id": 10000003,
-    "nombre": "ACETAZOLAMIDA 250mg COM"
+    "MedicamentoSAP":"10000050",
+    "TextoBreveMedicamento":"ATORVASTATINA 40mg COM"
   },
   {
-    "id": 10000004,
-    "nombre": "ACICLOVIR 250mg INY"
+    "MedicamentoSAP":"10000007",
+    "TextoBreveMedicamento":"AC. ACETIL SALICILICO 100-125mg COM\/MCAP"
   },
   {
-    "id": 10000005,
-    "nombre": "ACICLOVIR 400mg/5mL SUSP ORAL"
+    "MedicamentoSAP":"10000457",
+    "TextoBreveMedicamento":"VALPROATO\/ACVALPROICO 200-250mg\/5 mL JAR"
   },
   {
-    "id": 10000006,
-    "nombre": "ACICLOVIR 800mg COM"
+    "MedicamentoSAP":"10000288",
+    "TextoBreveMedicamento":"LEVETIRACETAM 500 mg COM"
   },
   {
-    "id": 10000007,
-    "nombre": "AC. ACETIL SALICILICO 100-125mg COM/MCAP"
+    "MedicamentoSAP":"10000108",
+    "TextoBreveMedicamento":"CITICOLINA 1g SOL ORAL SCH"
   },
   {
-    "id": 10000008,
-    "nombre": "ACIDO FOLICO 10mg COM"
+    "MedicamentoSAP":"10000433",
+    "TextoBreveMedicamento":"TELMISARTAN 80mg COM"
   },
   {
-    "id": 10000009,
-    "nombre": "ACIDO FOLICO 5mg/mL GOT ORAL"
+    "MedicamentoSAP":"10000662",
+    "TextoBreveMedicamento":"INSULINA GLARGINA 300 UI\/mL INY"
   },
   {
-    "id": 10000010,
-    "nombre": "ACIDO FUSIDICO 2 g/100 g CREM DER"
+    "MedicamentoSAP":"10000314",
+    "TextoBreveMedicamento":"METFORMINA 850 mg COM"
   },
   {
-    "id": 10000015,
-    "nombre": "ACT TISULAR PLASMINOGENO 50mg INY"
+    "MedicamentoSAP":"10000289",
+    "TextoBreveMedicamento":"LEVODOPA + CARBIDOPA 250 mg\/25 mg COM"
   },
   {
-    "id": 10000016,
-    "nombre": "ADALIMUMAB 40mg INY"
+    "MedicamentoSAP":"10000382",
+    "TextoBreveMedicamento":"PRAMIPEXOL 1,5 mg COM"
   },
   {
-    "id": 10000017,
-    "nombre": "ADENOSINA 6mg/2mL INY"
+    "MedicamentoSAP":"10000283",
+    "TextoBreveMedicamento":"LETROZOL 2,5 mg COM"
   },
   {
-    "id": 10000018,
-    "nombre": "ADRENALINA 1mg INY"
+    "MedicamentoSAP":"10000076",
+    "TextoBreveMedicamento":"CALCIO CO3 + VITD3 500mg+400 UI COM"
   },
   {
-    "id": 10000019,
-    "nombre": "ALBENDAZOL 400mg SUSP"
+    "MedicamentoSAP":"10000254",
+    "TextoBreveMedicamento":"INSULINA DEGLUDEC 100 UI\/mL INY"
   },
   {
-    "id": 10000020,
-    "nombre": "ALBUMINA HUMANA 20% INY"
+    "MedicamentoSAP":"10000295",
+    "TextoBreveMedicamento":"LEVOTIROXINA SODICA 100 mcg COM"
   },
   {
-    "id": 10000021,
-    "nombre": "ALENDRONATO 70mg CAP/COM"
+    "MedicamentoSAP":"10000210",
+    "TextoBreveMedicamento":"FUROSEMIDA 40mg COM"
   },
   {
-    "id": 10000023,
-    "nombre": "ALFACALCIDOL (Vit. D3) 0,25mcg CAP/COM"
+    "MedicamentoSAP":"10000334",
+    "TextoBreveMedicamento":"NEBIVOLOL 5 mg COM"
   },
   {
-    "id": 10000024,
-    "nombre": "ALFAMETIL DOPA 500mg COM"
+    "MedicamentoSAP":"10000660",
+    "TextoBreveMedicamento":"DAPAGLIFLOZINA 10 MG"
   },
   {
-    "id": 10000025,
-    "nombre": "ALFENTANILO 0,5mg/mL INY"
+    "MedicamentoSAP":"10000111",
+    "TextoBreveMedicamento":"CITIDIN 5 + URIDIN 5 (5mg+3 mg) CAP"
   },
   {
-    "id": 10000026,
-    "nombre": "ALLOPURINOL 300mg COM"
+    "MedicamentoSAP":"10000386",
+    "TextoBreveMedicamento":"PREGABALINA 75 mg CAP"
   },
   {
-    "id": 10000027,
-    "nombre": "ALPRAZOLAN 0,5mg COM"
+    "MedicamentoSAP":"10000348",
+    "TextoBreveMedicamento":"OMEPRAZOL 20 mg CAP"
   },
   {
-    "id": 10000028,
-    "nombre": "AMANTADINA 100mg COM"
+    "MedicamentoSAP":"10000084",
+    "TextoBreveMedicamento":"CARVEDILOL 12,5mg COM"
   },
   {
-    "id": 10000029,
-    "nombre": "AMIKACINA 500mg INY"
+    "MedicamentoSAP":"10000852",
+    "TextoBreveMedicamento":"SEMAGLUTIDE 1.34 mg\/mL INY VIAL+JER EST"
   },
   {
-    "id": 10000030,
-    "nombre": "AA ESENC Y NO ESENC 90% (+) POL P/REC"
+    "MedicamentoSAP":"10000234",
+    "TextoBreveMedicamento":"HIDROCLOROTIAZIDA+AMILORIDA 50mg+5mg COM"
   },
   {
-    "id": 10000032,
-    "nombre": "AMIODARONA 200mg COM"
+    "MedicamentoSAP":"10000432",
+    "TextoBreveMedicamento":"TAMSULOSINA CLORHIDRATO 0,4mg CAP\/COM"
   },
   {
-    "id": 10000033,
-    "nombre": "AMIODARONA 150mg INY"
+    "MedicamentoSAP":"10000219",
+    "TextoBreveMedicamento":"GLICEROFOSFATO (*) JBE"
   },
   {
-    "id": 10000034,
-    "nombre": "AMITRIPTILINA 25mg COM"
+    "MedicamentoSAP":"10000099",
+    "TextoBreveMedicamento":"CIPROFIBRATO 100mg CAP\/COM"
   },
   {
-    "id": 10000035,
-    "nombre": "AMLODIPINA 10mg COM"
+    "MedicamentoSAP":"10000035",
+    "TextoBreveMedicamento":"AMLODIPINA 10mg COM"
   },
   {
-    "id": 10000036,
-    "nombre": "AMOXICILINA 500mg/5ml POL P/REC"
+    "MedicamentoSAP":"10000165",
+    "TextoBreveMedicamento":"ENALAPRIL 20mg COM"
   },
   {
-    "id": 10000037,
-    "nombre": "AMOXICILINA 500mg CAP/COM"
+    "MedicamentoSAP":"10000365",
+    "TextoBreveMedicamento":"PARACETAMOL + CODEINA 500 mg\/30 mg COM"
   },
   {
-    "id": 10000038,
-    "nombre": "AMOXICILINA+SULBACTAM 1000mg+500mg INY"
+    "MedicamentoSAP":"10000442",
+    "TextoBreveMedicamento":"TIOTROPIO BROMURO 18 mcg CAP C\/POL SEC"
   },
   {
-    "id": 10000039,
-    "nombre": "AMOXI+SULBAC 1000+125 a 250mg (5 mL) POL"
+    "MedicamentoSAP":"10000408",
+    "TextoBreveMedicamento":"SALMETEROL+FLUTICASONA25+125mcg AER"
   },
   {
-    "id": 10000040,
-    "nombre": "AMOXICILINA + SULBACTAM 875mg+125mg COM"
+    "MedicamentoSAP":"10000407",
+    "TextoBreveMedicamento":"SALBUTAMOL (s\/Cl-Br) 100 mcg\/dosis AER"
   },
   {
-    "id": 10000041,
-    "nombre": "AMPICILINA 1g INY"
+    "MedicamentoSAP":"10000094",
+    "TextoBreveMedicamento":"CETIRIZINA 10mg COM"
   },
   {
-    "id": 10000042,
-    "nombre": "ANFOTERICINA B 50mg INY"
+    "MedicamentoSAP":"10000220",
+    "TextoBreveMedicamento":"GLIMEPIRIDA 4mg COM"
   },
   {
-    "id": 10000043,
-    "nombre": "ANFOTERICINA B LIPOSOMAL 50mg INY"
+    "MedicamentoSAP":"10000418",
+    "TextoBreveMedicamento":"SITAGLIPTINA 100mg COM"
   },
   {
-    "id": 10000044,
-    "nombre": "ANTAZOLINA+TETRAZOLINA 0,5%+0,4% COL"
+    "MedicamentoSAP":"10000027",
+    "TextoBreveMedicamento":"ALPRAZOLAN 0,5mg COM"
   },
   {
-    "id": 10000046,
-    "nombre": "ANTIGRIPAL (Formula Mínima) COM"
+    "MedicamentoSAP":"10000118",
+    "TextoBreveMedicamento":"CLONAZEPAN 2mg COM"
   },
   {
-    "id": 10000047,
-    "nombre": "ANTIHEMORROIDAL CON CORTISONA CRM/POM"
+    "MedicamentoSAP":"10000049",
+    "TextoBreveMedicamento":"ATENOLOL 100mg COM"
   },
   {
-    "id": 10000049,
-    "nombre": "ATENOLOL 100mg COM"
+    "MedicamentoSAP":"10000034",
+    "TextoBreveMedicamento":"AMITRIPTILINA 25mg COM"
   },
   {
-    "id": 10000050,
-    "nombre": "ATORVASTATINA 40mg COM"
+    "MedicamentoSAP":"10000021",
+    "TextoBreveMedicamento":"ALENDRONATO 70mg CAP\/COM"
   },
   {
-    "id": 10000051,
-    "nombre": "ATRACURIO 10mg/mL INY"
+    "MedicamentoSAP":"10000394",
+    "TextoBreveMedicamento":"QUETIAPINA 100 mg COM"
   },
   {
-    "id": 10000052,
-    "nombre": "ATROPINA 1mg INY"
+    "MedicamentoSAP":"10000032",
+    "TextoBreveMedicamento":"AMIODARONA 200mg COM"
   },
   {
-    "id": 10000053,
-    "nombre": "AZITROMICINA 500mg COM"
+    "MedicamentoSAP":"10000146",
+    "TextoBreveMedicamento":"DIOSMINA 600mg COM"
   },
   {
-    "id": 10000054,
-    "nombre": "AZATIOPRINA 50mg COM"
+    "MedicamentoSAP":"10000453",
+    "TextoBreveMedicamento":"TRAZODONA 50mg COM"
   },
   {
-    "id": 10000057,
-    "nombre": "BETAHISTINA 24mg COM"
+    "MedicamentoSAP":"10000255",
+    "TextoBreveMedicamento":"INSULINA GLARGINA 100 UI\/mL INY"
   },
   {
-    "id": 10000058,
-    "nombre": "BETAMETASONA 0,50mg/mL GOT ORAL"
+    "MedicamentoSAP":"10000410",
+    "TextoBreveMedicamento":"SERENOAREPENS\/PYGEUM AFRICANUM 160mg CAP"
   },
   {
-    "id": 10000059,
-    "nombre": "BETAMETASONA 0,1 % CREM"
+    "MedicamentoSAP":"10000024",
+    "TextoBreveMedicamento":"ALFAMETIL DOPA 500mg COM"
   },
   {
-    "id": 10000062,
-    "nombre": "BICALUTAMIDA 50mg COM"
+    "MedicamentoSAP":"10000126",
+    "TextoBreveMedicamento":"COMPLEJO B (B1 + B6 + B12) CAP\/COM"
   },
   {
-    "id": 10000063,
-    "nombre": "BIPERIDENO CLORHIDRATO 2mg COM"
+    "MedicamentoSAP":"10000870",
+    "TextoBreveMedicamento":"SEMAGLUTIDE 1.34 mg\/mL INY 1mg-0.8mL"
   },
   {
-    "id": 10000064,
-    "nombre": "BISACODILO 5mg COM/GRA"
+    "MedicamentoSAP":"10000256",
+    "TextoBreveMedicamento":"INSULINA ULTRARRAPIDA 100 UI\/mL APD"
   },
   {
-    "id": 10000067,
-    "nombre": "BRIMONIDINA 0,02 COL"
+    "MedicamentoSAP":"10000416",
+    "TextoBreveMedicamento":"SIMETICONA 100mg\/mL SUSP"
   },
   {
-    "id": 10000068,
-    "nombre": "IPATROPIO+FENOTEROL 0.020+0.050 mg AER"
+    "MedicamentoSAP":"10000221",
+    "TextoBreveMedicamento":"GLUCOSAM+CONDROI+SULF1500+1200+250mg POL"
   },
   {
-    "id": 10000070,
-    "nombre": "BUPIVACAINA HIPERBARICA 0,005 mg INY"
+    "MedicamentoSAP":"10000160",
+    "TextoBreveMedicamento":"DORZOLAMIDA + TIMOLOL 2%+0,50% COL"
   },
   {
-    "id": 10000071,
-    "nombre": "BUPIVACAINA S/ EPINEFRINA 0,0075 mg INY"
+    "MedicamentoSAP":"10000277",
+    "TextoBreveMedicamento":"LATANOPROST 50 ug\/ml COL"
   },
   {
-    "id": 10000073,
-    "nombre": "BUTIL BROMURO DE HIOSCINA 20mg INY"
+    "MedicamentoSAP":"10000294",
+    "TextoBreveMedicamento":"LEVOTIROXINA SODICA 50 mcg COM"
   },
   {
-    "id": 10000075,
-    "nombre": "CABERGOLINA 0,5mg COM"
+    "MedicamentoSAP":"10000030",
+    "TextoBreveMedicamento":"AA ESENC Y NO ESENC 90% (+) POL P\/REC"
   },
   {
-    "id": 10000076,
-    "nombre": "CALCIO CO3 + VITD3 500mg+400 UI COM"
+    "MedicamentoSAP":"10000237",
+    "TextoBreveMedicamento":"HIDROXICLOROQUINA 200 mg COM"
   },
   {
-    "id": 10000078,
-    "nombre": "CARBAMAZEPINA 200mg COM"
+    "MedicamentoSAP":"10000117",
+    "TextoBreveMedicamento":"CLONAZEPAN 2,5mg\/mL SOL"
   },
   {
-    "id": 10000079,
-    "nombre": "CARBAMAZEPINA 20mg/mL JBE SUSP"
+    "MedicamentoSAP":"10000303",
+    "TextoBreveMedicamento":"LIRAGLUTIDE 6 mg\/mL INY"
   },
   {
-    "id": 10000084,
-    "nombre": "CARVEDILOL 12,5mg COM"
+    "MedicamentoSAP":"10000128",
+    "TextoBreveMedicamento":"DABIGATRAN ETEXILATO 110mg CAP"
   },
   {
-    "id": 10000085,
-    "nombre": "CEFALEXINA 500mg/5mL POL P/REC"
+    "MedicamentoSAP":"10000450",
+    "TextoBreveMedicamento":"TRAMADOL 50mg GOT"
   },
   {
-    "id": 10000086,
-    "nombre": "CEFALEXINA 500mg CAP"
+    "MedicamentoSAP":"10000206",
+    "TextoBreveMedicamento":"FLUOXETINA 20mg CAP\/COM"
   },
   {
-    "id": 10000087,
-    "nombre": "CEFAZOLINA 1g INY"
+    "MedicamentoSAP":"10000324",
+    "TextoBreveMedicamento":"MICOFENOLATO MOFETIL 500 mg COM"
   },
   {
-    "id": 10000088,
-    "nombre": "CEFIXIMA 100mg/5mL SUSP ORAL"
+    "MedicamentoSAP":"10000145",
+    "TextoBreveMedicamento":"DILTIAZEN 60mg COM"
   },
   {
-    "id": 10000089,
-    "nombre": "CEFIXIMA 400mg COM"
+    "MedicamentoSAP":"10000318",
+    "TextoBreveMedicamento":"METOTREXATO 2,5 mg COM"
   },
   {
-    "id": 10000090,
-    "nombre": "CEFOPERAZONA + SULBACTAM 1g+1g INY"
+    "MedicamentoSAP":"10000281",
+    "TextoBreveMedicamento":"LEFLUNOMIDA 20 mg COM"
   },
   {
-    "id": 10000091,
-    "nombre": "CEFOTAXIMA 1g INY"
+    "MedicamentoSAP":"10000174",
+    "TextoBreveMedicamento":"ESPIRONOLACTONA 100mg COM"
   },
   {
-    "id": 10000092,
-    "nombre": "CEFTAZIDIMA 1g INY"
+    "MedicamentoSAP":"10000158",
+    "TextoBreveMedicamento":"DONEPECILO 10mg COM"
   },
   {
-    "id": 10000093,
-    "nombre": "CEFTRIAXONA 1g INY"
+    "MedicamentoSAP":"10000119",
+    "TextoBreveMedicamento":"CLOPIDOGREL 75mg COM"
   },
   {
-    "id": 10000094,
-    "nombre": "CETIRIZINA 10mg COM"
+    "MedicamentoSAP":"10000057",
+    "TextoBreveMedicamento":"BETAHISTINA 24mg COM"
   },
   {
-    "id": 10000098,
-    "nombre": "CINITAPRIDE 1mg COM"
+    "MedicamentoSAP":"10000869",
+    "TextoBreveMedicamento":"SEMAGLUTIDE 1.34 mg\/mL INY 0,5mg-0.4mL"
   },
   {
-    "id": 10000099,
-    "nombre": "CIPROFIBRATO 100mg CAP/COM"
+    "MedicamentoSAP":"10000380",
+    "TextoBreveMedicamento":"POLIVIT Ac Fólico 0,5-1 Fe125a350 mg"
   },
   {
-    "id": 10000100,
-    "nombre": "CIPROFLOXACINA 500mg COM"
+    "MedicamentoSAP":"10000389",
+    "TextoBreveMedicamento":"PROPANOLOL 40 mg COM"
   },
   {
-    "id": 10000102,
-    "nombre": "CIPROFLOXACINA 3mg/mL COL"
+    "MedicamentoSAP":"10000337",
+    "TextoBreveMedicamento":"NIMODIPINA 60 mg COM"
   },
   {
-    "id": 10000103,
-    "nombre": "CIPROFLOXACINA 200mg INY"
+    "MedicamentoSAP":"10000063",
+    "TextoBreveMedicamento":"BIPERIDENO CLORHIDRATO 2mg COM"
   },
   {
-    "id": 10000104,
-    "nombre": "CIPROTERONA+ETINILESTRAD 2mg+0,035mg COM"
+    "MedicamentoSAP":"10000276",
+    "TextoBreveMedicamento":"LAMOTRIGINA 50 mg COM"
   },
   {
-    "id": 10000108,
-    "nombre": "CITICOLINA 1g SOL ORAL SCH"
+    "MedicamentoSAP":"10000448",
+    "TextoBreveMedicamento":"TOPIRAMATO 50mg COM"
   },
   {
-    "id": 10000109,
-    "nombre": "CITICOLINA 1g INY"
+    "MedicamentoSAP":"10000028",
+    "TextoBreveMedicamento":"AMANTADINA 100mg COM"
   },
   {
-    "id": 10000110,
-    "nombre": "CITIDIN 5 + URIDIN 5 (10mg+6 mg) INY"
+    "MedicamentoSAP":"10000016",
+    "TextoBreveMedicamento":"ADALIMUMAB 40mg INY"
   },
   {
-    "id": 10000111,
-    "nombre": "CITIDIN 5 + URIDIN 5 (5mg+3 mg) CAP"
+    "MedicamentoSAP":"10000427",
+    "TextoBreveMedicamento":"SULFATO FERROSO (con o sin Vit C) 200mg"
   },
   {
-    "id": 10000113,
-    "nombre": "CLARITROMICINA 500mg COM"
+    "MedicamentoSAP":"10000357",
+    "TextoBreveMedicamento":"OXCARBAZEPINA 600 mg COM"
   },
   {
-    "id": 10000114,
-    "nombre": "CLARITROMICINA 250mg/5mL POL P/REC"
+    "MedicamentoSAP":"10000151",
+    "TextoBreveMedicamento":"DIVALPROATO DE SODIO 500mg COM"
   },
   {
-    "id": 10000115,
-    "nombre": "CLINDAMICINA 600mg INY"
+    "MedicamentoSAP":"10000003",
+    "TextoBreveMedicamento":"ACETAZOLAMIDA 250mg COM"
   },
   {
-    "id": 10000116,
-    "nombre": "CLOBETAZOL PROPIO 0,05% UNG/CREM/POM"
+    "MedicamentoSAP":"10000008",
+    "TextoBreveMedicamento":"ACIDO FOLICO 10mg COM"
   },
   {
-    "id": 10000117,
-    "nombre": "CLONAZEPAN 2,5mg/mL SOL"
+    "MedicamentoSAP":"10000459",
+    "TextoBreveMedicamento":"VENLAFAXINA 75mg COM"
   },
   {
-    "id": 10000118,
-    "nombre": "CLONAZEPAN 2mg COM"
+    "MedicamentoSAP":"10000026",
+    "TextoBreveMedicamento":"ALLOPURINOL 300mg COM"
   },
   {
-    "id": 10000119,
-    "nombre": "CLOPIDOGREL 75mg COM"
+    "MedicamentoSAP":"10000207",
+    "TextoBreveMedicamento":"FLUTICASONA PROP 50mcg\/dosis SPRAY NASAL"
   },
   {
-    "id": 10000120,
-    "nombre": "CLORFENIRAMINA 2,5mg/5mL JBE"
+    "MedicamentoSAP":"10000120",
+    "TextoBreveMedicamento":"CLORFENIRAMINA 2,5mg\/5mL JBE"
   },
   {
-    "id": 10000121,
-    "nombre": "CLORFENIRAMINA 4mg COM"
+    "MedicamentoSAP":"10000144",
+    "TextoBreveMedicamento":"DIGOXINA 0,25mg COM"
   },
   {
-    "id": 10000122,
-    "nombre": "CLORFENIRAMINA 10mg INY"
+    "MedicamentoSAP":"10000447",
+    "TextoBreveMedicamento":"TOLTERODINA 2mg COM"
   },
   {
-    "id": 10000123,
-    "nombre": "CLORHEXIDINA 0,1-0,5% SOL ORAL"
+    "MedicamentoSAP":"10000142",
+    "TextoBreveMedicamento":"DIFENIL HIDANTOINATO SOD 100mg\/5ml JBE"
   },
   {
-    "id": 10000124,
-    "nombre": "COLAGENASA+CLORANFENICOL 0,6UI+10mg POM"
+    "MedicamentoSAP":"10000431",
+    "TextoBreveMedicamento":"TAMOXIFENO 20mg COM"
   },
   {
-    "id": 10000125,
-    "nombre": "COLISTINA 100mg INY"
+    "MedicamentoSAP":"10000383",
+    "TextoBreveMedicamento":"PREDNISONA 5 mg COM"
   },
   {
-    "id": 10000126,
-    "nombre": "COMPLEJO B (B1 + B6 + B12) CAP/COM"
+    "MedicamentoSAP":"10000402",
+    "TextoBreveMedicamento":"RISPERIDONA 1 mg\/mL GOT"
   },
   {
-    "id": 10000127,
-    "nombre": "COMP PROTROMBINICO HUMANO INY"
+    "MedicamentoSAP":"10000350",
+    "TextoBreveMedicamento":"ONDANSETRON 8 mg\/4mL INY"
   },
   {
-    "id": 10000128,
-    "nombre": "DABIGATRAN ETEXILATO 110mg CAP"
+    "MedicamentoSAP":"10000156",
+    "TextoBreveMedicamento":"DOMPERIDONA 10mg\/ml SOL\/SUSP ORAL"
   },
   {
-    "id": 10000131,
-    "nombre": "DEXAMETASONA 4mg/ml INY"
+    "MedicamentoSAP":"10000150",
+    "TextoBreveMedicamento":"DIPIRONA 500mg\/mL GOT"
   },
   {
-    "id": 10000132,
-    "nombre": "DEXAMETASONA 8mg COM"
+    "MedicamentoSAP":"10000272",
+    "TextoBreveMedicamento":"LACTOBAC+STREPTOC+BIFIDOBACTER POL P\/REC"
   },
   {
-    "id": 10000133,
-    "nombre": "DEXAMETASONA FOSFAT+PIVALAT 4mg+16mg INY"
+    "MedicamentoSAP":"10000740",
+    "TextoBreveMedicamento":"DICLOFENAC POTASICO 75 MG CAPSULA"
   },
   {
-    "id": 10000134,
-    "nombre": "DEXAMETASONA FOSFAT SODICO 0,001 COL"
+    "MedicamentoSAP":"10000364",
+    "TextoBreveMedicamento":"PARACETAMOL 500 mg COM"
   },
   {
-    "id": 10000135,
-    "nombre": "DEXMEDETOMIDINA 200mcg INY"
+    "MedicamentoSAP":"10000139",
+    "TextoBreveMedicamento":"DICLOFENAC 75mg INY"
   },
   {
-    "id": 10000136,
-    "nombre": "DEXTROMETORFANO 15-30mg/ml GOT"
+    "MedicamentoSAP":"10000133",
+    "TextoBreveMedicamento":"DEXAMETASONA FOSFAT+PIVALAT 4mg+16mg INY"
   },
   {
-    "id": 10000137,
-    "nombre": "DIAZEPAN 10mg/2ml INY"
+    "MedicamentoSAP":"10000147",
+    "TextoBreveMedicamento":"DIPIRONA 1g\/2mL INY"
   },
   {
-    "id": 10000138,
-    "nombre": "DICLOFENAC 50mg COM"
+    "MedicamentoSAP":"10000270",
+    "TextoBreveMedicamento":"KETOROLAC 60 mg INY"
   },
   {
-    "id": 10000139,
-    "nombre": "DICLOFENAC 75mg INY"
+    "MedicamentoSAP":"10000039",
+    "TextoBreveMedicamento":"AMOXI+SULBAC 1000+125 a 250mg (5 mL) POL"
   },
   {
-    "id": 10000141,
-    "nombre": "DIFENIL HIDANTOINATO SOD 100mg CAP/COM"
+    "MedicamentoSAP":"10000241",
+    "TextoBreveMedicamento":"IBUPROFENO 200 mg\/5 mL SUSP ORAL"
   },
   {
-    "id": 10000142,
-    "nombre": "DIFENIL HIDANTOINATO SOD 100mg/5ml JBE"
+    "MedicamentoSAP":"10000363",
+    "TextoBreveMedicamento":"PARACETAMOL 200 mg\/mL SUSP\/SOL"
   },
   {
-    "id": 10000143,
-    "nombre": "DIFENIL HIDANTOINATO SODICO 50mg/ml INY"
+    "MedicamentoSAP":"10000391",
+    "TextoBreveMedicamento":"PROPINOXATO+CLONIXINATO10+125 mg COMP"
   },
   {
-    "id": 10000144,
-    "nombre": "DIGOXINA 0,25mg COM"
+    "MedicamentoSAP":"10000349",
+    "TextoBreveMedicamento":"OMEPRAZOL 40 mg INY"
   },
   {
-    "id": 10000145,
-    "nombre": "DILTIAZEN 60mg COM"
+    "MedicamentoSAP":"10000513",
+    "TextoBreveMedicamento":"CLORURO DE POTASIO 3 MOLAR"
   },
   {
-    "id": 10000146,
-    "nombre": "DIOSMINA 600mg COM"
+    "MedicamentoSAP":"10000125",
+    "TextoBreveMedicamento":"COLISTINA 100mg INY"
   },
   {
-    "id": 10000147,
-    "nombre": "DIPIRONA 1g/2mL INY"
+    "MedicamentoSAP":"10000628",
+    "TextoBreveMedicamento":"MEMANTINA 10MG COM"
   },
   {
-    "id": 10000148,
-    "nombre": "DIPIRONA 500mg SUP"
+    "MedicamentoSAP":"10000514",
+    "TextoBreveMedicamento":"CLORURO DE SODIO 3 MOLAR"
   },
   {
-    "id": 10000149,
-    "nombre": "DIPIRONA 500mg COM"
+    "MedicamentoSAP":"10000451",
+    "TextoBreveMedicamento":"TRAMADOL 50mg\/mL INY"
   },
   {
-    "id": 10000150,
-    "nombre": "DIPIRONA 500mg/mL GOT"
+    "MedicamentoSAP":"10000228",
+    "TextoBreveMedicamento":"HEPARINA DE BAJO PESO MOLECULAR 40mg JPR"
   },
   {
-    "id": 10000151,
-    "nombre": "DIVALPROATO DE SODIO 500mg COM"
+    "MedicamentoSAP":"10000440",
+    "TextoBreveMedicamento":"TIGECICLINA 50mg INY"
   },
   {
-    "id": 10000152,
-    "nombre": "DOBUTAMINA 250mg INY"
+    "MedicamentoSAP":"10000235",
+    "TextoBreveMedicamento":"HIDROCORTIZONA 100 mg INY"
   },
   {
-    "id": 10000156,
-    "nombre": "DOMPERIDONA 10mg/ml SOL/SUSP ORAL"
+    "MedicamentoSAP":"10000209",
+    "TextoBreveMedicamento":"FUROSEMIDA 10mg\/mL INY"
   },
   {
-    "id": 10000157,
-    "nombre": "DOMPERIDONA 10mg COM"
+    "MedicamentoSAP":"10000293",
+    "TextoBreveMedicamento":"LEVOSULPIRIDA 25 mg INY"
   },
   {
-    "id": 10000158,
-    "nombre": "DONEPECILO 10mg COM"
+    "MedicamentoSAP":"10000040",
+    "TextoBreveMedicamento":"AMOXICILINA + SULBACTAM 875mg+125mg COM"
   },
   {
-    "id": 10000159,
-    "nombre": "DOPAMINA 200mg INY"
+    "MedicamentoSAP":"10000242",
+    "TextoBreveMedicamento":"IBUPROFENO 400 mg CAP\/COM"
   },
   {
-    "id": 10000160,
-    "nombre": "DORZOLAMIDA + TIMOLOL 2%+0,50% COL"
+    "MedicamentoSAP":"10000505",
+    "TextoBreveMedicamento":"VASELINA LÍQUIDA"
   },
   {
-    "id": 10000161,
-    "nombre": "DOXICICLINA 100mg COM"
+    "MedicamentoSAP":"10000312",
+    "TextoBreveMedicamento":"MEROPENEN 1000 mg INY"
   },
   {
-    "id": 10000165,
-    "nombre": "ENALAPRIL 20mg COM"
+    "MedicamentoSAP":"10000517",
+    "TextoBreveMedicamento":"GLUCONATO DE CALCIO 10%"
   },
   {
-    "id": 10000166,
-    "nombre": "ENALAPRIL 2,5mg/2mL INY"
+    "MedicamentoSAP":"10000226",
+    "TextoBreveMedicamento":"HEPARINA DE BAJO PESO MOLECULAR 60mg INY"
   },
   {
-    "id": 10000169,
-    "nombre": "ERGOT+CAFEINA+PARACETAMOL(1+50+500)mgCOM"
+    "MedicamentoSAP":"10000157",
+    "TextoBreveMedicamento":"DOMPERIDONA 10mg COM"
   },
   {
-    "id": 10000171,
-    "nombre": "ERITROPOYETINA 4000UI INY JPR"
+    "MedicamentoSAP":"10000149",
+    "TextoBreveMedicamento":"DIPIRONA 500mg COM"
   },
   {
-    "id": 10000172,
-    "nombre": "ERITROPOYETINA 10000UI INY JPR"
+    "MedicamentoSAP":"10000100",
+    "TextoBreveMedicamento":"CIPROFLOXACINA 500mg COM"
   },
   {
-    "id": 10000173,
-    "nombre": "ERTAPENEM 1g INY"
+    "MedicamentoSAP":"10000131",
+    "TextoBreveMedicamento":"DEXAMETASONA 4mg\/ml INY"
   },
   {
-    "id": 10000174,
-    "nombre": "ESPIRONOLACTONA 100mg COM"
+    "MedicamentoSAP":"11001589",
+    "TextoBreveMedicamento":"SONDA NASOGÁSTRICA Nº18 100% DE SILICONA"
   },
   {
-    "id": 10000175,
-    "nombre": "ESTRADIOL 0,06% GEL"
+    "MedicamentoSAP":"11001500",
+    "TextoBreveMedicamento":"JERINGA 50 ml a 60 ml"
   },
   {
-    "id": 10000176,
-    "nombre": "ESTRADIOL+NORETISTOSTERONA 5+50mg INY"
+    "MedicamentoSAP":"10000674",
+    "TextoBreveMedicamento":"N-ACETIL CISTEINA 600 MG POLVO G.\/ COMPR"
   },
   {
-    "id": 10000178,
-    "nombre": "ESTRIOL 0,5mg OVU"
+    "MedicamentoSAP":"10000366",
+    "TextoBreveMedicamento":"PARACETAMOL 1 g INY"
   },
   {
-    "id": 10000179,
-    "nombre": "ETAMSILATO 250mg INY"
+    "MedicamentoSAP":"10000395",
+    "TextoBreveMedicamento":"RACECADOTRIL 30mg POL GRAN SOBRE"
   },
   {
-    "id": 10000181,
-    "nombre": "ETILEFRINA 10mg/ml INY"
+    "MedicamentoSAP":"10000143",
+    "TextoBreveMedicamento":"DIFENIL HIDANTOINATO SODICO 50mg\/ml INY"
   },
   {
-    "id": 10000183,
-    "nombre": "ESTRADIOL+NORESTISTOSTERONA0,01mg/2mgCOM"
+    "MedicamentoSAP":"10000121",
+    "TextoBreveMedicamento":"CLORFENIRAMINA 4mg COM"
   },
   {
-    "id": 10000186,
-    "nombre": "EXPECT/MUCOLT 30mg-8mg/5ml JBE"
+    "MedicamentoSAP":"10000029",
+    "TextoBreveMedicamento":"AMIKACINA 500mg INY"
   },
   {
-    "id": 10000187,
-    "nombre": "EXPECT/MUCOLT 15mg-4mg/5ml JBE"
+    "MedicamentoSAP":"10000273",
+    "TextoBreveMedicamento":"LACTULOSA 65gr o 66,7g\/100mL JBE SUSP"
   },
   {
-    "id": 10000189,
-    "nombre": "FACT VIII LIOF PLASMÁTICO 1000UI INY"
+    "MedicamentoSAP":"10000333",
+    "TextoBreveMedicamento":"MORFINA CLORHIDRATO 10 mg\/mL INY"
   },
   {
-    "id": 10000192,
-    "nombre": "FACT VII RECOM Fla Eptacog 100000UI INY"
+    "MedicamentoSAP":"10000271",
+    "TextoBreveMedicamento":"LABETALOL CLORHIDRATO 20 mg INY"
   },
   {
-    "id": 10000193,
-    "nombre": "FENAZOPIRIDINA 200mg COM"
+    "MedicamentoSAP":"10000092",
+    "TextoBreveMedicamento":"CEFTAZIDIMA 1g INY"
   },
   {
-    "id": 10000194,
-    "nombre": "FENOBARBITAL 0,015g COM"
+    "MedicamentoSAP":"10000397",
+    "TextoBreveMedicamento":"REMIFENTANILO 5 mg INY"
   },
   {
-    "id": 10000195,
-    "nombre": "FENOBARBITAL 0,10g COM"
+    "MedicamentoSAP":"10000033",
+    "TextoBreveMedicamento":"AMIODARONA 150mg INY"
   },
   {
-    "id": 10000196,
-    "nombre": "FENTANILO 0,1mg INY"
+    "MedicamentoSAP":"10000409",
+    "TextoBreveMedicamento":"SALMETEROL+FLUTICASONA50+250mcg AER"
   },
   {
-    "id": 10000197,
-    "nombre": "FENTANILO 0,050mg/h PARCHE"
+    "MedicamentoSAP":"10000068",
+    "TextoBreveMedicamento":"IPATROPIO+FENOTEROL 0.020+0.050 mg AER"
   },
   {
-    "id": 10000198,
-    "nombre": "FENTANILO 0,025mg/h PARCHE"
+    "MedicamentoSAP":"10000316",
+    "TextoBreveMedicamento":"METOCLOPRAMIDA 10 mg INY"
   },
   {
-    "id": 10000199,
-    "nombre": "FILGRASTIM 30000000UI/ml INY"
+    "MedicamentoSAP":"10000115",
+    "TextoBreveMedicamento":"CLINDAMICINA 600mg INY"
   },
   {
-    "id": 10000200,
-    "nombre": "FLUCONAZOL 100mg CAP/COM"
+    "MedicamentoSAP":"10000290",
+    "TextoBreveMedicamento":"LEVOFLOXACINA 500 mg COM"
   },
   {
-    "id": 10000201,
-    "nombre": "FLUCONAZOL 200mg INY"
+    "MedicamentoSAP":"10000355",
+    "TextoBreveMedicamento":"OXACILINA 1000 mg INY"
   },
   {
-    "id": 10000204,
-    "nombre": "FLUMAZENIL 0,5mg/5mL INY"
+    "MedicamentoSAP":"10000342",
+    "TextoBreveMedicamento":"NORADRENALINA 1 mg\/mL INY"
   },
   {
-    "id": 10000206,
-    "nombre": "FLUOXETINA 20mg CAP/COM"
+    "MedicamentoSAP":"10000051",
+    "TextoBreveMedicamento":"ATRACURIO 10mg\/mL INY"
   },
   {
-    "id": 10000207,
-    "nombre": "FLUTICASONA PROP 50mcg/dosis SPRAY NASAL"
+    "MedicamentoSAP":"10000458",
+    "TextoBreveMedicamento":"VANCOMICINA 500mg INY"
   },
   {
-    "id": 10000208,
-    "nombre": "FOSF MONO Y DISOD 48-18g/100mL SOL ORAL"
+    "MedicamentoSAP":"10000269",
+    "TextoBreveMedicamento":"KETAMINA 50 mg \/ mL INY"
   },
   {
-    "id": 10000209,
-    "nombre": "FUROSEMIDA 10mg/mL INY"
+    "MedicamentoSAP":"10000196",
+    "TextoBreveMedicamento":"FENTANILO 0,1mg INY"
   },
   {
-    "id": 10000210,
-    "nombre": "FUROSEMIDA 40mg COM"
+    "MedicamentoSAP":"10000087",
+    "TextoBreveMedicamento":"CEFAZOLINA 1g INY"
   },
   {
-    "id": 10000217,
-    "nombre": "GENTAMICINA 0,1% CREM"
+    "MedicamentoSAP":"10000223",
+    "TextoBreveMedicamento":"HALOPERIDOL 5 mg\/mL INY"
   },
   {
-    "id": 10000219,
-    "nombre": "GLICEROFOSFATO (*) JBE"
+    "MedicamentoSAP":"10000247",
+    "TextoBreveMedicamento":"IMIPENEN + CILASTATINA 500 mg INY"
   },
   {
-    "id": 10000220,
-    "nombre": "GLIMEPIRIDA 4mg COM"
+    "MedicamentoSAP":"10000036",
+    "TextoBreveMedicamento":"AMOXICILINA 500mg\/5ml POL P\/REC"
   },
   {
-    "id": 10000221,
-    "nombre": "GLUCOSAM+CONDROI+SULF1500+1200+250mg POL"
+    "MedicamentoSAP":"10000197",
+    "TextoBreveMedicamento":"FENTANILO 0,050mg\/h PARCHE"
   },
   {
-    "id": 10000222,
-    "nombre": "HALOPERIDOL 2 mg/mL SOL"
+    "MedicamentoSAP":"10000073",
+    "TextoBreveMedicamento":"BUTIL BROMURO DE HIOSCINA 20mg INY"
   },
   {
-    "id": 10000223,
-    "nombre": "HALOPERIDOL 5 mg/mL INY"
+    "MedicamentoSAP":"10000584",
+    "TextoBreveMedicamento":"CICLOBENZAPRINA 10 mg COMP"
   },
   {
-    "id": 10000226,
-    "nombre": "HEPARINA DE BAJO PESO MOLECULAR 60mg INY"
+    "MedicamentoSAP":"10000193",
+    "TextoBreveMedicamento":"FENAZOPIRIDINA 200mg COM"
   },
   {
-    "id": 10000228,
-    "nombre": "HEPARINA DE BAJO PESO MOLECULAR 40mg JPR"
+    "MedicamentoSAP":"10000291",
+    "TextoBreveMedicamento":"LEVOFLOXACINA 500 mg INY"
   },
   {
-    "id": 10000229,
-    "nombre": "HEPARINA SODICA 5000 UI/mL INY"
+    "MedicamentoSAP":"10000374",
+    "TextoBreveMedicamento":"PIPERACILINA+TAZOBACTAM 4g+500mg INY"
   },
   {
-    "id": 10000232,
-    "nombre": "HIALURONATO Sod+AC HIALURON 25/20mg INY"
+    "MedicamentoSAP":"10000640",
+    "TextoBreveMedicamento":"HEPARINA DE BAJO PESO MOLECUL 80MG\/0,8ML"
   },
   {
-    "id": 10000233,
-    "nombre": "HIDROXICINA 25 mg. COM"
+    "MedicamentoSAP":"10000166",
+    "TextoBreveMedicamento":"ENALAPRIL 2,5mg\/2mL INY"
   },
   {
-    "id": 10000234,
-    "nombre": "HIDROCLOROTIAZIDA+AMILORIDA 50mg+5mg COM"
+    "MedicamentoSAP":"10000384",
+    "TextoBreveMedicamento":"PREDNISONA 5 mg\/5mL JBE"
   },
   {
-    "id": 10000235,
-    "nombre": "HIDROCORTIZONA 100 mg INY"
+    "MedicamentoSAP":"10000137",
+    "TextoBreveMedicamento":"DIAZEPAN 10mg\/2ml INY"
   },
   {
-    "id": 10000236,
-    "nombre": "HIDROCORTIZONA 500 mg INY"
+    "MedicamentoSAP":"10000425",
+    "TextoBreveMedicamento":"SULFAMETOXAZOL+TRIMETOPRIM400+80 mg"
   },
   {
-    "id": 10000237,
-    "nombre": "HIDROXICLOROQUINA 200 mg COM"
+    "MedicamentoSAP":"10000352",
+    "TextoBreveMedicamento":"OSELTAMIVIR 75 mg CAP"
   },
   {
-    "id": 10000239,
-    "nombre": "HIERRO SACARATO 100mg (Fe element) INY"
+    "MedicamentoSAP":"10000187",
+    "TextoBreveMedicamento":"EXPECT\/MUCOLT 15mg-4mg\/5ml JBE"
   },
   {
-    "id": 10000241,
-    "nombre": "IBUPROFENO 200 mg/5 mL SUSP ORAL"
+    "MedicamentoSAP":"10000053",
+    "TextoBreveMedicamento":"AZITROMICINA 500mg COM"
   },
   {
-    "id": 10000242,
-    "nombre": "IBUPROFENO 400 mg CAP/COM"
+    "MedicamentoSAP":"10000535",
+    "TextoBreveMedicamento":"SOLUCIÓN RINGER CON LACTATO SA SACHET"
   },
   {
-    "id": 10000247,
-    "nombre": "IMIPENEN + CILASTATINA 500 mg INY"
+    "MedicamentoSAP":"10000538",
+    "TextoBreveMedicamento":"SOL SALINA ISOTÓNICA 0,9% SA 1000mL"
   },
   {
-    "id": 10000249,
-    "nombre": "INMUNOGLOBULINA 5 g INY"
+    "MedicamentoSAP":"10000201",
+    "TextoBreveMedicamento":"FLUCONAZOL 200mg INY"
   },
   {
-    "id": 10000253,
-    "nombre": "INSULINA CRISTALINA HUMANA 100UI/mL INY"
+    "MedicamentoSAP":"10000591",
+    "TextoBreveMedicamento":"VANCOMICINA INY 1GR"
   },
   {
-    "id": 10000254,
-    "nombre": "INSULINA DEGLUDEC 100 UI/mL INY"
+    "MedicamentoSAP":"10000253",
+    "TextoBreveMedicamento":"INSULINA CRISTALINA HUMANA 100UI\/mL INY"
   },
   {
-    "id": 10000255,
-    "nombre": "INSULINA GLARGINA 100 UI/mL INY"
+    "MedicamentoSAP":"11001238",
+    "TextoBreveMedicamento":"BOLSA EST.P\/RECL ORINA ADLT C\/URINÓMETRO"
   },
   {
-    "id": 10000256,
-    "nombre": "INSULINA ULTRARRAPIDA 100 UI/mL APD"
+    "MedicamentoSAP":"10000322",
+    "TextoBreveMedicamento":"METRONIDAZOL 500 mg COM"
   },
   {
-    "id": 10000257,
-    "nombre": "INSULINA ULTRARRAPIDA 100 UI/mL FCO AMP"
+    "MedicamentoSAP":"10000466",
+    "TextoBreveMedicamento":"VITAMINA C 500mg COM"
   },
   {
-    "id": 10000258,
-    "nombre": "INSULINA NPH HUMANA 100 UI/mL INY"
+    "MedicamentoSAP":"10000539",
+    "TextoBreveMedicamento":"SOL SALINA ISOTÓNICA 0,90% SC 1000mL"
   },
   {
-    "id": 10000261,
-    "nombre": "IPRATROPIO BROMURO 0,25 mg/mL SOL"
+    "MedicamentoSAP":"11001498",
+    "TextoBreveMedicamento":"JERINGA DESE.10CC C\/AG 21GX1 1\/2 PUN\/ENR"
   },
   {
-    "id": 10000266,
-    "nombre": "ISOSORBIDE DI O MONO NITRATO 40mg COM"
+    "MedicamentoSAP":"11001496",
+    "TextoBreveMedicamento":"JERINGA DESECHABLE 5 CC C\/AGUJA"
   },
   {
-    "id": 10000267,
-    "nombre": "ISOTRETINOINA 20 mg CAP/COM"
+    "MedicamentoSAP":"11001420",
+    "TextoBreveMedicamento":"EQ VOLUMÉTRICO DE INFUSIÓN IV MICROGOTER"
   },
   {
-    "id": 10000268,
-    "nombre": "IVERMECTINA 6 mg COM"
+    "MedicamentoSAP":"11001415",
+    "TextoBreveMedicamento":"EQ PARA SUERO DE INFUSION IV MACROGOTERO"
   },
   {
-    "id": 10000269,
-    "nombre": "KETAMINA 50 mg / mL INY"
+    "MedicamentoSAP":"11000356",
+    "TextoBreveMedicamento":"TIRA REA P\/DET DE GLU EN SANG C\/GLUC DIG"
   },
   {
-    "id": 10000270,
-    "nombre": "KETOROLAC 60 mg INY"
+    "MedicamentoSAP":"11001663",
+    "TextoBreveMedicamento":"PICO P\/IRRIGACIÓN DE FRASCOS DE SUEROS"
   },
   {
-    "id": 10000271,
-    "nombre": "LABETALOL CLORHIDRATO 20 mg INY"
+    "MedicamentoSAP":"11003664",
+    "TextoBreveMedicamento":"SET ESTERIL PARA BOMBAS DE INFUSION"
   },
   {
-    "id": 10000272,
-    "nombre": "LACTOBAC+STREPTOC+BIFIDOBACTER POL P/REC"
+    "MedicamentoSAP":"11001456",
+    "TextoBreveMedicamento":"GUANTE QUIRÚRGICO N°7 1\/2 ESTÉRIL"
   },
   {
-    "id": 10000273,
-    "nombre": "LACTULOSA 65gr o 66,7g/100mL JBE SUSP"
+    "MedicamentoSAP":"11001452",
+    "TextoBreveMedicamento":"GUANTE MEDIANO NO ESTÉRIL"
   },
   {
-    "id": 10000274,
-    "nombre": "LAGRIMAS ARTIFICIALES COL"
+    "MedicamentoSAP":"11001499",
+    "TextoBreveMedicamento":"JERINGA DESE.10CC C\/AG 21GX1 1\/2 PUN\/PRE"
   },
   {
-    "id": 10000275,
-    "nombre": "LAGRIMAS ARTIF+MANITOL 1,5mg +46 mg GEL"
+    "MedicamentoSAP":"11003108",
+    "TextoBreveMedicamento":"LINEA BAJADA P\/NUTRIC.PARENTER.(BBRAUN)"
   },
   {
-    "id": 10000276,
-    "nombre": "LAMOTRIGINA 50 mg COM"
+    "MedicamentoSAP":"11001098",
+    "TextoBreveMedicamento":"REGULADOR DE FLUJO GRADUADO"
   },
   {
-    "id": 10000277,
-    "nombre": "LATANOPROST 50 ug/ml COL"
+    "MedicamentoSAP":"11001491",
+    "TextoBreveMedicamento":"JERINGA DESECHAB 1CC P\/INSULIN100UI C\/AG"
   },
   {
-    "id": 10000281,
-    "nombre": "LEFLUNOMIDA 20 mg COM"
+    "MedicamentoSAP":"11001224",
+    "TextoBreveMedicamento":"APOSITO TRANS P\/FIJA CAT\/HIPO 10CMX12CM"
   },
   {
-    "id": 10000283,
-    "nombre": "LETROZOL 2,5 mg COM"
+    "MedicamentoSAP":"11001557",
+    "TextoBreveMedicamento":"SONDA ENDOTRAQUEAL Nº 7,5 C\/BALÓN"
   },
   {
-    "id": 10000286,
-    "nombre": "LEUPROLIDE (LEUPRORELINA) 3.75 mg INY"
+    "MedicamentoSAP":"11001493",
+    "TextoBreveMedicamento":"JERINGA DESE.20CC C\/AG 21GX1 1\/2 PUN\/ENR"
   },
   {
-    "id": 10000287,
-    "nombre": "LEUPROLIDE (LEUPRORELINA) 22,5 mg INY"
+    "MedicamentoSAP":"10000258",
+    "TextoBreveMedicamento":"INSULINA NPH HUMANA 100 UI\/mL INY"
   },
   {
-    "id": 10000288,
-    "nombre": "LEVETIRACETAM 500 mg COM"
+    "MedicamentoSAP":"11001421",
+    "TextoBreveMedicamento":"EQ VOLUMÉTRICO DE INFUSIÓN IV MACROGOTER"
   },
   {
-    "id": 10000289,
-    "nombre": "LEVODOPA + CARBIDOPA 250 mg/25 mg COM"
+    "MedicamentoSAP":"11001443",
+    "TextoBreveMedicamento":"FILTRO BACTERIANO C\/ HUMIDIFICADOR"
   },
   {
-    "id": 10000290,
-    "nombre": "LEVOFLOXACINA 500 mg COM"
+    "MedicamentoSAP":"11001495",
+    "TextoBreveMedicamento":"JERINGA DESECHABLE 3 CC C\/AG 21GX1 1\/2"
   },
   {
-    "id": 10000291,
-    "nombre": "LEVOFLOXACINA 500 mg INY"
+    "MedicamentoSAP":"10000136",
+    "TextoBreveMedicamento":"DEXTROMETORFANO 15-30mg\/ml GOT"
   },
   {
-    "id": 10000292,
-    "nombre": "LEVOMEPROMAZINA 25 mg COM"
+    "MedicamentoSAP":"10000020",
+    "TextoBreveMedicamento":"ALBUMINA HUMANA 20% INY"
   },
   {
-    "id": 10000293,
-    "nombre": "LEVOSULPIRIDA 25 mg INY"
+    "MedicamentoSAP":"11001235",
+    "TextoBreveMedicamento":"BOLSA COLECTORA ORINA ADUL1500-2000 CC"
   },
   {
-    "id": 10000294,
-    "nombre": "LEVOTIROXINA SODICA 50 mcg COM"
+    "MedicamentoSAP":"10000722",
+    "TextoBreveMedicamento":"ALCOHOL AL 70%-SOLUCIÓN"
   },
   {
-    "id": 10000295,
-    "nombre": "LEVOTIROXINA SODICA 100 mcg COM"
+    "MedicamentoSAP":"10000298",
+    "TextoBreveMedicamento":"LIDOCAINA ESTERIL 2% JAL"
   },
   {
-    "id": 10000296,
-    "nombre": "LIDOCAINA 10 - 20% AER"
+    "MedicamentoSAP":"11001375",
+    "TextoBreveMedicamento":"CINTA ADHESIVA QX ANTIALÉRGICA 5CM"
   },
   {
-    "id": 10000297,
-    "nombre": "LIDOCAINA CON EPINEFRINA 2%/20 mL INY"
+    "MedicamentoSAP":"10000546",
+    "TextoBreveMedicamento":"SOLUCIÓN SALINA ISOTÓNICA 0,90% 100 ML"
   },
   {
-    "id": 10000298,
-    "nombre": "LIDOCAINA ESTERIL 2% JAL"
+    "MedicamentoSAP":"11000372",
+    "TextoBreveMedicamento":"FRASCOS ESTÉRILES P RECOLECCIÓN DE ORINA"
   },
   {
-    "id": 10000299,
-    "nombre": "LIDOCAINA SIN EPINEFRINA 2%/20 mL INY"
+    "MedicamentoSAP":"10000567",
+    "TextoBreveMedicamento":"IODOPOVIDONA JABÓN LÍQUIDO 7,5 % a 8%"
   },
   {
-    "id": 10000300,
-    "nombre": "LIDOCAINA C/ VASOCONST 2%/1:100.000 INY"
+    "MedicamentoSAP":"10000564",
+    "TextoBreveMedicamento":"CLORHEXIDINA GLUCONATO 4%"
   },
   {
-    "id": 10000301,
-    "nombre": "LIDOC S/ VASOCONSTRICT 2% INY TUBO AMP"
+    "MedicamentoSAP":"10000540",
+    "TextoBreveMedicamento":"SOL SALINA ISOTÓNICA 0,9% SA 500mL"
   },
   {
-    "id": 10000303,
-    "nombre": "LIRAGLUTIDE 6 mg/mL INY"
+    "MedicamentoSAP":"10000122",
+    "TextoBreveMedicamento":"CLORFENIRAMINA 10mg INY"
   },
   {
-    "id": 10000305,
-    "nombre": "LOSARTAN POTASICO 50 mg COM"
+    "MedicamentoSAP":"10000543",
+    "TextoBreveMedicamento":"SOLUCIÓN GLUCOSADA ISOTÓNICA 5% 250 ML"
   },
   {
-    "id": 10000307,
-    "nombre": "MAGNESIO SULFATO 50%/20mL INY"
+    "MedicamentoSAP":"11001451",
+    "TextoBreveMedicamento":"GUANTE MEDIANO NO ESTÉRIL - PAR"
   },
   {
-    "id": 10000308,
-    "nombre": "MEBENDAZOL+TIABENDAZ 100-500mg/5mL SUSP"
+    "MedicamentoSAP":"11001339",
+    "TextoBreveMedicamento":"CATÉTER INTRAVENOSO PERIFÉRICO N°22"
   },
   {
-    "id": 10000309,
-    "nombre": "MEPERIDINA 100mg INY"
+    "MedicamentoSAP":"11001338",
+    "TextoBreveMedicamento":"CATÉTER INTRAVENOSO PERIFÉR N°20 D\/POLIU"
   },
   {
-    "id": 10000312,
-    "nombre": "MEROPENEN 1000 mg INY"
+    "MedicamentoSAP":"10000385",
+    "TextoBreveMedicamento":"PREDNISONA 50 mg COM"
   },
   {
-    "id": 10000313,
-    "nombre": "MESALASINA 5 ASA 500 mg COM"
+    "MedicamentoSAP":"11001373",
+    "TextoBreveMedicamento":"CINTA ADHESIVA QUIRÚRGICA 7.5 CM"
   },
   {
-    "id": 10000314,
-    "nombre": "METFORMINA 850 mg COM"
+    "MedicamentoSAP":"11001372",
+    "TextoBreveMedicamento":"CINTA ADHESIVA QUIRÚRGICA DE 5 CM"
   },
   {
-    "id": 10000315,
-    "nombre": "METILPREDNISOLONA 500 mg INY"
+    "MedicamentoSAP":"11001450",
+    "TextoBreveMedicamento":"GUANTE GRANDE NO ESTÉRIL"
   },
   {
-    "id": 10000316,
-    "nombre": "METOCLOPRAMIDA 10 mg INY"
+    "MedicamentoSAP":"11001574",
+    "TextoBreveMedicamento":"SONDA FOLEY Nº 18 C\/BALÓN DE 5 CC"
   },
   {
-    "id": 10000318,
-    "nombre": "METOTREXATO 2,5 mg COM"
+    "MedicamentoSAP":"11001573",
+    "TextoBreveMedicamento":"SONDA FOLEY Nº 18 C\/BALÓN 30 CC,"
   },
   {
-    "id": 10000320,
-    "nombre": "POLIETILENGLICOL/EPOYETINA 100mcg INY"
+    "MedicamentoSAP":"10000405",
+    "TextoBreveMedicamento":"SALBUTAMOL 5 mg\/mL GOT"
   },
   {
-    "id": 10000321,
-    "nombre": "METRONIDAZOL 250 mg/5 mL JBE"
+    "MedicamentoSAP":"10000038",
+    "TextoBreveMedicamento":"AMOXICILINA+SULBACTAM 1000mg+500mg INY"
   },
   {
-    "id": 10000322,
-    "nombre": "METRONIDAZOL 500 mg COM"
+    "MedicamentoSAP":"11000235",
+    "TextoBreveMedicamento":"MEMBRANA DE POTASIO (K + )"
   },
   {
-    "id": 10000323,
-    "nombre": "METRONIDAZOL 500 mg INY"
+    "MedicamentoSAP":"10000568",
+    "TextoBreveMedicamento":"IODOPOVIDONA SOLUCIÓN 7,5 % a 10%"
   },
   {
-    "id": 10000324,
-    "nombre": "MICOFENOLATO MOFETIL 500 mg COM"
+    "MedicamentoSAP":"10000562",
+    "TextoBreveMedicamento":"ALCOHOL EN GEL 70%"
   },
   {
-    "id": 10000325,
-    "nombre": "MICOFENOLICO ACIDO 360 mg COM"
+    "MedicamentoSAP":"10000542",
+    "TextoBreveMedicamento":"SUERO FISIOLÓGICO ISOTÓNICO 0,9O%"
   },
   {
-    "id": 10000326,
-    "nombre": "MICONAZOL 2% CREM"
+    "MedicamentoSAP":"10000110",
+    "TextoBreveMedicamento":"CITIDIN 5 + URIDIN 5 (10mg+6 mg) INY"
   },
   {
-    "id": 10000327,
-    "nombre": "MIDAZOLAN 5 mg/ml INY 3 ML"
+    "MedicamentoSAP":"10000044",
+    "TextoBreveMedicamento":"ANTAZOLINA+TETRAZOLINA 0,5%+0,4% COL"
   },
   {
-    "id": 10000328,
-    "nombre": "MILRINONA 10mg INY"
+    "MedicamentoSAP":"10000169",
+    "TextoBreveMedicamento":"ERGOT+CAFEINA+PARACETAMOL(1+50+500)mgCOM"
   },
   {
-    "id": 10000332,
-    "nombre": "MORFINA SULFATO 1 mg/ mL INY"
+    "MedicamentoSAP":"11001656",
+    "TextoBreveMedicamento":"VENDA ENYESADA 15CMX3MTS LARGO MÌNIMO"
   },
   {
-    "id": 10000333,
-    "nombre": "MORFINA CLORHIDRATO 10 mg/mL INY"
+    "MedicamentoSAP":"11001657",
+    "TextoBreveMedicamento":"VENDA ENYESADA 20CMX3MTS LARGO MÌNIMO"
   },
   {
-    "id": 10000334,
-    "nombre": "NEBIVOLOL 5 mg COM"
+    "MedicamentoSAP":"11001658",
+    "TextoBreveMedicamento":"VENDA ENYESADA 10 CM X 3 MT.LARGO MÌNIMO"
   },
   {
-    "id": 10000335,
-    "nombre": "NEOSTIGMINA 0,5 mg/mL INY"
+    "MedicamentoSAP":"11001707",
+    "TextoBreveMedicamento":"SUTURA QX POLIAMIDA N°3\/0 C\/AG DE 2CM"
   },
   {
-    "id": 10000337,
-    "nombre": "NIMODIPINA 60 mg COM"
+    "MedicamentoSAP":"10000585",
+    "TextoBreveMedicamento":"GLUCOSAMINA + MELOXICAN 1500+15mg POL"
   },
   {
-    "id": 10000339,
-    "nombre": "NITROFURANTOINA 100 mg COM"
+    "MedicamentoSAP":"10000138",
+    "TextoBreveMedicamento":"DICLOFENAC 50mg COM"
   },
   {
-    "id": 10000340,
-    "nombre": "NITROGLICERINA 5 mg/mL INY"
+    "MedicamentoSAP":"10000089",
+    "TextoBreveMedicamento":"CEFIXIMA 400mg COM"
   },
   {
-    "id": 10000341,
-    "nombre": "NITROFURAZONA 2% APOS HIDROSOL"
+    "MedicamentoSAP":"11001660",
+    "TextoBreveMedicamento":"VENDA SEMIELASTIZADA 15CMX1,50-1,80MTMIN"
   },
   {
-    "id": 10000342,
-    "nombre": "NORADRENALINA 1 mg/mL INY"
+    "MedicamentoSAP":"11001659",
+    "TextoBreveMedicamento":"VENDA SEMIELASTIZADA 10CMX1,50-1,80MTMIN"
   },
   {
-    "id": 10000343,
-    "nombre": "OXITOCINA 5 UI/mL INY"
+    "MedicamentoSAP":"11001502",
+    "TextoBreveMedicamento":"LLAVE DE 3 VÍAS DESECHABLE"
   },
   {
-    "id": 10000345,
-    "nombre": "OCTREOTIDA ACETATO 0,1 mg INY"
+    "MedicamentoSAP":"11001391",
+    "TextoBreveMedicamento":"CONECTOR DE 2 VIAS P\/INFUSIÓN PARENTERAL"
   },
   {
-    "id": 10000346,
-    "nombre": "OCTREOTIDA ACETATO 20 mg INY"
+    "MedicamentoSAP":"11001506",
+    "TextoBreveMedicamento":"MÁSCARA QUIRÚRGICA DESCARTABLE"
   },
   {
-    "id": 10000347,
-    "nombre": "OLANZAPINA 10 mg COM"
+    "MedicamentoSAP":"11001223",
+    "TextoBreveMedicamento":"APOSITO TRANS 6CMx7CM+-2 HIPO P\/FIJA CAT"
   },
   {
-    "id": 10000348,
-    "nombre": "OMEPRAZOL 20 mg CAP"
+    "MedicamentoSAP":"11001449",
+    "TextoBreveMedicamento":"GUANTE QUIRÚRGICO ESTÉRIL Nº 8 1\/2"
   },
   {
-    "id": 10000349,
-    "nombre": "OMEPRAZOL 40 mg INY"
+    "MedicamentoSAP":"11001252",
+    "TextoBreveMedicamento":"BOLSA P\/COLOST Y\/O ILEOSTOM AD 1 PIEZA"
   },
   {
-    "id": 10000350,
-    "nombre": "ONDANSETRON 8 mg/4mL INY"
+    "MedicamentoSAP":"10000059",
+    "TextoBreveMedicamento":"BETAMETASONA 0,1 % CREM"
   },
   {
-    "id": 10000351,
-    "nombre": "ONDANSETRON 8 mg COM"
+    "MedicamentoSAP":"11001197",
+    "TextoBreveMedicamento":"AGUJA 23 G X 1 (USO PEDIÁTRICO)"
   },
   {
-    "id": 10000352,
-    "nombre": "OSELTAMIVIR 75 mg CAP"
+    "MedicamentoSAP":"10000093",
+    "TextoBreveMedicamento":"CEFTRIAXONA 1g INY"
   },
   {
-    "id": 10000353,
-    "nombre": "OSELTAMIVIR 60mg/5mL POL P/RECONS"
+    "MedicamentoSAP":"10000019",
+    "TextoBreveMedicamento":"ALBENDAZOL 400mg SUSP"
   },
   {
-    "id": 10000354,
-    "nombre": "OVULO VAG.FOR.MIN.ANTIB+ANT.C/OS/AGr S/C"
+    "MedicamentoSAP":"10000463",
+    "TextoBreveMedicamento":"VITAMINA A 50000 UIPER\/CAP"
   },
   {
-    "id": 10000355,
-    "nombre": "OXACILINA 1000 mg INY"
+    "MedicamentoSAP":"10000736",
+    "TextoBreveMedicamento":"BUDESONIDA 200 MCG\/DOSIS AEROSOL"
   },
   {
-    "id": 10000357,
-    "nombre": "OXCARBAZEPINA 600 mg COM"
+    "MedicamentoSAP":"10000178",
+    "TextoBreveMedicamento":"ESTRIOL 0,5mg OVU"
   },
   {
-    "id": 10000361,
-    "nombre": "PANCREATINA 150 mg CAP"
+    "MedicamentoSAP":"11001221",
+    "TextoBreveMedicamento":"APOSITO HIDROCOLOIDE HIPOALERGÉNI 7X9 CM"
   },
   {
-    "id": 10000362,
-    "nombre": "PANCURONIO BROMURO 4 mg/2mL INY"
+    "MedicamentoSAP":"11001457",
+    "TextoBreveMedicamento":"GUANTE QUIRÚRGICO N°7 ESTÉRIL"
   },
   {
-    "id": 10000363,
-    "nombre": "PARACETAMOL 200 mg/mL SUSP/SOL"
+    "MedicamentoSAP":"11001565",
+    "TextoBreveMedicamento":"SONDA FOLEY Nº 16 C\/ BALÓN DE 5 CC"
   },
   {
-    "id": 10000364,
-    "nombre": "PARACETAMOL 500 mg COM"
+    "MedicamentoSAP":"11001661",
+    "TextoBreveMedicamento":"VENDA SEMIELASTIZADA 20CMX1,50-1,80MTMIN"
   },
   {
-    "id": 10000365,
-    "nombre": "PARACETAMOL + CODEINA 500 mg/30 mg COM"
+    "MedicamentoSAP":"11001458",
+    "TextoBreveMedicamento":"GUANTE QUIRÚRGICO N°8 ESTÉRIL"
   },
   {
-    "id": 10000366,
-    "nombre": "PARACETAMOL 1 g INY"
+    "MedicamentoSAP":"11001376",
+    "TextoBreveMedicamento":"CINTA ADHESIVA QX ANTIALÉRGICA 7.5CM"
   },
   {
-    "id": 10000369,
-    "nombre": "PENICILINA G BENZATIN 1200000UI INY"
+    "MedicamentoSAP":"11001369",
+    "TextoBreveMedicamento":"CINTA ADHESIVA QUIRÚRGICA DE 10 CM"
   },
   {
-    "id": 10000371,
-    "nombre": "PENTOXIFILINA 400 mg COM"
+    "MedicamentoSAP":"11001455",
+    "TextoBreveMedicamento":"GUANTE QUIRÚRGICO ESTÉRIL Nº 6 1\/2"
   },
   {
-    "id": 10000374,
-    "nombre": "PIPERACILINA+TAZOBACTAM 4g+500mg INY"
+    "MedicamentoSAP":"10000566",
+    "TextoBreveMedicamento":"DETERGENTE LÍQUIDO TRIENZIMÁTICO."
   },
   {
-    "id": 10000375,
-    "nombre": "PIRIDOSTIGMINA 60 mg COM"
+    "MedicamentoSAP":"10000536",
+    "TextoBreveMedicamento":"SOLUCIÓN RINGER CON LACTATO SC SACHET"
   },
   {
-    "id": 10000376,
-    "nombre": "SULFONATO DE Ca 4,95g/5g POL P/REC"
+    "MedicamentoSAP":"10000412",
+    "TextoBreveMedicamento":"SERTACONAZOL 300mg OVU"
   },
   {
-    "id": 10000378,
-    "nombre": "POLI+NEOM+DEXA(12000UI+3,5+0,5mg)UNGOFT"
+    "MedicamentoSAP":"11001229",
+    "TextoBreveMedicamento":"BAJA LENGUA DE MADERA"
   },
   {
-    "id": 10000380,
-    "nombre": "POLIVIT Ac Fólico 0,5-1 Fe125a350 mg"
+    "MedicamentoSAP":"11001193",
+    "TextoBreveMedicamento":"CONECTOR SILICONADO PARA CATÉTER"
   },
   {
-    "id": 10000381,
-    "nombre": "POTASIO ORAL CONC. MIN. 99 MG CAP/COMP"
+    "MedicamentoSAP":"10000388",
+    "TextoBreveMedicamento":"PROGESTERONA NATURAL MICRONIZADA 100 mg"
   },
   {
-    "id": 10000382,
-    "nombre": "PRAMIPEXOL 1,5 mg COM"
+    "MedicamentoSAP":"11001337",
+    "TextoBreveMedicamento":"CATÉTER INTRAVENOSO PERIFÉRICO N°18"
   },
   {
-    "id": 10000383,
-    "nombre": "PREDNISONA 5 mg COM"
+    "MedicamentoSAP":"11000355",
+    "TextoBreveMedicamento":"TIRAS REACTIVAS P\/ GLUCOSA EN SANGRE"
   },
   {
-    "id": 10000384,
-    "nombre": "PREDNISONA 5 mg/5mL JBE"
+    "MedicamentoSAP":"11001374",
+    "TextoBreveMedicamento":"CINTA ADHESIVA QX ANTIALÉRGICA 2.5CM"
   },
   {
-    "id": 10000385,
-    "nombre": "PREDNISONA 50 mg COM"
+    "MedicamentoSAP":"11001425",
+    "TextoBreveMedicamento":"EQ PARA SUERO DE INFUSION IV MICROGOTERO"
   },
   {
-    "id": 10000386,
-    "nombre": "PREGABALINA 75 mg CAP"
+    "MedicamentoSAP":"11003454",
+    "TextoBreveMedicamento":"EQ SUERO DE INFUSION IV MACRO 20G. FBC"
   },
   {
-    "id": 10000388,
-    "nombre": "PROGESTERONA NATURAL MICRONIZADA 100 mg"
+    "MedicamentoSAP":"11003506",
+    "TextoBreveMedicamento":"MÁSCARA QUIRÚRGICA DESCART TIRA ELASTICA"
   },
   {
-    "id": 10000389,
-    "nombre": "PROPANOLOL 40 mg COM"
+    "MedicamentoSAP":"11001507",
+    "TextoBreveMedicamento":"MÁSCARA DE PROTECCIÓN N 95"
   },
   {
-    "id": 10000391,
-    "nombre": "PROPINOXATO+CLONIXINATO10+125 mg COMP"
+    "MedicamentoSAP":"11001340",
+    "TextoBreveMedicamento":"CATÉTER INTRAVENO PERIFÉR N°24 D 19A20MM"
   },
   {
-    "id": 10000392,
-    "nombre": "PROPOFOL 200 mg/20 ml INY"
+    "MedicamentoSAP":"10000863",
+    "TextoBreveMedicamento":"LEUPROLIDE 45 mg INY"
   },
   {
-    "id": 10000394,
-    "nombre": "QUETIAPINA 100 mg COM"
+    "MedicamentoSAP":"10000424",
+    "TextoBreveMedicamento":"SULFAMETOXAZOL+TRIMETOPRIM800+160 mg"
   },
   {
-    "id": 10000395,
-    "nombre": "RACECADOTRIL 30mg POL GRAN SOBRE"
+    "MedicamentoSAP":"10000454",
+    "TextoBreveMedicamento":"TRIMEBUTINA 200mg COM"
   },
   {
-    "id": 10000396,
-    "nombre": "REHIDRATANTE ORAL NaCl 2,6+KCl 1,5"
+    "MedicamentoSAP":"10000411",
+    "TextoBreveMedicamento":"SERTACONAZOL 2% CREM"
   },
   {
-    "id": 10000397,
-    "nombre": "REMIFENTANILO 5 mg INY"
+    "MedicamentoSAP":"11001911",
+    "TextoBreveMedicamento":"FILTRO CAPI P\/HEM SINT1,5-1,8M2(1,7-1,8)"
   },
   {
-    "id": 10000398,
-    "nombre": "RIFAMICINA 1% AER"
+    "MedicamentoSAP":"11001913",
+    "TextoBreveMedicamento":"LÍNEAS ARTERIO-VENOSAS P\/HEMODIÁLISIS"
   },
   {
-    "id": 10000400,
-    "nombre": "RILUZOLE 50 mg COM"
+    "MedicamentoSAP":"11001920",
+    "TextoBreveMedicamento":"SOLUCIÓN CONCE.P\/HEMO\/BICAR (SOLUCIÓN B)"
   },
   {
-    "id": 10000401,
-    "nombre": "RISPERIDONA 3 mg COM"
+    "MedicamentoSAP":"11001919",
+    "TextoBreveMedicamento":"SOLUCIÓN CONCE\/ACIDA P\/HEMOD(SOLUCIÓN A)"
   },
   {
-    "id": 10000402,
-    "nombre": "RISPERIDONA 1 mg/mL GOT"
+    "MedicamentoSAP":"10000086",
+    "TextoBreveMedicamento":"CEFALEXINA 500mg CAP"
   },
   {
-    "id": 10000405,
-    "nombre": "SALBUTAMOL 5 mg/mL GOT"
+    "MedicamentoSAP":"10000532",
+    "TextoBreveMedicamento":"SOL GLUCOSADA ISOTÓNICA 5% SC 500mL"
   },
   {
-    "id": 10000407,
-    "nombre": "SALBUTAMOL (s/Cl-Br) 100 mcg/dosis AER"
+    "MedicamentoSAP":"10000563",
+    "TextoBreveMedicamento":"ALCOHOL RECTIFICADO al 96%"
   },
   {
-    "id": 10000408,
-    "nombre": "SALMETEROL+FLUTICASONA25+125mcg AER"
+    "MedicamentoSAP":"11001527",
+    "TextoBreveMedicamento":"SONDA BALON TAPONAMIENTO ESOFAGICO N°18"
   },
   {
-    "id": 10000409,
-    "nombre": "SALMETEROL+FLUTICASONA50+250mcg AER"
+    "MedicamentoSAP":"10000046",
+    "TextoBreveMedicamento":"ANTIGRIPAL (Formula Mínima) COM"
   },
   {
-    "id": 10000410,
-    "nombre": "SERENOAREPENS/PYGEUM AFRICANUM 160mg CAP"
+    "MedicamentoSAP":"10000114",
+    "TextoBreveMedicamento":"CLARITROMICINA 250mg\/5mL POL P\/REC"
   },
   {
-    "id": 10000411,
-    "nombre": "SERTACONAZOL 2% CREM"
+    "MedicamentoSAP":"10000232",
+    "TextoBreveMedicamento":"HIALURONATO Sod+AC HIALURON 25\/20mg INY"
   },
   {
-    "id": 10000412,
-    "nombre": "SERTACONAZOL 300mg OVU"
+    "MedicamentoSAP":"10000569",
+    "TextoBreveMedicamento":"SOLUCIÓN DAKIN CARREL"
   },
   {
-    "id": 10000413,
-    "nombre": "SEVELAMER 800 mg COM"
+    "MedicamentoSAP":"10000116",
+    "TextoBreveMedicamento":"CLOBETAZOL PROPIO 0,05% UNG\/CREM\/POM"
   },
   {
-    "id": 10000414,
-    "nombre": "SEVOFLURANO 99,97 % ANEST"
+    "MedicamentoSAP":"10000326",
+    "TextoBreveMedicamento":"MICONAZOL 2% CREM"
   },
   {
-    "id": 10000416,
-    "nombre": "SIMETICONA 100mg/mL SUSP"
+    "MedicamentoSAP":"10000396",
+    "TextoBreveMedicamento":"REHIDRATANTE ORAL NaCl 2,6+KCl 1,5"
   },
   {
-    "id": 10000418,
-    "nombre": "SITAGLIPTINA 100mg COM"
+    "MedicamentoSAP":"10000124",
+    "TextoBreveMedicamento":"COLAGENASA+CLORANFENICOL 0,6UI+10mg POM"
   },
   {
-    "id": 10000422,
-    "nombre": "SULFADIAZINA PLATA C/S/LIDOCAINA 1g CREM"
+    "MedicamentoSAP":"10000325",
+    "TextoBreveMedicamento":"MICOFENOLICO ACIDO 360 mg COM"
   },
   {
-    "id": 10000423,
-    "nombre": "SULFAMETOXAZOL+TRIMETOPRIM200mg+40mg SUS"
+    "MedicamentoSAP":"10000103",
+    "TextoBreveMedicamento":"CIPROFLOXACINA 200mg INY"
   },
   {
-    "id": 10000424,
-    "nombre": "SULFAMETOXAZOL+TRIMETOPRIM800+160 mg"
+    "MedicamentoSAP":"10000323",
+    "TextoBreveMedicamento":"METRONIDAZOL 500 mg INY"
   },
   {
-    "id": 10000425,
-    "nombre": "SULFAMETOXAZOL+TRIMETOPRIM400+80 mg"
+    "MedicamentoSAP":"10000267",
+    "TextoBreveMedicamento":"ISOTRETINOINA 20 mg CAP\/COM"
   },
   {
-    "id": 10000427,
-    "nombre": "SULFATO FERROSO (con o sin Vit C) 200mg"
+    "MedicamentoSAP":"10000091",
+    "TextoBreveMedicamento":"CEFOTAXIMA 1g INY"
   },
   {
-    "id": 10000431,
-    "nombre": "TAMOXIFENO 20mg COM"
+    "MedicamentoSAP":"10000865",
+    "TextoBreveMedicamento":"DENOSUMAB 60 mg INY"
   },
   {
-    "id": 10000432,
-    "nombre": "TAMSULOSINA CLORHIDRATO 0,4mg CAP/COM"
+    "MedicamentoSAP":"10000321",
+    "TextoBreveMedicamento":"METRONIDAZOL 250 mg\/5 mL JBE"
   },
   {
-    "id": 10000433,
-    "nombre": "TELMISARTAN 80mg COM"
+    "MedicamentoSAP":"10000274",
+    "TextoBreveMedicamento":"LAGRIMAS ARTIFICIALES COL"
   },
   {
-    "id": 10000436,
-    "nombre": "TERLIPRESINA ACETATO 1 mg INY"
+    "MedicamentoSAP":"10000085",
+    "TextoBreveMedicamento":"CEFALEXINA 500mg\/5mL POL P\/REC"
   },
   {
-    "id": 10000437,
-    "nombre": "TESTOSTERONA ENANTATO 250 mg/1ml INY"
+    "MedicamentoSAP":"10000469",
+    "TextoBreveMedicamento":"VITAMINA K HIDROSOLUBLE 10mg INY"
   },
   {
-    "id": 10000440,
-    "nombre": "TIGECICLINA 50mg INY"
+    "MedicamentoSAP":"10000853",
+    "TextoBreveMedicamento":"LABETALOL CLORHIDRATO 5 mg\/4ml AMPOLLA"
   },
   {
-    "id": 10000441,
-    "nombre": "TIMOLOL MALEATO 0,5% COL"
+    "MedicamentoSAP":"10000307",
+    "TextoBreveMedicamento":"MAGNESIO SULFATO 50%\/20mL INY"
   },
   {
-    "id": 10000442,
-    "nombre": "TIOTROPIO BROMURO 18 mcg CAP C/POL SEC"
+    "MedicamentoSAP":"10000198",
+    "TextoBreveMedicamento":"FENTANILO 0,025mg\/h PARCHE"
   },
   {
-    "id": 10000443,
-    "nombre": "TIOTROPIO BROMURO 2,5 mcg SOL"
+    "MedicamentoSAP":"10000268",
+    "TextoBreveMedicamento":"IVERMECTINA 6 mg COM"
   },
   {
-    "id": 10000444,
-    "nombre": "TOBRAMICINA 0.3 % COL"
+    "MedicamentoSAP":"10000037",
+    "TextoBreveMedicamento":"AMOXICILINA 500mg CAP\/COM"
   },
   {
-    "id": 10000445,
-    "nombre": "TOBRAMICINA 3% UNG OFTAL"
+    "MedicamentoSAP":"10000173",
+    "TextoBreveMedicamento":"ERTAPENEM 1g INY"
   },
   {
-    "id": 10000447,
-    "nombre": "TOLTERODINA 2mg COM"
+    "MedicamentoSAP":"10000371",
+    "TextoBreveMedicamento":"PENTOXIFILINA 400 mg COM"
   },
   {
-    "id": 10000448,
-    "nombre": "TOPIRAMATO 50mg COM"
+    "MedicamentoSAP":"10000062",
+    "TextoBreveMedicamento":"BICALUTAMIDA 50mg COM"
   },
   {
-    "id": 10000450,
-    "nombre": "TRAMADOL 50mg GOT"
+    "MedicamentoSAP":"10000172",
+    "TextoBreveMedicamento":"ERITROPOYETINA 10000UI INY JPR"
   },
   {
-    "id": 10000451,
-    "nombre": "TRAMADOL 50mg/mL INY"
+    "MedicamentoSAP":"10000176",
+    "TextoBreveMedicamento":"ESTRADIOL+NORETISTOSTERONA 5+50mg INY"
   },
   {
-    "id": 10000453,
-    "nombre": "TRAZODONA 50mg COM"
+    "MedicamentoSAP":"10000605",
+    "TextoBreveMedicamento":"ENZALUTAMIDA 40 MG CAPSULA"
   },
   {
-    "id": 10000454,
-    "nombre": "TRIMEBUTINA 200mg COM"
+    "MedicamentoSAP":"10000064",
+    "TextoBreveMedicamento":"BISACODILO 5mg COM\/GRA"
   },
   {
-    "id": 10000455,
-    "nombre": "TROPICAMIDA + FENILEFRINA 0,5+5% COL"
+    "MedicamentoSAP":"10000519",
+    "TextoBreveMedicamento":"MANITOL 15% SACHET"
   },
   {
-    "id": 10000457,
-    "nombre": "VALPROATO/ACVALPROICO 200-250mg/5 mL JAR"
+    "MedicamentoSAP":"10000468",
+    "TextoBreveMedicamento":"VITAMINA K 1mg INY"
   },
   {
-    "id": 10000458,
-    "nombre": "VANCOMICINA 500mg INY"
+    "MedicamentoSAP":"10000236",
+    "TextoBreveMedicamento":"HIDROCORTIZONA 500 mg INY"
   },
   {
-    "id": 10000459,
-    "nombre": "VENLAFAXINA 75mg COM"
+    "MedicamentoSAP":"11000422",
+    "TextoBreveMedicamento":"AEROC ESPAC FACIAL P\/AEROSOL TERAPIA-ADU"
   },
   {
-    "id": 10000463,
-    "nombre": "VITAMINA A 50000 UIPER/CAP"
+    "MedicamentoSAP":"10000381",
+    "TextoBreveMedicamento":"POTASIO ORAL CONC. MIN. 99 MG CAP\/COMP"
   },
   {
-    "id": 10000465,
-    "nombre": "VITA+VITD3 (c/ s/) SIN ANTIBIOTICOS"
+    "MedicamentoSAP":"10000179",
+    "TextoBreveMedicamento":"ETAMSILATO 250mg INY"
   },
   {
-    "id": 10000466,
-    "nombre": "VITAMINA C 500mg COM"
+    "MedicamentoSAP":"11001513",
+    "TextoBreveMedicamento":"PRESERVATIVO"
   },
   {
-    "id": 10000467,
-    "nombre": "VITAMINA C 100-200 mg/mL SOL"
+    "MedicamentoSAP":"10000299",
+    "TextoBreveMedicamento":"LIDOCAINA SIN EPINEFRINA 2%\/20 mL INY"
   },
   {
-    "id": 10000468,
-    "nombre": "VITAMINA K 1mg INY"
+    "MedicamentoSAP":"10000553",
+    "TextoBreveMedicamento":"FLA POLI COMP STD P AD S FIB LACT GLUTEN"
   },
   {
-    "id": 10000469,
-    "nombre": "VITAMINA K HIDROSOLUBLE 10mg INY"
+    "MedicamentoSAP":"10000552",
+    "TextoBreveMedicamento":"FLA POLI COM STD PAD C\/FIBR S\/LACT,GLUT"
   },
   {
-    "id": 10000470,
-    "nombre": "VORICONAZOL 200mg INY"
+    "MedicamentoSAP":"10000555",
+    "TextoBreveMedicamento":"FLA P.COM ESP HIPERGLIC LIB D LACYGLUT"
   },
   {
-    "id": 10000472,
-    "nombre": "WARFARINA 2mg COM"
+    "MedicamentoSAP":"10000559",
+    "TextoBreveMedicamento":"FÓRMULA SEMIELEMENTAL PARA NIÑOS"
   },
   {
-    "id": 10000473,
-    "nombre": "ZOLPIDEM 10mg COM"
+    "MedicamentoSAP":"10000602",
+    "TextoBreveMedicamento":"PREP MODULAR c\/ prot animales"
   },
   {
-    "id": 10000487,
-    "nombre": "ACETONA COMERCIAL"
+    "MedicamentoSAP":"11000812",
+    "TextoBreveMedicamento":"TERMÓMETRO CLÍNICO AXILAR"
   },
   {
-    "id": 10000488,
-    "nombre": "ACETONA P/A. (GRADO DE PUREZA: PRO-ANÁL)"
+    "MedicamentoSAP":"11001636",
+    "TextoBreveMedicamento":"TOALLA INTER-HOJAS (CAJA)"
   },
   {
-    "id": 10000489,
-    "nombre": "AGUA DESTILADA ESTÉRIL SACHET"
+    "MedicamentoSAP":"10000801",
+    "TextoBreveMedicamento":"ESPIRONOLACTONA 25mg COM"
   },
   {
-    "id": 10000490,
-    "nombre": "ALCOHOL ABSOLUTO"
+    "MedicamentoSAP":"10000354",
+    "TextoBreveMedicamento":"OVULO VAG.FOR.MIN.ANTIB+ANT.C\/OS\/AGr S\/C"
   },
   {
-    "id": 10000493,
-    "nombre": "CAL SODADA"
+    "MedicamentoSAP":"10000123",
+    "TextoBreveMedicamento":"CLORHEXIDINA 0,1-0,5% SOL ORAL"
   },
   {
-    "id": 10000496,
-    "nombre": "FORMOL 40 %"
+    "MedicamentoSAP":"10000361",
+    "TextoBreveMedicamento":"PANCREATINA 150 mg CAP"
   },
   {
-    "id": 10000497,
-    "nombre": "GLUCOSA ANHIDRA"
+    "MedicamentoSAP":"11001315",
+    "TextoBreveMedicamento":"CATÉTER P\/VÍA VENOSA CENTRAL 2 LÚM 7FR"
   },
   {
-    "id": 10000498,
-    "nombre": "GLUTARALDEHÍDO 2%"
+    "MedicamentoSAP":"11001696",
+    "TextoBreveMedicamento":"SUTURA QX ÁCIDO POLIGLICOLICO N°1 C\/AG"
   },
   {
-    "id": 10000505,
-    "nombre": "VASELINA LÍQUIDA"
+    "MedicamentoSAP":"10000023",
+    "TextoBreveMedicamento":"ALFACALCIDOL (Vit. D3) 0,25mcg CAP\/COM"
   },
   {
-    "id": 10000506,
-    "nombre": "VASELINA SOLIDA"
+    "MedicamentoSAP":"10000006",
+    "TextoBreveMedicamento":"ACICLOVIR 800mg COM"
   },
   {
-    "id": 10000512,
-    "nombre": "BICARBONATO DE Na 1MOLAR SCH"
+    "MedicamentoSAP":"10000041",
+    "TextoBreveMedicamento":"AMPICILINA 1g INY"
   },
   {
-    "id": 10000513,
-    "nombre": "CLORURO DE POTASIO 3 MOLAR"
+    "MedicamentoSAP":"10000376",
+    "TextoBreveMedicamento":"SULFONATO DE Ca 4,95g\/5g POL P\/REC"
   },
   {
-    "id": 10000514,
-    "nombre": "CLORURO DE SODIO 3 MOLAR"
+    "MedicamentoSAP":"10000171",
+    "TextoBreveMedicamento":"ERITROPOYETINA 4000UI INY JPR"
   },
   {
-    "id": 10000517,
-    "nombre": "GLUCONATO DE CALCIO 10%"
+    "MedicamentoSAP":"10000423",
+    "TextoBreveMedicamento":"SULFAMETOXAZOL+TRIMETOPRIM200mg+40mg SUS"
   },
   {
-    "id": 10000519,
-    "nombre": "MANITOL 15% SACHET"
+    "MedicamentoSAP":"11001698",
+    "TextoBreveMedicamento":"SUTURA QX  POLIGLACTINA N°3\/0 C\/AG"
   },
   {
-    "id": 10000523,
-    "nombre": "POLÍMEROS DE GELATINA CH"
+    "MedicamentoSAP":"10000327",
+    "TextoBreveMedicamento":"MIDAZOLAN 5 mg\/ml INY 3 ML"
   },
   {
-    "id": 10000527,
-    "nombre": "SOL GLUCOSADA HIPERTÓNICA AL 50%-1000CC"
+    "MedicamentoSAP":"10000113",
+    "TextoBreveMedicamento":"CLARITROMICINA 500mg COM"
   },
   {
-    "id": 10000528,
-    "nombre": "SOL GLUCOSADA HIPERTÓNICA 10% SA"
+    "MedicamentoSAP":"10000472",
+    "TextoBreveMedicamento":"WARFARINA 2mg COM"
   },
   {
-    "id": 10000529,
-    "nombre": "SOL GLUCOSADA HIPERTÓNICA 10% SC"
+    "MedicamentoSAP":"10000229",
+    "TextoBreveMedicamento":"HEPARINA SODICA 5000 UI\/mL INY"
   },
   {
-    "id": 10000530,
-    "nombre": "SOLUCIÓN GLUCOSADA HIPERTÓNICA 33%"
+    "MedicamentoSAP":"11001360",
+    "TextoBreveMedicamento":"CATÉTER P\/VÍA\/VEN\/CENT 3 LÚMEN 7-7,5 FR"
   },
   {
-    "id": 10000531,
-    "nombre": "SOL GLUCOSADA ISOTÓNICA 5% SA 500mL"
+    "MedicamentoSAP":"10000010",
+    "TextoBreveMedicamento":"ACIDO FUSIDICO 2 g\/100 g CREM DER"
   },
   {
-    "id": 10000532,
-    "nombre": "SOL GLUCOSADA ISOTÓNICA 5% SC 500mL"
+    "MedicamentoSAP":"10000436",
+    "TextoBreveMedicamento":"TERLIPRESINA ACETATO 1 mg INY"
   },
   {
-    "id": 10000533,
-    "nombre": "SOL GLUCOSADA ISOTÓNICA 5% SA 1000mL"
+    "MedicamentoSAP":"11001448",
+    "TextoBreveMedicamento":"GORROS QUIRÚRGICOS NO ESTÉRILES"
   },
   {
-    "id": 10000534,
-    "nombre": "SOL GLUCOSADA ISOTÓNICA 5% SC 1000mL"
+    "MedicamentoSAP":"11001097",
+    "TextoBreveMedicamento":"PROLONGADOR CON LLAVE DE 3 VÍAS"
   },
   {
-    "id": 10000535,
-    "nombre": "SOLUCIÓN RINGER CON LACTATO SA SACHET"
+    "MedicamentoSAP":"11001579",
+    "TextoBreveMedicamento":"SONDA FOLEY Nº. 12 C\/BALÓN DE 30 CC"
   },
   {
-    "id": 10000536,
-    "nombre": "SOLUCIÓN RINGER CON LACTATO SC SACHET"
+    "MedicamentoSAP":"11001572",
+    "TextoBreveMedicamento":"SONDA FOLEY Nº 14 C\/ BALÓN 5 CC"
   },
   {
-    "id": 10000538,
-    "nombre": "SOL SALINA ISOTÓNICA 0,9% SA 1000mL"
+    "MedicamentoSAP":"11001609",
+    "TextoBreveMedicamento":"SONDA NELATON Nº 16"
   },
   {
-    "id": 10000539,
-    "nombre": "SOL SALINA ISOTÓNICA 0,90% SC 1000mL"
+    "MedicamentoSAP":"11001370",
+    "TextoBreveMedicamento":"CINTA ADHESIVA QX 10CM ANTIALÉRGICA"
   },
   {
-    "id": 10000540,
-    "nombre": "SOL SALINA ISOTÓNICA 0,9% SA 500mL"
+    "MedicamentoSAP":"11001422",
+    "TextoBreveMedicamento":"EQ.VOLUM\/CÁM\/RÌG\/GRAD\/MICROG P\/SOL\/FOTOS"
   },
   {
-    "id": 10000541,
-    "nombre": "SOL SALINA ISOTÓNICA 0,90% SC 500mL"
+    "MedicamentoSAP":"10000075",
+    "TextoBreveMedicamento":"CABERGOLINA 0,5mg COM"
   },
   {
-    "id": 10000542,
-    "nombre": "SUERO FISIOLÓGICO ISOTÓNICO 0,9O%"
+    "MedicamentoSAP":"11000423",
+    "TextoBreveMedicamento":"ALGODONERO"
   },
   {
-    "id": 10000543,
-    "nombre": "SOLUCIÓN GLUCOSADA ISOTÓNICA 5% 250 ML"
+    "MedicamentoSAP":"11001408",
+    "TextoBreveMedicamento":"ELECTRODO DESCARTABLE ADULTOS"
   },
   {
-    "id": 10000545,
-    "nombre": "SOLUCIÓN SALINA ISOTÓNICA 0,90% 250 ML"
+    "MedicamentoSAP":"10000088",
+    "TextoBreveMedicamento":"CEFIXIMA 100mg\/5mL SUSP ORAL"
   },
   {
-    "id": 10000546,
-    "nombre": "SOLUCIÓN SALINA ISOTÓNICA 0,90% 100 ML"
+    "MedicamentoSAP":"10000868",
+    "TextoBreveMedicamento":"SEMAGLUTIDE 1.34 mg\/mL INY 0,25mg-0.2mL"
   },
   {
-    "id": 10000552,
-    "nombre": "FLA POLI COM STD PAD C/FIBR S/LACT,GLUT"
+    "MedicamentoSAP":"11001207",
+    "TextoBreveMedicamento":"AGUJA P\/PUNCIÓN LUMBAR 20 G x 3 a 3 1\/2\""
   },
   {
-    "id": 10000553,
-    "nombre": "FLA POLI COMP STD P AD S FIB LACT GLUTEN"
+    "MedicamentoSAP":"11001900",
+    "TextoBreveMedicamento":"AGUJA P\/FÍSTULA ARTERIOVENOSA 16 G"
   },
   {
-    "id": 10000555,
-    "nombre": "FLA P.COM ESP HIPERGLIC LIB D LACYGLUT"
+    "MedicamentoSAP":"10000135",
+    "TextoBreveMedicamento":"DEXMEDETOMIDINA 200mcg INY"
   },
   {
-    "id": 10000557,
-    "nombre": "FLA P. COM ESP P AD C INS RENAL S DIAL"
+    "MedicamentoSAP":"11000540",
+    "TextoBreveMedicamento":"GEL PARA TRANSMISIÓN ULTRA SÓNICA"
   },
   {
-    "id": 10000559,
-    "nombre": "FÓRMULA SEMIELEMENTAL PARA NIÑOS"
+    "MedicamentoSAP":"10000523",
+    "TextoBreveMedicamento":"POLÍMEROS DE GELATINA CH"
   },
   {
-    "id": 10000560,
-    "nombre": "PREPARADO MODULAR DE CARBOHIDRATOS"
+    "MedicamentoSAP":"11001354",
+    "TextoBreveMedicamento":"CATÉTER DE SUCCIÓN C\/CIRCUITO CERRA N10"
   },
   {
-    "id": 10000561,
-    "nombre": "AGUA OXIGENADA 10 VOLÚMENES"
+    "MedicamentoSAP":"11001320",
+    "TextoBreveMedicamento":"CATÉTER SUCCIÓN C\/CIRCUI\/CERRA\/ASPI N°14"
   },
   {
-    "id": 10000562,
-    "nombre": "ALCOHOL EN GEL 70%"
+    "MedicamentoSAP":"11001214",
+    "TextoBreveMedicamento":"ALGODÓN HIDRÓFILO CORTADO 8 CM X 6 MT"
   },
   {
-    "id": 10000563,
-    "nombre": "ALCOHOL RECTIFICADO al 96%"
+    "MedicamentoSAP":"10000313",
+    "TextoBreveMedicamento":"MESALASINA 5 ASA 500 mg COM"
   },
   {
-    "id": 10000564,
-    "nombre": "CLORHEXIDINA GLUCONATO 4%"
+    "MedicamentoSAP":"10000275",
+    "TextoBreveMedicamento":"LAGRIMAS ARTIF+MANITOL 1,5mg +46 mg GEL"
   },
   {
-    "id": 10000566,
-    "nombre": "DETERGENTE LÍQUIDO TRIENZIMÁTICO."
+    "MedicamentoSAP":"10000052",
+    "TextoBreveMedicamento":"ATROPINA 1mg INY"
   },
   {
-    "id": 10000567,
-    "nombre": "IODOPOVIDONA JABÓN LÍQUIDO 7,5 % a 8%"
+    "MedicamentoSAP":"10000018",
+    "TextoBreveMedicamento":"ADRENALINA 1mg INY"
   },
   {
-    "id": 10000568,
-    "nombre": "IODOPOVIDONA SOLUCIÓN 7,5 % a 10%"
+    "MedicamentoSAP":"10000378",
+    "TextoBreveMedicamento":"POLI+NEOM+DEXA(12000UI+3,5+0,5mg)UNGOFT"
   },
   {
-    "id": 10000569,
-    "nombre": "SOLUCIÓN DAKIN CARREL"
+    "MedicamentoSAP":"10000098",
+    "TextoBreveMedicamento":"CINITAPRIDE 1mg COM"
   },
   {
-    "id": 10000584,
-    "nombre": "CICLOBENZAPRINA 10 mg COMP"
+    "MedicamentoSAP":"10000444",
+    "TextoBreveMedicamento":"TOBRAMICINA 0.3 % COL"
   },
   {
-    "id": 10000585,
-    "nombre": "GLUCOSAMINA + MELOXICAN 1500+15mg POL"
+    "MedicamentoSAP":"11001494",
+    "TextoBreveMedicamento":"JERINGA DESE.20CC C\/AG 21GX1 1\/2 PUN\/PRE"
   },
   {
-    "id": 10000591,
-    "nombre": "VANCOMICINA INY 1GR"
+    "MedicamentoSAP":"10000078",
+    "TextoBreveMedicamento":"CARBAMAZEPINA 200mg COM"
   },
   {
-    "id": 10000602,
-    "nombre": "PREP MODULAR c/ prot animales"
+    "MedicamentoSAP":"10000541",
+    "TextoBreveMedicamento":"SOL SALINA ISOTÓNICA 0,90% SC 500mL"
   },
   {
-    "id": 10000605,
-    "nombre": "ENZALUTAMIDA 40 MG CAPSULA"
+    "MedicamentoSAP":"10000208",
+    "TextoBreveMedicamento":"FOSF MONO Y DISOD 48-18g\/100mL SOL ORAL"
   },
   {
-    "id": 10000628,
-    "nombre": "MEMANTINA 10MG COM"
+    "MedicamentoSAP":"11001914",
+    "TextoBreveMedicamento":"SET CATETER DOB\/LÚM 11,5-12FR P\/HEMOD AD"
   },
   {
-    "id": 10000640,
-    "nombre": "HEPARINA DE BAJO PESO MOLECUL 80MG/0,8ML"
+    "MedicamentoSAP":"11001706",
+    "TextoBreveMedicamento":"SUTURA QX POLIAMIDA N°2\/0 C\/AG DE 2,6CM"
   },
   {
-    "id": 10000645,
-    "nombre": "CLORHEXIDINA GLUCONATO 0,5% SOL ISOPROPA"
+    "MedicamentoSAP":"11001323",
+    "TextoBreveMedicamento":"CAT DE SUCCIÓN N° 14 C\/CONTROL DE FLUJO"
   },
   {
-    "id": 10000653,
-    "nombre": "SOL GLUCOSADA HIPERTÓNICA AL 50%-20CC"
+    "MedicamentoSAP":"10000339",
+    "TextoBreveMedicamento":"NITROFURANTOINA 100 mg COM"
   },
   {
-    "id": 10000660,
-    "nombre": "DAPAGLIFLOZINA 10 MG"
+    "MedicamentoSAP":"10000666",
+    "TextoBreveMedicamento":"BICARBONATO DE SODIO 8.4% 1 MOLAR"
   },
   {
-    "id": 10000662,
-    "nombre": "INSULINA GLARGINA 300 UI/mL INY"
+    "MedicamentoSAP":"10000261",
+    "TextoBreveMedicamento":"IPRATROPIO BROMURO 0,25 mg\/mL SOL"
   },
   {
-    "id": 10000666,
-    "nombre": "BICARBONATO DE SODIO 8.4% 1 MOLAR"
+    "MedicamentoSAP":"10000239",
+    "TextoBreveMedicamento":"HIERRO SACARATO 100mg (Fe element) INY"
   },
   {
-    "id": 10000667,
-    "nombre": "ERITROPOYETINA 4000UI INY VIAL"
+    "MedicamentoSAP":"11001353",
+    "TextoBreveMedicamento":"CATÉTER DE SUCCIÓN C\/CIRCUITO CERRA N12"
   },
   {
-    "id": 10000668,
-    "nombre": "ERITROPOYETINA 10000UI INY VIAL"
+    "MedicamentoSAP":"10000401",
+    "TextoBreveMedicamento":"RISPERIDONA 3 mg COM"
   },
   {
-    "id": 10000674,
-    "nombre": "N-ACETIL CISTEINA 600 MG POLVO G./ COMPR"
+    "MedicamentoSAP":"10000005",
+    "TextoBreveMedicamento":"ACICLOVIR 400mg\/5mL SUSP ORAL"
   },
   {
-    "id": 10000703,
-    "nombre": "ADALIMUMAB 40MG/0.8 ML (BIOSIMILAR) INY"
+    "MedicamentoSAP":"11001497",
+    "TextoBreveMedicamento":"JERINGA DESECHAB 50\/60CC CONO\/CATET S\/AG"
   },
   {
-    "id": 10000722,
-    "nombre": "ALCOHOL AL 70%-SOLUCIÓN"
+    "MedicamentoSAP":"11001454",
+    "TextoBreveMedicamento":"GUANTE PEQUEÑO NO ESTÉRIL"
   },
   {
-    "id": 10000733,
-    "nombre": "UPADACITINIB 15 MG COMP"
+    "MedicamentoSAP":"11001355",
+    "TextoBreveMedicamento":"CATÉTER DE SUCCIÓN C\/CIRCUITO CERRA N8"
   },
   {
-    "id": 10000736,
-    "nombre": "BUDESONIDA 200 MCG/DOSIS AEROSOL"
+    "MedicamentoSAP":"11001567",
+    "TextoBreveMedicamento":"SONDA FOLEY N°20 SILICONADA 2VÍAS TRASPA"
   },
   {
-    "id": 10000740,
-    "nombre": "DICLOFENAC POTASICO 75 MG CAPSULA"
+    "MedicamentoSAP":"11001217",
+    "TextoBreveMedicamento":"ALGODÓN LAMINADO DE 20 CM"
   },
   {
-    "id": 10000782,
-    "nombre": "CISATRACURIO 2mg/ml  INY 5ML"
+    "MedicamentoSAP":"10000296",
+    "TextoBreveMedicamento":"LIDOCAINA 10 - 20% AER"
   },
   {
-    "id": 10000783,
-    "nombre": "MIDAZOLAN 5 mg/ml INY  10ML"
+    "MedicamentoSAP":"11001396",
+    "TextoBreveMedicamento":"CUBRE CALZADOS QUIRÚRGICO - UND"
   },
   {
-    "id": 10000795,
-    "nombre": "ALPRAZOLAN 1MG COM"
+    "MedicamentoSAP":"10000332",
+    "TextoBreveMedicamento":"MORFINA SULFATO 1 mg\/ mL INY"
   },
   {
-    "id": 10000801,
-    "nombre": "ESPIRONOLACTONA 25mg COM"
+    "MedicamentoSAP":"10000152",
+    "TextoBreveMedicamento":"DOBUTAMINA 250mg INY"
   },
   {
-    "id": 10000808,
-    "nombre": "KETAMINA 50 mg / mL INY (Ampolla x 5ml)"
+    "MedicamentoSAP":"10000159",
+    "TextoBreveMedicamento":"DOPAMINA 200mg INY"
   },
   {
-    "id": 10000852,
-    "nombre": "SEMAGLUTIDE 1.34 mg/mL INY VIAL+JER EST"
+    "MedicamentoSAP":"10000545",
+    "TextoBreveMedicamento":"SOLUCIÓN SALINA ISOTÓNICA 0,90% 250 ML"
   },
   {
-    "id": 10000853,
-    "nombre": "LABETALOL CLORHIDRATO 5 mg/4ml AMPOLLA"
+    "MedicamentoSAP":"11001469",
+    "TextoBreveMedicamento":"HOJA DE BISTURÍ RECTA N° 20"
   },
   {
-    "id": 10000863,
-    "nombre": "LEUPROLIDE 45 mg INY"
+    "MedicamentoSAP":"11003665",
+    "TextoBreveMedicamento":"SET ESTERIL PARA BOMBAS DE INFUSION"
   },
   {
-    "id": 10000865,
-    "nombre": "DENOSUMAB 60 mg INY"
+    "MedicamentoSAP":"11001211",
+    "TextoBreveMedicamento":"ALGODÓN HIDRÓFILO"
   },
   {
-    "id": 10000868,
-    "nombre": "SEMAGLUTIDE 1.34 mg/mL INY 0,25mg-0.2mL"
+    "MedicamentoSAP":"10000398",
+    "TextoBreveMedicamento":"RIFAMICINA 1% AER"
   },
   {
-    "id": 10000869,
-    "nombre": "SEMAGLUTIDE 1.34 mg/mL INY 0,5mg-0.4mL"
+    "MedicamentoSAP":"10000341",
+    "TextoBreveMedicamento":"NITROFURAZONA 2% APOS HIDROSOL"
   },
   {
-    "id": 10000870,
-    "nombre": "SEMAGLUTIDE 1.34 mg/mL INY 1mg-0.8mL"
+    "MedicamentoSAP":"10000465",
+    "TextoBreveMedicamento":"VITA+VITD3 (c\/ s\/) SIN ANTIBIOTICOS"
   },
   {
-    "id": 10000882,
-    "nombre": "LINEZOLID 200 MG AMPOLLA"
+    "MedicamentoSAP":"11001324",
+    "TextoBreveMedicamento":"CATÉTER DE SUCCIÓN N°16 C\/CONTROL FLUJO"
   },
   {
-    "id": 11000012,
-    "nombre": "LENTES C/ PROTECTOR DE PLOMO P/ RAYOS X"
+    "MedicamentoSAP":"10000217",
+    "TextoBreveMedicamento":"GENTAMICINA 0,1% CREM"
   },
   {
-    "id": 11000032,
-    "nombre": "AGAR BLOOD BASE (BASE SANGRE)"
+    "MedicamentoSAP":"10000422",
+    "TextoBreveMedicamento":"SULFADIAZINA PLATA C\/S\/LIDOCAINA 1g CREM"
   },
   {
-    "id": 11000033,
-    "nombre": "AGAR CARY BLAIR"
+    "MedicamentoSAP":"10000009",
+    "TextoBreveMedicamento":"ACIDO FOLICO 5mg\/mL GOT ORAL"
   },
   {
-    "id": 11000041,
-    "nombre": "AGAR EMB BACTO LEVINE"
+    "MedicamentoSAP":"10000375",
+    "TextoBreveMedicamento":"PIRIDOSTIGMINA 60 mg COM"
   },
   {
-    "id": 11000047,
-    "nombre": "AGAR MANITOL"
+    "MedicamentoSAP":"11001467",
+    "TextoBreveMedicamento":"HOJA DE BISTURÍ RECTA N° 10"
   },
   {
-    "id": 11000053,
-    "nombre": "MEDIO VP VOGUES PROSKAUER"
+    "MedicamentoSAP":"11001468",
+    "TextoBreveMedicamento":"HOJA DE BISTURÍ RECTA N° 11"
   },
   {
-    "id": 11000059,
-    "nombre": "AGAR SKIM MILK POWER LP 031"
+    "MedicamentoSAP":"11001708",
+    "TextoBreveMedicamento":"SUTURA QX POLIAMIDA N°4\/0 C\/AG DE 2CM"
   },
   {
-    "id": 11000060,
-    "nombre": "AGAR SS ( SALMONELLAS Y SHIGELLAS)"
+    "MedicamentoSAP":"10000489",
+    "TextoBreveMedicamento":"AGUA DESTILADA ESTÉRIL SACHET"
   },
   {
-    "id": 11000062,
-    "nombre": "AGAR TIOGLICOLATO"
+    "MedicamentoSAP":"10000320",
+    "TextoBreveMedicamento":"POLIETILENGLICOL\/EPOYETINA 100mcg INY"
   },
   {
-    "id": 11000106,
-    "nombre": "COLORANTE DE ZIEHL- NILLSEN 3X100 ML."
+    "MedicamentoSAP":"10000667",
+    "TextoBreveMedicamento":"ERITROPOYETINA 4000UI INY VIAL"
   },
   {
-    "id": 11000107,
-    "nombre": "COLORANTE WRIGHT SOLUCIÓN"
+    "MedicamentoSAP":"10000668",
+    "TextoBreveMedicamento":"ERITROPOYETINA 10000UI INY VIAL"
   },
   {
-    "id": 11000235,
-    "nombre": "MEMBRANA DE POTASIO (K + )"
+    "MedicamentoSAP":"10000222",
+    "TextoBreveMedicamento":"HALOPERIDOL 2 mg\/mL SOL"
   },
   {
-    "id": 11000277,
-    "nombre": "REACTIVO PARA ANTIGENEMIA PARA DENGUE"
+    "MedicamentoSAP":"11001915",
+    "TextoBreveMedicamento":"SET CAT\/DOB\/LÚM 7,5-8FR P\/HEM PED"
   },
   {
-    "id": 11000284,
-    "nombre": "REACTIVO SANGRE OCULTA (TEST DE GUAYACO)"
+    "MedicamentoSAP":"10000200",
+    "TextoBreveMedicamento":"FLUCONAZOL 100mg CAP\/COM"
   },
   {
-    "id": 11000286,
-    "nombre": "SELENITO - CALDO"
+    "MedicamentoSAP":"10000004",
+    "TextoBreveMedicamento":"ACICLOVIR 250mg INY"
   },
   {
-    "id": 11000295,
-    "nombre": "SEROLOGÍA PARA ROTAVIRUS."
+    "MedicamentoSAP":"10000369",
+    "TextoBreveMedicamento":"PENICILINA G BENZATIN 1200000UI INY"
   },
   {
-    "id": 11000350,
-    "nombre": "TEST DE EMBARAZO EN ORI Y SANG HCG CUALI"
+    "MedicamentoSAP":"11001652",
+    "TextoBreveMedicamento":"VENDA CAMBRAI 10CM X 3MT LARGO MÌNIMO"
   },
   {
-    "id": 11000353,
-    "nombre": "TEST RÁPIDO PARA HIV I - II"
+    "MedicamentoSAP":"10000340",
+    "TextoBreveMedicamento":"NITROGLICERINA 5 mg\/mL INY"
   },
   {
-    "id": 11000355,
-    "nombre": "TIRAS REACTIVAS P/ GLUCOSA EN SANGRE"
+    "MedicamentoSAP":"10000148",
+    "TextoBreveMedicamento":"DIPIRONA 500mg SUP"
   },
   {
-    "id": 11000356,
-    "nombre": "TIRA REA P/DET DE GLU EN SANG C/GLUC DIG"
+    "MedicamentoSAP":"10000104",
+    "TextoBreveMedicamento":"CIPROTERONA+ETINILESTRAD 2mg+0,035mg COM"
   },
   {
-    "id": 11000361,
-    "nombre": "ADHES P COMPRIMIR SITIO DE PUNCIÓN"
+    "MedicamentoSAP":"10000301",
+    "TextoBreveMedicamento":"LIDOC S\/ VASOCONSTRICT 2% INY TUBO AMP"
   },
   {
-    "id": 11000372,
-    "nombre": "FRASCOS ESTÉRILES P RECOLECCIÓN DE ORINA"
+    "MedicamentoSAP":"10000186",
+    "TextoBreveMedicamento":"EXPECT\/MUCOLT 30mg-8mg\/5ml JBE"
   },
   {
-    "id": 11000385,
-    "nombre": "ISÓPOS ESTER C/ STUART P/COL DE MAT BACT"
+    "MedicamentoSAP":"10000161",
+    "TextoBreveMedicamento":"DOXICICLINA 100mg COM"
   },
   {
-    "id": 11000421,
-    "nombre": "AEROC ESPAC FACIAL P/AEROSOL TERAPIA-INF"
+    "MedicamentoSAP":"11001263",
+    "TextoBreveMedicamento":"BOLSA P\/COLOST Y\/O ILEOSTOM PED 1 PIEZA"
   },
   {
-    "id": 11000422,
-    "nombre": "AEROC ESPAC FACIAL P/AEROSOL TERAPIA-ADU"
+    "MedicamentoSAP":"10000287",
+    "TextoBreveMedicamento":"LEUPROLIDE (LEUPRORELINA) 22,5 mg INY"
   },
   {
-    "id": 11000423,
-    "nombre": "ALGODONERO"
+    "MedicamentoSAP":"11003581",
+    "TextoBreveMedicamento":"TERMÓMETRO DIGITAL"
   },
   {
-    "id": 11000448,
-    "nombre": "CHATA PLÁSTICA"
+    "MedicamentoSAP":"11001588",
+    "TextoBreveMedicamento":"SONDA NASOGÁSTRICA Nº 18, PVC SILICONADA"
   },
   {
-    "id": 11000522,
-    "nombre": "ESTETOSCOPIO BIAURICULAR PARA ADULTO"
+    "MedicamentoSAP":"10000531",
+    "TextoBreveMedicamento":"SOL GLUCOSADA ISOTÓNICA 5% SA 500mL"
   },
   {
-    "id": 11000540,
-    "nombre": "GEL PARA TRANSMISIÓN ULTRA SÓNICA"
+    "MedicamentoSAP":"10000195",
+    "TextoBreveMedicamento":"FENOBARBITAL 0,10g COM"
   },
   {
-    "id": 11000568,
-    "nombre": "ORINAL DE PLÁSTICO"
+    "MedicamentoSAP":"11001492",
+    "TextoBreveMedicamento":"JERINGA DESECHAB 1CC P\/TUBERCULINA C\/AG"
   },
   {
-    "id": 11000812,
-    "nombre": "TERMÓMETRO CLÍNICO AXILAR"
+    "MedicamentoSAP":"10000527",
+    "TextoBreveMedicamento":"SOL GLUCOSADA HIPERTÓNICA AL 50%-1000CC"
   },
   {
-    "id": 11000813,
-    "nombre": "TERMÓMETRO CLÍNICO RECTAL"
+    "MedicamentoSAP":"10000795",
+    "TextoBreveMedicamento":"ALPRAZOLAN 1MG COM"
   },
   {
-    "id": 11001006,
-    "nombre": "APARATO DE PRESIÓN ARTERIAL ANEROIDE AD"
+    "MedicamentoSAP":"11001585",
+    "TextoBreveMedicamento":"SONDA NASOGÁSTRICA Nº14 100% DE SILICONA"
   },
   {
-    "id": 11001007,
-    "nombre": "APARATO PRES/ARTE ANEROIDE ADULTO OBESO"
+    "MedicamentoSAP":"11001587",
+    "TextoBreveMedicamento":"SONDA NASOGÁSTRICA Nº16 100% DE SILICONA"
   },
   {
-    "id": 11001008,
-    "nombre": "APARATO DE PRESIÓN ARTERIAL A MERCURIO"
+    "MedicamentoSAP":"11001377",
+    "TextoBreveMedicamento":"CINTA ADHES QX C BASE TRANSP HIPO 7,5X5M"
   },
   {
-    "id": 11001020,
-    "nombre": "CINTA TESTIGO QUIM P/ESTERIL CALOR HUMED"
+    "MedicamentoSAP":"10000413",
+    "TextoBreveMedicamento":"SEVELAMER 800 mg COM"
   },
   {
-    "id": 11001048,
-    "nombre": "FRASCO PARA DRENAJE de 1.000 cc"
+    "MedicamentoSAP":"10000653",
+    "TextoBreveMedicamento":"SOL GLUCOSADA HIPERTÓNICA AL 50%-20CC"
   },
   {
-    "id": 11001049,
-    "nombre": "FRASCO PARA DRENAJE de 2.000 cc"
+    "MedicamentoSAP":"11003507",
+    "TextoBreveMedicamento":"CHALECO O BATA QX NO EST\/DESC TG SMS"
   },
   {
-    "id": 11001050,
-    "nombre": "FRASCO PARA DRENAJE de 500 cc"
+    "MedicamentoSAP":"11001723",
+    "TextoBreveMedicamento":"SUTURA QX SEDA N°3\/0 C\/AG 2,5CM 1\/2CIRC"
   },
   {
-    "id": 11001073,
-    "nombre": "MANGUITO DE PRESIÓN ADULTO"
+    "MedicamentoSAP":"10000132",
+    "TextoBreveMedicamento":"DEXAMETASONA 8mg COM"
   },
   {
-    "id": 11001080,
-    "nombre": "MÁSCARA FACIAL PARA ANESTESIA N°4"
+    "MedicamentoSAP":"10000534",
+    "TextoBreveMedicamento":"SOL GLUCOSADA ISOTÓNICA 5% SC 1000mL"
   },
   {
-    "id": 11001082,
-    "nombre": "MASCARILLA P/ OXíGENO"
+    "MedicamentoSAP":"11001586",
+    "TextoBreveMedicamento":"SONDA NASOGÁSTRICA Nº 16, PVC SILICONADA"
   },
   {
-    "id": 11001083,
-    "nombre": "MASCARILLA P/NEBULIZAR C/TUBULAD ADULTOS"
+    "MedicamentoSAP":"10000353",
+    "TextoBreveMedicamento":"OSELTAMIVIR 60mg\/5mL POL P\/RECONS"
   },
   {
-    "id": 11001084,
-    "nombre": "MASCARILLA P/NEBULIZAR C/TUBULAD PEDIÁTR"
+    "MedicamentoSAP":"10000328",
+    "TextoBreveMedicamento":"MILRINONA 10mg INY"
   },
   {
-    "id": 11001095,
-    "nombre": "PICO ASP/ME/CUR 90°15CM+-2CM P/CIRC/EXTR"
+    "MedicamentoSAP":"10000054",
+    "TextoBreveMedicamento":"AZATIOPRINA 50mg COM"
   },
   {
-    "id": 11001096,
-    "nombre": "PICO PARA ELECTROBISTURÍ"
+    "MedicamentoSAP":"10000067",
+    "TextoBreveMedicamento":"BRIMONIDINA 0,02 COL"
   },
   {
-    "id": 11001097,
-    "nombre": "PROLONGADOR CON LLAVE DE 3 VÍAS"
+    "MedicamentoSAP":"10000441",
+    "TextoBreveMedicamento":"TIMOLOL MALEATO 0,5% COL"
   },
   {
-    "id": 11001098,
-    "nombre": "REGULADOR DE FLUJO GRADUADO"
+    "MedicamentoSAP":"10000292",
+    "TextoBreveMedicamento":"LEVOMEPROMAZINA 25 mg COM"
   },
   {
-    "id": 11001099,
-    "nombre": "RESUCITADOR ADULTO C/CÁMARA AUTOINFLABLE"
+    "MedicamentoSAP":"10000473",
+    "TextoBreveMedicamento":"ZOLPIDEM 10mg COM"
   },
   {
-    "id": 11001108,
-    "nombre": "TRAMPA PARA MUCUS"
+    "MedicamentoSAP":"10000257",
+    "TextoBreveMedicamento":"INSULINA ULTRARRAPIDA 100 UI\/mL FCO AMP"
   },
   {
-    "id": 11001136,
-    "nombre": "KIT DE ANESTESIA PERIDURAL"
+    "MedicamentoSAP":"10000266",
+    "TextoBreveMedicamento":"ISOSORBIDE DI O MONO NITRATO 40mg COM"
   },
   {
-    "id": 11001137,
-    "nombre": "AGUJA DE NEUROESTIMULACION N° 22 G"
+    "MedicamentoSAP":"10000141",
+    "TextoBreveMedicamento":"DIFENIL HIDANTOINATO SOD 100mg CAP\/COM"
   },
   {
-    "id": 11001138,
-    "nombre": "AGUJA DE NEUROESTIMULACION N° 20 G"
+    "MedicamentoSAP":"11001198",
+    "TextoBreveMedicamento":"AGUJA 27 G a 28 G X 1\/2"
   },
   {
-    "id": 11001141,
-    "nombre": "AGUJA P/ANEST.RAQ.N°25G-PUN BISE 88a99MM"
+    "MedicamentoSAP":"10000315",
+    "TextoBreveMedicamento":"METILPREDNISOLONA 500 mg INY"
   },
   {
-    "id": 11001145,
-    "nombre": "AGUJA PARA ANESTESIA RAQUIDEA N° 26 G"
+    "MedicamentoSAP":"11001899",
+    "TextoBreveMedicamento":"AGUJA AUTOMATICA PARA BIOPSIA RENAL."
   },
   {
-    "id": 11001155,
-    "nombre": "ERLENMEYER DE 1000 CC"
+    "MedicamentoSAP":"10000090",
+    "TextoBreveMedicamento":"CEFOPERAZONA + SULBACTAM 1g+1g INY"
   },
   {
-    "id": 11001162,
-    "nombre": "LAMINILLA DE VIDRIO CUBRE OBJ 24X60MM+-1"
+    "MedicamentoSAP":"11000568",
+    "TextoBreveMedicamento":"ORINAL DE PLÁSTICO"
   },
   {
-    "id": 11001193,
-    "nombre": "CONECTOR SILICONADO PARA CATÉTER"
+    "MedicamentoSAP":"11001300",
+    "TextoBreveMedicamento":"CÁNULA NASAL PEDIATRICA P\/OXIGENOTERPIA"
   },
   {
-    "id": 11001194,
-    "nombre": "EXTENSOR DE VIAS VENOSAS."
+    "MedicamentoSAP":"10000530",
+    "TextoBreveMedicamento":"SOLUCIÓN GLUCOSADA HIPERTÓNICA 33%"
   },
   {
-    "id": 11001195,
-    "nombre": "AGUJA 21 G X 1"
+    "MedicamentoSAP":"10000497",
+    "TextoBreveMedicamento":"GLUCOSA ANHIDRA"
   },
   {
-    "id": 11001196,
-    "nombre": "AGUJA 21 G X 1 1/2"
+    "MedicamentoSAP":"11000350",
+    "TextoBreveMedicamento":"TEST DE EMBARAZO EN ORI Y SANG HCG CUALI"
   },
   {
-    "id": 11001197,
-    "nombre": "AGUJA 23 G X 1 (USO PEDIÁTRICO)"
+    "MedicamentoSAP":"11000384",
+    "TextoBreveMedicamento":"HISÓPOS P COLECTA DE MAT BACTERIOL"
   },
   {
-    "id": 11001198,
-    "nombre": "AGUJA 27 G a 28 G X 1/2"
+    "MedicamentoSAP":"11000404",
+    "TextoBreveMedicamento":"PLACA DE PETRI DESC EST90 X 14(+-1) MM"
   },
   {
-    "id": 11001207,
-    "nombre": "AGUJA P/PUNCIÓN LUMBAR 20 G x 3 a 3 1/2\""
+    "MedicamentoSAP":"11003508",
+    "TextoBreveMedicamento":"CHALECO O BATA QX NO EST\/DESC TG SSMMS"
   },
   {
-    "id": 11001211,
-    "nombre": "ALGODÓN HIDRÓFILO"
+    "MedicamentoSAP":"11003756",
+    "TextoBreveMedicamento":"REACT. DETEC ANTIGENO SARS-CoV-2 INF A\/B"
   },
   {
-    "id": 11001212,
-    "nombre": "ALGODÓN HIDRÓFILO CORTADO 12 CM X 6 MT"
+    "MedicamentoSAP":"10000392",
+    "TextoBreveMedicamento":"PROPOFOL 200 mg\/20 ml INY"
   },
   {
-    "id": 11001213,
-    "nombre": "ALGODÓN HIDRÓFILO CORTADO 32 CM X 6 MT"
+    "MedicamentoSAP":"11001582",
+    "TextoBreveMedicamento":"SONDA NASOGÁSTRICA Nº12PVC100% SILICONA"
   },
   {
-    "id": 11001214,
-    "nombre": "ALGODÓN HIDRÓFILO CORTADO 8 CM X 6 MT"
+    "MedicamentoSAP":"11001138",
+    "TextoBreveMedicamento":"AGUJA DE NEUROESTIMULACION N° 20 G"
   },
   {
-    "id": 11001215,
-    "nombre": "ALGODÓN LAMINADO 10 CM"
+    "MedicamentoSAP":"11001137",
+    "TextoBreveMedicamento":"AGUJA DE NEUROESTIMULACION N° 22 G"
   },
   {
-    "id": 11001216,
-    "nombre": "ALGODÓN LAMINADO 15 CM"
+    "MedicamentoSAP":"11001141",
+    "TextoBreveMedicamento":"AGUJA P\/ANEST.RAQ.N°25G-PUN BISE 88a99MM"
   },
   {
-    "id": 11001217,
-    "nombre": "ALGODÓN LAMINADO DE 20 CM"
+    "MedicamentoSAP":"10000025",
+    "TextoBreveMedicamento":"ALFENTANILO 0,5mg\/mL INY"
   },
   {
-    "id": 11001220,
-    "nombre": "APOSITO CURATIVO QUIRURGICA 20 X 11CM+-5"
+    "MedicamentoSAP":"10000069",
+    "TextoBreveMedicamento":"BUPIVACAINA C\/ EPINEFRINA 0,005 mg INY"
   },
   {
-    "id": 11001221,
-    "nombre": "APOSITO HIDROCOLOIDE HIPOALERGÉNI 7X9 CM"
+    "MedicamentoSAP":"10000071",
+    "TextoBreveMedicamento":"BUPIVACAINA S\/ EPINEFRINA 0,0075 mg INY"
   },
   {
-    "id": 11001223,
-    "nombre": "APOSITO TRANS 6CMx7CM+-2 HIPO P/FIJA CAT"
+    "MedicamentoSAP":"10000493",
+    "TextoBreveMedicamento":"CAL SODADA"
   },
   {
-    "id": 11001224,
-    "nombre": "APOSITO TRANS P/FIJA CAT/HIPO 10CMX12CM"
+    "MedicamentoSAP":"10000309",
+    "TextoBreveMedicamento":"MEPERIDINA 100mg INY"
   },
   {
-    "id": 11001229,
-    "nombre": "BAJA LENGUA DE MADERA"
+    "MedicamentoSAP":"10000665",
+    "TextoBreveMedicamento":"TOCILIZUMAB 162 mg INY"
   },
   {
-    "id": 11001231,
-    "nombre": "CHALECO O BATA QUIRU ESTÉRIL/DESC/MEDIAN"
+    "MedicamentoSAP":"11001216",
+    "TextoBreveMedicamento":"ALGODÓN LAMINADO 15 CM"
   },
   {
-    "id": 11001235,
-    "nombre": "BOLSA COLECTORA ORINA ADUL1500-2000 CC"
+    "MedicamentoSAP":"11001268",
+    "TextoBreveMedicamento":"CAMPO ADHESIVO QX P\/ADULTOS 45X55CM(+-5)"
   },
   {
-    "id": 11001236,
-    "nombre": "BOLSA DE COLON SIMPLE CON CÁNULA"
+    "MedicamentoSAP":"11001697",
+    "TextoBreveMedicamento":"SUTURA QX POLIGLACTINA N°2\/0 C\/AG 2,5 CM"
   },
   {
-    "id": 11001238,
-    "nombre": "BOLSA EST.P/RECL ORINA ADLT C/URINÓMETRO"
+    "MedicamentoSAP":"11001246",
+    "TextoBreveMedicamento":"BOLSA MIXTA PLEG 40X58X8CM ÓXIDO ETILENO"
   },
   {
-    "id": 11001246,
-    "nombre": "BOLSA MIXTA PLEG 40X58X8CM ÓXIDO ETILENO"
+    "MedicamentoSAP":"11001404",
+    "TextoBreveMedicamento":"DREN DE PENROSE 1"
   },
   {
-    "id": 11001248,
-    "nombre": "BOLSA P/COLOST Y/O ILEOSTOM AD 2 PIEZAS"
+    "MedicamentoSAP":"11001732",
+    "TextoBreveMedicamento":"SUTURA QX SEDA N°0 C\/AG DE 3CM 3\/8 CÍRCU"
   },
   {
-    "id": 11001249,
-    "nombre": "BOLSA P/UROSTOMÍA 2 PIEZAS"
+    "MedicamentoSAP":"11001685",
+    "TextoBreveMedicamento":"SUTURA QX POLIPROPILENO N°2\/0 C\/2AG 3CM"
   },
   {
-    "id": 11001252,
-    "nombre": "BOLSA P/COLOST Y/O ILEOSTOM AD 1 PIEZA"
+    "MedicamentoSAP":"11001629",
+    "TextoBreveMedicamento":"TROCAR P\/PUNCIÓN PLEURAL Nº 10 FR"
   },
   {
-    "id": 11001254,
-    "nombre": "BOLSA PRESUR P/PRE/AR/IN/SWANGANG/SANGRE"
+    "MedicamentoSAP":"11001655",
+    "TextoBreveMedicamento":"VENDA ELÁST 10CMX1,50-1,80MT LARG\/MIN\/RE"
   },
   {
-    "id": 11001262,
-    "nombre": "BOLSA MIXTAS/PLEG/AUTOAD/S/FUELLE30-45CM"
+    "MedicamentoSAP":"11001007",
+    "TextoBreveMedicamento":"APARATO PRES\/ARTE ANEROIDE ADULTO OBESO"
   },
   {
-    "id": 11001263,
-    "nombre": "BOLSA P/COLOST Y/O ILEOSTOM PED 1 PIEZA"
+    "MedicamentoSAP":"10000345",
+    "TextoBreveMedicamento":"OCTREOTIDA ACETATO 0,1 mg INY"
   },
   {
-    "id": 11001266,
-    "nombre": "CAJA DESCARTABLE P/MATERIAL CORTANTANTE"
+    "MedicamentoSAP":"11003262",
+    "TextoBreveMedicamento":"FILTRO BACTERIANO HME P VENTIL MAQUET"
   },
   {
-    "id": 11001268,
-    "nombre": "CAMPO ADHESIVO QX P/ADULTOS 45X55CM(+-5)"
+    "MedicamentoSAP":"11001602",
+    "TextoBreveMedicamento":"SONDA NASOYEYUNAL 14 FR. 100% SILICONA"
   },
   {
-    "id": 11001281,
-    "nombre": "CÁNULA DE ASPIRACIÓN P/CAMPO QX TIPOK66"
+    "MedicamentoSAP":"11001388",
+    "TextoBreveMedicamento":"COLECTOR DE ORINA C\/ PRESERVATIVO"
   },
   {
-    "id": 11001291,
-    "nombre": "CÁNULA DE TRAQUEOSTOMÍA N° 6 C/BALÓN"
+    "MedicamentoSAP":"11001653",
+    "TextoBreveMedicamento":"VENDA CAMBRAI 15CM.X 3MT LARGO MÍNINO"
   },
   {
-    "id": 11001294,
-    "nombre": "CÁNULA DE TRAQUEOSTOMÍA N° 7,5 C/BALÓN"
+    "MedicamentoSAP":"11001501",
+    "TextoBreveMedicamento":"LANCETAS P\/ TOMA DE SANGRE"
   },
   {
-    "id": 11001295,
-    "nombre": "CÁNULA DE TRAQUEOSTOMÍA N° 8,5 C/BALÓN"
+    "MedicamentoSAP":"11001533",
+    "TextoBreveMedicamento":"SONDA ENDOTRAQUEAL N° 8,5 C\/ BALÓN"
   },
   {
-    "id": 11001297,
-    "nombre": "CÁNULA DE TRAQUEOSTOMÍA Nº 8 C/ BALÓN"
+    "MedicamentoSAP":"11001348",
+    "TextoBreveMedicamento":"FILTRO BACTERIANO C\/HUMIDIFICADOR PEDIAT"
   },
   {
-    "id": 11001298,
-    "nombre": "CÁNULA NASAL ADULTO PARA OXÍGENO"
+    "MedicamentoSAP":"11001553",
+    "TextoBreveMedicamento":"SONDA ENDOTRAQUEAL Nº 6,5 C\/BALÓN"
   },
   {
-    "id": 11001299,
-    "nombre": "CÁNULA NASAL NEONATAL P/OXIGENOTERA 6FR"
+    "MedicamentoSAP":"11001555",
+    "TextoBreveMedicamento":"SONDA ENDOTRAQUEAL Nº 7 C\/BALÓN,"
   },
   {
-    "id": 11001300,
-    "nombre": "CÁNULA NASAL PEDIATRICA P/OXIGENOTERPIA"
+    "MedicamentoSAP":"11001559",
+    "TextoBreveMedicamento":"SONDA ENDOTRAQUEAL Nº 8 C\/BALÓN"
   },
   {
-    "id": 11001304,
-    "nombre": "CÁNULA OROFARÍNGEA N° 2"
+    "MedicamentoSAP":"11001291",
+    "TextoBreveMedicamento":"CÁNULA DE TRAQUEOSTOMÍA N° 6 C\/BALÓN"
   },
   {
-    "id": 11001305,
-    "nombre": "CÁNULA OROFARÍNGEA N° 3"
+    "MedicamentoSAP":"11001297",
+    "TextoBreveMedicamento":"CÁNULA DE TRAQUEOSTOMÍA Nº 8 C\/ BALÓN"
   },
   {
-    "id": 11001312,
-    "nombre": "CASSETTE DE PLÁSTICO DE BIOPSIA"
+    "MedicamentoSAP":"11001466",
+    "TextoBreveMedicamento":"HOJA DE BISTURÍ N° 15"
   },
   {
-    "id": 11001315,
-    "nombre": "CATÉTER P/VÍA VENOSA CENTRAL 2 LÚM 7FR"
+    "MedicamentoSAP":"10000070",
+    "TextoBreveMedicamento":"BUPIVACAINA HIPERBARICA 0,005 mg INY"
   },
   {
-    "id": 11001320,
-    "nombre": "CATÉTER SUCCIÓN C/CIRCUI/CERRA/ASPI N°14"
+    "MedicamentoSAP":"10000414",
+    "TextoBreveMedicamento":"SEVOFLURANO 99,97 % ANEST"
   },
   {
-    "id": 11001321,
-    "nombre": "CATÉTER DE SUCCIÓN N°10 C/CONTROL FLUJO"
+    "MedicamentoSAP":"11001294",
+    "TextoBreveMedicamento":"CÁNULA DE TRAQUEOSTOMÍA N° 7,5 C\/BALÓN"
   },
   {
-    "id": 11001322,
-    "nombre": "CATÉTER DE SUCCIÓN N°12 C/CONTROL FLUJO"
+    "MedicamentoSAP":"11001295",
+    "TextoBreveMedicamento":"CÁNULA DE TRAQUEOSTOMÍA N° 8,5 C\/BALÓN"
   },
   {
-    "id": 11001323,
-    "nombre": "CAT DE SUCCIÓN N° 14 C/CONTROL DE FLUJO"
+    "MedicamentoSAP":"11002925",
+    "TextoBreveMedicamento":"SISTEMA DE ANCLAJE. DIAMETRO 2,9 MM"
   },
   {
-    "id": 11001324,
-    "nombre": "CATÉTER DE SUCCIÓN N°16 C/CONTROL FLUJO"
+    "MedicamentoSAP":"11001321",
+    "TextoBreveMedicamento":"CATÉTER DE SUCCIÓN N°10 C\/CONTROL FLUJO"
   },
   {
-    "id": 11001325,
-    "nombre": "CATÉTER DE SUCCIÓN N° 6 C/CONTROL FLUJO"
+    "MedicamentoSAP":"10000506",
+    "TextoBreveMedicamento":"VASELINA SOLIDA"
   },
   {
-    "id": 11001326,
-    "nombre": "CATÉTER DE SUCCIÓN N°8 CONTROL FLUJO"
+    "MedicamentoSAP":"10000042",
+    "TextoBreveMedicamento":"ANFOTERICINA B 50mg INY"
   },
   {
-    "id": 11001336,
-    "nombre": "CATÉTER INTRAVENOSO PERIFÉRICO N°16"
+    "MedicamentoSAP":"10000675",
+    "TextoBreveMedicamento":"REMDESIVIR 5 MG\/ML INYECTABLE (SOLUCION)"
   },
   {
-    "id": 11001337,
-    "nombre": "CATÉTER INTRAVENOSO PERIFÉRICO N°18"
+    "MedicamentoSAP":"10000199",
+    "TextoBreveMedicamento":"FILGRASTIM 30000000UI\/ml INY"
   },
   {
-    "id": 11001338,
-    "nombre": "CATÉTER INTRAVENOSO PERIFÉR N°20 D/POLIU"
+    "MedicamentoSAP":"10000347",
+    "TextoBreveMedicamento":"OLANZAPINA 10 mg COM"
   },
   {
-    "id": 11001339,
-    "nombre": "CATÉTER INTRAVENOSO PERIFÉRICO N°22"
+    "MedicamentoSAP":"11003546",
+    "TextoBreveMedicamento":"BOLSA MORTUORIA"
   },
   {
-    "id": 11001340,
-    "nombre": "CATÉTER INTRAVENO PERIFÉR N°24 D 19A20MM"
+    "MedicamentoSAP":"11001195",
+    "TextoBreveMedicamento":"AGUJA 21 G X 1"
   },
   {
-    "id": 11001345,
-    "nombre": "CATÉTER P/ VÍA VENOSA CENT 3,5FR 2LÚMEN"
+    "MedicamentoSAP":"11000448",
+    "TextoBreveMedicamento":"CHATA PLÁSTICA"
   },
   {
-    "id": 11001346,
-    "nombre": "CATÉTER P/ VÍA VENOSA CENT 6FR 3 LÚMEN"
+    "MedicamentoSAP":"11001719",
+    "TextoBreveMedicamento":"SUTURA QX POLIAMIDA N°0 C\/AG DE 2 CM"
   },
   {
-    "id": 11001347,
-    "nombre": "CATÉTER P/ VÍA VENOSA CENT 6FR 2 LÚMEN"
+    "MedicamentoSAP":"11000361",
+    "TextoBreveMedicamento":"ADHES P COMPRIMIR SITIO DE PUNCIÓN"
   },
   {
-    "id": 11001348,
-    "nombre": "FILTRO BACTERIANO C/HUMIDIFICADOR PEDIAT"
+    "MedicamentoSAP":"11001298",
+    "TextoBreveMedicamento":"CÁNULA NASAL ADULTO PARA OXÍGENO"
   },
   {
-    "id": 11001352,
-    "nombre": "SOL GLUC/CLORHEX AL 2%+ALC ISOP 70% 10,5"
+    "MedicamentoSAP":"11001569",
+    "TextoBreveMedicamento":"SONDA FOLEY N°24 TRES VÍAS-"
   },
   {
-    "id": 11001353,
-    "nombre": "CATÉTER DE SUCCIÓN C/CIRCUITO CERRA N12"
+    "MedicamentoSAP":"11001705",
+    "TextoBreveMedicamento":"SUTURA QX SEDA N°1 C\/AG 3,5CM 1\/2CÍRCULO"
   },
   {
-    "id": 11001354,
-    "nombre": "CATÉTER DE SUCCIÓN C/CIRCUITO CERRA N10"
+    "MedicamentoSAP":"11001709",
+    "TextoBreveMedicamento":"SUTURA QX DE ALGODÓN N° 0 SIN AG"
   },
   {
-    "id": 11001355,
-    "nombre": "CATÉTER DE SUCCIÓN C/CIRCUITO CERRA N8"
+    "MedicamentoSAP":"10000498",
+    "TextoBreveMedicamento":"GLUTARALDEHÍDO 2%"
   },
   {
-    "id": 11001356,
-    "nombre": "CATÉTER DE SUCCIÓN C/CIRCUITO CERRA N6"
+    "MedicamentoSAP":"10000733",
+    "TextoBreveMedicamento":"UPADACITINIB 15 MG COMP"
   },
   {
-    "id": 11001357,
-    "nombre": "CATÉTER P/VÍA/VEN/CENT DO/LÚMEN 4,5-5 FR"
+    "MedicamentoSAP":"10000533",
+    "TextoBreveMedicamento":"SOL GLUCOSADA ISOTÓNICA 5% SA 1000mL"
   },
   {
-    "id": 11001360,
-    "nombre": "CATÉTER P/VÍA/VEN/CENT 3 LÚMEN 7-7,5 FR"
+    "MedicamentoSAP":"11001610",
+    "TextoBreveMedicamento":"SONDA NELATON Nº 18"
   },
   {
-    "id": 11001362,
-    "nombre": "CATÉTER PERCUTÁNEO UNILÚMEN 3 FR"
+    "MedicamentoSAP":"10000663",
+    "TextoBreveMedicamento":"TOFACITINIB 5 mg. COMP. RECUBIERTO"
   },
   {
-    "id": 11001369,
-    "nombre": "CINTA ADHESIVA QUIRÚRGICA DE 10 CM"
+    "MedicamentoSAP":"11001472",
+    "TextoBreveMedicamento":"HOJA DE BISTURÍ RECTA N° 23"
   },
   {
-    "id": 11001370,
-    "nombre": "CINTA ADHESIVA QX 10CM ANTIALÉRGICA"
+    "MedicamentoSAP":"11001473",
+    "TextoBreveMedicamento":"HOJA DE BISTURÍ RECTA N° 24"
   },
   {
-    "id": 11001371,
-    "nombre": "CINTA ADHESIVA QUIRÚRGICA DE 2.5 CM"
+    "MedicamentoSAP":"11001006",
+    "TextoBreveMedicamento":"APARATO DE PRESIÓN ARTERIAL ANEROIDE AD"
   },
   {
-    "id": 11001372,
-    "nombre": "CINTA ADHESIVA QUIRÚRGICA DE 5 CM"
+    "MedicamentoSAP":"10000512",
+    "TextoBreveMedicamento":"BICARBONATO DE Na 1MOLAR SCH"
   },
   {
-    "id": 11001373,
-    "nombre": "CINTA ADHESIVA QUIRÚRGICA 7.5 CM"
+    "MedicamentoSAP":"10000017",
+    "TextoBreveMedicamento":"ADENOSINA 6mg\/2mL INY"
   },
   {
-    "id": 11001374,
-    "nombre": "CINTA ADHESIVA QX ANTIALÉRGICA 2.5CM"
+    "MedicamentoSAP":"10000496",
+    "TextoBreveMedicamento":"FORMOL 40 %"
   },
   {
-    "id": 11001375,
-    "nombre": "CINTA ADHESIVA QX ANTIALÉRGICA 5CM"
+    "MedicamentoSAP":"10000204",
+    "TextoBreveMedicamento":"FLUMAZENIL 0,5mg\/5mL INY"
   },
   {
-    "id": 11001376,
-    "nombre": "CINTA ADHESIVA QX ANTIALÉRGICA 7.5CM"
+    "MedicamentoSAP":"11003236",
+    "TextoBreveMedicamento":"GLUCOMETRO DIGITAL"
   },
   {
-    "id": 11001377,
-    "nombre": "CINTA ADHES QX C BASE TRANSP HIPO 7,5X5M"
+    "MedicamentoSAP":"11001194",
+    "TextoBreveMedicamento":"EXTENSOR DE VIAS VENOSAS."
   },
   {
-    "id": 11001388,
-    "nombre": "COLECTOR DE ORINA C/ PRESERVATIVO"
+    "MedicamentoSAP":"11001248",
+    "TextoBreveMedicamento":"BOLSA P\/COLOST Y\/O ILEOSTOM AD 2 PIEZAS"
   },
   {
-    "id": 11001391,
-    "nombre": "CONECTOR DE 2 VIAS P/INFUSIÓN PARENTERAL"
+    "MedicamentoSAP":"11001213",
+    "TextoBreveMedicamento":"ALGODÓN HIDRÓFILO CORTADO 32 CM X 6 MT"
   },
   {
-    "id": 11001395,
-    "nombre": "CUBRE CALZADOS QUIRÚRGICO - PAR"
+    "MedicamentoSAP":"11001208",
+    "TextoBreveMedicamento":"AGUJA P\/PUNCIÓN LUMBAR 22 G X 3 a 3 1\/2\""
   },
   {
-    "id": 11001396,
-    "nombre": "CUBRE CALZADOS QUIRÚRGICO - UND"
+    "MedicamentoSAP":"11000522",
+    "TextoBreveMedicamento":"ESTETOSCOPIO BIAURICULAR PARA ADULTO"
   },
   {
-    "id": 11001405,
-    "nombre": "DREN DE PENROSE 1/4"
+    "MedicamentoSAP":"10000109",
+    "TextoBreveMedicamento":"CITICOLINA 1g INY"
   },
   {
-    "id": 11001408,
-    "nombre": "ELECTRODO DESCARTABLE ADULTOS"
+    "MedicamentoSAP":"10000645",
+    "TextoBreveMedicamento":"CLORHEXIDINA GLUCONATO 0,5% SOL ISOPROPA"
   },
   {
-    "id": 11001410,
-    "nombre": "ELECTRODO DESCARTABLE PEDIÁTRICO"
+    "MedicamentoSAP":"11001570",
+    "TextoBreveMedicamento":"SONDA FOLEY Nº 10 C\/BALÓN 5 CC."
   },
   {
-    "id": 11001415,
-    "nombre": "EQ PARA SUERO DE INFUSION IV MACROGOTERO"
+    "MedicamentoSAP":"11001578",
+    "TextoBreveMedicamento":"SONDA FOLEY Nº 8 C\/ BALÓN 3 a 5CC,"
   },
   {
-    "id": 11001420,
-    "nombre": "EQ VOLUMÉTRICO DE INFUSIÓN IV MICROGOTER"
+    "MedicamentoSAP":"11001571",
+    "TextoBreveMedicamento":"SONDA FOLEY Nº 12 C\/ BALÓN 5 CC"
   },
   {
-    "id": 11001421,
-    "nombre": "EQ VOLUMÉTRICO DE INFUSIÓN IV MACROGOTER"
+    "MedicamentoSAP":"11001576",
+    "TextoBreveMedicamento":"SONDA FOLEY Nº 20 C\/ BALÓN 5 CC"
   },
   {
-    "id": 11001422,
-    "nombre": "EQ.VOLUM/CÁM/RÌG/GRAD/MICROG P/SOL/FOTOS"
+    "MedicamentoSAP":"11001575",
+    "TextoBreveMedicamento":"SONDA FOLEY Nº 20 C\/ BALÓN 30 CC"
   },
   {
-    "id": 11001425,
-    "nombre": "EQ PARA SUERO DE INFUSION IV MICROGOTERO"
+    "MedicamentoSAP":"11001568",
+    "TextoBreveMedicamento":"SONDA FOLEY N°22 TRES VÍAS"
   },
   {
-    "id": 11001427,
-    "nombre": "EQ PARA MEDIR LA PRESIÓN VENOSA CENTRAL"
+    "MedicamentoSAP":"10000224",
+    "TextoBreveMedicamento":"HALOPERIDOL 5 mg COM"
   },
   {
-    "id": 11001439,
-    "nombre": "ESPONJA HEMOSTÁTICA QUIRÚRGICA"
+    "MedicamentoSAP":"11001008",
+    "TextoBreveMedicamento":"APARATO DE PRESIÓN ARTERIAL A MERCURIO"
   },
   {
-    "id": 11001443,
-    "nombre": "FILTRO BACTERIANO C/ HUMIDIFICADOR"
+    "MedicamentoSAP":"10000308",
+    "TextoBreveMedicamento":"MEBENDAZOL+TIABENDAZ 100-500mg\/5mL SUSP"
   },
   {
-    "id": 11001446,
-    "nombre": "GASA HIDRÓFILA NO ESTÉRIL 10X10CM(+-1)"
+    "MedicamentoSAP":"11001722",
+    "TextoBreveMedicamento":"SUTURA QX POLIAMIDA N°5\/0 C\/AG DE 2CM"
   },
   {
-    "id": 11001447,
-    "nombre": "GASA HIDRÓFILA NO ESTÉRIL."
+    "MedicamentoSAP":"10000782",
+    "TextoBreveMedicamento":"CISATRACURIO 2mg\/ml  INY 5ML"
   },
   {
-    "id": 11001448,
-    "nombre": "GORROS QUIRÚRGICOS NO ESTÉRILES"
+    "MedicamentoSAP":"11000285",
+    "TextoBreveMedicamento":"SANGRE DE CARNERO"
   },
   {
-    "id": 11001449,
-    "nombre": "GUANTE QUIRÚRGICO ESTÉRIL Nº 8 1/2"
+    "MedicamentoSAP":"11000342",
+    "TextoBreveMedicamento":"SUERO ANTI A P\/ TIPIFICACIÓN DE SANGRE"
   },
   {
-    "id": 11001450,
-    "nombre": "GUANTE GRANDE NO ESTÉRIL"
+    "MedicamentoSAP":"11000344",
+    "TextoBreveMedicamento":"SUERO ANTI B P\/TIPIFICACIÓN DE SANGRE"
   },
   {
-    "id": 11001451,
-    "nombre": "GUANTE MEDIANO NO ESTÉRIL - PAR"
+    "MedicamentoSAP":"11000353",
+    "TextoBreveMedicamento":"TEST RÁPIDO PARA HIV I - II"
   },
   {
-    "id": 11001452,
-    "nombre": "GUANTE MEDIANO NO ESTÉRIL"
+    "MedicamentoSAP":"11000385",
+    "TextoBreveMedicamento":"ISÓPOS ESTER C\/ STUART P\/COL DE MAT BACT"
   },
   {
-    "id": 11001453,
-    "nombre": "GUANTE PEQUEÑO NO ESTÉRIL - PAR"
+    "MedicamentoSAP":"11001266",
+    "TextoBreveMedicamento":"CAJA DESCARTABLE P\/MATERIAL CORTANTANTE"
   },
   {
-    "id": 11001454,
-    "nombre": "GUANTE PEQUEÑO NO ESTÉRIL"
+    "MedicamentoSAP":"11001371",
+    "TextoBreveMedicamento":"CINTA ADHESIVA QUIRÚRGICA DE 2.5 CM"
   },
   {
-    "id": 11001455,
-    "nombre": "GUANTE QUIRÚRGICO ESTÉRIL Nº 6 1/2"
+    "MedicamentoSAP":"11001262",
+    "TextoBreveMedicamento":"BOLSA MIXTAS\/PLEG\/AUTOAD\/S\/FUELLE30-45CM"
   },
   {
-    "id": 11001456,
-    "nombre": "GUANTE QUIRÚRGICO N°7 1/2 ESTÉRIL"
+    "MedicamentoSAP":"10000001",
+    "TextoBreveMedicamento":"ACENOCUMAROL 4mg COM"
   },
   {
-    "id": 11001457,
-    "nombre": "GUANTE QUIRÚRGICO N°7 ESTÉRIL"
+    "MedicamentoSAP":"10000703",
+    "TextoBreveMedicamento":"ADALIMUMAB 40MG\/0.8 ML (BIOSIMILAR) INY"
   },
   {
-    "id": 11001458,
-    "nombre": "GUANTE QUIRÚRGICO N°8 ESTÉRIL"
+    "MedicamentoSAP":"10000400",
+    "TextoBreveMedicamento":"RILUZOLE 50 mg COM"
   },
   {
-    "id": 11001466,
-    "nombre": "HOJA DE BISTURÍ N° 15"
+    "MedicamentoSAP":"10000561",
+    "TextoBreveMedicamento":"AGUA OXIGENADA 10 VOLÚMENES"
   },
   {
-    "id": 11001467,
-    "nombre": "HOJA DE BISTURÍ RECTA N° 10"
+    "MedicamentoSAP":"11001654",
+    "TextoBreveMedicamento":"VENDA CAMBRAI 5 CM. X 3 MT LARGO MÍNIMO"
   },
   {
-    "id": 11001468,
-    "nombre": "HOJA DE BISTURÍ RECTA N° 11"
+    "MedicamentoSAP":"11003510",
+    "TextoBreveMedicamento":"CHALECO O BATA QX NO EST\/DESC TM SMS"
   },
   {
-    "id": 11001469,
-    "nombre": "HOJA DE BISTURÍ RECTA N° 20"
+    "MedicamentoSAP":"11001281",
+    "TextoBreveMedicamento":"CÁNULA DE ASPIRACIÓN P\/CAMPO QX TIPOK66"
   },
   {
-    "id": 11001470,
-    "nombre": "HOJA DE BISTURÍ RECTA N° 21"
+    "MedicamentoSAP":"11001212",
+    "TextoBreveMedicamento":"ALGODÓN HIDRÓFILO CORTADO 12 CM X 6 MT"
   },
   {
-    "id": 11001471,
-    "nombre": "HOJA DE BISTURÍ RECTA N° 22"
+    "MedicamentoSAP":"11001901",
+    "TextoBreveMedicamento":"AGUJA P\/FÍSTULA ARTERIOVENOSA 17 G"
   },
   {
-    "id": 11001472,
-    "nombre": "HOJA DE BISTURÍ RECTA N° 23"
+    "MedicamentoSAP":"11001020",
+    "TextoBreveMedicamento":"CINTA TESTIGO QUIM P\/ESTERIL CALOR HUMED"
   },
   {
-    "id": 11001473,
-    "nombre": "HOJA DE BISTURÍ RECTA N° 24"
+    "MedicamentoSAP":"11001929",
+    "TextoBreveMedicamento":"ACIDO FOSFÓRICO AL 37% GEL"
   },
   {
-    "id": 11001486,
-    "nombre": "INTRODUCTOR P/ELECTRODO MARCAP TEMPO 8FR"
+    "MedicamentoSAP":"11001963",
+    "TextoBreveMedicamento":"ESPONJA HEMOSTÁTICA ODONTOLÓGICA"
   },
   {
-    "id": 11001491,
-    "nombre": "JERINGA DESECHAB 1CC P/INSULIN100UI C/AG"
+    "MedicamentoSAP":"10000300",
+    "TextoBreveMedicamento":"LIDOCAINA C\/ VASOCONST 2%\/1:100.000 INY"
   },
   {
-    "id": 11001492,
-    "nombre": "JERINGA DESECHAB 1CC P/TUBERCULINA C/AG"
+    "MedicamentoSAP":"11001936",
+    "TextoBreveMedicamento":"CEMENTO DE IONÓMETRO VÍTREO PARA BASE"
   },
   {
-    "id": 11001493,
-    "nombre": "JERINGA DESE.20CC C/AG 21GX1 1/2 PUN/ENR"
+    "MedicamentoSAP":"11001935",
+    "TextoBreveMedicamento":"CEMENTO DE IONÓMERO VÍTREO PARA RESTAURA"
   },
   {
-    "id": 11001494,
-    "nombre": "JERINGA DESE.20CC C/AG 21GX1 1/2 PUN/PRE"
+    "MedicamentoSAP":"10000175",
+    "TextoBreveMedicamento":"ESTRADIOL 0,06% GEL"
   },
   {
-    "id": 11001495,
-    "nombre": "JERINGA DESECHABLE 3 CC C/AG 21GX1 1/2"
+    "MedicamentoSAP":"11001718",
+    "TextoBreveMedicamento":"SUTURA QX AC. POLIGLICOLICO N°1 C\/AG 5CM"
   },
   {
-    "id": 11001496,
-    "nombre": "JERINGA DESECHABLE 5 CC C/AGUJA"
+    "MedicamentoSAP":"10000127",
+    "TextoBreveMedicamento":"COMP PROTROMBINICO HUMANO INY"
   },
   {
-    "id": 11001497,
-    "nombre": "JERINGA DESECHAB 50/60CC CONO/CATET S/AG"
+    "MedicamentoSAP":"11001215",
+    "TextoBreveMedicamento":"ALGODÓN LAMINADO 10 CM"
   },
   {
-    "id": 11001498,
-    "nombre": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/ENR"
+    "MedicamentoSAP":"10000250",
+    "TextoBreveMedicamento":"INMUNOGLOBULINA G HUMANA 10% INY"
   },
   {
-    "id": 11001499,
-    "nombre": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/PRE"
+    "MedicamentoSAP":"11001196",
+    "TextoBreveMedicamento":"AGUJA 21 G X 1 1\/2"
   },
   {
-    "id": 11001500,
-    "nombre": "JERINGA 50 ml a 60 ml"
+    "MedicamentoSAP":"11001599",
+    "TextoBreveMedicamento":"SONDA NASOYEYUNAL 12 FR. POLIURETANO"
   },
   {
-    "id": 11001501,
-    "nombre": "LANCETAS P/ TOMA DE SANGRE"
+    "MedicamentoSAP":"11003763",
+    "TextoBreveMedicamento":"CÁNULA NASAL DE ALTO FLUJO TAM. S"
   },
   {
-    "id": 11001502,
-    "nombre": "LLAVE DE 3 VÍAS DESECHABLE"
+    "MedicamentoSAP":"10000181",
+    "TextoBreveMedicamento":"ETILEFRINA 10mg\/ml INY"
   },
   {
-    "id": 11001504,
-    "nombre": "MALLA POLIPROPILENO Y POLIGLACT CHICA"
+    "MedicamentoSAP":"10000488",
+    "TextoBreveMedicamento":"ACETONA P\/A. (GRADO DE PUREZA: PRO-ANÁL)"
   },
   {
-    "id": 11001506,
-    "nombre": "MÁSCARA QUIRÚRGICA DESCARTABLE"
+    "MedicamentoSAP":"10000490",
+    "TextoBreveMedicamento":"ALCOHOL ABSOLUTO"
   },
   {
-    "id": 11001507,
-    "nombre": "MÁSCARA DE PROTECCIÓN N 95"
+    "MedicamentoSAP":"11000046",
+    "TextoBreveMedicamento":"AGAR MAC CONKEY - SORBITOL"
   },
   {
-    "id": 11001513,
-    "nombre": "PRESERVATIVO"
+    "MedicamentoSAP":"11000106",
+    "TextoBreveMedicamento":"COLORANTE DE ZIEHL- NILLSEN 3X100 ML."
   },
   {
-    "id": 11001527,
-    "nombre": "SONDA BALON TAPONAMIENTO ESOFAGICO N°18"
+    "MedicamentoSAP":"11000107",
+    "TextoBreveMedicamento":"COLORANTE WRIGHT SOLUCIÓN"
   },
   {
-    "id": 11001528,
-    "nombre": "SONDA DE ALIMENT/NASOYEYUNAL P/FRICCIÓN"
+    "MedicamentoSAP":"11000280",
+    "TextoBreveMedicamento":"REACT PARA DETERMIN RÁPIDA PARA DENGUE"
   },
   {
-    "id": 11001533,
-    "nombre": "SONDA ENDOTRAQUEAL N° 8,5 C/ BALÓN"
+    "MedicamentoSAP":"11000284",
+    "TextoBreveMedicamento":"REACTIVO SANGRE OCULTA (TEST DE GUAYACO)"
   },
   {
-    "id": 11001552,
-    "nombre": "SONDA ENDOTRAQUEAL Nº 6 C/BALÓN"
+    "MedicamentoSAP":"11000295",
+    "TextoBreveMedicamento":"SEROLOGÍA PARA ROTAVIRUS."
   },
   {
-    "id": 11001553,
-    "nombre": "SONDA ENDOTRAQUEAL Nº 6,5 C/BALÓN"
+    "MedicamentoSAP":"11000408",
+    "TextoBreveMedicamento":"PUNTERAS AMARILLAS DESECHABLES"
   },
   {
-    "id": 11001555,
-    "nombre": "SONDA ENDOTRAQUEAL Nº 7 C/BALÓN,"
+    "MedicamentoSAP":"11001182",
+    "TextoBreveMedicamento":"TUBO CÓNICO 1,5 ML TIPO EPPENDORF"
   },
   {
-    "id": 11001556,
-    "nombre": "SONDA ENDOTRAQUEAL Nº 7 SIN BALÓN"
+    "MedicamentoSAP":"11001187",
+    "TextoBreveMedicamento":"TUBOS VIDRIO HEMÓLISIS 12MMDIÁMX100MMALT"
   },
   {
-    "id": 11001557,
-    "nombre": "SONDA ENDOTRAQUEAL Nº 7,5 C/BALÓN"
+    "MedicamentoSAP":"11001234",
+    "TextoBreveMedicamento":"CHALECO O BATA QUIRU NO ESTERIL\/DESCART"
   },
   {
-    "id": 11001559,
-    "nombre": "SONDA ENDOTRAQUEAL Nº 8 C/BALÓN"
+    "MedicamentoSAP":"11003191",
+    "TextoBreveMedicamento":"PAPEL PARA EQUIPO DE GASOMETRÍA"
   },
   {
-    "id": 11001565,
-    "nombre": "SONDA FOLEY Nº 16 C/ BALÓN DE 5 CC"
+    "MedicamentoSAP":"11003511",
+    "TextoBreveMedicamento":"CHALECO O BATA QX NO EST\/DESC TM SSMMS"
   },
   {
-    "id": 11001567,
-    "nombre": "SONDA FOLEY N°20 SILICONADA 2VÍAS TRASPA"
+    "MedicamentoSAP":"11001677",
+    "TextoBreveMedicamento":"SUTURA QX POLIPROPILENO N°3\/0 C\/2AG2.5CM"
   },
   {
-    "id": 11001568,
-    "nombre": "SONDA FOLEY N°22 TRES VÍAS"
+    "MedicamentoSAP":"10000487",
+    "TextoBreveMedicamento":"ACETONA COMERCIAL"
   },
   {
-    "id": 11001569,
-    "nombre": "SONDA FOLEY N°24 TRES VÍAS-"
+    "MedicamentoSAP":"11001395",
+    "TextoBreveMedicamento":"CUBRE CALZADOS QUIRÚRGICO - PAR"
   },
   {
-    "id": 11001570,
-    "nombre": "SONDA FOLEY Nº 10 C/BALÓN 5 CC."
+    "MedicamentoSAP":"11001083",
+    "TextoBreveMedicamento":"MASCARILLA P\/NEBULIZAR C\/TUBULAD ADULTOS"
   },
   {
-    "id": 11001571,
-    "nombre": "SONDA FOLEY Nº 12 C/ BALÓN 5 CC"
+    "MedicamentoSAP":"11001453",
+    "TextoBreveMedicamento":"GUANTE PEQUEÑO NO ESTÉRIL - PAR"
   },
   {
-    "id": 11001572,
-    "nombre": "SONDA FOLEY Nº 14 C/ BALÓN 5 CC"
+    "MedicamentoSAP":"10000557",
+    "TextoBreveMedicamento":"FLA P. COM ESP P AD C INS RENAL S DIAL"
   },
   {
-    "id": 11001573,
-    "nombre": "SONDA FOLEY Nº 18 C/BALÓN 30 CC,"
+    "MedicamentoSAP":"10000233",
+    "TextoBreveMedicamento":"HIDROXICINA 25 mg. COM"
   },
   {
-    "id": 11001574,
-    "nombre": "SONDA FOLEY Nº 18 C/BALÓN DE 5 CC"
+    "MedicamentoSAP":"11001312",
+    "TextoBreveMedicamento":"CASSETTE DE PLÁSTICO DE BIOPSIA"
   },
   {
-    "id": 11001575,
-    "nombre": "SONDA FOLEY Nº 20 C/ BALÓN 30 CC"
+    "MedicamentoSAP":"11001601",
+    "TextoBreveMedicamento":"SONDA NASOYEYUNAL 14 FR. POLIURETANO"
   },
   {
-    "id": 11001576,
-    "nombre": "SONDA FOLEY Nº 20 C/ BALÓN 5 CC"
+    "MedicamentoSAP":"11001082",
+    "TextoBreveMedicamento":"MASCARILLA P\/ OXíGENO"
   },
   {
-    "id": 11001578,
-    "nombre": "SONDA FOLEY Nº 8 C/ BALÓN 3 a 5CC,"
+    "MedicamentoSAP":"11001662",
+    "TextoBreveMedicamento":"YESO ACRÍLICO DE 10 CM"
   },
   {
-    "id": 11001579,
-    "nombre": "SONDA FOLEY Nº. 12 C/BALÓN DE 30 CC"
+    "MedicamentoSAP":"11001600",
+    "TextoBreveMedicamento":"SONDA NASOYEYUNAL 12 FR. 100% SILICONA"
   },
   {
-    "id": 11001580,
-    "nombre": "SONDA FOLEY Nº. 14 C/BALÓN DE 30 CC"
+    "MedicamentoSAP":"11001014",
+    "TextoBreveMedicamento":"BOL\/PA C\/IN QUÍ C\/FUE 11x3x19 CM P\/AUTOC"
   },
   {
-    "id": 11001584,
-    "nombre": "SONDA NASOGÁSTRICA Nº 14, PVC SILICONADA"
+    "MedicamentoSAP":"11001944",
+    "TextoBreveMedicamento":"CURETA CURVA DOBLE PARA CIRUGÍA"
   },
   {
-    "id": 11001585,
-    "nombre": "SONDA NASOGÁSTRICA Nº14 100% DE SILICONA"
+    "MedicamentoSAP":"11000627",
+    "TextoBreveMedicamento":"PINZA ANATÓMICA VASCULAR DE BAKEY 15 CM"
   },
   {
-    "id": 11001586,
-    "nombre": "SONDA NASOGÁSTRICA Nº 16, PVC SILICONADA"
+    "MedicamentoSAP":"11000657",
+    "TextoBreveMedicamento":"PINZA HEMOST DUVAL ATRAUM 19 CM + - 2 CM"
   },
   {
-    "id": 11001587,
-    "nombre": "SONDA NASOGÁSTRICA Nº16 100% DE SILICONA"
+    "MedicamentoSAP":"11000717",
+    "TextoBreveMedicamento":"PINZA RANDALL 21 CM DE LONGITUD N° 01"
   },
   {
-    "id": 11001588,
-    "nombre": "SONDA NASOGÁSTRICA Nº 18, PVC SILICONADA"
+    "MedicamentoSAP":"11001700",
+    "TextoBreveMedicamento":"SUTURA QX POLIGLACTINA Nº0 C\/AG CILINDRI"
   },
   {
-    "id": 11001589,
-    "nombre": "SONDA NASOGÁSTRICA Nº18 100% DE SILICONA"
+    "MedicamentoSAP":"11000834",
+    "TextoBreveMedicamento":"TIJERA FINA RECTA 15 CM"
   },
   {
-    "id": 11001591,
-    "nombre": "SONDA NASOGÁSTRICA TIPO K30 PVC SILICON"
+    "MedicamentoSAP":"11002037",
+    "TextoBreveMedicamento":"TIRA METÁLICA PARA PULIR"
   },
   {
-    "id": 11001595,
-    "nombre": "SONDA NASOGÁSTRICA TIPO K33 PVC SILICON"
+    "MedicamentoSAP":"11001673",
+    "TextoBreveMedicamento":"SUTURA QX POLIPROPILENO N°4\/0 C\/2AG 22MM"
   },
   {
-    "id": 11001597,
-    "nombre": "SONDA NASOGÁSTRICA TIPO K35 PVC SILICON"
+    "MedicamentoSAP":"11001336",
+    "TextoBreveMedicamento":"CATÉTER INTRAVENOSO PERIFÉRICO N°16"
   },
   {
-    "id": 11001600,
-    "nombre": "SONDA NASOYEYUNAL 12 FR. 100% SILICONA"
+    "MedicamentoSAP":"11001584",
+    "TextoBreveMedicamento":"SONDA NASOGÁSTRICA Nº 14, PVC SILICONADA"
   },
   {
-    "id": 11001601,
-    "nombre": "SONDA NASOYEYUNAL 14 FR. POLIURETANO"
+    "MedicamentoSAP":"11000032",
+    "TextoBreveMedicamento":"AGAR BLOOD BASE (BASE SANGRE)"
   },
   {
-    "id": 11001602,
-    "nombre": "SONDA NASOYEYUNAL 14 FR. 100% SILICONA"
+    "MedicamentoSAP":"11000050",
+    "TextoBreveMedicamento":"AGAR MEDIO DE TRANSPORTE STUART"
   },
   {
-    "id": 11001605,
-    "nombre": "SONDA NELATON Nº 20"
+    "MedicamentoSAP":"11000054",
+    "TextoBreveMedicamento":"AGAR MUELLER HINTON"
   },
   {
-    "id": 11001609,
-    "nombre": "SONDA NELATON Nº 16"
+    "MedicamentoSAP":"11000062",
+    "TextoBreveMedicamento":"AGAR TIOGLICOLATO"
   },
   {
-    "id": 11001610,
-    "nombre": "SONDA NELATON Nº 18"
+    "MedicamentoSAP":"11000105",
+    "TextoBreveMedicamento":"COLORANTE DE GIEMSA"
   },
   {
-    "id": 11001622,
-    "nombre": "SONDA TRANSPILÓRICA 6 FR.SILICONADA"
+    "MedicamentoSAP":"11000277",
+    "TextoBreveMedicamento":"REACTIVO PARA ANTIGENEMIA PARA DENGUE"
   },
   {
-    "id": 11001629,
-    "nombre": "TROCAR P/PUNCIÓN PLEURAL Nº 10 FR"
+    "MedicamentoSAP":"11001160",
+    "TextoBreveMedicamento":"LAMINA DE VIDRIO PORTAOBJ C\/BORD\/ESMERIL"
   },
   {
-    "id": 11001636,
-    "nombre": "TOALLA INTER-HOJAS (CAJA)"
+    "MedicamentoSAP":"10000079",
+    "TextoBreveMedicamento":"CARBAMAZEPINA 20mg\/mL JBE SUSP"
   },
   {
-    "id": 11001637,
-    "nombre": "TUBO TRAQUEAL C/REFUERZ EN ESPIRAL N°7,5"
+    "MedicamentoSAP":"10000470",
+    "TextoBreveMedicamento":"VORICONAZOL 200mg INY"
   },
   {
-    "id": 11001652,
-    "nombre": "VENDA CAMBRAI 10CM X 3MT LARGO MÌNIMO"
+    "MedicamentoSAP":"10000560",
+    "TextoBreveMedicamento":"PREPARADO MODULAR DE CARBOHIDRATOS"
   },
   {
-    "id": 11001653,
-    "nombre": "VENDA CAMBRAI 15CM.X 3MT LARGO MÍNINO"
+    "MedicamentoSAP":"10000043",
+    "TextoBreveMedicamento":"ANFOTERICINA B LIPOSOMAL 50mg INY"
   },
   {
-    "id": 11001654,
-    "nombre": "VENDA CAMBRAI 5 CM. X 3 MT LARGO MÍNIMO"
+    "MedicamentoSAP":"11001099",
+    "TextoBreveMedicamento":"RESUCITADOR ADULTO C\/CÁMARA AUTOINFLABLE"
   },
   {
-    "id": 11001655,
-    "nombre": "VENDA ELÁST 10CMX1,50-1,80MT LARG/MIN/RE"
+    "MedicamentoSAP":"11001637",
+    "TextoBreveMedicamento":"TUBO TRAQUEAL C\/REFUERZ EN ESPIRAL N°7,5"
   },
   {
-    "id": 11001656,
-    "nombre": "VENDA ENYESADA 15CMX3MTS LARGO MÌNIMO"
+    "MedicamentoSAP":"10000102",
+    "TextoBreveMedicamento":"CIPROFLOXACINA 3mg\/mL COL"
   },
   {
-    "id": 11001657,
-    "nombre": "VENDA ENYESADA 20CMX3MTS LARGO MÌNIMO"
+    "MedicamentoSAP":"11001162",
+    "TextoBreveMedicamento":"LAMINILLA DE VIDRIO CUBRE OBJ 24X60MM+-1"
   },
   {
-    "id": 11001658,
-    "nombre": "VENDA ENYESADA 10 CM X 3 MT.LARGO MÌNIMO"
+    "MedicamentoSAP":"11001962",
+    "TextoBreveMedicamento":"ESPEJO BUCAL PLANO"
   },
   {
-    "id": 11001659,
-    "nombre": "VENDA SEMIELASTIZADA 10CMX1,50-1,80MTMIN"
+    "MedicamentoSAP":"11001982",
+    "TextoBreveMedicamento":"FRESA PARA TURBINA CILÍNDRICA CHICA"
   },
   {
-    "id": 11001660,
-    "nombre": "VENDA SEMIELASTIZADA 15CMX1,50-1,80MTMIN"
+    "MedicamentoSAP":"11001984",
+    "TextoBreveMedicamento":"FRESA PARA TURBINA CILÍNDRICA MEDIANA"
   },
   {
-    "id": 11001661,
-    "nombre": "VENDA SEMIELASTIZADA 20CMX1,50-1,80MTMIN"
+    "MedicamentoSAP":"11001991",
+    "TextoBreveMedicamento":"FRESA PARA TURBINA REDONDA GRANDE"
   },
   {
-    "id": 11001662,
-    "nombre": "YESO ACRÍLICO DE 10 CM"
+    "MedicamentoSAP":"11001990",
+    "TextoBreveMedicamento":"FRESA PARA TURBINA REDONDA MEDIANA"
   },
   {
-    "id": 11001663,
-    "nombre": "PICO P/IRRIGACIÓN DE FRASCOS DE SUEROS"
+    "MedicamentoSAP":"11001992",
+    "TextoBreveMedicamento":"FRESA PARA TURBINA REDONDA PEQUEÑA"
   },
   {
-    "id": 11001670,
-    "nombre": "SUTURA QX POLIPROPILENO N°5/0 C/2AG 10MM"
+    "MedicamentoSAP":"11001993",
+    "TextoBreveMedicamento":"FRESA QX CARBYDE EXTRA LARGA P TURBINA"
   },
   {
-    "id": 11001672,
-    "nombre": "SUTURA QX POLIPROPILENO N°5/0 C/2AG 17MM"
+    "MedicamentoSAP":"11001220",
+    "TextoBreveMedicamento":"APOSITO CURATIVO QUIRURGICA 20 X 11CM+-5"
   },
   {
-    "id": 11001673,
-    "nombre": "SUTURA QX POLIPROPILENO N°4/0 C/2AG 22MM"
+    "MedicamentoSAP":"11001405",
+    "TextoBreveMedicamento":"DREN DE PENROSE 1\/4"
   },
   {
-    "id": 11001674,
-    "nombre": "SUTURA QX POLIPROPILENO N°4/0 C/2AG 26MM"
+    "MedicamentoSAP":"10000455",
+    "TextoBreveMedicamento":"TROPICAMIDA + FENILEFRINA 0,5+5% COL"
   },
   {
-    "id": 11001677,
-    "nombre": "SUTURA QX POLIPROPILENO N°3/0 C/2AG2.5CM"
+    "MedicamentoSAP":"11001439",
+    "TextoBreveMedicamento":"ESPONJA HEMOSTÁTICA QUIRÚRGICA"
   },
   {
-    "id": 11001679,
-    "nombre": "SUTURA QX POLIPROPILENO N°3/0 C/2AG 2CM"
+    "MedicamentoSAP":"10000783",
+    "TextoBreveMedicamento":"MIDAZOLAN 5 mg\/ml INY  10ML"
   },
   {
-    "id": 11001680,
-    "nombre": "SUTURA QX POLIÉST N°2/0 C/2AG 2CM C/ALM."
+    "MedicamentoSAP":"10000058",
+    "TextoBreveMedicamento":"BETAMETASONA 0,50mg\/mL GOT ORAL"
   },
   {
-    "id": 11001685,
-    "nombre": "SUTURA QX POLIPROPILENO N°2/0 C/2AG 3CM"
+    "MedicamentoSAP":"10000189",
+    "TextoBreveMedicamento":"FACT VIII LIOF PLASMÁTICO 1000UI INY"
   },
   {
-    "id": 11001686,
-    "nombre": "SUTURA QX POLIPROPILENO N°5/0 C/2AG 1CM"
+    "MedicamentoSAP":"10000297",
+    "TextoBreveMedicamento":"LIDOCAINA CON EPINEFRINA 2%\/20 mL INY"
   },
   {
-    "id": 11001688,
-    "nombre": "SUTURA QX POLIPROPILENO.N°3/0 C/2AG3,5CM"
+    "MedicamentoSAP":"11003833",
+    "TextoBreveMedicamento":"ALGODÓN ZIG ZAG"
   },
   {
-    "id": 11001696,
-    "nombre": "SUTURA QX ÁCIDO POLIGLICOLICO N°1 C/AG"
+    "MedicamentoSAP":"11001447",
+    "TextoBreveMedicamento":"GASA HIDRÓFILA NO ESTÉRIL."
   },
   {
-    "id": 11001697,
-    "nombre": "SUTURA QX POLIGLACTINA N°2/0 C/AG 2,5 CM"
+    "MedicamentoSAP":"10000335",
+    "TextoBreveMedicamento":"NEOSTIGMINA 0,5 mg\/mL INY"
   },
   {
-    "id": 11001698,
-    "nombre": "SUTURA QX  POLIGLACTINA N°3/0 C/AG"
+    "MedicamentoSAP":"11001733",
+    "TextoBreveMedicamento":"SUTURA QX ALGODÓN N°2\/0 C\/AG DE 2,5CM"
   },
   {
-    "id": 11001700,
-    "nombre": "SUTURA QX POLIGLACTINA Nº0 C/AG CILINDRI"
+    "MedicamentoSAP":"11001674",
+    "TextoBreveMedicamento":"SUTURA QX POLIPROPILENO N°4\/0 C\/2AG 26MM"
   },
   {
-    "id": 11001701,
-    "nombre": "SUTURA QX POLIPROPILENO N°0 C/AG"
+    "MedicamentoSAP":"11003451",
+    "TextoBreveMedicamento":"CONECCIÓN CON 4 VÍAS P\/INFUSIÓN PARENTER"
   },
   {
-    "id": 11001702,
-    "nombre": "SUTURA QX POLIPROPILENO N°2/0 C/AG2,5CM"
+    "MedicamentoSAP":"11001299",
+    "TextoBreveMedicamento":"CÁNULA NASAL NEONATAL P\/OXIGENOTERA 6FR"
   },
   {
-    "id": 11001703,
-    "nombre": "SUTURA QX POLIPROPILENO N°2 C/AG 7,5CM"
+    "MedicamentoSAP":"10000467",
+    "TextoBreveMedicamento":"VITAMINA C 100-200 mg\/mL SOL"
   },
   {
-    "id": 11001706,
-    "nombre": "SUTURA QX POLIAMIDA N°2/0 C/AG DE 2,6CM"
+    "MedicamentoSAP":"11000044",
+    "TextoBreveMedicamento":"AGAR HIERRO Y LISINA"
   },
   {
-    "id": 11001707,
-    "nombre": "SUTURA QX POLIAMIDA N°3/0 C/AG DE 2CM"
+    "MedicamentoSAP":"11000045",
+    "TextoBreveMedicamento":"AGAR MAC CONKEY"
   },
   {
-    "id": 11001708,
-    "nombre": "SUTURA QX POLIAMIDA N°4/0 C/AG DE 2CM"
+    "MedicamentoSAP":"11000104",
+    "TextoBreveMedicamento":"COLORACIÓN DE GRAM"
   },
   {
-    "id": 11001709,
-    "nombre": "SUTURA QX DE ALGODÓN N° 0 SIN AG"
+    "MedicamentoSAP":"11000165",
+    "TextoBreveMedicamento":"DISCOS DE MEROPENEM 10 ug"
   },
   {
-    "id": 11001718,
-    "nombre": "SUTURA QX AC. POLIGLICOLICO N°1 C/AG 5CM"
+    "MedicamentoSAP":"11000363",
+    "TextoBreveMedicamento":"ANSA DE PUNTA RECTA"
   },
   {
-    "id": 11001719,
-    "nombre": "SUTURA QX POLIAMIDA N°0 C/AG DE 2 CM"
+    "MedicamentoSAP":"11000367",
+    "TextoBreveMedicamento":"CEPILLO P\/ LIMPIAR TUBO DE HEMÓLISIS."
   },
   {
-    "id": 11001722,
-    "nombre": "SUTURA QX POLIAMIDA N°5/0 C/AG DE 2CM"
+    "MedicamentoSAP":"11000396",
+    "TextoBreveMedicamento":"MICROPIPETA DE 200 A 1000 UL"
   },
   {
-    "id": 11001723,
-    "nombre": "SUTURA QX SEDA N°3/0 C/AG 2,5CM 1/2CIRC"
+    "MedicamentoSAP":"11000405",
+    "TextoBreveMedicamento":"PORTA ANSAS"
   },
   {
-    "id": 11001732,
-    "nombre": "SUTURA QX SEDA N°0 C/AG DE 3CM 3/8 CÍRCU"
+    "MedicamentoSAP":"11001245",
+    "TextoBreveMedicamento":"BOLSA MIXTA PLEG 5X21CM P\/OXIDO ETILENO"
   },
   {
-    "id": 11001733,
-    "nombre": "SUTURA QX ALGODÓN N°2/0 C/AG DE 2,5CM"
+    "MedicamentoSAP":"11003224",
+    "TextoBreveMedicamento":"TUBULADURA CORRUG.C\/CONEX.EN YAD(TUB.GO)"
   },
   {
-    "id": 11001738,
-    "nombre": "SUTURA QX DE ALGODÓN N°0 C/AGDE 3,5CM"
+    "MedicamentoSAP":"11000436",
+    "TextoBreveMedicamento":"BOLSA DE GOMA PARA AGUA CALIENTE"
   },
   {
-    "id": 11001772,
-    "nombre": "AGUJA P/ESCLEROSIS ENDOSCÓPICA DE 2,0 MM"
+    "MedicamentoSAP":"11000437",
+    "TextoBreveMedicamento":"BOLSA DE GOMA PARA HIELO"
   },
   {
-    "id": 11001774,
-    "nombre": "AGUJA P/ESCLEROSIS ENDOSCÓPICA 23G/7FR"
+    "MedicamentoSAP":"11001471",
+    "TextoBreveMedicamento":"HOJA DE BISTURÍ RECTA N° 22"
   },
   {
-    "id": 11001778,
-    "nombre": "ALAMBRE GUÍA BIL.P/ENDOS.DIGEST PUN-RECT"
+    "MedicamentoSAP":"11001346",
+    "TextoBreveMedicamento":"CATÉTER P\/ VÍA VENOSA CENT 6FR 3 LÚMEN"
   },
   {
-    "id": 11001779,
-    "nombre": "ALAMBRE GUÍA BIL.P/ENDOS.DIGEST PUN-ANGU"
+    "MedicamentoSAP":"11001595",
+    "TextoBreveMedicamento":"SONDA NASOGÁSTRICA TIPO K33 PVC SILICON"
   },
   {
-    "id": 11001781,
-    "nombre": "ASA P/EXT/POL/CUE/EXT/ENDO 2,5 MM/230 CM"
+    "MedicamentoSAP":"11001534",
+    "TextoBreveMedicamento":"SONDA ENDOTRAQUEAL N° 5 C\/BALÓN"
   },
   {
-    "id": 11001782,
-    "nombre": "ASA P/POLIPECTOMÍA VÍA ENDOS FOR/OVALADA"
+    "MedicamentoSAP":"11001702",
+    "TextoBreveMedicamento":"SUTURA QX POLIPROPILENO N°2\/0 C\/AG2,5CM"
   },
   {
-    "id": 11001791,
-    "nombre": "BALON RECAMBIO P/GASTROSTOMÍA DE 24 FR"
+    "MedicamentoSAP":"11001926",
+    "TextoBreveMedicamento":"CATÉTER DOBLE LÚMEN P\/HEMOD 12 FR 20 CM"
   },
   {
-    "id": 11001799,
-    "nombre": "BOTON GASTROTOM. BAJO RELIEVE 24FR/1,7CM"
+    "MedicamentoSAP":"11001104",
+    "TextoBreveMedicamento":"SISTEMA DRENAJE MEDIASTIN\/PLEURAL 2000CC"
   },
   {
-    "id": 11001808,
-    "nombre": "CANASTILLA 2,5X 5CM P/EXT/CAL/BIL/ENDOSC"
+    "MedicamentoSAP":"11001231",
+    "TextoBreveMedicamento":"CHALECO O BATA QUIRU ESTÉRIL\/DESC\/MEDIAN"
   },
   {
-    "id": 11001809,
-    "nombre": "CANASTILLA 3X6CM P/EXTRAC/CALCBIL/ENDOSC"
+    "MedicamentoSAP":"11001955",
+    "TextoBreveMedicamento":"ELEVADOR RECTO ADULTO"
   },
   {
-    "id": 11001828,
-    "nombre": "DILAT.VIA ENDO/ESTEN/TUB/DIG.BAL8-9-10MM"
+    "MedicamentoSAP":"11001678",
+    "TextoBreveMedicamento":"SUTURA QX POLIPROPILENO N°5\/0 C\/2AG1,5CM"
   },
   {
-    "id": 11001829,
-    "nombre": "DILAT.VIA END/ESTE/TUB/DIG.BAL10-11-12MM"
+    "MedicamentoSAP":"11001701",
+    "TextoBreveMedicamento":"SUTURA QX POLIPROPILENO N°0 C\/AG"
   },
   {
-    "id": 11001830,
-    "nombre": "DILAT.VIA END/EST/TUB/DIG.BA11-13,5-15MM"
+    "MedicamentoSAP":"11001427",
+    "TextoBreveMedicamento":"EQ PARA MEDIR LA PRESIÓN VENOSA CENTRAL"
   },
   {
-    "id": 11001836,
-    "nombre": "DISPOS INSUF P/BALON DILAT ESO/COL/PILOR"
+    "MedicamentoSAP":"11001465",
+    "TextoBreveMedicamento":"HEMOSUCTOR QUIRÚRGICO 16 a 18 FR. ADULTO"
   },
   {
-    "id": 11001899,
-    "nombre": "AGUJA AUTOMATICA PARA BIOPSIA RENAL."
+    "MedicamentoSAP":"11000523",
+    "TextoBreveMedicamento":"ESTETOSCOPIO BIAURICULAR PEDIÁTRICO"
   },
   {
-    "id": 11001900,
-    "nombre": "AGUJA P/FÍSTULA ARTERIOVENOSA 16 G"
+    "MedicamentoSAP":"11000740",
+    "TextoBreveMedicamento":"PORTA AGUJA 10 CM."
   },
   {
-    "id": 11001901,
-    "nombre": "AGUJA P/FÍSTULA ARTERIOVENOSA 17 G"
+    "MedicamentoSAP":"11000595",
+    "TextoBreveMedicamento":"PINZA ALLIS DE 25 CM RECTA"
   },
   {
-    "id": 11001910,
-    "nombre": "FILTRO CAPI P/HEM SINT1,5-1,8M2(1,5-1,6)"
+    "MedicamentoSAP":"11002034",
+    "TextoBreveMedicamento":"SONDA EXPLORADORA DOBLE N° 5"
   },
   {
-    "id": 11001911,
-    "nombre": "FILTRO CAPI P/HEM SINT1,5-1,8M2(1,7-1,8)"
+    "MedicamentoSAP":"11001326",
+    "TextoBreveMedicamento":"CATÉTER DE SUCCIÓN N°8 CONTROL FLUJO"
   },
   {
-    "id": 11001913,
-    "nombre": "LÍNEAS ARTERIO-VENOSAS P/HEMODIÁLISIS"
+    "MedicamentoSAP":"11001470",
+    "TextoBreveMedicamento":"HOJA DE BISTURÍ RECTA N° 21"
   },
   {
-    "id": 11001914,
-    "nombre": "SET CATETER DOB/LÚM 11,5-12FR P/HEMOD AD"
+    "MedicamentoSAP":"11001996",
+    "TextoBreveMedicamento":"FRESA REDONDA GRANDE PARA BAJA ROTACIÓN"
   },
   {
-    "id": 11001915,
-    "nombre": "SET CAT/DOB/LÚM 7,5-8FR P/HEM PED"
+    "MedicamentoSAP":"11002028",
+    "TextoBreveMedicamento":"RESINA FOTOPOLIMERIZABLE COLOR A2"
   },
   {
-    "id": 11001919,
-    "nombre": "SOLUCIÓN CONCE/ACIDA P/HEMOD(SOLUCIÓN A)"
+    "MedicamentoSAP":"11001096",
+    "TextoBreveMedicamento":"PICO PARA ELECTROBISTURÍ"
   },
   {
-    "id": 11001920,
-    "nombre": "SOLUCIÓN CONCE.P/HEMO/BICAR (SOLUCIÓN B)"
+    "MedicamentoSAP":"10000529",
+    "TextoBreveMedicamento":"SOL GLUCOSADA HIPERTÓNICA 10% SC"
   },
   {
-    "id": 11001928,
-    "nombre": "ACEITE PARA LUBRICAR LAS PIEZAS DE MANO"
+    "MedicamentoSAP":"10000192",
+    "TextoBreveMedicamento":"FACT VII RECOM Fla Eptacog 100000UI INY"
   },
   {
-    "id": 11001929,
-    "nombre": "ACIDO FOSFÓRICO AL 37% GEL"
+    "MedicamentoSAP":"11001446",
+    "TextoBreveMedicamento":"GASA HIDRÓFILA NO ESTÉRIL 10X10CM(+-1)"
   },
   {
-    "id": 11001930,
-    "nombre": "ADHESIVO DENT FOTOPOLIMERIZ MONOCOMPONE"
+    "MedicamentoSAP":"11001249",
+    "TextoBreveMedicamento":"BOLSA P\/UROSTOMÍA 2 PIEZAS"
   },
   {
-    "id": 11001931,
-    "nombre": "AGUJA CARPULE CORTA DESCARTABLE-ADULTO"
+    "MedicamentoSAP":"11001552",
+    "TextoBreveMedicamento":"SONDA ENDOTRAQUEAL Nº 6 C\/BALÓN"
   },
   {
-    "id": 11001932,
-    "nombre": "AGUJA CARPULE CORTA DESCARTABLE-PEDIATR"
+    "MedicamentoSAP":"11001943",
+    "TextoBreveMedicamento":"CUCHARITA DE BLACK N° 3"
   },
   {
-    "id": 11001935,
-    "nombre": "CEMENTO DE IONÓMERO VÍTREO PARA RESTAURA"
+    "MedicamentoSAP":"11001961",
+    "TextoBreveMedicamento":"ESPEJO BUCAL CON MANGO"
   },
   {
-    "id": 11001936,
-    "nombre": "CEMENTO DE IONÓMETRO VÍTREO PARA BASE"
+    "MedicamentoSAP":"11001999",
+    "TextoBreveMedicamento":"FRESA DE GRANO FINO PARA PULIR RESINAS"
   },
   {
-    "id": 11001943,
-    "nombre": "CUCHARITA DE BLACK N° 3"
+    "MedicamentoSAP":"11001997",
+    "TextoBreveMedicamento":"FRESA REDONDA MEDIANA PARA BAJA ROTACIÓN"
   },
   {
-    "id": 11001960,
-    "nombre": "ESPÁTULA PARA RESINA"
+    "MedicamentoSAP":"11001703",
+    "TextoBreveMedicamento":"SUTURA QX POLIPROPILENO N°2 C\/AG 7,5CM"
   },
   {
-    "id": 11001961,
-    "nombre": "ESPEJO BUCAL CON MANGO"
+    "MedicamentoSAP":"11001670",
+    "TextoBreveMedicamento":"SUTURA QX POLIPROPILENO N°5\/0 C\/2AG 10MM"
   },
   {
-    "id": 11001962,
-    "nombre": "ESPEJO BUCAL PLANO"
+    "MedicamentoSAP":"11001356",
+    "TextoBreveMedicamento":"CATÉTER DE SUCCIÓN C\/CIRCUITO CERRA N6"
   },
   {
-    "id": 11001963,
-    "nombre": "ESPONJA HEMOSTÁTICA ODONTOLÓGICA"
+    "MedicamentoSAP":"11001409",
+    "TextoBreveMedicamento":"ELECTRODO DESCARTABLE NEONATAL"
   },
   {
-    "id": 11001964,
-    "nombre": "EYECTOR DE SALIVA"
+    "MedicamentoSAP":"10000526",
+    "TextoBreveMedicamento":"SOL GLUCOSADA HIPERTÓNICA AL 50%-10CC"
   },
   {
-    "id": 11001982,
-    "nombre": "FRESA PARA TURBINA CILÍNDRICA CHICA"
+    "MedicamentoSAP":"11001322",
+    "TextoBreveMedicamento":"CATÉTER DE SUCCIÓN N°12 C\/CONTROL FLUJO"
   },
   {
-    "id": 11001983,
-    "nombre": "FRESA PARA TURBINA CILÍNDRICA GRANDE"
+    "MedicamentoSAP":"11001325",
+    "TextoBreveMedicamento":"CATÉTER DE SUCCIÓN N° 6 C\/CONTROL FLUJO"
   },
   {
-    "id": 11001984,
-    "nombre": "FRESA PARA TURBINA CILÍNDRICA MEDIANA"
+    "MedicamentoSAP":"11001686",
+    "TextoBreveMedicamento":"SUTURA QX POLIPROPILENO N°5\/0 C\/2AG 1CM"
   },
   {
-    "id": 11001990,
-    "nombre": "FRESA PARA TURBINA REDONDA MEDIANA"
+    "MedicamentoSAP":"11001580",
+    "TextoBreveMedicamento":"SONDA FOLEY Nº. 14 C\/BALÓN DE 30 CC"
   },
   {
-    "id": 11001991,
-    "nombre": "FRESA PARA TURBINA REDONDA GRANDE"
+    "MedicamentoSAP":"10000343",
+    "TextoBreveMedicamento":"OXITOCINA 5 UI\/mL INY"
   },
   {
-    "id": 11001992,
-    "nombre": "FRESA PARA TURBINA REDONDA PEQUEÑA"
+    "MedicamentoSAP":"11001713",
+    "TextoBreveMedicamento":"SUTURA MECÁNICA CIRCULAR DE 29MM DIÁM"
   },
   {
-    "id": 11001993,
-    "nombre": "FRESA QX CARBYDE EXTRA LARGA P TURBINA"
+    "MedicamentoSAP":"11001712",
+    "TextoBreveMedicamento":"SUTURA MECÁNICA CIRCULAR DE 25MM DIÁM"
   },
   {
-    "id": 11001995,
-    "nombre": "FRESA QX DE CARBURO TUNGSTENO LARG"
+    "MedicamentoSAP":"11001721",
+    "TextoBreveMedicamento":"SUTURA QX ALGODÓN N°3\/0 S\/AGUJA"
   },
   {
-    "id": 11001996,
-    "nombre": "FRESA REDONDA GRANDE PARA BAJA ROTACIÓN"
+    "MedicamentoSAP":"11001078",
+    "TextoBreveMedicamento":"MÁSCARA FACIAL PARA ANESTESIA N°2"
   },
   {
-    "id": 11001997,
-    "nombre": "FRESA REDONDA MEDIANA PARA BAJA ROTACIÓN"
+    "MedicamentoSAP":"11001080",
+    "TextoBreveMedicamento":"MÁSCARA FACIAL PARA ANESTESIA N°4"
   },
   {
-    "id": 11001999,
-    "nombre": "FRESA DE GRANO FINO PARA PULIR RESINAS"
+    "MedicamentoSAP":"11002020",
+    "TextoBreveMedicamento":"PINZA PARA ALGODÓN 15 CM (+ - 2)"
   },
   {
-    "id": 11002016,
-    "nombre": "PASTA ALVEOLAR ANTISÉPTICA Y ANALGÉSICA"
+    "MedicamentoSAP":"11002039",
+    "TextoBreveMedicamento":"TURBINA ODONTOLÓGICA"
   },
   {
-    "id": 11002028,
-    "nombre": "RESINA FOTOPOLIMERIZABLE COLOR A2"
+    "MedicamentoSAP":"11002042",
+    "TextoBreveMedicamento":"VIDRIO PARA CEMENTO USO ODONTOLOGICO"
   },
   {
-    "id": 11002029,
-    "nombre": "RESINA FOTOPOLIMERIZABLE COLOR A3"
+    "MedicamentoSAP":"11002002",
+    "TextoBreveMedicamento":"HIDRÓXIDO DE CALCIO FRAGUABLE"
   },
   {
-    "id": 11002031,
-    "nombre": "SELLADOR D FOSAS Y FISURAS FOTOPOLIMERIZ"
+    "MedicamentoSAP":"11002005",
+    "TextoBreveMedicamento":"LENTES PROTECTORES P\/LUZ HALÓGENA O LED"
   },
   {
-    "id": 11002037,
-    "nombre": "TIRA METÁLICA PARA PULIR"
+    "MedicamentoSAP":"11002003",
+    "TextoBreveMedicamento":"JERINGA TIPO CARPULE"
   },
   {
-    "id": 11002634,
-    "nombre": "BARRA DURA TIPO USS 6.0/50-150MM/AC o TI"
+    "MedicamentoSAP":"11000041",
+    "TextoBreveMedicamento":"AGAR EMB BACTO LEVINE"
   },
   {
-    "id": 11002641,
-    "nombre": "CEMENTO ÓSEO/RADIÓP/ES.BV.C/GENTAMICINA"
+    "MedicamentoSAP":"11003537",
+    "TextoBreveMedicamento":"TRAJE DE PROTEC. P\/ RIESGO BIOLOGICO TG"
   },
   {
-    "id": 11002642,
-    "nombre": "CEMENTO ÓSEO RADIÓP/ES.B.V.S/ANTIBIÓTICO"
+    "MedicamentoSAP":"10000116",
+    "TextoBreveMedicamento":"CLOBETAZOL PROPIO 0,5% UNG\/CREM\/POM"
   },
   {
-    "id": 11002695,
-    "nombre": "PLACA AUTO-EST.P/CO/CER(PLACA H)40-55MMT"
+    "MedicamentoSAP":"11001345",
+    "TextoBreveMedicamento":"CATÉTER P\/ VÍA VENOSA CENT 3,5FR 2LÚMEN"
   },
   {
-    "id": 11002877,
-    "nombre": "TORNILLO C/CAB/EXP AUTOR/P/COL/CER/4MM."
+    "MedicamentoSAP":"11001528",
+    "TextoBreveMedicamento":"SONDA DE ALIMENT\/NASOYEYUNAL P\/FRICCIÓN"
   },
   {
-    "id": 11002879,
-    "nombre": "TORNILLO PEDICULAR USS DE 5,0 MM."
+    "MedicamentoSAP":"11001830",
+    "TextoBreveMedicamento":"DILAT.VIA END\/EST\/TUB\/DIG.BA11-13,5-15MM"
   },
   {
-    "id": 11002880,
-    "nombre": "TORNILLO PEDICULAR USS DE 6,0 MM."
+    "MedicamentoSAP":"11001779",
+    "TextoBreveMedicamento":"ALAMBRE GUÍA BIL.P\/ENDOS.DIGEST PUN-ANGU"
   },
   {
-    "id": 11002949,
-    "nombre": "CONECTOR TRANSVERSAL USS P/BARRAS 6,0MM"
+    "MedicamentoSAP":"11001782",
+    "TextoBreveMedicamento":"ASA P\/POLIPECTOMÍA VÍA ENDOS FOR\/OVALADA"
   },
   {
-    "id": 11002955,
-    "nombre": "GANCHO LAMINAR TIPO USS"
+    "MedicamentoSAP":"11001778",
+    "TextoBreveMedicamento":"ALAMBRE GUÍA BIL.P\/ENDOS.DIGEST PUN-RECT"
   },
   {
-    "id": 11002957,
-    "nombre": "KIT CEMENTO ÓSEO P/VERTEBROPLASTÍA RADI."
+    "MedicamentoSAP":"11001791",
+    "TextoBreveMedicamento":"BALON RECAMBIO P\/GASTROSTOMÍA DE 24 FR"
   },
   {
-    "id": 11003108,
-    "nombre": "LINEA BAJADA P/NUTRIC.PARENTER.(BBRAUN)"
+    "MedicamentoSAP":"11001774",
+    "TextoBreveMedicamento":"AGUJA P\/ESCLEROSIS ENDOSCÓPICA 23G\/7FR"
   },
   {
-    "id": 11003125,
-    "nombre": "SET P/NUTRICIÓN PARENTERAL P/BOMBA ABBOT"
+    "MedicamentoSAP":"11001808",
+    "TextoBreveMedicamento":"CANASTILLA 2,5X 5CM P\/EXT\/CAL\/BIL\/ENDOSC"
   },
   {
-    "id": 11003223,
-    "nombre": "TRANSDUCTOR PRESION P/MÁQUINAS ANESTESIA"
+    "MedicamentoSAP":"11001809",
+    "TextoBreveMedicamento":"CANASTILLA 3X6CM P\/EXTRAC\/CALCBIL\/ENDOSC"
   },
   {
-    "id": 11003236,
-    "nombre": "GLUCOMETRO DIGITAL"
+    "MedicamentoSAP":"11001829",
+    "TextoBreveMedicamento":"DILAT.VIA END\/ESTE\/TUB\/DIG.BAL10-11-12MM"
   },
   {
-    "id": 11003262,
-    "nombre": "FILTRO BACTERIANO HME P VENTIL MAQUET"
+    "MedicamentoSAP":"11001828",
+    "TextoBreveMedicamento":"DILAT.VIA ENDO\/ESTEN\/TUB\/DIG.BAL8-9-10MM"
   },
   {
-    "id": 11003376,
-    "nombre": "CANULA DE TRAQUEOSTOMIA N° 7 C/BALON"
+    "MedicamentoSAP":"11001799",
+    "TextoBreveMedicamento":"BOTON GASTROTOM. BAJO RELIEVE 24FR\/1,7CM"
   },
   {
-    "id": 11003451,
-    "nombre": "CONECCIÓN CON 4 VÍAS P/INFUSIÓN PARENTER"
+    "MedicamentoSAP":"11001772",
+    "TextoBreveMedicamento":"AGUJA P\/ESCLEROSIS ENDOSCÓPICA DE 2,0 MM"
   },
   {
-    "id": 11003454,
-    "nombre": "EQ SUERO DE INFUSION IV MACRO 20G. FBC"
+    "MedicamentoSAP":"11001781",
+    "TextoBreveMedicamento":"ASA P\/EXT\/POL\/CUE\/EXT\/ENDO 2,5 MM\/230 CM"
   },
   {
-    "id": 11003506,
-    "nombre": "MÁSCARA QUIRÚRGICA DESCART TIRA ELASTICA"
+    "MedicamentoSAP":"11001836",
+    "TextoBreveMedicamento":"DISPOS INSUF P\/BALON DILAT ESO\/COL\/PILOR"
   },
   {
-    "id": 11003507,
-    "nombre": "CHALECO O BATA QX NO EST/DESC TG SMS"
+    "MedicamentoSAP":"11003732",
+    "TextoBreveMedicamento":"POTECTOR OCULAR TIPO ANTIPARA"
   },
   {
-    "id": 11003508,
-    "nombre": "CHALECO O BATA QX NO EST/DESC TG SSMMS"
+    "MedicamentoSAP":"11001622",
+    "TextoBreveMedicamento":"SONDA TRANSPILÓRICA 6 FR.SILICONADA"
   },
   {
-    "id": 11003510,
-    "nombre": "CHALECO O BATA QX NO EST/DESC TM SMS"
+    "MedicamentoSAP":"11001931",
+    "TextoBreveMedicamento":"AGUJA CARPULE CORTA DESCARTABLE-ADULTO"
   },
   {
-    "id": 11003511,
-    "nombre": "CHALECO O BATA QX NO EST/DESC TM SSMMS"
+    "MedicamentoSAP":"11002642",
+    "TextoBreveMedicamento":"CEMENTO ÓSEO RADIÓP\/ES.B.V.S\/ANTIBIÓTICO"
   },
   {
-    "id": 11003530,
-    "nombre": "CHALECO O BATA QX NO EST/DESC T EG SMS"
+    "MedicamentoSAP":"11002641",
+    "TextoBreveMedicamento":"CEMENTO ÓSEO\/RADIÓP\/ES.BV.C\/GENTAMICINA"
   },
   {
-    "id": 11003537,
-    "nombre": "TRAJE DE PROTEC. P/ RIESGO BIOLOGICO TG"
+    "MedicamentoSAP":"10000015",
+    "TextoBreveMedicamento":"ACT TISULAR PLASMINOGENO 50mg INY"
   },
   {
-    "id": 11003546,
-    "nombre": "BOLSA MORTUORIA"
+    "MedicamentoSAP":"11001688",
+    "TextoBreveMedicamento":"SUTURA QX POLIPROPILENO.N°3\/0 C\/2AG3,5CM"
   },
   {
-    "id": 11003581,
-    "nombre": "TERMÓMETRO DIGITAL"
+    "MedicamentoSAP":"11001738",
+    "TextoBreveMedicamento":"SUTURA QX DE ALGODÓN N°0 C\/AGDE 3,5CM"
   },
   {
-    "id": 11003664,
-    "nombre": "Sin descripción"
+    "MedicamentoSAP":"11001964",
+    "TextoBreveMedicamento":"EYECTOR DE SALIVA"
   },
   {
-    "id": 11003665,
-    "nombre": "SET ESTERIL PARA BOMBAS DE INFUSION"
+    "MedicamentoSAP":"11002016",
+    "TextoBreveMedicamento":"PASTA ALVEOLAR ANTISÉPTICA Y ANALGÉSICA"
   },
   {
-    "id": 11003732,
-    "nombre": "POTECTOR OCULAR TIPO ANTIPARA"
+    "MedicamentoSAP":"11001932",
+    "TextoBreveMedicamento":"AGUJA CARPULE CORTA DESCARTABLE-PEDIATR"
   },
   {
-    "id": 11003756,
-    "nombre": "REACT. DETEC ANTIGENO SARS-CoV-2 INF A/B"
+    "MedicamentoSAP":"11001983",
+    "TextoBreveMedicamento":"FRESA PARA TURBINA CILÍNDRICA GRANDE"
   },
   {
-    "id": 11003833,
-    "nombre": "ALGODÓN ZIG ZAG"
+    "MedicamentoSAP":"11001995",
+    "TextoBreveMedicamento":"FRESA QX DE CARBURO TUNGSTENO LARG"
+  },
+  {
+    "MedicamentoSAP":"11001699",
+    "TextoBreveMedicamento":"SUTURA QX ÁCIDO POLIGLACTINA N°4\/0 C\/AG"
+  },
+  {
+    "MedicamentoSAP":"10000183",
+    "TextoBreveMedicamento":"ESTRADIOL+NORESTISTOSTERONA0,01mg\/2mgCOM"
+  },
+  {
+    "MedicamentoSAP":"10000504",
+    "TextoBreveMedicamento":"SOLUCIÓN LUGOL FUERTEB"
+  },
+  {
+    "MedicamentoSAP":"11001436",
+    "TextoBreveMedicamento":"ESPÉCULO VAGINAL DESCARTABLE GRANDE"
+  },
+  {
+    "MedicamentoSAP":"11002001",
+    "TextoBreveMedicamento":"GOMAS P PULIR RESINA GOMAS SILICONADAS"
+  },
+  {
+    "MedicamentoSAP":"11001605",
+    "TextoBreveMedicamento":"SONDA NELATON Nº 20"
+  },
+  {
+    "MedicamentoSAP":"11001556",
+    "TextoBreveMedicamento":"SONDA ENDOTRAQUEAL Nº 7 SIN BALÓN"
+  },
+  {
+    "MedicamentoSAP":"11000133",
+    "TextoBreveMedicamento":"DISCO DE AMOXICI \/ AC. CLAVULÁ 20\/10 ug"
+  },
+  {
+    "MedicamentoSAP":"11000135",
+    "TextoBreveMedicamento":"DISCO DE CEFALOTINA DE 30 ug"
+  },
+  {
+    "MedicamentoSAP":"11000143",
+    "TextoBreveMedicamento":"DISCOS DE CEFEPIME 30 ug"
+  },
+  {
+    "MedicamentoSAP":"11000147",
+    "TextoBreveMedicamento":"DISCOS DE CEFOTAXIMA 30 ug"
+  },
+  {
+    "MedicamentoSAP":"11000148",
+    "TextoBreveMedicamento":"DISCOS DE CEFOXITINA 30 ug"
+  },
+  {
+    "MedicamentoSAP":"11000150",
+    "TextoBreveMedicamento":"DISCOS DE CEFTAZIDIMA 30 ug"
+  },
+  {
+    "MedicamentoSAP":"11000152",
+    "TextoBreveMedicamento":"DISCOS DE CIPROFLOXACINA 5 ug"
+  },
+  {
+    "MedicamentoSAP":"11000153",
+    "TextoBreveMedicamento":"DISCOS DE CLINDAMICINA 2 ug"
+  },
+  {
+    "MedicamentoSAP":"11000156",
+    "TextoBreveMedicamento":"DISCOS DE ERITROMICINA 15 ug"
+  },
+  {
+    "MedicamentoSAP":"11000161",
+    "TextoBreveMedicamento":"DISCOS DE GENTAMICINA 10 ug"
+  },
+  {
+    "MedicamentoSAP":"11000179",
+    "TextoBreveMedicamento":"DISCOS DE TRIMET \/ SULFAM 1.25\/23,75 ug"
+  },
+  {
+    "MedicamentoSAP":"10000808",
+    "TextoBreveMedicamento":"KETAMINA 50 mg \/ mL INY (Ampolla x 5ml)"
+  },
+  {
+    "MedicamentoSAP":"11001352",
+    "TextoBreveMedicamento":"SOL GLUC\/CLORHEX AL 2%+ALC ISOP 70% 10,5"
+  },
+  {
+    "MedicamentoSAP":"11001108",
+    "TextoBreveMedicamento":"TRAMPA PARA MUCUS"
+  },
+  {
+    "MedicamentoSAP":"11000033",
+    "TextoBreveMedicamento":"AGAR CARY BLAIR"
+  },
+  {
+    "MedicamentoSAP":"11000047",
+    "TextoBreveMedicamento":"AGAR MANITOL"
+  },
+  {
+    "MedicamentoSAP":"11000053",
+    "TextoBreveMedicamento":"MEDIO VP VOGUES PROSKAUER"
+  },
+  {
+    "MedicamentoSAP":"11000059",
+    "TextoBreveMedicamento":"AGAR SKIM MILK POWER LP 031"
+  },
+  {
+    "MedicamentoSAP":"11000060",
+    "TextoBreveMedicamento":"AGAR SS ( SALMONELLAS Y SHIGELLAS)"
+  },
+  {
+    "MedicamentoSAP":"11000286",
+    "TextoBreveMedicamento":"SELENITO - CALDO"
+  },
+  {
+    "MedicamentoSAP":"11001928",
+    "TextoBreveMedicamento":"ACEITE PARA LUBRICAR LAS PIEZAS DE MANO"
+  },
+  {
+    "MedicamentoSAP":"11000012",
+    "TextoBreveMedicamento":"LENTES C\/ PROTECTOR DE PLOMO P\/ RAYOS X"
+  },
+  {
+    "MedicamentoSAP":"11001504",
+    "TextoBreveMedicamento":"MALLA POLIPROPILENO Y POLIGLACT CHICA"
+  },
+  {
+    "MedicamentoSAP":"11000421",
+    "TextoBreveMedicamento":"AEROC ESPAC FACIAL P\/AEROSOL TERAPIA-INF"
+  },
+  {
+    "MedicamentoSAP":"11001136",
+    "TextoBreveMedicamento":"KIT DE ANESTESIA PERIDURAL"
+  },
+  {
+    "MedicamentoSAP":"11001145",
+    "TextoBreveMedicamento":"AGUJA PARA ANESTESIA RAQUIDEA N° 26 G"
+  },
+  {
+    "MedicamentoSAP":"11001362",
+    "TextoBreveMedicamento":"CATÉTER PERCUTÁNEO UNILÚMEN 3 FR"
+  },
+  {
+    "MedicamentoSAP":"10000528",
+    "TextoBreveMedicamento":"SOL GLUCOSADA HIPERTÓNICA 10% SA"
+  },
+  {
+    "MedicamentoSAP":"10000445",
+    "TextoBreveMedicamento":"TOBRAMICINA 3% UNG OFTAL"
+  },
+  {
+    "MedicamentoSAP":"11002880",
+    "TextoBreveMedicamento":"TORNILLO PEDICULAR USS DE 6,0 MM."
+  },
+  {
+    "MedicamentoSAP":"11001347",
+    "TextoBreveMedicamento":"CATÉTER P\/ VÍA VENOSA CENT 6FR 2 LÚMEN"
+  },
+  {
+    "MedicamentoSAP":"10000443",
+    "TextoBreveMedicamento":"TIOTROPIO BROMURO 2,5 mcg SOL"
+  },
+  {
+    "MedicamentoSAP":"11001939",
+    "TextoBreveMedicamento":"CEPILLOS DE ROBINSON P\/ODONTOPEDIATRIA"
+  },
+  {
+    "MedicamentoSAP":"10000346",
+    "TextoBreveMedicamento":"OCTREOTIDA ACETATO 20 mg INY"
+  },
+  {
+    "MedicamentoSAP":"10000047",
+    "TextoBreveMedicamento":"ANTIHEMORROIDAL CON CORTISONA CRM\/POM"
+  },
+  {
+    "MedicamentoSAP":"10000286",
+    "TextoBreveMedicamento":"LEUPROLIDE (LEUPRORELINA) 3.75 mg INY"
+  },
+  {
+    "MedicamentoSAP":"10000924",
+    "TextoBreveMedicamento":"LINEZOLID 600 MG COMPRIMIDO"
+  },
+  {
+    "MedicamentoSAP":"10000134",
+    "TextoBreveMedicamento":"DEXAMETASONA FOSFAT SODICO 0,001 COL"
+  },
+  {
+    "MedicamentoSAP":"11001973",
+    "TextoBreveMedicamento":"FORCEPS P\/MOLAR SUPERIOR DERECHO PEDIÁT"
+  },
+  {
+    "MedicamentoSAP":"11001975",
+    "TextoBreveMedicamento":"FORCEPS P\/MOLAR SUPERIOR IZQUIERDO PED."
+  },
+  {
+    "MedicamentoSAP":"11001969",
+    "TextoBreveMedicamento":"FORCEPS PARA INCISIVO INFERIOR"
+  },
+  {
+    "MedicamentoSAP":"11001971",
+    "TextoBreveMedicamento":"FORCEPS PARA MOLAR INFERIOR PEDIÁTRICO"
+  },
+  {
+    "MedicamentoSAP":"11001972",
+    "TextoBreveMedicamento":"FORCEPS PARA MOLAR SUPERIOR DERECHO"
+  },
+  {
+    "MedicamentoSAP":"11001976",
+    "TextoBreveMedicamento":"FORCEPS PARA PREMOLAR INFERIOR"
+  },
+  {
+    "MedicamentoSAP":"11001977",
+    "TextoBreveMedicamento":"FORCEPS PARA PREMOLAR SUPERIOR"
+  },
+  {
+    "MedicamentoSAP":"11002026",
+    "TextoBreveMedicamento":"PUNTAS MORSE P\/ USO ODONTOLÓGICO"
+  },
+  {
+    "MedicamentoSAP":"11002035",
+    "TextoBreveMedicamento":"SONDAS PERIODONTALES"
+  },
+  {
+    "MedicamentoSAP":"11001155",
+    "TextoBreveMedicamento":"ERLENMEYER DE 1000 CC"
+  },
+  {
+    "MedicamentoSAP":"11003448",
+    "TextoBreveMedicamento":"EQ SUERO DE INFUSION IV MICROGOTERO FCB"
+  },
+  {
+    "MedicamentoSAP":"11001647",
+    "TextoBreveMedicamento":"TUBO TRAQUEAL P\/INTUB BRONQ SELECT 41IZQ"
+  },
+  {
+    "MedicamentoSAP":"10000883",
+    "TextoBreveMedicamento":"CEFTAZIDIMA 2G + AVIBACTAM 0,5G INY"
+  },
+  {
+    "MedicamentoSAP":"11000031",
+    "TextoBreveMedicamento":"AGAR BÍLIS ESCULINA ÁCIDA"
+  },
+  {
+    "MedicamentoSAP":"11000376",
+    "TextoBreveMedicamento":"GRADILLA DE ALAM PLASTIF Y\/O ACE INOX."
+  },
+  {
+    "MedicamentoSAP":"11000381",
+    "TextoBreveMedicamento":"GRADILLAS P\/MICROTUBOS"
+  },
+  {
+    "MedicamentoSAP":"11001188",
+    "TextoBreveMedicamento":"VARILLA DE VIDRIO 30 CM. X 8 MM."
+  },
+  {
+    "MedicamentoSAP":"11002928",
+    "TextoBreveMedicamento":"BARRA DURA TIPO USS 6,0 MM DE 50 a 500MM"
+  },
+  {
+    "MedicamentoSAP":"11002634",
+    "TextoBreveMedicamento":"BARRA DURA TIPO USS 6.0\/50-150MM\/AC o TI"
+  },
+  {
+    "MedicamentoSAP":"11002877",
+    "TextoBreveMedicamento":"TORNILLO C\/CAB\/EXP AUTOR\/P\/COL\/CER\/4MM."
+  },
+  {
+    "MedicamentoSAP":"11002879",
+    "TextoBreveMedicamento":"TORNILLO PEDICULAR USS DE 5,0 MM."
+  },
+  {
+    "MedicamentoSAP":"11002952",
+    "TextoBreveMedicamento":"ESPONJA HEM.ABS.CEL.10(+-2)CMX20(+-2)CM"
+  },
+  {
+    "MedicamentoSAP":"11001410",
+    "TextoBreveMedicamento":"ELECTRODO DESCARTABLE PEDIÁTRICO"
+  },
+  {
+    "MedicamentoSAP":"11000296",
+    "TextoBreveMedicamento":"SEROLOGÍA PARA STAPHYLOCOCOS (LATEX)"
+  },
+  {
+    "MedicamentoSAP":"11003125",
+    "TextoBreveMedicamento":"SET P\/NUTRICIÓN PARENTERAL P\/BOMBA ABBOT"
+  },
+  {
+    "MedicamentoSAP":"11000048",
+    "TextoBreveMedicamento":"AGAR MEDIO C.L.D.E."
+  },
+  {
+    "MedicamentoSAP":"11001004",
+    "TextoBreveMedicamento":"APARATO DE PRESIÓN ANEROIDE PARA NIÑOS"
+  },
+  {
+    "MedicamentoSAP":"11001073",
+    "TextoBreveMedicamento":"MANGUITO DE PRESIÓN ADULTO"
+  },
+  {
+    "MedicamentoSAP":"10000362",
+    "TextoBreveMedicamento":"PANCURONIO BROMURO 4 mg\/2mL INY"
+  },
+  {
+    "MedicamentoSAP":"11001236",
+    "TextoBreveMedicamento":"BOLSA DE COLON SIMPLE CON CÁNULA"
+  },
+  {
+    "MedicamentoSAP":"11001597",
+    "TextoBreveMedicamento":"SONDA NASOGÁSTRICA TIPO K35 PVC SILICON"
+  },
+  {
+    "MedicamentoSAP":"11000813",
+    "TextoBreveMedicamento":"TERMÓMETRO CLÍNICO RECTAL"
+  },
+  {
+    "MedicamentoSAP":"11001050",
+    "TextoBreveMedicamento":"FRASCO PARA DRENAJE de 500 cc"
+  },
+  {
+    "MedicamentoSAP":"11003376",
+    "TextoBreveMedicamento":"CANULA DE TRAQUEOSTOMIA N° 7 C\/BALON"
+  },
+  {
+    "MedicamentoSAP":"11001201",
+    "TextoBreveMedicamento":"AGUJA PARA ANESTESIA RAQUIDEA N° 25 G"
+  },
+  {
+    "MedicamentoSAP":"11001645",
+    "TextoBreveMedicamento":"TUBO TRAQUEAL P\/INTUB BRONQ SELECT 39IZQ"
+  },
+  {
+    "MedicamentoSAP":"11001642",
+    "TextoBreveMedicamento":"TUBO TRAQUEAL P\/INTUB BRONQ SELECT 37DER"
+  },
+  {
+    "MedicamentoSAP":"11001643",
+    "TextoBreveMedicamento":"TUBO TRAQUEAL P\/INTUB BRONQ SELECT 37IZQ"
+  },
+  {
+    "MedicamentoSAP":"11001644",
+    "TextoBreveMedicamento":"TUBO TRAQUEAL P\/INTUB BRONQ SELECT 39DER"
+  },
+  {
+    "MedicamentoSAP":"11001024",
+    "TextoBreveMedicamento":"CONTROL EN TIRAS PARA ESTUFA"
+  },
+  {
+    "MedicamentoSAP":"11001011",
+    "TextoBreveMedicamento":"SIERRA ELÉCTRICA P\/ YESO"
+  },
+  {
+    "MedicamentoSAP":"11001672",
+    "TextoBreveMedicamento":"SUTURA QX POLIPROPILENO N°5\/0 C\/2AG 17MM"
+  },
+  {
+    "MedicamentoSAP":"11002957",
+    "TextoBreveMedicamento":"KIT CEMENTO ÓSEO P\/VERTEBROPLASTÍA RADI."
+  },
+  {
+    "MedicamentoSAP":"11001095",
+    "TextoBreveMedicamento":"PICO ASP\/ME\/CUR 90°15CM+-2CM P\/CIRC\/EXTR"
+  },
+  {
+    "MedicamentoSAP":"11002029",
+    "TextoBreveMedicamento":"RESINA FOTOPOLIMERIZABLE COLOR A3"
+  },
+  {
+    "MedicamentoSAP":"11001930",
+    "TextoBreveMedicamento":"ADHESIVO DENT FOTOPOLIMERIZ MONOCOMPONE"
+  },
+  {
+    "MedicamentoSAP":"11002031",
+    "TextoBreveMedicamento":"SELLADOR D FOSAS Y FISURAS FOTOPOLIMERIZ"
+  },
+  {
+    "MedicamentoSAP":"11001910",
+    "TextoBreveMedicamento":"FILTRO CAPI P\/HEM SINT1,5-1,8M2(1,5-1,6)"
+  },
+  {
+    "MedicamentoSAP":"11001591",
+    "TextoBreveMedicamento":"SONDA NASOGÁSTRICA TIPO K30 PVC SILICON"
+  },
+  {
+    "MedicamentoSAP":"10000882",
+    "TextoBreveMedicamento":"LINEZOLID 200 MG AMPOLLA"
+  },
+  {
+    "MedicamentoSAP":"11001486",
+    "TextoBreveMedicamento":"INTRODUCTOR P\/ELECTRODO MARCAP TEMPO 8FR"
+  },
+  {
+    "MedicamentoSAP":"11001084",
+    "TextoBreveMedicamento":"MASCARILLA P\/NEBULIZAR C\/TUBULAD PEDIÁTR"
+  },
+  {
+    "MedicamentoSAP":"11001304",
+    "TextoBreveMedicamento":"CÁNULA OROFARÍNGEA N° 2"
+  },
+  {
+    "MedicamentoSAP":"11001357",
+    "TextoBreveMedicamento":"CATÉTER P\/VÍA\/VEN\/CENT DO\/LÚMEN 4,5-5 FR"
+  },
+  {
+    "MedicamentoSAP":"10000249",
+    "TextoBreveMedicamento":"INMUNOGLOBULINA 5 g INY"
+  },
+  {
+    "MedicamentoSAP":"10000510",
+    "TextoBreveMedicamento":"AGUA DESTILADA 10ML"
+  },
+  {
+    "MedicamentoSAP":"11000416",
+    "TextoBreveMedicamento":"TUB CAPILARES P MICROHEMATOCRI C HEPAR"
+  },
+  {
+    "MedicamentoSAP":"11001016",
+    "TextoBreveMedicamento":"BOL\/PA C\/IN QUÍ C\/FUE 32\/12\/54CM P\/AUTOC"
+  },
+  {
+    "MedicamentoSAP":"11001909",
+    "TextoBreveMedicamento":"FILTRO CAPILAR P\/HEMO SINTETIC 1,2-1,4M2"
+  },
+  {
+    "MedicamentoSAP":"11001581",
+    "TextoBreveMedicamento":"SONDA NASOGÁSTRICA N°12 PVC SILICONADA"
+  },
+  {
+    "MedicamentoSAP":"11001554",
+    "TextoBreveMedicamento":"SONDA ENDOTRAQUEAL Nº 6,5 S\/ BALÓN"
+  },
+  {
+    "MedicamentoSAP":"11002366",
+    "TextoBreveMedicamento":"CATÉTER PRO AL\/PR P\/1200a1500PSI-40a80CM"
+  },
+  {
+    "MedicamentoSAP":"11001267",
+    "TextoBreveMedicamento":"CAMPO ADHESIVO QX NIÑOS 30 X 18CM(+10)"
+  },
+  {
+    "MedicamentoSAP":"11003530",
+    "TextoBreveMedicamento":"CHALECO O BATA QX NO EST\/DESC T EG SMS"
+  },
+  {
+    "MedicamentoSAP":"11001960",
+    "TextoBreveMedicamento":"ESPÁTULA PARA RESINA"
+  },
+  {
+    "MedicamentoSAP":"10000140",
+    "TextoBreveMedicamento":"DICLOFENAC SODICO 0,10% COL"
+  },
+  {
+    "MedicamentoSAP":"10000507",
+    "TextoBreveMedicamento":"XILOL P\/A."
+  },
+  {
+    "MedicamentoSAP":"11000854",
+    "TextoBreveMedicamento":"TIJERA P\/ALAMBRE GUILFORD-WRIGHT 10 CM"
+  },
+  {
+    "MedicamentoSAP":"11001239",
+    "TextoBreveMedicamento":"BOLSA EXTERNA P\/RECOLECC DE ORINA NIÑAS"
+  },
+  {
+    "MedicamentoSAP":"11001680",
+    "TextoBreveMedicamento":"SUTURA QX POLIÉST N°2\/0 C\/2AG 2CM C\/ALM."
+  },
+  {
+    "MedicamentoSAP":"11001608",
+    "TextoBreveMedicamento":"SONDA NELATON Nº 14"
+  },
+  {
+    "MedicamentoSAP":"11001379",
+    "TextoBreveMedicamento":"CLAMP UMBILICAL"
+  },
+  {
+    "MedicamentoSAP":"11001831",
+    "TextoBreveMedicamento":"DILAT.VIA END\/EST\/TUB\/DIG.BA15-16,5-18MM"
+  },
+  {
+    "MedicamentoSAP":"11001832",
+    "TextoBreveMedicamento":"DILAT.VIA END\/ESTE\/TUB\/DIG.BAL18-19-20MM"
+  },
+  {
+    "MedicamentoSAP":"10000351",
+    "TextoBreveMedicamento":"ONDANSETRON 8 mg COM"
+  },
+  {
+    "MedicamentoSAP":"10000194",
+    "TextoBreveMedicamento":"FENOBARBITAL 0,015g COM"
+  },
+  {
+    "MedicamentoSAP":"11001254",
+    "TextoBreveMedicamento":"BOLSA PRESUR P\/PRE\/AR\/IN\/SWANGANG\/SANGRE"
+  },
+  {
+    "MedicamentoSAP":"11001049",
+    "TextoBreveMedicamento":"FRASCO PARA DRENAJE de 2.000 cc"
+  },
+  {
+    "MedicamentoSAP":"11001048",
+    "TextoBreveMedicamento":"FRASCO PARA DRENAJE de 1.000 cc"
+  },
+  {
+    "MedicamentoSAP":"11002695",
+    "TextoBreveMedicamento":"PLACA AUTO-EST.P\/CO\/CER(PLACA H)40-55MMT"
+  },
+  {
+    "MedicamentoSAP":"11002949",
+    "TextoBreveMedicamento":"CONECTOR TRANSVERSAL USS P\/BARRAS 6,0MM"
+  },
+  {
+    "MedicamentoSAP":"11002955",
+    "TextoBreveMedicamento":"GANCHO LAMINAR TIPO USS"
+  },
+  {
+    "MedicamentoSAP":"11001679",
+    "TextoBreveMedicamento":"SUTURA QX POLIPROPILENO N°3\/0 C\/2AG 2CM"
+  },
+  {
+    "MedicamentoSAP":"11002956",
+    "TextoBreveMedicamento":"GANCHO PEDICULAR TIPO USS"
+  },
+  {
+    "MedicamentoSAP":"11002861",
+    "TextoBreveMedicamento":"RÓTULA SENCILLA VENTROFIX ACERO O TITAN"
+  },
+  {
+    "MedicamentoSAP":"11002862",
+    "TextoBreveMedicamento":"RÓTULA SISTEMA TIPO USS ACERO O TITANIO"
+  },
+  {
+    "MedicamentoSAP":"11002122",
+    "TextoBreveMedicamento":"PROTECTOR OCULAR UNIVERSAL"
+  },
+  {
+    "MedicamentoSAP":"11001202",
+    "TextoBreveMedicamento":"AGUJA P\/ ANESTESIA RAQUÍDEA N° 26G 90MM"
+  },
+  {
+    "MedicamentoSAP":"11003152",
+    "TextoBreveMedicamento":"CARTUCHO RECAR.SUT\/MEC.C\/GRAP\/CURVA 45MM"
+  },
+  {
+    "MedicamentoSAP":"11001332",
+    "TextoBreveMedicamento":"CATÉTER DOBLE J N°6 C\/GUÍA\/POSICION-28CM"
+  },
+  {
+    "MedicamentoSAP":"10000576",
+    "TextoBreveMedicamento":"IOBITRIDOL 300 mg Iodo\/mL (50 - 100 mL)"
+  },
+  {
+    "MedicamentoSAP":"11001503",
+    "TextoBreveMedicamento":"MALLA POLIPROPILENO GRANDE 30X30CM"
+  },
+  {
+    "MedicamentoSAP":"10000264",
+    "TextoBreveMedicamento":"ISOFLURANO Pur mín: 99,97% LIQ ANES VOL"
+  },
+  {
+    "MedicamentoSAP":"11000809",
+    "TextoBreveMedicamento":"TAMBOR DE ACERO INOXIDABLE 20 x 20 CM"
+  },
+  {
+    "MedicamentoSAP":"11001517",
+    "TextoBreveMedicamento":"SET P\/ALIMENT\/ENTERAL 500CC C\/CONTE\/FLEX"
+  },
+  {
+    "MedicamentoSAP":"11001794",
+    "TextoBreveMedicamento":"BOQUILLA PEDIATRICA DE USO ENDOSCOPICO"
+  },
+  {
+    "MedicamentoSAP":"11001305",
+    "TextoBreveMedicamento":"CÁNULA OROFARÍNGEA N° 3"
+  },
+  {
+    "MedicamentoSAP":"11003223",
+    "TextoBreveMedicamento":"TRANSDUCTOR PRESION P\/MÁQUINAS ANESTESIA"
+  },
+  {
+    "MedicamentoSAP":"11002953",
+    "TextoBreveMedicamento":"ESPONJA HEM.ABS.CEL.5(+-1)CMX2,5 (+-1)CM"
+  },
+  {
+    "MedicamentoSAP":"11003340",
+    "TextoBreveMedicamento":"SONDA LISA"
+  },
+  {
+    "MedicamentoSAP":"10000072",
+    "TextoBreveMedicamento":"Bupivacaina Sin Epinefrina"
+  },
+  {
+    "MedicamentoSAP":"10000284",
+    "TextoBreveMedicamento":"LEUCOVORINA CALCICA 50 mg INY"
+  },
+  {
+    "MedicamentoSAP":"11001230",
+    "TextoBreveMedicamento":"CHALECO O BATA QUIRU ESTÉRIL\/DESC\/GRANDE"
   }
 ]
