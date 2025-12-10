@@ -1,0 +1,902 @@
+[
+  {
+    "MedicamentoSAP":"10000722",
+    "TextoBreveMedicamento":"ALCOHOL AL 70%-SOLUCIÓN",
+    "demanda_promedio_mensual":4450.3336787565,
+    "dispensado_acumulado":840962,
+    "recetado_acumulado":4294572,
+    "deficit_actual":3453610,
+    "pronostico_mes_siguiente":5118
+  },
+  {
+    "MedicamentoSAP":"10000563",
+    "TextoBreveMedicamento":"ALCOHOL RECTIFICADO al 96%",
+    "demanda_promedio_mensual":4869.6736694678,
+    "dispensado_acumulado":660990,
+    "recetado_acumulado":3476947,
+    "deficit_actual":2815957,
+    "pronostico_mes_siguiente":5600
+  },
+  {
+    "MedicamentoSAP":"10000539",
+    "TextoBreveMedicamento":"SOL SALINA ISOTÓNICA 0,90% SC 1000mL",
+    "demanda_promedio_mensual":1001.4036809816,
+    "dispensado_acumulado":32415,
+    "recetado_acumulado":816144,
+    "deficit_actual":783729,
+    "pronostico_mes_siguiente":1152
+  },
+  {
+    "MedicamentoSAP":"10000567",
+    "TextoBreveMedicamento":"IODOPOVIDONA JABÓN LÍQUIDO 7,5 % a 8%",
+    "demanda_promedio_mensual":2061.6229946524,
+    "dispensado_acumulado":162806,
+    "recetado_acumulado":771047,
+    "deficit_actual":608241,
+    "pronostico_mes_siguiente":2371
+  },
+  {
+    "MedicamentoSAP":"10000568",
+    "TextoBreveMedicamento":"IODOPOVIDONA SOLUCIÓN 7,5 % a 10%",
+    "demanda_promedio_mensual":1831.5890410959,
+    "dispensado_acumulado":157917,
+    "recetado_acumulado":668530,
+    "deficit_actual":510613,
+    "pronostico_mes_siguiente":2106
+  },
+  {
+    "MedicamentoSAP":"11001452",
+    "TextoBreveMedicamento":"GUANTE MEDIANO NO ESTÉRIL",
+    "demanda_promedio_mensual":475.1004081633,
+    "dispensado_acumulado":149550,
+    "recetado_acumulado":581998,
+    "deficit_actual":432448,
+    "pronostico_mes_siguiente":546
+  },
+  {
+    "MedicamentoSAP":"10000562",
+    "TextoBreveMedicamento":"ALCOHOL EN GEL 70%",
+    "demanda_promedio_mensual":797.2232779097,
+    "dispensado_acumulado":2206,
+    "recetado_acumulado":335631,
+    "deficit_actual":333425,
+    "pronostico_mes_siguiente":917
+  },
+  {
+    "MedicamentoSAP":"10000564",
+    "TextoBreveMedicamento":"CLORHEXIDINA GLUCONATO 4%",
+    "demanda_promedio_mensual":161.9835271318,
+    "dispensado_acumulado":1358,
+    "recetado_acumulado":167167,
+    "deficit_actual":165809,
+    "pronostico_mes_siguiente":186
+  },
+  {
+    "MedicamentoSAP":"11001450",
+    "TextoBreveMedicamento":"GUANTE GRANDE NO ESTÉRIL",
+    "demanda_promedio_mensual":485.34416826,
+    "dispensado_acumulado":93100,
+    "recetado_acumulado":253835,
+    "deficit_actual":160735,
+    "pronostico_mes_siguiente":558
+  },
+  {
+    "MedicamentoSAP":"10000505",
+    "TextoBreveMedicamento":"VASELINA LÍQUIDA",
+    "demanda_promedio_mensual":1325.9312977099,
+    "dispensado_acumulado":52750,
+    "recetado_acumulado":173697,
+    "deficit_actual":120947,
+    "pronostico_mes_siguiente":1525
+  },
+  {
+    "MedicamentoSAP":"11001212",
+    "TextoBreveMedicamento":"ALGODÓN HIDRÓFILO CORTADO 12 CM X 6 MT",
+    "demanda_promedio_mensual":1302.7529411765,
+    "dispensado_acumulado":3,
+    "recetado_acumulado":110734,
+    "deficit_actual":110731,
+    "pronostico_mes_siguiente":1498
+  },
+  {
+    "MedicamentoSAP":"11001456",
+    "TextoBreveMedicamento":"GUANTE QUIRÚRGICO N°7 1\/2 ESTÉRIL",
+    "demanda_promedio_mensual":286.5859106529,
+    "dispensado_acumulado":61429,
+    "recetado_acumulado":166793,
+    "deficit_actual":105364,
+    "pronostico_mes_siguiente":330
+  },
+  {
+    "MedicamentoSAP":"10000506",
+    "TextoBreveMedicamento":"VASELINA SOLIDA",
+    "demanda_promedio_mensual":1688.6842105263,
+    "dispensado_acumulado":30000,
+    "recetado_acumulado":128340,
+    "deficit_actual":98340,
+    "pronostico_mes_siguiente":1942
+  },
+  {
+    "MedicamentoSAP":"11001502",
+    "TextoBreveMedicamento":"LLAVE DE 3 VÍAS DESECHABLE",
+    "demanda_promedio_mensual":102.3668763103,
+    "dispensado_acumulado":6478,
+    "recetado_acumulado":97658,
+    "deficit_actual":91180,
+    "pronostico_mes_siguiente":118
+  },
+  {
+    "MedicamentoSAP":"10000561",
+    "TextoBreveMedicamento":"AGUA OXIGENADA 10 VOLÚMENES",
+    "demanda_promedio_mensual":2586.0285714286,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":90511,
+    "deficit_actual":90511,
+    "pronostico_mes_siguiente":2974
+  },
+  {
+    "MedicamentoSAP":"11001506",
+    "TextoBreveMedicamento":"MÁSCARA QUIRÚRGICA DESCARTABLE",
+    "demanda_promedio_mensual":199.8235294118,
+    "dispensado_acumulado":35050,
+    "recetado_acumulado":122292,
+    "deficit_actual":87242,
+    "pronostico_mes_siguiente":230
+  },
+  {
+    "MedicamentoSAP":"11001213",
+    "TextoBreveMedicamento":"ALGODÓN HIDRÓFILO CORTADO 32 CM X 6 MT",
+    "demanda_promedio_mensual":1839.6363636364,
+    "dispensado_acumulado":13940,
+    "recetado_acumulado":101180,
+    "deficit_actual":87240,
+    "pronostico_mes_siguiente":2116
+  },
+  {
+    "MedicamentoSAP":"11001211",
+    "TextoBreveMedicamento":"ALGODÓN HIDRÓFILO",
+    "demanda_promedio_mensual":1993.86,
+    "dispensado_acumulado":21000,
+    "recetado_acumulado":99693,
+    "deficit_actual":78693,
+    "pronostico_mes_siguiente":2293
+  },
+  {
+    "MedicamentoSAP":"11003506",
+    "TextoBreveMedicamento":"MÁSCARA QUIRÚRGICA DESCART TIRA ELASTICA",
+    "demanda_promedio_mensual":179.8116710875,
+    "dispensado_acumulado":4050,
+    "recetado_acumulado":67789,
+    "deficit_actual":63739,
+    "pronostico_mes_siguiente":207
+  },
+  {
+    "MedicamentoSAP":"11000356",
+    "TextoBreveMedicamento":"TIRA REA P\/DET DE GLU EN SANG C\/GLUC DIG",
+    "demanda_promedio_mensual":203.8837772397,
+    "dispensado_acumulado":22885,
+    "recetado_acumulado":84204,
+    "deficit_actual":61319,
+    "pronostico_mes_siguiente":234
+  },
+  {
+    "MedicamentoSAP":"11001420",
+    "TextoBreveMedicamento":"EQ VOLUMÉTRICO DE INFUSIÓN IV MICROGOTER",
+    "demanda_promedio_mensual":117.9832495812,
+    "dispensado_acumulado":11149,
+    "recetado_acumulado":70436,
+    "deficit_actual":59287,
+    "pronostico_mes_siguiente":136
+  },
+  {
+    "MedicamentoSAP":"11001449",
+    "TextoBreveMedicamento":"GUANTE QUIRÚRGICO ESTÉRIL Nº 8 1\/2",
+    "demanda_promedio_mensual":571.7218045113,
+    "dispensado_acumulado":18400,
+    "recetado_acumulado":76039,
+    "deficit_actual":57639,
+    "pronostico_mes_siguiente":657
+  },
+  {
+    "MedicamentoSAP":"11001498",
+    "TextoBreveMedicamento":"JERINGA DESE.10CC C\/AG 21GX1 1\/2 PUN\/ENR",
+    "demanda_promedio_mensual":314.1876606684,
+    "dispensado_acumulado":65129,
+    "recetado_acumulado":122219,
+    "deficit_actual":57090,
+    "pronostico_mes_siguiente":361
+  },
+  {
+    "MedicamentoSAP":"11001223",
+    "TextoBreveMedicamento":"APOSITO TRANS 6CMx7CM+-2 HIPO P\/FIJA CAT",
+    "demanda_promedio_mensual":145.6085192698,
+    "dispensado_acumulado":15509,
+    "recetado_acumulado":71785,
+    "deficit_actual":56276,
+    "pronostico_mes_siguiente":167
+  },
+  {
+    "MedicamentoSAP":"10000546",
+    "TextoBreveMedicamento":"SOLUCIÓN SALINA ISOTÓNICA 0,90% 100 ML",
+    "demanda_promedio_mensual":116.5498489426,
+    "dispensado_acumulado":20894,
+    "recetado_acumulado":77156,
+    "deficit_actual":56262,
+    "pronostico_mes_siguiente":134
+  },
+  {
+    "MedicamentoSAP":"11001214",
+    "TextoBreveMedicamento":"ALGODÓN HIDRÓFILO CORTADO 8 CM X 6 MT",
+    "demanda_promedio_mensual":1539.5263157895,
+    "dispensado_acumulado":8787,
+    "recetado_acumulado":58502,
+    "deficit_actual":49715,
+    "pronostico_mes_siguiente":1770
+  },
+  {
+    "MedicamentoSAP":"11001421",
+    "TextoBreveMedicamento":"EQ VOLUMÉTRICO DE INFUSIÓN IV MACROGOTER",
+    "demanda_promedio_mensual":121.3679458239,
+    "dispensado_acumulado":4175,
+    "recetado_acumulado":53766,
+    "deficit_actual":49591,
+    "pronostico_mes_siguiente":140
+  },
+  {
+    "MedicamentoSAP":"11001224",
+    "TextoBreveMedicamento":"APOSITO TRANS P\/FIJA CAT\/HIPO 10CMX12CM",
+    "demanda_promedio_mensual":103.6183673469,
+    "dispensado_acumulado":2461,
+    "recetado_acumulado":50773,
+    "deficit_actual":48312,
+    "pronostico_mes_siguiente":119
+  },
+  {
+    "MedicamentoSAP":"11001451",
+    "TextoBreveMedicamento":"GUANTE MEDIANO NO ESTÉRIL - PAR",
+    "demanda_promedio_mensual":364.9153846154,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":47439,
+    "deficit_actual":47439,
+    "pronostico_mes_siguiente":420
+  },
+  {
+    "MedicamentoSAP":"10000553",
+    "TextoBreveMedicamento":"FLA POLI COMP STD P AD S FIB LACT GLUTEN",
+    "demanda_promedio_mensual":15733.3333333333,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":47200,
+    "deficit_actual":47200,
+    "pronostico_mes_siguiente":18093
+  },
+  {
+    "MedicamentoSAP":"11001454",
+    "TextoBreveMedicamento":"GUANTE PEQUEÑO NO ESTÉRIL",
+    "demanda_promedio_mensual":328.1094890511,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":44951,
+    "deficit_actual":44951,
+    "pronostico_mes_siguiente":377
+  },
+  {
+    "MedicamentoSAP":"10000541",
+    "TextoBreveMedicamento":"SOL SALINA ISOTÓNICA 0,90% SC 500mL",
+    "demanda_promedio_mensual":113.3497652582,
+    "dispensado_acumulado":8692,
+    "recetado_acumulado":48287,
+    "deficit_actual":39595,
+    "pronostico_mes_siguiente":130
+  },
+  {
+    "MedicamentoSAP":"11001499",
+    "TextoBreveMedicamento":"JERINGA DESE.10CC C\/AG 21GX1 1\/2 PUN\/PRE",
+    "demanda_promedio_mensual":180.1283185841,
+    "dispensado_acumulado":1200,
+    "recetado_acumulado":40709,
+    "deficit_actual":39509,
+    "pronostico_mes_siguiente":207
+  },
+  {
+    "MedicamentoSAP":"10000496",
+    "TextoBreveMedicamento":"FORMOL 40 %",
+    "demanda_promedio_mensual":6001.1818181818,
+    "dispensado_acumulado":27000,
+    "recetado_acumulado":66013,
+    "deficit_actual":39013,
+    "pronostico_mes_siguiente":6901
+  },
+  {
+    "MedicamentoSAP":"10000314",
+    "TextoBreveMedicamento":"METFORMINA 850 mg COM",
+    "demanda_promedio_mensual":52.7018030513,
+    "dispensado_acumulado":15,
+    "recetado_acumulado":37998,
+    "deficit_actual":37983,
+    "pronostico_mes_siguiente":61
+  },
+  {
+    "MedicamentoSAP":"11001337",
+    "TextoBreveMedicamento":"CATÉTER INTRAVENOSO PERIFÉRICO N°18",
+    "demanda_promedio_mensual":111.2263610315,
+    "dispensado_acumulado":2485,
+    "recetado_acumulado":38818,
+    "deficit_actual":36333,
+    "pronostico_mes_siguiente":128
+  },
+  {
+    "MedicamentoSAP":"10000498",
+    "TextoBreveMedicamento":"GLUTARALDEHÍDO 2%",
+    "demanda_promedio_mensual":4182.0,
+    "dispensado_acumulado":10000,
+    "recetado_acumulado":46002,
+    "deficit_actual":36002,
+    "pronostico_mes_siguiente":4809
+  },
+  {
+    "MedicamentoSAP":"11001448",
+    "TextoBreveMedicamento":"GORROS QUIRÚRGICOS NO ESTÉRILES",
+    "demanda_promedio_mensual":143.6956521739,
+    "dispensado_acumulado":1550,
+    "recetado_acumulado":36355,
+    "deficit_actual":34805,
+    "pronostico_mes_siguiente":165
+  },
+  {
+    "MedicamentoSAP":"11001491",
+    "TextoBreveMedicamento":"JERINGA DESECHAB 1CC P\/INSULIN100UI C\/AG",
+    "demanda_promedio_mensual":155.5746268657,
+    "dispensado_acumulado":7173,
+    "recetado_acumulado":41694,
+    "deficit_actual":34521,
+    "pronostico_mes_siguiente":179
+  },
+  {
+    "MedicamentoSAP":"10000536",
+    "TextoBreveMedicamento":"SOLUCIÓN RINGER CON LACTATO SC SACHET",
+    "demanda_promedio_mensual":128.0660146699,
+    "dispensado_acumulado":18180,
+    "recetado_acumulado":52379,
+    "deficit_actual":34199,
+    "pronostico_mes_siguiente":147
+  },
+  {
+    "MedicamentoSAP":"11001496",
+    "TextoBreveMedicamento":"JERINGA DESECHABLE 5 CC C\/AGUJA",
+    "demanda_promedio_mensual":277.1757322176,
+    "dispensado_acumulado":32186,
+    "recetado_acumulado":66245,
+    "deficit_actual":34059,
+    "pronostico_mes_siguiente":319
+  },
+  {
+    "MedicamentoSAP":"11000355",
+    "TextoBreveMedicamento":"TIRAS REACTIVAS P\/ GLUCOSA EN SANGRE",
+    "demanda_promedio_mensual":156.8780487805,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":32160,
+    "deficit_actual":32160,
+    "pronostico_mes_siguiente":180
+  },
+  {
+    "MedicamentoSAP":"10000487",
+    "TextoBreveMedicamento":"ACETONA COMERCIAL",
+    "demanda_promedio_mensual":2236.8823529412,
+    "dispensado_acumulado":6000,
+    "recetado_acumulado":38027,
+    "deficit_actual":32027,
+    "pronostico_mes_siguiente":2572
+  },
+  {
+    "MedicamentoSAP":"11001415",
+    "TextoBreveMedicamento":"EQ PARA SUERO DE INFUSION IV MACROGOTERO",
+    "demanda_promedio_mensual":135.0439189189,
+    "dispensado_acumulado":10590,
+    "recetado_acumulado":39973,
+    "deficit_actual":29383,
+    "pronostico_mes_siguiente":155
+  },
+  {
+    "MedicamentoSAP":"10000552",
+    "TextoBreveMedicamento":"FLA POLI COM STD PAD C\/FIBR S\/LACT,GLUT",
+    "demanda_promedio_mensual":14500.0,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":29000,
+    "deficit_actual":29000,
+    "pronostico_mes_siguiente":16675
+  },
+  {
+    "MedicamentoSAP":"11001458",
+    "TextoBreveMedicamento":"GUANTE QUIRÚRGICO N°8 ESTÉRIL",
+    "demanda_promedio_mensual":362.5882352941,
+    "dispensado_acumulado":20570,
+    "recetado_acumulado":49312,
+    "deficit_actual":28742,
+    "pronostico_mes_siguiente":417
+  },
+  {
+    "MedicamentoSAP":"11001097",
+    "TextoBreveMedicamento":"PROLONGADOR CON LLAVE DE 3 VÍAS",
+    "demanda_promedio_mensual":100.8327645051,
+    "dispensado_acumulado":1481,
+    "recetado_acumulado":29544,
+    "deficit_actual":28063,
+    "pronostico_mes_siguiente":116
+  },
+  {
+    "MedicamentoSAP":"10000545",
+    "TextoBreveMedicamento":"SOLUCIÓN SALINA ISOTÓNICA 0,90% 250 ML",
+    "demanda_promedio_mensual":100.0325203252,
+    "dispensado_acumulado":10147,
+    "recetado_acumulado":36912,
+    "deficit_actual":26765,
+    "pronostico_mes_siguiente":115
+  },
+  {
+    "MedicamentoSAP":"10000569",
+    "TextoBreveMedicamento":"SOLUCIÓN DAKIN CARREL",
+    "demanda_promedio_mensual":1473.5,
+    "dispensado_acumulado":1000,
+    "recetado_acumulado":26523,
+    "deficit_actual":25523,
+    "pronostico_mes_siguiente":1695
+  },
+  {
+    "MedicamentoSAP":"11001457",
+    "TextoBreveMedicamento":"GUANTE QUIRÚRGICO N°7 ESTÉRIL",
+    "demanda_promedio_mensual":268.1180124224,
+    "dispensado_acumulado":17739,
+    "recetado_acumulado":43167,
+    "deficit_actual":25428,
+    "pronostico_mes_siguiente":308
+  },
+  {
+    "MedicamentoSAP":"11001338",
+    "TextoBreveMedicamento":"CATÉTER INTRAVENOSO PERIFÉR N°20 D\/POLIU",
+    "demanda_promedio_mensual":134.0822510823,
+    "dispensado_acumulado":5867,
+    "recetado_acumulado":30973,
+    "deficit_actual":25106,
+    "pronostico_mes_siguiente":154
+  },
+  {
+    "MedicamentoSAP":"10000538",
+    "TextoBreveMedicamento":"SOL SALINA ISOTÓNICA 0,9% SA 1000mL",
+    "demanda_promedio_mensual":56.9859550562,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":20287,
+    "deficit_actual":20287,
+    "pronostico_mes_siguiente":66
+  },
+  {
+    "MedicamentoSAP":"11001391",
+    "TextoBreveMedicamento":"CONECTOR DE 2 VIAS P\/INFUSIÓN PARENTERAL",
+    "demanda_promedio_mensual":81.0801687764,
+    "dispensado_acumulado":175,
+    "recetado_acumulado":19216,
+    "deficit_actual":19041,
+    "pronostico_mes_siguiente":93
+  },
+  {
+    "MedicamentoSAP":"10000490",
+    "TextoBreveMedicamento":"ALCOHOL ABSOLUTO",
+    "demanda_promedio_mensual":7000.0,
+    "dispensado_acumulado":10000,
+    "recetado_acumulado":28000,
+    "deficit_actual":18000,
+    "pronostico_mes_siguiente":8050
+  },
+  {
+    "MedicamentoSAP":"11001193",
+    "TextoBreveMedicamento":"CONECTOR SILICONADO PARA CATÉTER",
+    "demanda_promedio_mensual":107.7150837989,
+    "dispensado_acumulado":1780,
+    "recetado_acumulado":19281,
+    "deficit_actual":17501,
+    "pronostico_mes_siguiente":124
+  },
+  {
+    "MedicamentoSAP":"11001663",
+    "TextoBreveMedicamento":"PICO P\/IRRIGACIÓN DE FRASCOS DE SUEROS",
+    "demanda_promedio_mensual":72.9473684211,
+    "dispensado_acumulado":1912,
+    "recetado_acumulado":19404,
+    "deficit_actual":17492,
+    "pronostico_mes_siguiente":84
+  },
+  {
+    "MedicamentoSAP":"11003454",
+    "TextoBreveMedicamento":"EQ SUERO DE INFUSION IV MACRO 20G. FBC",
+    "demanda_promedio_mensual":99.3294117647,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":16886,
+    "deficit_actual":16886,
+    "pronostico_mes_siguiente":114
+  },
+  {
+    "MedicamentoSAP":"10000660",
+    "TextoBreveMedicamento":"DAPAGLIFLOZINA 10 MG",
+    "demanda_promedio_mensual":29.7307001795,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":16560,
+    "deficit_actual":16560,
+    "pronostico_mes_siguiente":34
+  },
+  {
+    "MedicamentoSAP":"10000566",
+    "TextoBreveMedicamento":"DETERGENTE LÍQUIDO TRIENZIMÁTICO.",
+    "demanda_promedio_mensual":209.5,
+    "dispensado_acumulado":187,
+    "recetado_acumulado":15503,
+    "deficit_actual":15316,
+    "pronostico_mes_siguiente":241
+  },
+  {
+    "MedicamentoSAP":"11001098",
+    "TextoBreveMedicamento":"REGULADOR DE FLUJO GRADUADO",
+    "demanda_promedio_mensual":90.8142076503,
+    "dispensado_acumulado":1954,
+    "recetado_acumulado":16619,
+    "deficit_actual":14665,
+    "pronostico_mes_siguiente":104
+  },
+  {
+    "MedicamentoSAP":"11001216",
+    "TextoBreveMedicamento":"ALGODÓN LAMINADO 15 CM",
+    "demanda_promedio_mensual":115.3576642336,
+    "dispensado_acumulado":1355,
+    "recetado_acumulado":15804,
+    "deficit_actual":14449,
+    "pronostico_mes_siguiente":133
+  },
+  {
+    "MedicamentoSAP":"11001492",
+    "TextoBreveMedicamento":"JERINGA DESECHAB 1CC P\/TUBERCULINA C\/AG",
+    "demanda_promedio_mensual":126.6086956522,
+    "dispensado_acumulado":368,
+    "recetado_acumulado":14560,
+    "deficit_actual":14192,
+    "pronostico_mes_siguiente":146
+  },
+  {
+    "MedicamentoSAP":"11001507",
+    "TextoBreveMedicamento":"MÁSCARA DE PROTECCIÓN N 95",
+    "demanda_promedio_mensual":99.4099378882,
+    "dispensado_acumulado":2125,
+    "recetado_acumulado":16005,
+    "deficit_actual":13880,
+    "pronostico_mes_siguiente":114
+  },
+  {
+    "MedicamentoSAP":"10000557",
+    "TextoBreveMedicamento":"FLA P. COM ESP P AD C INS RENAL S DIAL",
+    "demanda_promedio_mensual":6750.0,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":13500,
+    "deficit_actual":13500,
+    "pronostico_mes_siguiente":7762
+  },
+  {
+    "MedicamentoSAP":"11001339",
+    "TextoBreveMedicamento":"CATÉTER INTRAVENOSO PERIFÉRICO N°22",
+    "demanda_promedio_mensual":135.6229508197,
+    "dispensado_acumulado":3320,
+    "recetado_acumulado":16546,
+    "deficit_actual":13226,
+    "pronostico_mes_siguiente":156
+  },
+  {
+    "MedicamentoSAP":"11001493",
+    "TextoBreveMedicamento":"JERINGA DESE.20CC C\/AG 21GX1 1\/2 PUN\/ENR",
+    "demanda_promedio_mensual":163.8736842105,
+    "dispensado_acumulado":3525,
+    "recetado_acumulado":15568,
+    "deficit_actual":12043,
+    "pronostico_mes_siguiente":188
+  },
+  {
+    "MedicamentoSAP":"10000559",
+    "TextoBreveMedicamento":"FÓRMULA SEMIELEMENTAL PARA NIÑOS",
+    "demanda_promedio_mensual":12000.0,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":12000,
+    "deficit_actual":12000,
+    "pronostico_mes_siguiente":13800
+  },
+  {
+    "MedicamentoSAP":"10000533",
+    "TextoBreveMedicamento":"SOL GLUCOSADA ISOTÓNICA 5% SA 1000mL",
+    "demanda_promedio_mensual":466.12,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":11653,
+    "deficit_actual":11653,
+    "pronostico_mes_siguiente":536
+  },
+  {
+    "MedicamentoSAP":"10000348",
+    "TextoBreveMedicamento":"OMEPRAZOL 20 mg CAP",
+    "demanda_promedio_mensual":31.7124681934,
+    "dispensado_acumulado":1005,
+    "recetado_acumulado":12463,
+    "deficit_actual":11458,
+    "pronostico_mes_siguiente":36
+  },
+  {
+    "MedicamentoSAP":"10000535",
+    "TextoBreveMedicamento":"SOLUCIÓN RINGER CON LACTATO SA SACHET",
+    "demanda_promedio_mensual":87.3178294574,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":11264,
+    "deficit_actual":11264,
+    "pronostico_mes_siguiente":100
+  },
+  {
+    "MedicamentoSAP":"10000305",
+    "TextoBreveMedicamento":"LOSARTAN POTASICO 50 mg COM",
+    "demanda_promedio_mensual":51.9671361502,
+    "dispensado_acumulado":142,
+    "recetado_acumulado":11069,
+    "deficit_actual":10927,
+    "pronostico_mes_siguiente":60
+  },
+  {
+    "MedicamentoSAP":"10000299",
+    "TextoBreveMedicamento":"LIDOCAINA SIN EPINEFRINA 2%\/20 mL INY",
+    "demanda_promedio_mensual":37.4524590164,
+    "dispensado_acumulado":1172,
+    "recetado_acumulado":11423,
+    "deficit_actual":10251,
+    "pronostico_mes_siguiente":43
+  },
+  {
+    "MedicamentoSAP":"10000076",
+    "TextoBreveMedicamento":"CALCIO CO3 + VITD3 500mg+400 UI COM",
+    "demanda_promedio_mensual":32.9049295775,
+    "dispensado_acumulado":60,
+    "recetado_acumulado":9345,
+    "deficit_actual":9285,
+    "pronostico_mes_siguiente":38
+  },
+  {
+    "MedicamentoSAP":"10000298",
+    "TextoBreveMedicamento":"LIDOCAINA ESTERIL 2% JAL",
+    "demanda_promedio_mensual":29.5696969697,
+    "dispensado_acumulado":532,
+    "recetado_acumulado":9758,
+    "deficit_actual":9226,
+    "pronostico_mes_siguiente":34
+  },
+  {
+    "MedicamentoSAP":"11001425",
+    "TextoBreveMedicamento":"EQ PARA SUERO DE INFUSION IV MICROGOTERO",
+    "demanda_promedio_mensual":99.8981481481,
+    "dispensado_acumulado":2177,
+    "recetado_acumulado":10789,
+    "deficit_actual":8612,
+    "pronostico_mes_siguiente":115
+  },
+  {
+    "MedicamentoSAP":"10000300",
+    "TextoBreveMedicamento":"LIDOCAINA C\/ VASOCONST 2%\/1:100.000 INY",
+    "demanda_promedio_mensual":536.875,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":8590,
+    "deficit_actual":8590,
+    "pronostico_mes_siguiente":617
+  },
+  {
+    "MedicamentoSAP":"11001495",
+    "TextoBreveMedicamento":"JERINGA DESECHABLE 3 CC C\/AG 21GX1 1\/2",
+    "demanda_promedio_mensual":249.9107142857,
+    "dispensado_acumulado":5876,
+    "recetado_acumulado":13995,
+    "deficit_actual":8119,
+    "pronostico_mes_siguiente":287
+  },
+  {
+    "MedicamentoSAP":"10000540",
+    "TextoBreveMedicamento":"SOL SALINA ISOTÓNICA 0,9% SA 500mL",
+    "demanda_promedio_mensual":48.8121212121,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":8054,
+    "deficit_actual":8054,
+    "pronostico_mes_siguiente":56
+  },
+  {
+    "MedicamentoSAP":"11001657",
+    "TextoBreveMedicamento":"VENDA ENYESADA 20CMX3MTS LARGO MÌNIMO",
+    "demanda_promedio_mensual":69.2105263158,
+    "dispensado_acumulado":107,
+    "recetado_acumulado":7890,
+    "deficit_actual":7783,
+    "pronostico_mes_siguiente":80
+  },
+  {
+    "MedicamentoSAP":"10000555",
+    "TextoBreveMedicamento":"FLA P.COM ESP HIPERGLIC LIB D LACYGLUT",
+    "demanda_promedio_mensual":7600.0,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":7600,
+    "deficit_actual":7600,
+    "pronostico_mes_siguiente":8740
+  },
+  {
+    "MedicamentoSAP":"11001497",
+    "TextoBreveMedicamento":"JERINGA DESECHAB 50\/60CC CONO\/CATET S\/AG",
+    "demanda_promedio_mensual":76.1009174312,
+    "dispensado_acumulado":703,
+    "recetado_acumulado":8295,
+    "deficit_actual":7592,
+    "pronostico_mes_siguiente":88
+  },
+  {
+    "MedicamentoSAP":"11001501",
+    "TextoBreveMedicamento":"LANCETAS P\/ TOMA DE SANGRE",
+    "demanda_promedio_mensual":167.387755102,
+    "dispensado_acumulado":700,
+    "recetado_acumulado":8202,
+    "deficit_actual":7502,
+    "pronostico_mes_siguiente":192
+  },
+  {
+    "MedicamentoSAP":"11001656",
+    "TextoBreveMedicamento":"VENDA ENYESADA 15CMX3MTS LARGO MÌNIMO",
+    "demanda_promedio_mensual":83.652173913,
+    "dispensado_acumulado":2461,
+    "recetado_acumulado":9620,
+    "deficit_actual":7159,
+    "pronostico_mes_siguiente":96
+  },
+  {
+    "MedicamentoSAP":"10000410",
+    "TextoBreveMedicamento":"SERENOAREPENS\/PYGEUM AFRICANUM 160mg CAP",
+    "demanda_promedio_mensual":59.7391304348,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":6870,
+    "deficit_actual":6870,
+    "pronostico_mes_siguiente":69
+  },
+  {
+    "MedicamentoSAP":"10000527",
+    "TextoBreveMedicamento":"SOL GLUCOSADA HIPERTÓNICA AL 50%-1000CC",
+    "demanda_promedio_mensual":149.0652173913,
+    "dispensado_acumulado":175,
+    "recetado_acumulado":6857,
+    "deficit_actual":6682,
+    "pronostico_mes_siguiente":171
+  },
+  {
+    "MedicamentoSAP":"10000653",
+    "TextoBreveMedicamento":"SOL GLUCOSADA HIPERTÓNICA AL 50%-20CC",
+    "demanda_promedio_mensual":131.0983606557,
+    "dispensado_acumulado":1478,
+    "recetado_acumulado":7997,
+    "deficit_actual":6519,
+    "pronostico_mes_siguiente":151
+  },
+  {
+    "MedicamentoSAP":"11001396",
+    "TextoBreveMedicamento":"CUBRE CALZADOS QUIRÚRGICO - UND",
+    "demanda_promedio_mensual":413.9444444444,
+    "dispensado_acumulado":1100,
+    "recetado_acumulado":7451,
+    "deficit_actual":6351,
+    "pronostico_mes_siguiente":476
+  },
+  {
+    "MedicamentoSAP":"10000099",
+    "TextoBreveMedicamento":"CIPROFIBRATO 100mg CAP\/COM",
+    "demanda_promedio_mensual":30.0,
+    "dispensado_acumulado":10,
+    "recetado_acumulado":6000,
+    "deficit_actual":5990,
+    "pronostico_mes_siguiente":34
+  },
+  {
+    "MedicamentoSAP":"11001375",
+    "TextoBreveMedicamento":"CINTA ADHESIVA QX ANTIALÉRGICA 5CM",
+    "demanda_promedio_mensual":39.028,
+    "dispensado_acumulado":3869,
+    "recetado_acumulado":9757,
+    "deficit_actual":5888,
+    "pronostico_mes_siguiente":45
+  },
+  {
+    "MedicamentoSAP":"11001221",
+    "TextoBreveMedicamento":"APOSITO HIDROCOLOIDE HIPOALERGÉNI 7X9 CM",
+    "demanda_promedio_mensual":134.65625,
+    "dispensado_acumulado":2923,
+    "recetado_acumulado":8618,
+    "deficit_actual":5695,
+    "pronostico_mes_siguiente":155
+  },
+  {
+    "MedicamentoSAP":"11001468",
+    "TextoBreveMedicamento":"HOJA DE BISTURÍ RECTA N° 11",
+    "demanda_promedio_mensual":72.7792207792,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":5604,
+    "deficit_actual":5604,
+    "pronostico_mes_siguiente":84
+  },
+  {
+    "MedicamentoSAP":"11001572",
+    "TextoBreveMedicamento":"SONDA FOLEY Nº 14 C\/ BALÓN 5 CC",
+    "demanda_promedio_mensual":28.2146341463,
+    "dispensado_acumulado":221,
+    "recetado_acumulado":5784,
+    "deficit_actual":5563,
+    "pronostico_mes_siguiente":32
+  },
+  {
+    "MedicamentoSAP":"11001376",
+    "TextoBreveMedicamento":"CINTA ADHESIVA QX ANTIALÉRGICA 7.5CM",
+    "demanda_promedio_mensual":38.4503816794,
+    "dispensado_acumulado":4551,
+    "recetado_acumulado":10074,
+    "deficit_actual":5523,
+    "pronostico_mes_siguiente":44
+  },
+  {
+    "MedicamentoSAP":"10000534",
+    "TextoBreveMedicamento":"SOL GLUCOSADA ISOTÓNICA 5% SC 1000mL",
+    "demanda_promedio_mensual":84.2592592593,
+    "dispensado_acumulado":1439,
+    "recetado_acumulado":6825,
+    "deficit_actual":5386,
+    "pronostico_mes_siguiente":97
+  },
+  {
+    "MedicamentoSAP":"11001372",
+    "TextoBreveMedicamento":"CINTA ADHESIVA QUIRÚRGICA DE 5 CM",
+    "demanda_promedio_mensual":25.4859437751,
+    "dispensado_acumulado":1118,
+    "recetado_acumulado":6346,
+    "deficit_actual":5228,
+    "pronostico_mes_siguiente":29
+  },
+  {
+    "MedicamentoSAP":"11001660",
+    "TextoBreveMedicamento":"VENDA SEMIELASTIZADA 15CMX1,50-1,80MTMIN",
+    "demanda_promedio_mensual":98.0,
+    "dispensado_acumulado":3851,
+    "recetado_acumulado":9016,
+    "deficit_actual":5165,
+    "pronostico_mes_siguiente":113
+  },
+  {
+    "MedicamentoSAP":"11001658",
+    "TextoBreveMedicamento":"VENDA ENYESADA 10 CM X 3 MT.LARGO MÌNIMO",
+    "demanda_promedio_mensual":66.6883116883,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":5135,
+    "deficit_actual":5135,
+    "pronostico_mes_siguiente":77
+  },
+  {
+    "MedicamentoSAP":"11001197",
+    "TextoBreveMedicamento":"AGUJA 23 G X 1 (USO PEDIÁTRICO)",
+    "demanda_promedio_mensual":166.7083333333,
+    "dispensado_acumulado":3017,
+    "recetado_acumulado":8002,
+    "deficit_actual":4985,
+    "pronostico_mes_siguiente":192
+  },
+  {
+    "MedicamentoSAP":"10000512",
+    "TextoBreveMedicamento":"BICARBONATO DE Na 1MOLAR SCH",
+    "demanda_promedio_mensual":235.7142857143,
+    "dispensado_acumulado":0,
+    "recetado_acumulado":4950,
+    "deficit_actual":4950,
+    "pronostico_mes_siguiente":271
+  },
+  {
+    "MedicamentoSAP":"10000432",
+    "TextoBreveMedicamento":"TAMSULOSINA CLORHIDRATO 0,4mg CAP\/COM",
+    "demanda_promedio_mensual":29.3195266272,
+    "dispensado_acumulado":60,
+    "recetado_acumulado":4955,
+    "deficit_actual":4895,
+    "pronostico_mes_siguiente":34
+  }
+]
