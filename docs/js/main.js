@@ -1,33 +1,16 @@
-// docs/js/main.js - ORQUESTADOR PRINCIPAL
-document.addEventListener('DOMContentLoaded', () => {
-  console.log("IPS Analytics Dashboard 2025 - Iniciando...");
-
-  // Verificar dependencias críticas
-  if (typeof Utils === "undefined") {
-    console.error("Error: Utils no está definido.");
-    return;
-  }
-  if (typeof Dashboard === "undefined") {
-    console.error("Error: Dashboard no está definido.");
-    return;
+// docs/js/main.js
+document.addEventListener('DOMContentLoaded', async () => {
+  // Tema guardado
+  if (localStorage.getItem('theme') === 'dark' || 
+      (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.body.classList.add('dark-theme');
+    document.querySelector('#theme-toggle i').className = 'fas fa-sun';
   }
 
-  // Inicializar dashboard
-  try {
-    window.dashboard = new Dashboard();
-    window.dashboard.init().catch(err => {
-      console.error("Error en inicialización:", err);
-    });
-  } catch (err) {
-    console.error("No se pudo instanciar Dashboard:", err);
-  }
-});
+  // Inicializar
+  window.dashboard = new Dashboard();
+  await window.dashboard.init();
 
-// Manejo global de errores
-window.addEventListener("error", (event) => {
-  console.error("Error global:", event.error || event.message);
-});
-
-window.addEventListener("unhandledrejection", (event) => {
-  console.error("Promesa no manejada:", event.reason);
+  window.filters = new FiltersManager(window.dashboard);
+  await window.filters.init();
 });
