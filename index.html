@@ -3,1229 +3,234 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>IPS Intelligence Suite 2025 | Predicción & Prevención de Quiebres</title>
+  <title>IPS | IA Predictiva 2026 - Tablero Interactivo</title>
   
-  <!-- Tailwind CSS con configuración personalizada -->
+  <!-- Tailwind + Chart.js + Luxon + SheetJS -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            'ips-blue': '#1e40af',
-            'ips-red': '#dc2626',
-            'ips-green': '#10b981',
-            'ips-purple': '#7c3aed',
-            'ips-orange': '#f97316',
-            'ips-dark': '#0f172a',
-          },
-          fontFamily: {
-            'inter': ['Inter', 'system-ui', 'sans-serif'],
-            'mono': ['JetBrains Mono', 'monospace'],
-          },
-          animation: {
-            'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-            'bounce-slow': 'bounce 2s infinite',
-            'float': 'float 6s ease-in-out infinite',
-            'gradient': 'gradient 15s ease infinite',
-          },
-          keyframes: {
-            float: {
-              '0%, 100%': { transform: 'translateY(0px)' },
-              '50%': { transform: 'translateY(-20px)' },
-            },
-            gradient: {
-              '0%, 100%': { backgroundPosition: '0% 50%' },
-              '50%': { backgroundPosition: '100% 50%' },
-            }
-          }
-        }
-      }
-    }
-  </script>
-  
-  <!-- Chart.js con plugins avanzados -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.3.1"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@2.1.0/dist/chartjs-plugin-annotation.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-trendline@4.0.0/dist/chartjs-plugin-trendline.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  
+  <!-- Tippy.js + Popper (tooltips hermosos) -->
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
   
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   
-  <!-- ApexCharts para gráficos adicionales -->
-  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-  
-  <!-- Animate.css para animaciones -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  
   <style>
-    :root {
-      --critical: #dc2626;
-      --warning: #f59e0b;
-      --good: #10b981;
-      --predict: #7c3aed;
-      --bg: #f8fafc;
-      --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.1);
-      --shadow-xl: 0 25px 50px rgba(0, 0, 0, 0.15);
-    }
-    
-    body {
-      font-family: 'Inter', system-ui, sans-serif;
-      background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #f1f5f9 100%);
-      min-height: 100vh;
-      background-attachment: fixed;
-    }
-    
-    .glass-card {
-      background: rgba(255, 255, 255, 0.85);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      box-shadow: var(--shadow-lg);
-    }
-    
-    .gradient-border {
-      position: relative;
-      background: linear-gradient(white, white) padding-box,
-                  linear-gradient(45deg, #6366f1, #8b5cf6, #ec4899) border-box;
-      border: 2px solid transparent;
-    }
-    
-    .neon-glow {
-      box-shadow: 0 0 20px rgba(99, 102, 241, 0.3),
-                  0 0 40px rgba(99, 102, 241, 0.1);
-    }
-    
-    .pulse-critical {
-      animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-      box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7);
-    }
-    
-    @keyframes pulse {
-      0% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7); }
-      70% { box-shadow: 0 0 0 10px rgba(220, 38, 38, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0); }
-    }
-    
-    .scrollbar-hide {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
-    }
-    
-    .scrollbar-hide::-webkit-scrollbar {
-      display: none;
-    }
-    
-    .text-gradient {
-      background: linear-gradient(45deg, #6366f1, #8b5cf6);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    
-    .hover-lift {
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    
-    .hover-lift:hover {
-      transform: translateY(-8px);
-      box-shadow: var(--shadow-xl);
-    }
-    
-    /* Estilos para modo oscuro */
-    .dark .glass-card {
-      background: rgba(30, 41, 59, 0.85);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    
-    .dark body {
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-      color: #e2e8f0;
-    }
-    
-    /* Loader personalizado */
-    .loader {
-      border: 3px solid #f3f3f3;
-      border-top: 3px solid #6366f1;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      animation: spin 1s linear infinite;
-    }
-    
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-    
-    /* Tooltip personalizado */
-    .custom-tooltip {
-      position: relative;
-    }
-    
-    .custom-tooltip:hover::after {
-      content: attr(data-tooltip);
-      position: absolute;
-      bottom: 125%;
-      left: 50%;
-      transform: translateX(-50%);
-      background: #1e293b;
-      color: white;
-      padding: 8px 12px;
-      border-radius: 6px;
-      font-size: 12px;
-      white-space: nowrap;
-      z-index: 1000;
-    }
-    
-    /* Grid animado de fondo */
-    .grid-bg {
-      background-image: 
-        linear-gradient(rgba(99, 102, 241, 0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
-      background-size: 50px 50px;
-    }
+    body { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #e2e8f0; font-family: 'Inter', system-ui; }
+    .glass { background: rgba(255,255,255,0.1); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.2); }
+    .card-hover { transition: all 0.3s; }
+    .card-hover:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+    .metric { font-size: 3rem; font-weight: 900; }
+    .tooltip { @apply bg-slate-900 text-white text-xs rounded-lg shadow-2xl border border-slate-700; }
+    .risk-critical { @apply bg-red-600/20 text-red-300 border-red-600/50; }
+    .risk-high { @apply bg-orange-600/20 text-orange-300 border-orange-600/50; }
+    .risk-medium { @apply bg-yellow-600/20 text-yellow-300 border-yellow-600/50; }
   </style>
 </head>
-<body class="font-inter grid-bg">
-  <!-- Modo oscuro toggle -->
-  <div class="fixed top-4 right-4 z-50">
-    <button id="darkModeToggle" class="p-3 bg-white dark:bg-ips-dark rounded-full shadow-lg hover-lift">
-      <i class="fas fa-moon text-gray-600 dark:text-yellow-300"></i>
-    </button>
-  </div>
+<body class="min-h-screen">
 
-  <!-- Loader inicial -->
-  <div id="globalLoader" class="fixed inset-0 bg-white dark:bg-ips-dark z-50 flex items-center justify-center transition-opacity duration-300">
-    <div class="text-center">
-      <div class="loader mb-6"></div>
-      <h2 class="text-2xl font-bold text-ips-blue dark:text-white mb-2">Cargando IPS Intelligence Suite</h2>
-      <p class="text-gray-600 dark:text-gray-300">Analizando datos y generando predicciones...</p>
-    </div>
-  </div>
+  <div class="container mx-auto p-6 max-w-7xl">
 
-  <div class="container mx-auto px-4 py-8 max-w-7xl" id="mainContent" style="display: none;">
-
-    <!-- Header con navegación -->
-    <header class="mb-12 animate__animated animate__fadeIn">
-      <nav class="flex justify-between items-center mb-8">
-        <div class="flex items-center gap-4">
-          <div class="p-3 bg-gradient-to-br from-ips-blue to-ips-purple rounded-2xl">
-            <i class="fas fa-brain text-white text-2xl"></i>
-          </div>
-          <div>
-            <h1 class="text-3xl font-bold text-ips-dark dark:text-white">IPS Intelligence Suite</h1>
-            <p class="text-gray-600 dark:text-gray-300">Sistema Predictivo de Gestión Farmacéutica</p>
-          </div>
-        </div>
-        <div class="flex items-center gap-4">
-          <button id="exportBtn" class="px-5 py-2.5 bg-gradient-to-r from-ips-green to-emerald-600 text-white font-bold rounded-xl hover:opacity-90 transition flex items-center gap-2">
-            <i class="fas fa-file-export"></i> Exportar Reporte
-          </button>
-          <button id="notificationsBtn" class="relative p-3 bg-white dark:bg-slate-800 rounded-xl shadow hover-lift">
-            <i class="fas fa-bell text-ips-purple"></i>
-            <span id="notificationCount" class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-bold">3</span>
-          </button>
-        </div>
-      </nav>
-
-      <!-- Breadcrumb -->
-      <div class="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-6">
-        <a href="#" class="hover:text-ips-blue">Dashboard</a>
-        <i class="fas fa-chevron-right text-xs"></i>
-        <a href="#" class="hover:text-ips-blue">Predicción 2026</a>
-        <i class="fas fa-chevron-right text-xs"></i>
-        <span class="text-ips-blue font-semibold">Prevención de Quiebres</span>
-      </div>
-
-      <div class="glass-card rounded-3xl p-8 mb-8">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-          <div>
-            <h1 class="text-4xl md:text-5xl font-bold text-gradient mb-4">
-              <i class="fas fa-crystal-ball text-ips-purple mr-4"></i>
-              Sistema Predictivo de Quiebres 2025-2026
-            </h1>
-            <p class="text-gray-700 dark:text-gray-300 text-lg max-w-3xl">
-              Inteligencia Artificial para predecir y prevenir quiebres de stock con <span class="font-bold text-ips-blue">93.7% de precisión</span>.
-              Basado en análisis histórico + machine learning.
-            </p>
-          </div>
-          <div class="bg-gradient-to-br from-ips-blue/10 to-ips-purple/10 p-4 rounded-2xl border border-ips-blue/20">
-            <div class="text-center">
-              <div class="text-2xl font-bold text-ips-blue dark:text-white">⚡ EN VIVO</div>
-              <div class="text-sm text-gray-600 dark:text-gray-400">Actualizado cada 15 min</div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="mt-6 flex flex-wrap gap-4">
-          <div class="flex items-center gap-2 px-4 py-2 bg-blue-100 dark:bg-blue-900/30 rounded-full">
-            <div class="w-3 h-3 bg-blue-500 rounded-full animate-pulse"></div>
-            <span class="text-sm font-medium">Datos en tiempo real</span>
-          </div>
-          <div class="flex items-center gap-2 px-4 py-2 bg-purple-100 dark:bg-purple-900/30 rounded-full">
-            <i class="fas fa-robot text-purple-600"></i>
-            <span class="text-sm font-medium">IA Predictiva</span>
-          </div>
-          <div class="flex items-center gap-2 px-4 py-2 bg-green-100 dark:bg-green-900/30 rounded-full">
-            <i class="fas fa-shield-alt text-green-600"></i>
-            <span class="text-sm font-medium">Sistema de alertas</span>
-          </div>
-        </div>
+    <!-- Header Premium -->
+    <header class="glass rounded-3xl p-10 mb-10 shadow-2xl text-center card-hover">
+      <h1 class="text-6xl font-bold text-white mb-4 drop-shadow-lg">
+        <i class="fas fa-brain text-purple-400 animate-pulse"></i> IPS IA Predictiva
+      </h1>
+      <p class="text-2xl text-slate-300">Predicción de Demanda 2026 con Machine Learning</p>
+      <p class="text-lg text-slate-400 mt-4">Intervalos de confianza • Alertas automáticas • 100% interactivo</p>
+      <div class="mt-6 text-sm">
+        <span class="text-slate-400">Actualizado:</span> 
+        <span id="lastUpdate" class="font-bold text-cyan-400">—</span>
       </div>
     </header>
 
-    <!-- Panel de Filtros Avanzados -->
-    <div class="glass-card rounded-2xl p-6 mb-10 animate__animated animate__fadeInUp">
-      <div class="flex justify-between items-center mb-6">
-        <h2 class="text-2xl font-bold text-ips-dark dark:text-white flex items-center gap-3">
-          <i class="fas fa-sliders-h text-ips-blue"></i>
-          Filtros de Predicción Avanzados
-        </h2>
-        <button id="advancedSettings" class="text-ips-blue hover:text-ips-purple transition">
-          <i class="fas fa-cog"></i> Configuración avanzada
-        </button>
-      </div>
-      
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
-        <!-- Filtro 1: Farmacia -->
+    <!-- Filtros Interactivos -->
+    <div class="glass rounded-2xl p-8 mb-10 shadow-2xl card-hover">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <label class="block text-sm font-bold text-gray-700 dark:text-gray-300 mb-3">
-            <i class="fas fa-clinic-medical mr-2 text-ips-blue"></i>Farmacia Ventanilla
-          </label>
-          <div class="relative">
-            <select id="farmaciaFilter" class="w-full px-5 py-3.5 border-2 border-gray-300 dark:border-gray-700 dark:bg-slate-800 rounded-xl focus:ring-4 focus:ring-ips-blue/30 focus:border-ips-blue transition-all appearance-none">
-              <option value="">Todas las farmacias</option>
-            </select>
-            <i class="fas fa-chevron-down absolute right-4 top-4 text-gray-400 pointer-events-none"></i>
-          </div>
-        </div>
-
-        <!-- Filtro 2: Tipo de Medicamento -->
-        <div>
-          <label class="block text-sm font-bold text-gray-700 dark:text-gray-300 mb-3">
-            <i class="fas fa-pills mr-2 text-ips-blue"></i>Tipo de Medicamento
-          </label>
-          <select id="tipoMedicamento" class="w-full px-5 py-3.5 border-2 border-gray-300 dark:border-gray-700 dark:bg-slate-800 rounded-xl focus:ring-4 focus:ring-ips-blue/30">
-            <option value="">Todos los tipos</option>
-            <option value="cronico">Crónicos</option>
-            <option value="agudo">Agudos</option>
-            <option value="alto_costo">Alto Costo</option>
-            <option value="generico">Genéricos</option>
+          <label class="text-sm font-bold text-slate-300 mb-3 block">Farmacia</label>
+          <select id="farmaciaFilter" class="w-full px-6 py-4 bg-slate-800/50 border border-slate-600 rounded-xl text-white focus:ring-4 focus:ring-purple-500 focus:border-purple-500 transition">
+            <option value="">Todas las sedes</option>
           </select>
         </div>
-
-        <!-- Filtro 3: Horizonte Temporal -->
         <div>
-          <label class="block text-sm font-bold text-gray-700 dark:text-gray-300 mb-3">
-            <i class="fas fa-calendar-alt mr-2 text-ips-blue"></i>Horizonte Predictivo
-          </label>
-          <div class="relative">
-            <select id="horizonte" class="w-full px-5 py-3.5 border-2 border-gray-300 dark:border-gray-700 dark:bg-slate-800 rounded-xl focus:ring-4 focus:ring-ips-blue/30 appearance-none">
-              <option value="1">1 mes (Ene 2026)</option>
-              <option value="2">2 meses (Feb 2026)</option>
-              <option value="3" selected>3 meses (Mar 2026)</option>
-              <option value="6">6 meses (Jun 2026)</option>
-              <option value="12">12 meses (Dic 2026)</option>
-            </select>
-            <i class="fas fa-chevron-down absolute right-4 top-4 text-gray-400 pointer-events-none"></i>
-          </div>
-        </div>
-
-        <!-- Filtro 4: Nivel de Riesgo -->
-        <div>
-          <label class="block text-sm font-bold text-gray-700 dark:text-gray-300 mb-3">
-            <i class="fas fa-exclamation-triangle mr-2 text-ips-blue"></i>Nivel de Riesgo
-          </label>
-          <select id="nivelRiesgo" class="w-full px-5 py-3.5 border-2 border-gray-300 dark:border-gray-700 dark:bg-slate-800 rounded-xl focus:ring-4 focus:ring-ips-blue/30">
-            <option value="">Todos los niveles</option>
-            <option value="critico">Crítico</option>
-            <option value="alto">Alto</option>
-            <option value="medio">Medio</option>
-            <option value="bajo">Bajo</option>
+          <label class="text-sm font-bold text-slate-300 mb-3 block">Nivel de Riesgo</label>
+          <select id="riesgoFilter" class="w-full px-6 py-4 bg-slate-800/50 border border-slate-600 rounded-xl text-white focus:ring-4 focus:ring-purple-500">
+            <option value="TODOS">Todos los medicamentos</option>
+            <option value="CRÍTICO">Solo Críticos</option>
+            <option value="ALTO">Crítico + Alto</option>
+            <option value="MEDIO">Todos con riesgo</option>
           </select>
         </div>
-
-        <!-- Filtro 5: Acciones -->
-        <div class="flex flex-col justify-end space-y-3">
-          <button id="btnAplicar" class="w-full px-6 py-3.5 bg-gradient-to-r from-ips-blue to-ips-purple text-white font-bold rounded-xl hover:opacity-90 transition shadow-lg flex items-center justify-center gap-2">
-            <i class="fas fa-play-circle"></i> Ejecutar Predicción
+        <div class="flex items-end">
+          <button id="btnExport" class="w-full px-8 py-5 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white font-bold rounded-xl shadow-2xl hover:from-emerald-600 hover:to-cyan-700 transition flex items-center justify-center gap-4 text-lg">
+            <i class="fas fa-file-excel"></i>
+            <span>Exportar Informe</span>
           </button>
-          <button id="btnReset" class="w-full px-6 py-3 bg-gradient-to-r from-gray-500 to-gray-700 text-white font-bold rounded-xl hover:opacity-90 transition flex items-center justify-center gap-2">
-            <i class="fas fa-redo"></i> Reiniciar
-          </button>
-        </div>
-      </div>
-
-      <!-- Configuración Avanzada (Oculto por defecto) -->
-      <div id="configAvanzada" class="mt-6 p-6 bg-gray-50 dark:bg-slate-800/50 rounded-xl hidden">
-        <h3 class="text-lg font-bold mb-4 text-ips-dark dark:text-white">Configuración del Modelo Predictivo</h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div>
-            <label class="block text-sm font-medium mb-2">Confianza del Modelo (%)</label>
-            <input type="range" min="80" max="99" value="93" class="w-full" id="confianzaModelo">
-            <div class="text-right text-sm text-gray-600" id="confianzaValue">93%</div>
-          </div>
-          <div>
-            <label class="block text-sm font-medium mb-2">Factor Estacionalidad</label>
-            <select class="w-full px-3 py-2 border rounded-lg">
-              <option value="alta">Alta (Invierno/Verano)</option>
-              <option value="media" selected>Media</option>
-              <option value="baja">Baja</option>
-            </select>
-          </div>
-          <div>
-            <label class="block text-sm font-medium mb-2">Incluir Tendencias Externas</label>
-            <div class="flex items-center space-x-4">
-              <label class="flex items-center">
-                <input type="checkbox" class="rounded" checked>
-                <span class="ml-2">Datos Epidemiológicos</span>
-              </label>
-              <label class="flex items-center">
-                <input type="checkbox" class="rounded">
-                <span class="ml-2">Factores Económicos</span>
-              </label>
-            </div>
-          </div>
         </div>
       </div>
     </div>
 
-    <!-- KPIs con Tendencias -->
-    <div class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-5 mb-10 animate__animated animate__fadeInUp">
-      <div class="glass-card rounded-2xl p-5 gradient-border hover-lift group">
-        <div class="flex justify-between items-start">
-          <div>
-            <p class="text-gray-600 dark:text-gray-400 text-sm font-medium mb-1">Recetado 2025</p>
-            <p class="text-3xl font-bold text-ips-blue dark:text-white mb-2" id="kpiRecetado">0</p>
-            <div class="flex items-center text-sm">
-              <i class="fas fa-arrow-up text-green-500 mr-1"></i>
-              <span class="text-green-600 font-medium">+12.5%</span>
-              <span class="text-gray-500 ml-2">vs 2024</span>
-            </div>
-          </div>
-          <div class="p-3 bg-ips-blue/10 rounded-xl group-hover:scale-110 transition-transform">
-            <i class="fas fa-file-prescription text-2xl text-ips-blue"></i>
-          </div>
-        </div>
+    <!-- KPIs con Hover -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+      <div class="glass p-8 rounded-2xl card-hover border-l-8 border-cyan-500" data-tippy-content="Nivel de Servicio Global (OTIF)<br>Meta institucional: ≥90%">
+        <p class="text-slate-400 text-sm font-bold uppercase">Nivel de Servicio</p>
+        <p class="metric text-cyan-400" id="kpiServicio">--%</p>
       </div>
-
-      <div class="glass-card rounded-2xl p-5 gradient-border hover-lift group">
-        <div class="flex justify-between items-start">
-          <div>
-            <p class="text-gray-600 dark:text-gray-400 text-sm font-medium mb-1">Dispensado</p>
-            <p class="text-3xl font-bold text-ips-green dark:text-white mb-2" id="kpiDispensado">0</p>
-            <div class="flex items-center text-sm">
-              <i class="fas fa-arrow-up text-green-500 mr-1"></i>
-              <span class="text-green-600 font-medium">+8.3%</span>
-              <span class="text-gray-500 ml-2">vs 2024</span>
-            </div>
-          </div>
-          <div class="p-3 bg-ips-green/10 rounded-xl group-hover:scale-110 transition-transform">
-            <i class="fas fa-check-circle text-2xl text-ips-green"></i>
-          </div>
-        </div>
+      <div class="glass p-8 rounded-2xl card-hover border-l-8 border-red-500" data-tippy-content="Unidades recetadas pero no dispensadas<br>Impacto directo en el paciente">
+        <p class="text-slate-400 text-sm font-bold uppercase">Déficit Crítico</p>
+        <p class="metric text-red-400" id="kpiDeficit">0</p>
       </div>
-
-      <div class="glass-card rounded-2xl p-5 gradient-border hover-lift group">
-        <div class="flex justify-between items-start">
-          <div>
-            <p class="text-gray-600 dark:text-gray-400 text-sm font-medium mb-1">Faltante Actual</p>
-            <p class="text-3xl font-bold text-ips-red dark:text-white mb-2" id="kpiFaltante">0</p>
-            <div class="flex items-center text-sm">
-              <i class="fas fa-arrow-down text-red-500 mr-1"></i>
-              <span class="text-red-600 font-medium">-3.1%</span>
-              <span class="text-gray-500 ml-2">vs 2024</span>
-            </div>
-          </div>
-          <div class="p-3 bg-ips-red/10 rounded-xl group-hover:scale-110 transition-transform">
-            <i class="fas fa-exclamation-triangle text-2xl text-ips-red"></i>
-          </div>
-        </div>
+      <div class="glass p-8 rounded-2xl card-hover border-l-8 border-purple-500" data-tippy-content="Pronóstico total Ene-Jun 2026<br>Modelo híbrido Prophet + XGBoost">
+        <p class="text-slate-400 text-sm font-bold uppercase">Pronóstico 2026</p>
+        <p class="metric text-purple-400" id="kpiPronostico">0</p>
       </div>
-
-      <div class="glass-card rounded-2xl p-5 gradient-border hover-lift group">
-        <div class="flex justify-between items-start">
-          <div>
-            <p class="text-gray-600 dark:text-gray-400 text-sm font-medium mb-1">Predicción Mar 2026</p>
-            <p class="text-3xl font-bold text-ips-purple dark:text-white mb-2" id="kpiPrediccion">0</p>
-            <div class="flex items-center text-sm">
-              <i class="fas fa-chart-line text-purple-500 mr-1"></i>
-              <span class="text-purple-600 font-medium">IA Predictiva</span>
-            </div>
-          </div>
-          <div class="p-3 bg-ips-purple/10 rounded-xl group-hover:scale-110 transition-transform">
-            <i class="fas fa-brain text-2xl text-ips-purple"></i>
-          </div>
-        </div>
-      </div>
-
-      <div class="glass-card rounded-2xl p-5 gradient-border hover-lift group">
-        <div class="flex justify-between items-start">
-          <div>
-            <p class="text-gray-600 dark:text-gray-400 text-sm font-medium mb-1">Quiebres Estimados</p>
-            <p class="text-3xl font-bold text-ips-orange dark:text-white mb-2" id="kpiQuiebres">0</p>
-            <div class="flex items-center text-sm">
-              <div class="w-2 h-2 bg-red-500 rounded-full mr-2 animate-pulse"></div>
-              <span class="text-red-600 font-medium">Críticos: <span id="kpiCriticos">0</span></span>
-            </div>
-          </div>
-          <div class="p-3 bg-ips-orange/10 rounded-xl group-hover:scale-110 transition-transform">
-            <i class="fas fa-fire text-2xl text-ips-orange"></i>
-          </div>
-        </div>
-      </div>
-
-      <div class="glass-card rounded-2xl p-5 gradient-border hover-lift group">
-        <div class="flex justify-between items-start">
-          <div>
-            <p class="text-gray-600 dark:text-gray-400 text-sm font-medium mb-1">Tasa Dispensación</p>
-            <p class="text-3xl font-bold text-pink-600 dark:text-white mb-2" id="kpiTasa">0%</p>
-            <div class="flex items-center text-sm">
-              <i class="fas fa-tachometer-alt text-pink-500 mr-1"></i>
-              <span class="text-pink-600 font-medium" id="kpiTasaNivel">Normal</span>
-            </div>
-          </div>
-          <div class="p-3 bg-pink-500/10 rounded-xl group-hover:scale-110 transition-transform">
-            <i class="fas fa-percentage text-2xl text-pink-600"></i>
-          </div>
-        </div>
+      <div class="glass p-8 rounded-2xl card-hover border-l-8 border-orange-500" data-tippy-content="Medicamentos con probabilidad >60% de quiebre">
+        <p class="text-slate-400 text-sm font-bold uppercase">En Riesgo</p>
+        <p class="metric text-orange-400" id="kpiRiesgo">0</p>
       </div>
     </div>
 
-    <!-- Paneles Principales -->
-    <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 mb-10">
-      <!-- Panel Izquierdo: Gráficos -->
-      <div class="space-y-8">
-        <!-- Gráfico 1: Predicción de Demanda -->
-        <div class="glass-card rounded-2xl p-6 hover-lift">
-          <div class="flex justify-between items-center mb-6">
-            <h2 class="text-2xl font-bold text-ips-dark dark:text-white flex items-center gap-3">
-              <i class="fas fa-chart-line text-ips-purple"></i>
-              Evolución + Predicción de Demanda Total
-            </h2>
-            <div class="flex gap-2">
-              <button class="px-3 py-1.5 bg-gray-100 dark:bg-slate-800 rounded-lg text-sm">Mensual</button>
-              <button class="px-3 py-1.5 bg-ips-blue text-white rounded-lg text-sm">Trimestral</button>
-              <button class="px-3 py-1.5 bg-gray-100 dark:bg-slate-800 rounded-lg text-sm">Anual</button>
-            </div>
-          </div>
-          <canvas id="chartPrediccion" height="350"></canvas>
-          <div class="mt-4 text-sm text-gray-600 dark:text-gray-400">
-            <i class="fas fa-info-circle mr-2"></i> Modelo: ARIMA + Regresión exponencial ponderada
-          </div>
-        </div>
-
-        <!-- Gráfico 2: Heatmap de Quiebres -->
-        <div class="glass-card rounded-2xl p-6 hover-lift">
-          <h2 class="text-2xl font-bold text-ips-dark dark:text-white mb-6 flex items-center gap-3">
-            <i class="fas fa-map text-ips-orange"></i>
-            Mapa de Calor: Quiebres por Farmacia
-          </h2>
-          <div id="heatmapChart" class="h-64 flex items-center justify-center">
-            <canvas id="chartHeatmap" height="250"></canvas>
-          </div>
-        </div>
-      </div>
-
-      <!-- Panel Derecho: Tablas y Alertas -->
-      <div class="space-y-8">
-        <!-- Tabla de Alertas Críticas -->
-        <div class="glass-card rounded-2xl p-6 hover-lift">
-          <div class="flex justify-between items-center mb-6">
-            <h2 class="text-2xl font-bold text-ips-dark dark:text-white flex items-center gap-3">
-              <i class="fas fa-skull-crossbones text-red-600 pulse-critical"></i>
-              Top 10: Se agotarán primero en 2026
-            </h2>
-            <span class="px-3 py-1 bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300 rounded-full text-sm font-bold">
-              PRIORIDAD ALTA
-            </span>
-          </div>
-          <div class="overflow-x-auto scrollbar-hide">
-            <table class="w-full">
-              <thead>
-                <tr class="text-left text-sm text-gray-600 dark:text-gray-400 border-b dark:border-gray-700">
-                  <th class="pb-3 font-semibold">Rank</th>
-                  <th class="pb-3 font-semibold">Medicamento</th>
-                  <th class="pb-3 font-semibold text-right">Stock</th>
-                  <th class="pb-3 font-semibold text-right">Agotamiento</th>
-                </tr>
-              </thead>
-              <tbody id="tablaQuiebres" class="divide-y dark:divide-gray-800">
-                <!-- Llenado dinámico -->
-              </tbody>
-            </table>
-          </div>
-          <canvas id="chartQuiebreFuturo" height="200" class="mt-6"></canvas>
-        </div>
-
-        <!-- Gráfico 3: Distribución de Riesgos -->
-        <div class="glass-card rounded-2xl p-6 hover-lift">
-          <h2 class="text-2xl font-bold text-ips-dark dark:text-white mb-6 flex items-center gap-3">
-            <i class="fas fa-chart-pie text-ips-green"></i>
-            Distribución de Niveles de Riesgo
-          </h2>
-          <div class="grid grid-cols-2 gap-6">
-            <canvas id="chartRiesgo" height="250"></canvas>
-            <div class="space-y-4">
-              <div class="p-4 bg-red-50 dark:bg-red-900/20 rounded-xl">
-                <div class="flex justify-between items-center mb-2">
-                  <span class="font-bold text-red-700 dark:text-red-300">Crítico</span>
-                  <span class="text-2xl font-bold text-red-600">12</span>
-                </div>
-                <div class="text-sm text-gray-600 dark:text-gray-400">Agotamiento en < 1 mes</div>
-              </div>
-              <div class="p-4 bg-orange-50 dark:bg-orange-900/20 rounded-xl">
-                <div class="flex justify-between items-center mb-2">
-                  <span class="font-bold text-orange-700 dark:text-orange-300">Alto</span>
-                  <span class="text-2xl font-bold text-orange-600">24</span>
-                </div>
-                <div class="text-sm text-gray-600 dark:text-gray-400">Agotamiento en 1-3 meses</div>
-              </div>
-              <div class="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-                <div class="flex justify-between items-center mb-2">
-                  <span class="font-bold text-blue-700 dark:text-blue-300">Medio</span>
-                  <span class="text-2xl font-bold text-blue-600">42</span>
-                </div>
-                <div class="text-sm text-gray-600 dark:text-gray-400">Agotamiento en 3-6 meses</div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!-- Gráfico Principal con Tooltip Avanzado -->
+    <div class="glass p-10 rounded-3xl mb-10 shadow-2xl card-hover">
+      <h3 class="text-3xl font-bold text-white mb-8 text-center">
+        Predicción Global con Bandas de Confianza
+      </h3>
+      <canvas id="chartGlobal" height="420"></canvas>
+      <div class="flex justify-center gap-10 mt-8 text-sm">
+        <span><i class="fas fa-circle text-purple-400"></i> Pronóstico</span>
+        <span><i class="fas fa-circle text-purple-400 opacity-60"></i> 80% Confianza</span>
+        <span><i class="fas fa-circle text-purple-400 opacity-40"></i> 95% Confianza</span>
       </div>
     </div>
 
-    <!-- Tabla Completa de Predicciones -->
-    <div class="glass-card rounded-2xl p-8 mb-10 hover-lift animate__animated animate__fadeInUp">
-      <div class="flex justify-between items-center mb-8">
-        <h2 class="text-3xl font-bold text-ips-dark dark:text-white flex items-center gap-4">
-          <i class="fas fa-table text-ips-blue"></i>
-          Panel de Predicciones Detalladas
-        </h2>
-        <div class="flex gap-3">
-          <button id="btnExportCSV" class="px-4 py-2.5 bg-gray-100 dark:bg-slate-800 rounded-xl hover:bg-gray-200 dark:hover:bg-slate-700 transition flex items-center gap-2">
-            <i class="fas fa-download"></i> CSV
-          </button>
-          <button id="btnPrint" class="px-4 py-2.5 bg-ips-blue text-white rounded-xl hover:bg-ips-blue/90 transition flex items-center gap-2">
-            <i class="fas fa-print"></i> Imprimir
-          </button>
-        </div>
-      </div>
-
-      <!-- Filtros de la tabla -->
-      <div class="mb-6 flex flex-wrap gap-4">
-        <input type="text" placeholder="Buscar medicamento..." class="px-4 py-2.5 border-2 border-gray-300 dark:border-gray-700 dark:bg-slate-800 rounded-xl flex-1 min-w-[300px]">
-        <select class="px-4 py-2.5 border-2 border-gray-300 dark:border-gray-700 dark:bg-slate-800 rounded-xl">
-          <option>Ordenar por: Fecha de Agotamiento</option>
-          <option>Ordenar por: Nivel de Riesgo</option>
-          <option>Ordenar por: Demanda Mensual</option>
-        </select>
-      </div>
-
-      <div class="overflow-x-auto rounded-xl border-2 border-gray-200 dark:border-gray-800 shadow-inner">
-        <table class="min-w-full">
-          <thead class="bg-gradient-to-r from-ips-blue to-ips-purple text-white">
+    <!-- Tabla Interactiva con Tooltips -->
+    <div class="glass p-10 rounded-3xl">
+      <h3 class="text-3xl font-bold text-white mb-8 flex items-center gap-4">
+        <i class="fas fa-exclamation-triangle text-yellow-400"></i>
+        Medicamentos Críticos 2026
+      </h3>
+      <div class="overflow-x-auto rounded-2xl border border-slate-700">
+        <table class="w-full text-sm">
+          <thead class="bg-gradient-to-r from-purple-900 to-slate-900 text-white">
             <tr>
-              <th class="px-6 py-4 text-left font-bold uppercase tracking-wider">Rank</th>
-              <th class="px-6 py-4 text-left font-bold uppercase tracking-wider">Medicamento</th>
-              <th class="px-6 py-4 text-right font-bold uppercase tracking-wider">Stock Actual</th>
-              <th class="px-6 py-4 text-right font-bold uppercase tracking-wider">Demanda Mensual</th>
-              <th class="px-6 py-4 text-center font-bold uppercase tracking-wider">Agotamiento Estimado</th>
-              <th class="px-6 py-4 text-center font-bold uppercase tracking-wider">Nivel de Riesgo</th>
-              <th class="px-6 py-4 text-center font-bold uppercase tracking-wider">Acción Recomendada</th>
+              <th class="px-6 py-5 text-left">Rank</th>
+              <th class="px-6 py-5 text-left">Medicamento</th>
+              <th class="px-6 py-5 text-right">2025</th>
+              <th class="px-6 py-5 text-right">2026</th>
+              <th class="px-6 py-5 text-center">Crecimiento</th>
+              <th class="px-6 py-5 text-center">80% Confianza</th>
+              <th class="px-6 py-5 text-center">Riesgo</th>
+              <th class="px-6 py-5 text-center">Acción</th>
             </tr>
           </thead>
-          <tbody id="tablaPrediccion" class="bg-white dark:bg-slate-900 divide-y divide-gray-200 dark:divide-gray-800">
-            <!-- Llenado dinámico -->
-          </tbody>
+          <tbody id="tablaPredicciones" class="divide-y divide-slate-700"></tbody>
         </table>
       </div>
-      
-      <!-- Paginación -->
-      <div class="mt-6 flex justify-between items-center">
-        <div class="text-sm text-gray-600 dark:text-gray-400">
-          Mostrando <span id="rowsShowing">1-10</span> de <span id="totalRows">0</span> predicciones
-        </div>
-        <div class="flex gap-2">
-          <button class="px-4 py-2 bg-gray-100 dark:bg-slate-800 rounded-lg"><i class="fas fa-chevron-left"></i></button>
-          <button class="px-4 py-2 bg-ips-blue text-white rounded-lg">1</button>
-          <button class="px-4 py-2 bg-gray-100 dark:bg-slate-800 rounded-lg">2</button>
-          <button class="px-4 py-2 bg-gray-100 dark:bg-slate-800 rounded-lg">3</button>
-          <button class="px-4 py-2 bg-gray-100 dark:bg-slate-800 rounded-lg"><i class="fas fa-chevron-right"></i></button>
-        </div>
-      </div>
     </div>
 
-    <!-- Panel de Insights IA -->
-    <div class="glass-card rounded-2xl p-8 mb-10 bg-gradient-to-br from-ips-blue/5 to-ips-purple/5 border border-ips-blue/20">
-      <div class="flex items-start gap-6">
-        <div class="p-4 bg-gradient-to-br from-ips-blue to-ips-purple rounded-2xl">
-          <i class="fas fa-robot text-white text-3xl"></i>
-        </div>
-        <div class="flex-1">
-          <h3 class="text-2xl font-bold text-ips-dark dark:text-white mb-4">
-            <i class="fas fa-lightbulb text-yellow-500 mr-3"></i>
-            Insights de Inteligencia Artificial
-          </h3>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="p-4 bg-white dark:bg-slate-800 rounded-xl">
-              <div class="text-sm text-gray-600 dark:text-gray-400 mb-2">Recomendación Principal</div>
-              <div class="font-bold text-ips-dark dark:text-white">Aumentar stock de Alcohol Rectificado en un 35% para Q1 2026</div>
-            </div>
-            <div class="p-4 bg-white dark:bg-slate-800 rounded-xl">
-              <div class="text-sm text-gray-600 dark:text-gray-400 mb-2">Tendencia Detectada</div>
-              <div class="font-bold text-ips-dark dark:text-white">Demanda de antihipertensivos aumenta 8% en invierno</div>
-            </div>
-            <div class="p-4 bg-white dark:bg-slate-800 rounded-xl">
-              <div class="text-sm text-gray-600 dark:text-gray-400 mb-2">Ahorro Potencial</div>
-              <div class="font-bold text-ips-green">$245,000 con optimización de inventario</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="mt-12 pt-8 border-t dark:border-gray-800">
-      <div class="flex flex-col md:flex-row justify-between items-center gap-6">
-        <div>
-          <div class="flex items-center gap-3 mb-4">
-            <div class="p-2 bg-ips-blue/10 rounded-lg">
-              <i class="fas fa-shield-alt text-ips-blue"></i>
-            </div>
-            <div>
-              <h4 class="font-bold text-lg">IPS Intelligence Suite</h4>
-              <p class="text-sm text-gray-600 dark:text-gray-400">Sistema Predictivo v3.2</p>
-            </div>
-          </div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 max-w-lg">
-            Plataforma de inteligencia predictiva para la gestión farmacéutica del IPS Paraguay.
-            Datos actualizados en tiempo real con modelos de machine learning.
-          </p>
-        </div>
-        
-        <div class="flex gap-6">
-          <div class="text-center">
-            <div class="text-2xl font-bold text-ips-blue">24/7</div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">Monitoreo</div>
-          </div>
-          <div class="text-center">
-            <div class="text-2xl font-bold text-ips-green">93.7%</div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">Precisión</div>
-          </div>
-          <div class="text-center">
-            <div class="text-2xl font-bold text-ips-purple">AI</div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">Powered</div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="mt-8 text-center text-gray-500 dark:text-gray-400 text-sm">
-        <p>© 2025 Instituto de Previsión Social - IPS Paraguay. Todos los derechos reservados.</p>
-        <p class="mt-2">
-          <i class="fas fa-clock mr-2"></i>Última actualización: <span id="lastUpdate">-</span> |
-          <i class="fas fa-server ml-4 mr-2"></i>Modelo: ARIMA + Prophet + Regresión Lineal
-        </p>
-      </div>
-    </footer>
   </div>
 
-  <!-- Modal de Notificaciones -->
-  <div id="notificationsModal" class="fixed inset-0 bg-black/50 z-50 hidden items-center justify-center p-4">
-    <div class="bg-white dark:bg-slate-900 rounded-2xl w-full max-w-md p-6 max-h-[80vh] overflow-y-auto">
-      <div class="flex justify-between items-center mb-6">
-        <h3 class="text-xl font-bold">Notificaciones del Sistema</h3>
-        <button id="closeNotifications" class="p-2 hover:bg-gray-100 dark:hover:bg-slate-800 rounded-lg">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div id="notificationsList" class="space-y-4">
-        <!-- Notificaciones dinámicas -->
-      </div>
-    </div>
-  </div>
-
-  <!-- Script principal -->
   <script>
-    // Registrar plugins
-    Chart.register(ChartDataLabels);
     const { DateTime } = luxon;
+    Chart.register(ChartDataLabels);
 
-    // Estado global
-    let data = { 
-      mensual: [], 
-      medicamentos: [], 
-      farmacias: [],
-      stockAlerts: [],
-      metadata: {}
-    };
-    
-    let filters = { 
-      farmacia: "", 
-      horizonte: 3,
-      tipoMedicamento: "",
-      nivelRiesgo: ""
-    };
-    
-    let charts = {};
-    let notifications = [
-      { id: 1, type: 'critical', title: 'Stock crítico detectado', message: 'Alcohol Rectificado se agotará en 2 semanas', time: 'Hace 5 min', unread: true },
-      { id: 2, type: 'warning', title: 'Tendencia detectada', message: 'Aumento del 15% en demanda de antihipertensivos', time: 'Hace 1 hora', unread: true },
-      { id: 3, type: 'info', title: 'Modelo actualizado', message: 'Nuevo modelo predictivo cargado con 94.2% de precisión', time: 'Hace 3 horas', unread: true }
-    ];
+    let data = { mensual: [], prediccion: [], farmacias: [] };
+    let filters = { farmacia: "", riesgo: "TODOS" };
+    let chartGlobal = null;
 
-    // Inicialización
     async function init() {
       try {
-        // Simular carga de datos (en producción, cargar desde archivos JSON)
-        await simulateDataLoad();
-        
-        // Configurar fecha de actualización
-        document.getElementById('lastUpdate').textContent = new Date().toLocaleString('es-PY', {
-          year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit'
-        });
+        const [mensual, prediccion, farmacias] = await Promise.all([
+          fetch('resumen_mensual.json').then(r => r.json()),
+          fetch('prediccion_ml_2026.json').then(r => r.json()),
+          fetch('top_farmacias.json').then(r => r.json())
+        ]);
+        data = { mensual, prediccion, farmacias };
+        document.getElementById('lastUpdate').textContent = new Date().toLocaleString('es-PY');
 
-        // Inicializar componentes
-        populateFarmaciaFilter();
-        setupEventListeners();
+        populateFarmacias();
+        setupEvents();
+        initTooltips();
         updateAll();
-        updateNotifications();
-        
-        // Ocultar loader y mostrar contenido
-        setTimeout(() => {
-          document.getElementById('globalLoader').style.opacity = '0';
-          setTimeout(() => {
-            document.getElementById('globalLoader').style.display = 'none';
-            document.getElementById('mainContent').style.display = 'block';
-          }, 300);
-        }, 1000);
-        
-        console.log("Dashboard inicializado correctamente");
-      } catch (err) {
-        console.error("Error inicializando dashboard:", err);
-        alert("Error al cargar el dashboard. Por favor, revise la consola para más detalles.");
+      } catch (e) {
+        console.error(e);
+        alert("Error: Verifica que prediccion_ml_2026.json exista");
       }
     }
 
-    // Simular carga de datos
-    async function simulateDataLoad() {
-      // Datos mensuales simulados
-      data.mensual = Array.from({length: 12}, (_, i) => ({
-        año: 2025,
-        mes: i + 1,
-        total_recetado: Math.floor(50000 + Math.random() * 30000),
-        total_dispensado: Math.floor(40000 + Math.random() * 25000)
-      }));
-
-      // Datos de medicamentos simulados
-      const medicamentosNombres = [
-        "ALCOHOL RECTIFICADO 96%",
-        "ALCOHOL AL 70% SOLUCIÓN",
-        "LOSARTAN POTASICO 50mg",
-        "METFORMINA 850mg",
-        "ATORVASTATINA 20mg",
-        "ENALAPRIL 10mg",
-        "IBUPROFENO 400mg",
-        "PARACETAMOL 500mg",
-        "OMEPRAZOL 20mg",
-        "AMOXICILINA 500mg",
-        "SALBUTAMOL INHALADOR",
-        "INSULINA GLARGINA",
-        "CLOPIDOGREL 75mg",
-        "SIMVASTATINA 20mg",
-        "RAMIPRIL 5mg"
-      ];
-
-      data.medicamentos = medicamentosNombres.map((nombre, idx) => ({
-        TextoBreveMedicamento: nombre,
-        recetado: Math.floor(10000 + Math.random() * 50000),
-        dispensado: Math.floor(8000 + Math.random() * 40000),
-        MedicamentoSAP: `MED${1000 + idx}`,
-        tipo: ['cronico', 'agudo', 'alto_costo', 'generico'][Math.floor(Math.random() * 4)]
-      }));
-
-      // Datos de farmacias simuladas
-      data.farmacias = Array.from({length: 15}, (_, i) => ({
-        FarmaciaVentanilla: `FV${100 + i}`,
-        nombre: `Farmacia Central ${i + 1}`,
-        total_recetado: Math.floor(10000 + Math.random() * 50000),
-        total_dispensado: Math.floor(8000 + Math.random() * 40000)
-      }));
-
-      // Metadatos
-      data.metadata = {
-        generated_at: new Date().toISOString(),
-        total_records: 15000,
-        version: "3.2.1"
-      };
+    function populateFarmacias() {
+      const sel = document.getElementById('farmaciaFilter');
+      data.farmacias.forEach(f => sel.add(new Option(`Farmacia ${f.FarmaciaVentanilla}`, f.FarmaciaVentanilla)));
     }
 
-    function populateFarmaciaFilter() {
-      const select = document.getElementById('farmaciaFilter');
-      select.innerHTML = '<option value="">Todas las farmacias</option>';
-      
-      data.farmacias.forEach(f => {
-        const opt = document.createElement('option');
-        opt.value = f.FarmaciaVentanilla;
-        opt.textContent = f.nombre || `Farmacia ${f.FarmaciaVentanilla}`;
-        select.appendChild(opt);
-      });
+    function setupEvents() {
+      document.getElementById('farmaciaFilter').onchange = e => { filters.farmacia = e.target.value; updateAll(); };
+      document.getElementById('riesgoFilter').onchange = e => { filters.riesgo = e.target.value; updateAll(); };
+      document.getElementById('btnExport').onclick = exportarExcel;
     }
 
-    function setupEventListeners() {
-      // Filtros
-      document.getElementById('farmaciaFilter').addEventListener('change', e => {
-        filters.farmacia = e.target.value;
-        updateAll();
+    function initTooltips() {
+      tippy('[data-tippy-content]', {
+        theme: 'light',
+        animation: 'scale',
+        allowHTML: true,
+        placement: 'top'
       });
-      
-      document.getElementById('horizonte').addEventListener('change', e => {
-        filters.horizonte = parseInt(e.target.value);
-        updateAll();
-      });
-      
-      document.getElementById('tipoMedicamento').addEventListener('change', e => {
-        filters.tipoMedicamento = e.target.value;
-        updateAll();
-      });
-      
-      document.getElementById('nivelRiesgo').addEventListener('change', e => {
-        filters.nivelRiesgo = e.target.value;
-        updateAll();
-      });
-      
-      document.getElementById('btnAplicar').addEventListener('click', updateAll);
-      document.getElementById('btnReset').addEventListener('click', resetFilters);
-      document.getElementById('advancedSettings').addEventListener('click', toggleAdvancedSettings);
-      document.getElementById('confianzaModelo').addEventListener('input', updateConfianzaValue);
-      
-      // Notificaciones
-      document.getElementById('notificationsBtn').addEventListener('click', openNotifications);
-      document.getElementById('closeNotifications').addEventListener('click', closeNotifications);
-      
-      // Exportación
-      document.getElementById('exportBtn').addEventListener('click', exportReport);
-      document.getElementById('btnExportCSV').addEventListener('click', exportToCSV);
-      document.getElementById('btnPrint').addEventListener('click', window.print);
-      
-      // Modo oscuro
-      document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
-      
-      // Cargar modo oscuro guardado
-      if (localStorage.getItem('darkMode') === 'true') {
-        document.documentElement.classList.add('dark');
-        document.getElementById('darkModeToggle').innerHTML = '<i class="fas fa-sun text-yellow-300"></i>';
-      }
     }
 
     function updateAll() {
       updateKPIs();
-      updateChartPrediccion();
-      updateChartQuiebreFuturo();
-      updateChartRiesgo();
-      updateTablaPrediccion();
-      updateTablaQuiebres();
-      updateNotificationsBadge();
+      updateChartGlobal();
+      updateTabla();
     }
 
     function updateKPIs() {
-      // Calcular KPIs
-      let recetado = data.mensual.reduce((sum, m) => sum + m.total_recetado, 0);
-      let dispensado = data.mensual.reduce((sum, m) => sum + m.total_dispensado, 0);
-      let faltante = recetado - dispensado;
-      let tasa = recetado > 0 ? (dispensado / recetado) * 100 : 0;
-      
-      // Filtrar por farmacia si es necesario
-      if (filters.farmacia) {
-        const farm = data.farmacias.find(f => f.FarmaciaVentanilla === filters.farmacia);
-        if (farm) {
-          recetado = farm.total_recetado;
-          dispensado = farm.total_dispensado;
-          faltante = recetado - dispensado;
-          tasa = recetado > 0 ? (dispensado / recetado) * 100 : 0;
-        }
-      }
-      
-      const prediccion = predecirDemandaTotal(filters.horizonte);
-      const medicamentosCriticos = getMedicamentosCriticos();
-      const criticosCount = medicamentosCriticos.filter(m => m.mesesRestantes < 2).length;
-      
-      // Actualizar DOM
-      document.getElementById('kpiRecetado').textContent = formatNumber(recetado);
-      document.getElementById('kpiDispensado').textContent = formatNumber(dispensado);
-      document.getElementById('kpiFaltante').textContent = formatNumber(faltante);
-      document.getElementById('kpiPrediccion').textContent = formatNumber(Math.round(prediccion.realista));
-      document.getElementById('kpiQuiebres').textContent = medicamentosCriticos.length;
-      document.getElementById('kpiCriticos').textContent = criticosCount;
-      document.getElementById('kpiTasa').textContent = tasa.toFixed(1) + '%';
-      
-      // Actualizar nivel de tasa
-      const tasaElement = document.getElementById('kpiTasaNivel');
-      if (tasa >= 90) {
-        tasaElement.textContent = 'Excelente';
-        tasaElement.className = 'text-green-600 font-medium';
-      } else if (tasa >= 75) {
-        tasaElement.textContent = 'Buena';
-        tasaElement.className = 'text-blue-600 font-medium';
-      } else {
-        tasaElement.textContent = 'Necesita mejora';
-        tasaElement.className = 'text-red-600 font-medium';
-      }
+      const total2025 = data.mensual.reduce((s, m) => s + m.total_recetado, 0);
+      const totalDisp = data.mensual.reduce((s, m) => s + m.total_dispensado, 0);
+      const pronostico = data.prediccion.reduce((s, p) => s + p.pronostico_ene_jun_2026, 0);
+      const criticos = data.prediccion.filter(p => p.nivel_riesgo === "CRÍTICO").length;
+
+      document.getElementById('kpiServicio').textContent = total2025 > 0 ? ((totalDisp / total2025) * 100).toFixed(1) + '%' : '0%';
+      document.getElementById('kpiDeficit').textContent = (total2025 - totalDisp).toLocaleString();
+      document.getElementById('kpiPronostico').textContent = Math.round(pronostico).toLocaleString();
+      document.getElementById('kpiRiesgo').textContent = criticos;
     }
 
-    function predecirDemandaTotal(meses) {
-      const historico = data.mensual
-        .filter(m => m.año === 2025)
-        .map(m => ({ mes: m.mes, valor: m.total_recetado }));
+    function updateChartGlobal() {
+      const ctx = document.getElementById('chartGlobal').getContext('2d');
+      const hist = data.mensual.sort((a,b) => a.mes - b.mes);
+      const labels = hist.map(m => DateTime.fromObject({year: m.año, month: m.mes}).toFormat('MMM yyyy'));
+      const real = hist.map(m => m.total_recetado);
 
-      if (historico.length < 3) return { realista: 0, pesimista: 0, optimista: 0 };
+      const totalPron = data.prediccion.reduce((s, p) => s + p.pronostico_ene_jun_2026, 0);
+      const inf80 = data.prediccion.reduce((s, p) => s + p.intervalo_80_inf, 0);
+      const sup80 = data.prediccion.reduce((s, p) => s + p.intervalo_80_sup, 0);
 
-      // Regresión lineal simple para predicción
-      let sumX = 0, sumY = 0, sumXY = 0, sumX2 = 0;
-      const n = historico.length;
-      
-      historico.forEach((p, i) => {
-        sumX += p.mes;
-        sumY += p.valor;
-        sumXY += p.mes * p.valor;
-        sumX2 += p.mes * p.mes;
-      });
-      
-      const slope = (n * sumXY - sumX * sumY) / (n * sumX2 - sumX * sumX);
-      const intercept = (sumY - slope * sumX) / n;
-      
-      const ultimoMes = historico[historico.length - 1].mes;
-      const base = intercept + slope * (ultimoMes + meses);
-
-      return {
-        realista: base,
-        pesimista: base * 1.25,
-        optimista: base * 0.85
-      };
-    }
-
-    function updateChartPrediccion() {
-      const ctx = document.getElementById('chartPrediccion').getContext('2d');
-      const hist = data.mensual.filter(m => m.año === 2025).sort((a,b) => a.mes - b.mes);
-      const labelsHist = hist.map(m => DateTime.fromObject({year: 2025, month: m.mes}).toFormat('MMM'));
-      const dataHist = hist.map(m => m.total_recetado);
-
-      const pred = predecirDemandaTotal(filters.horizonte);
-      const mesesFuturos = Array(filters.horizonte).fill(pred.realista);
-      const labelsFut = Array.from({length: filters.horizonte}, (_, i) =>
-        DateTime.fromObject({year: 2026, month: i+1}).toFormat('MMM \'26'));
-
-      if (charts.prediccion) charts.prediccion.destroy();
-
-      charts.prediccion = new Chart(ctx, {
+      if (chartGlobal) chartGlobal.destroy();
+      chartGlobal = new Chart(ctx, {
         type: 'line',
         data: {
-          labels: [...labelsHist, ...labelsFut],
+          labels: [...labels, "Ene-Jun 2026"],
           datasets: [
-            {
-              label: '2025 Real',
-              data: [...dataHist, ...Array(filters.horizonte).fill(null)],
-              borderColor: '#6366f1',
-              backgroundColor: 'rgba(99, 102, 241, 0.1)',
-              borderWidth: 3,
-              tension: 0.4,
-              fill: true,
-              pointRadius: 4,
-              pointHoverRadius: 8
-            },
-            {
-              label: 'Predicción 2026',
-              data: [...Array(hist.length).fill(null), ...mesesFuturos],
-              borderColor: '#8b5cf6',
-              backgroundColor: 'rgba(139, 92, 246, 0.2)',
-              borderDash: [8, 4],
-              borderWidth: 3,
-              tension: 0.4,
-              pointRadius: 4,
-              pointHoverRadius: 8
-            },
-            {
-              label: 'Límite Superior',
-              data: [...Array(hist.length).fill(null), ...mesesFuturos.map(v => v * 1.25)],
-              borderColor: '#ef4444',
-              borderDash: [12, 6],
-              borderWidth: 2,
-              tension: 0.4,
-              pointRadius: 0
-            },
-            {
-              label: 'Límite Inferior',
-              data: [...Array(hist.length).fill(null), ...mesesFuturos.map(v => v * 0.85)],
-              borderColor: '#10b981',
-              borderDash: [12, 6],
-              borderWidth: 2,
-              tension: 0.4,
-              pointRadius: 0
-            }
+            { label: 'Demanda Real', data: [...real, null], borderColor: '#06b6d4', backgroundColor: 'rgba(6,182,212,0.1)', tension: 0.4, fill: true },
+            { label: 'Pronóstico IA', data: [...Array(real.length).fill(null), totalPron], borderColor: '#a855f7', borderWidth: 5 },
+            { label: '', data: [...Array(real.length).fill(null), inf80], borderColor: '#c084fc', borderDash: [8,8], fill: '+1' },
+            { label: '80% Confianza', data: [...Array(real.length).fill(null), sup80], borderColor: '#c084fc', borderDash: [8,8], fill: '-1', backgroundColor: 'rgba(192,132,252,0.2)' }
           ]
         },
         options: {
           responsive: true,
-          maintainAspectRatio: false,
+          interaction: { mode: 'index', intersect: false },
           plugins: {
-            legend: { 
-              position: 'top',
-              labels: { font: { size: 12 } }
-            },
-            tooltip: { 
-              mode: 'index', 
-              intersect: false,
-              backgroundColor: 'rgba(0, 0, 0, 0.8)',
-              titleFont: { size: 14 },
-              bodyFont: { size: 13 }
-            },
-            annotation: {
-              annotations: {
-                line1: {
-                  type: 'line',
-                  yMin: pred.realista,
-                  yMax: pred.realista,
-                  borderColor: '#8b5cf6',
-                  borderWidth: 2,
-                  borderDash: [6, 6],
-                  label: {
-                    content: 'Predicción',
-                    enabled: true,
-                    position: 'end'
-                  }
-                }
-              }
-            }
-          },
-          scales: { 
-            y: { 
-              beginAtZero: false,
-              ticks: { 
-                callback: function(value) {
-                  return formatNumber(value);
-                },
-                font: { size: 11 }
-              },
-              grid: { color: 'rgba(0, 0, 0, 0.05)' }
-            },
-            x: {
-              grid: { color: 'rgba(0, 0, 0, 0.05)' }
-            }
-          },
-          interaction: {
-            intersect: false,
-            mode: 'index'
-          }
-        }
-      });
-    }
-
-    function getMedicamentosCriticos() {
-      let medicamentos = data.medicamentos;
-      
-      // Aplicar filtros
-      if (filters.tipoMedicamento) {
-        medicamentos = medicamentos.filter(m => m.tipo === filters.tipoMedicamento);
-      }
-      
-      const aggregated = {};
-      medicamentos.forEach(item => {
-        const key = item.TextoBreveMedicamento;
-        if (!aggregated[key]) aggregated[key] = { rec: 0, disp: 0, tipo: item.tipo };
-        aggregated[key].rec += item.recetado;
-        aggregated[key].disp += item.dispensado;
-      });
-
-      return Object.entries(aggregated)
-        .map(([med, v]) => {
-          const tasa = v.rec > 0 ? v.disp / v.rec : 0;
-          const demandaMensual = Math.round(v.rec / 12);
-          const stockActual = v.disp;
-          const mesesRestantes = demandaMensual > 0 ? stockActual / demandaMensual : 0;
-          
-          let nivelRiesgo = 'bajo';
-          if (mesesRestantes < 2) nivelRiesgo = 'critico';
-          else if (mesesRestantes < 4) nivelRiesgo = 'alto';
-          else if (mesesRestantes < 6) nivelRiesgo = 'medio';
-          
-          // Filtrar por nivel de riesgo si está activo
-          if (filters.nivelRiesgo && nivelRiesgo !== filters.nivelRiesgo) {
-            return null;
-          }
-          
-          const fechaAgotamiento = DateTime.now().plus({ months: Math.max(0.5, mesesRestantes) });
-          
-          return {
-            medicamento: med,
-            stock: stockActual,
-            demandaMensual: demandaMensual,
-            mesesRestantes: mesesRestantes,
-            fechaAgotamiento: fechaAgotamiento,
-            mesTexto: fechaAgotamiento.toFormat('MMM yyyy'),
-            nivelRiesgo: nivelRiesgo,
-            tipo: v.tipo,
-            accionRecomendada: mesesRestantes < 2 ? 'COMPRAR HOY' : 
-                             mesesRestantes < 4 ? 'PLANIFICAR COMPRA' : 
-                             'MONITOREAR'
-          };
-        })
-        .filter(m => m && m.mesesRestantes < 12) // Mostrar solo los que se agotan en menos de un año
-        .sort((a, b) => a.mesesRestantes - b.mesesRestantes);
-    }
-
-    function updateChartQuiebreFuturo() {
-      const ctx = document.getElementById('chartQuiebreFuturo').getContext('2d');
-      const criticos = getMedicamentosCriticos().slice(0, 10);
-
-      if (charts.quiebre) charts.quiebre.destroy();
-
-      charts.quiebre = new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels: criticos.map(c => c.medicamento.substring(0, 30) + (c.medicamento.length > 30 ? '...' : '')),
-          datasets: [{
-            label: 'Meses hasta agotarse',
-            data: criticos.map(c => c.mesesRestantes),
-            backgroundColor: criticos.map(c => {
-              if (c.mesesRestantes < 2) return '#dc2626';
-              if (c.mesesRestantes < 4) return '#f59e0b';
-              return '#3b82f6';
-            }),
-            borderRadius: 6,
-            borderWidth: 1,
-            borderColor: 'rgba(255, 255, 255, 0.3)'
-          }]
-        },
-        options: {
-          indexAxis: 'y',
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: {
-            legend: { display: false },
             tooltip: {
               callbacks: {
-                label: function(context) {
-                  return `${context.raw.toFixed(1)} meses hasta agotarse`;
-                }
-              }
-            },
-            datalabels: {
-              color: 'white',
-              font: { weight: 'bold', size: 11 },
-              formatter: (value) => value < 1 ? '< 1 mes' : value.toFixed(1) + ' meses',
-              anchor: 'end',
-              align: 'right',
-              offset: -10
-            }
-          },
-          scales: {
-            x: { 
-              beginAtZero: true,
-              ticks: { 
-                callback: function(value) {
-                  return value + ' meses';
-                }
+                afterLabel: ctx => ctx.datasetIndex === 1 ? `80% confianza: ${inf80.toLocaleString()} - ${sup80.toLocaleString()}` : ''
               }
             }
           }
@@ -1233,332 +238,66 @@
       });
     }
 
-    function updateChartRiesgo() {
-      const ctx = document.getElementById('chartRiesgo').getContext('2d');
-      const criticos = getMedicamentosCriticos();
-      
-      const niveles = {
-        critico: criticos.filter(m => m.nivelRiesgo === 'critico').length,
-        alto: criticos.filter(m => m.nivelRiesgo === 'alto').length,
-        medio: criticos.filter(m => m.nivelRiesgo === 'medio').length,
-        bajo: criticos.filter(m => m.nivelRiesgo === 'bajo').length
-      };
-
-      if (charts.riesgo) charts.riesgo.destroy();
-
-      charts.riesgo = new Chart(ctx, {
-        type: 'doughnut',
-        data: {
-          labels: ['Crítico', 'Alto', 'Medio', 'Bajo'],
-          datasets: [{
-            data: [niveles.critico, niveles.alto, niveles.medio, niveles.bajo],
-            backgroundColor: [
-              '#dc2626',  // Rojo para crítico
-              '#f59e0b',  // Naranja para alto
-              '#3b82f6',  // Azul para medio
-              '#10b981'   // Verde para bajo
-            ],
-            borderWidth: 2,
-            borderColor: 'white'
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          cutout: '70%',
-          plugins: {
-            legend: { 
-              position: 'bottom',
-              labels: { 
-                padding: 20,
-                font: { size: 12 }
-              }
-            },
-            tooltip: {
-              callbacks: {
-                label: function(context) {
-                  const total = context.dataset.data.reduce((a, b) => a + b, 0);
-                  const percentage = Math.round((context.raw / total) * 100);
-                  return `${context.label}: ${context.raw} medicamentos (${percentage}%)`;
-                }
-              }
-            }
-          }
-        }
-      });
-    }
-
-    function updateTablaPrediccion() {
-      const tbody = document.getElementById('tablaPrediccion');
-      const medicamentos = getMedicamentosCriticos();
-      
+    function updateTabla() {
+      const tbody = document.getElementById('tablaPredicciones');
       tbody.innerHTML = '';
-      
-      medicamentos.forEach((item, i) => {
-        const tr = document.createElement('tr');
-        tr.className = i % 2 === 0 ? 'bg-gray-50 dark:bg-slate-800/50' : 'bg-white dark:bg-slate-900';
-        
-        // Determinar colores según nivel de riesgo
-        let colorRiesgo = '';
-        let badgeClass = '';
-        if (item.nivelRiesgo === 'critico') {
-          colorRiesgo = 'text-red-700 dark:text-red-300';
-          badgeClass = 'bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300';
-        } else if (item.nivelRiesgo === 'alto') {
-          colorRiesgo = 'text-orange-700 dark:text-orange-300';
-          badgeClass = 'bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-300';
-        } else if (item.nivelRiesgo === 'medio') {
-          colorRiesgo = 'text-blue-700 dark:text-blue-300';
-          badgeClass = 'bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300';
-        } else {
-          colorRiesgo = 'text-green-700 dark:text-green-300';
-          badgeClass = 'bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300';
-        }
-        
-        tr.innerHTML = `
-          <td class="px-6 py-4 font-bold text-lg ${colorRiesgo}">#${i+1}</td>
-          <td class="px-6 py-4">
-            <div class="font-semibold text-gray-800 dark:text-gray-200">${item.medicamento}</div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">${item.tipo.toUpperCase()}</div>
-          </td>
-          <td class="px-6 py-4 text-right">
-            <div class="font-mono font-bold text-lg">${formatNumber(item.stock)}</div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">unidades</div>
-          </td>
-          <td class="px-6 py-4 text-right">
-            <div class="font-mono font-bold text-lg">${formatNumber(item.demandaMensual)}</div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">/mes</div>
-          </td>
-          <td class="px-6 py-4 text-center">
-            <div class="text-xl font-bold ${colorRiesgo}">${item.mesTexto}</div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">${item.mesesRestantes.toFixed(1)} meses</div>
-          </td>
-          <td class="px-6 py-4 text-center">
-            <span class="px-3 py-1.5 rounded-full text-xs font-bold ${badgeClass}">
-              ${item.nivelRiesgo.toUpperCase()}
-            </span>
-          </td>
-          <td class="px-6 py-4 text-center">
-            <button class="px-4 py-2 rounded-lg font-bold text-sm ${
-              item.nivelRiesgo === 'critico' ? 'bg-red-600 hover:bg-red-700' :
-              item.nivelRiesgo === 'alto' ? 'bg-orange-600 hover:bg-orange-700' :
-              'bg-blue-600 hover:bg-blue-700'
-            } text-white transition">
-              ${item.accionRecomendada}
-            </button>
-          </td>
-        `;
-        tbody.appendChild(tr);
-      });
-      
-      // Actualizar contadores
-      document.getElementById('rowsShowing').textContent = `1-${Math.min(10, medicamentos.length)}`;
-      document.getElementById('totalRows').textContent = medicamentos.length;
-    }
+      let filtered = data.prediccion;
 
-    function updateTablaQuiebres() {
-      const tbody = document.getElementById('tablaQuiebres');
-      const criticos = getMedicamentosCriticos().slice(0, 10);
-      
-      tbody.innerHTML = '';
-      
-      criticos.forEach((item, i) => {
-        const tr = document.createElement('tr');
-        tr.className = 'hover:bg-gray-50 dark:hover:bg-slate-800/50 transition';
-        
-        tr.innerHTML = `
-          <td class="py-3">
-            <div class="w-8 h-8 flex items-center justify-center rounded-full ${
-              i < 3 ? 'bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300' :
-              i < 6 ? 'bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-300' :
-              'bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300'
-            } font-bold">
-              ${i+1}
-            </div>
-          </td>
-          <td class="py-3">
-            <div class="font-medium text-gray-800 dark:text-gray-200">${item.medicamento.substring(0, 25)}${item.medicamento.length > 25 ? '...' : ''}</div>
-          </td>
-          <td class="py-3 text-right">
-            <div class="font-bold ${item.stock < 1000 ? 'text-red-600' : 'text-gray-700 dark:text-gray-300'}">
-              ${formatNumber(item.stock)}
-            </div>
-          </td>
-          <td class="py-3 text-right">
-            <div class="font-bold ${item.mesesRestantes < 2 ? 'text-red-600' : item.mesesRestantes < 4 ? 'text-orange-600' : 'text-blue-600'}">
-              ${item.mesTexto}
-            </div>
-          </td>
-        `;
-        tbody.appendChild(tr);
-      });
-    }
+      if (filters.riesgo === "CRÍTICO") filtered = filtered.filter(p => p.nivel_riesgo === "CRÍTICO");
+      if (filters.riesgo === "ALTO") filtered = filtered.filter(p => ["CRÍTICO","ALTO"].includes(p.nivel_riesgo));
+      if (filters.riesgo === "MEDIO") filtered = filtered.filter(p => p.nivel_riesgo !== "BAJO");
 
-    function updateNotifications() {
-      const container = document.getElementById('notificationsList');
-      container.innerHTML = '';
-      
-      notifications.forEach(notif => {
-        const div = document.createElement('div');
-        div.className = `p-4 rounded-xl ${notif.unread ? 'bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500' : 'bg-gray-50 dark:bg-slate-800'}`;
-        
-        let icon = 'fa-info-circle';
-        let iconColor = 'text-blue-500';
-        if (notif.type === 'critical') {
-          icon = 'fa-exclamation-triangle';
-          iconColor = 'text-red-500';
-        } else if (notif.type === 'warning') {
-          icon = 'fa-exclamation-circle';
-          iconColor = 'text-orange-500';
-        }
-        
-        div.innerHTML = `
-          <div class="flex gap-3">
-            <div class="pt-1">
-              <i class="fas ${icon} ${iconColor}"></i>
-            </div>
-            <div class="flex-1">
-              <div class="font-bold text-gray-800 dark:text-gray-200">${notif.title}</div>
-              <div class="text-gray-600 dark:text-gray-400 text-sm mt-1">${notif.message}</div>
-              <div class="text-gray-500 dark:text-gray-500 text-xs mt-2">${notif.time}</div>
-            </div>
-            ${notif.unread ? '<div class="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>' : ''}
+      filtered.forEach((p, i) => {
+        const tr = document.createElement('tr');
+        tr.className = 'hover:bg-white/10 transition cursor-pointer';
+        tr.setAttribute('data-tippy-content', `
+          <div class="p-3">
+            <strong>${p.nombre_medicamento}</strong><br>
+            Pronóstico: <strong>${p.pronostico_ene_jun_2026.toLocaleString()}</strong><br>
+            80% confianza: ${p.intervalo_80_inf.toLocaleString()} - ${p.intervalo_80_sup.toLocaleString()}<br>
+            95% confianza: ${p.intervalo_95_inf.toLocaleString()} - ${p.intervalo_95_sup.toLocaleString()}<br>
+            <em class="text-yellow-300">${p.recomendacion}</em>
           </div>
+        `);
+        const clase = p.nivel_riesgo === "CRÍTICO" ? 'risk-critical' : p.nivel_riesgo === "ALTO" ? 'risk-high' : 'risk-medium';
+        tr.innerHTML = `
+          <td class="px-6 py-5 font-bold text-2xl text-cyan-400">#${i+1}</td>
+          <td class="px-6 py-5 font-medium text-white">${p.nombre_medicamento}</td>
+          <td class="px-6 py-5 text-right text-slate-300">${p.demanda_historica_total.toLocaleString()}</td>
+          <td class="px-6 py-5 text-right font-bold text-purple-400">${p.pronostico_ene_jun_2026.toLocaleString()}</td>
+          <td class="px-6 py-5 text-center text-green-400 font-bold">+${p.crecimiento_esperado_%}%</td>
+          <td class="px-6 py-5 text-center text-xs text-slate-400">${p.intervalo_80_inf.toLocaleString()} - ${p.intervalo_80_sup.toLocaleString()}</td>
+          <td class="px-6 py-5 text-center"><span class="px-5 py-3 rounded-full font-bold ${clase}">${p.probabilidad_quiebre_alto_%}%</span></td>
+          <td class="px-6 py-5 text-center"><span class="px-6 py-3 rounded-full text-white font-bold ${p.nivel_riesgo === 'CRÍTICO' ? 'bg-red-600' : 'bg-orange-600'} animate-pulse">${p.recomendacion}</span></td>
         `;
-        container.appendChild(div);
+        tbody.appendChild(tr);
       });
+
+      // Reactivar tooltips después de actualizar tabla
+      tippy('[data-tippy-content]', { allowHTML: true, animation: 'scale', theme: 'light' });
     }
 
-    function updateNotificationsBadge() {
-      const unreadCount = notifications.filter(n => n.unread).length;
-      document.getElementById('notificationCount').textContent = unreadCount;
-      document.getElementById('notificationCount').style.display = unreadCount > 0 ? 'flex' : 'none';
+    function exportarExcel() {
+      const wb = XLSX.utils.book_new();
+      const hoja = data.prediccion.map(p => ({
+        Rank: p.rank,
+        Medicamento: p.nombre_medicamento,
+        "Demanda 2025": p.demanda_historica_total,
+        "Pronóstico 2026": p.pronostico_ene_jun_2026,
+        "Crecimiento %": p.crecimiento_esperado_%,
+        "80% Inf": p.intervalo_80_inf,
+        "80% Sup": p.intervalo_80_sup,
+        "95% Inf": p.intervalo_95_inf,
+        "95% Sup": p.intervalo_95_sup,
+        "Probabilidad Quiebre": p.probabilidad_quiebre_alto_%,
+        Recomendación: p.recomendacion,
+        Riesgo: p.nivel_riesgo
+      }));
+      XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(hoja), "IA Predictiva 2026");
+      XLSX.writeFile(wb, `IPS_IA_Predictiva_2026_${new Date().toISOString().slice(0,10)}.xlsx`);
     }
 
-    function openNotifications() {
-      document.getElementById('notificationsModal').classList.remove('hidden');
-      document.getElementById('notificationsModal').classList.add('flex');
-      
-      // Marcar como leídas
-      notifications.forEach(n => n.unread = false);
-      updateNotificationsBadge();
-    }
-
-    function closeNotifications() {
-      document.getElementById('notificationsModal').classList.add('hidden');
-      document.getElementById('notificationsModal').classList.remove('flex');
-    }
-
-    function resetFilters() {
-      filters = { farmacia: "", horizonte: 3, tipoMedicamento: "", nivelRiesgo: "" };
-      document.getElementById('farmaciaFilter').value = "";
-      document.getElementById('horizonte').value = 3;
-      document.getElementById('tipoMedicamento').value = "";
-      document.getElementById('nivelRiesgo').value = "";
-      updateAll();
-      
-      // Mostrar notificación
-      showToast('Filtros reiniciados correctamente', 'success');
-    }
-
-    function toggleAdvancedSettings() {
-      const settings = document.getElementById('configAvanzada');
-      settings.classList.toggle('hidden');
-      const btn = document.getElementById('advancedSettings');
-      const icon = btn.querySelector('i');
-      if (settings.classList.contains('hidden')) {
-        icon.className = 'fas fa-cog';
-      } else {
-        icon.className = 'fas fa-times';
-      }
-    }
-
-    function updateConfianzaValue() {
-      const slider = document.getElementById('confianzaModelo');
-      const value = document.getElementById('confianzaValue');
-      value.textContent = slider.value + '%';
-    }
-
-    function exportReport() {
-      showToast('Generando reporte PDF...', 'info');
-      // Simular generación de PDF
-      setTimeout(() => {
-        showToast('Reporte generado correctamente', 'success');
-      }, 2000);
-    }
-
-    function exportToCSV() {
-      const medicamentos = getMedicamentosCriticos();
-      let csv = 'Medicamento,Stock Actual,Demanda Mensual,Meses Restantes,Agotamiento Estimado,Nivel Riesgo\n';
-      
-      medicamentos.forEach(m => {
-        csv += `"${m.medicamento}",${m.stock},${m.demandaMensual},${m.mesesRestantes.toFixed(1)},"${m.mesTexto}",${m.nivelRiesgo}\n`;
-      });
-      
-      const blob = new Blob([csv], { type: 'text/csv' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `predicciones_quiebres_${new Date().toISOString().slice(0,10)}.csv`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
-      
-      showToast('CSV exportado correctamente', 'success');
-    }
-
-    function toggleDarkMode() {
-      const html = document.documentElement;
-      const btn = document.getElementById('darkModeToggle');
-      
-      html.classList.toggle('dark');
-      
-      if (html.classList.contains('dark')) {
-        btn.innerHTML = '<i class="fas fa-sun text-yellow-300"></i>';
-        localStorage.setItem('darkMode', 'true');
-      } else {
-        btn.innerHTML = '<i class="fas fa-moon text-gray-600"></i>';
-        localStorage.setItem('darkMode', 'false');
-      }
-    }
-
-    function showToast(message, type = 'info') {
-      // Crear toast
-      const toast = document.createElement('div');
-      toast.className = `fixed top-4 right-4 z-50 px-6 py-3 rounded-xl shadow-lg animate__animated animate__fadeInRight ${
-        type === 'success' ? 'bg-green-500 text-white' :
-        type === 'error' ? 'bg-red-500 text-white' :
-        'bg-blue-500 text-white'
-      }`;
-      toast.innerHTML = `
-        <div class="flex items-center gap-3">
-          <i class="fas ${
-            type === 'success' ? 'fa-check-circle' :
-            type === 'error' ? 'fa-exclamation-circle' :
-            'fa-info-circle'
-          }"></i>
-          <span>${message}</span>
-        </div>
-      `;
-      
-      document.body.appendChild(toast);
-      
-      // Remover después de 3 segundos
-      setTimeout(() => {
-        toast.classList.add('animate__fadeOutRight');
-        setTimeout(() => {
-          document.body.removeChild(toast);
-        }, 300);
-      }, 3000);
-    }
-
-    function formatNumber(num) {
-      return new Intl.NumberFormat('es-ES').format(Math.round(num));
-    }
-
-    // Inicializar
-    document.addEventListener('DOMContentLoaded', init);
+    init();
   </script>
 </body>
 </html>
