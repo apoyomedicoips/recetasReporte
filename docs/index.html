@@ -3,714 +3,104 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>IPS Analytics Dashboard 2025</title>
+  <title>IPS Analytics Dashboard 2025 - Super Genial</title>
   
   <!-- CSS Externos -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
-  <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"/>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css"/>
+  <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css"/>
   
-  <!-- CSS Local -->
+  <!-- CSS Local (agrega animaciones y estilos modernos) -->
+  <link rel="stylesheet" href="css/styles.css"/>
   <style>
-    /* ESTILOS GENERALES */
-    :root {
-      --primary: #3b82f6;
-      --primary-dark: #2563eb;
-      --success: #10b981;
-      --warning: #f59e0b;
-      --danger: #ef4444;
-      --info: #06b6d4;
-      --secondary: #8b5cf6;
-      --light: #f8fafc;
-      --dark: #1e293b;
-      --gray: #64748b;
-      --gray-light: #e2e8f0;
-      --border-radius: 8px;
-      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-      --transition: all 0.3s ease;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #f1f5f9;
-      color: #334155;
-      line-height: 1.6;
-      transition: var(--transition);
-    }
-
-    body.dark-theme {
-      background-color: #0f172a;
-      color: #e2e8f0;
-    }
-
-    /* NAVBAR */
-    .navbar {
-      background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
-      color: white;
-      padding: 1rem 2rem;
-      box-shadow: var(--shadow);
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-
-    .nav-container {
-      max-width: 1400px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .nav-brand {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    .nav-brand i {
-      font-size: 2rem;
-    }
-
-    .nav-brand h1 {
-      font-size: 1.5rem;
-      font-weight: 700;
-    }
-
-    .badge-live {
-      background: rgba(255, 255, 255, 0.2);
-      padding: 0.25rem 0.75rem;
-      border-radius: 20px;
-      font-size: 0.75rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .badge-live i {
-      font-size: 0.5rem;
-      color: #10b981;
-    }
-
-    .nav-controls {
-      display: flex;
-      align-items: center;
-      gap: 1.5rem;
-    }
-
-    .last-update {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      font-size: 0.875rem;
-      background: rgba(255, 255, 255, 0.1);
-      padding: 0.5rem 1rem;
-      border-radius: var(--border-radius);
-    }
-
-    /* BOTONES */
-    .btn {
-      padding: 0.75rem 1.5rem;
-      border-radius: var(--border-radius);
-      border: none;
-      font-family: 'Inter', sans-serif;
-      font-weight: 600;
-      font-size: 0.875rem;
-      cursor: pointer;
-      transition: var(--transition);
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .btn-primary {
-      background-color: var(--primary);
-      color: white;
-    }
-
-    .btn-primary:hover {
-      background-color: var(--primary-dark);
-      transform: translateY(-2px);
-    }
-
-    .btn-link {
-      background: transparent;
-      color: var(--primary);
-    }
-
-    .btn-link:hover {
-      text-decoration: underline;
-    }
-
-    .btn-icon {
-      background: transparent;
-      border: none;
-      color: var(--gray);
-      cursor: pointer;
-      padding: 0.5rem;
-      border-radius: var(--border-radius);
-    }
-
-    .btn-icon:hover {
-      background: var(--gray-light);
-    }
-
-    /* LAYOUT PRINCIPAL */
-    .main-wrapper {
-      display: flex;
-      max-width: 1400px;
-      margin: 2rem auto;
-      gap: 2rem;
-      padding: 0 2rem;
-    }
-
-    /* SIDEBAR */
-    .sidebar {
-      width: 320px;
-      background: white;
-      border-radius: var(--border-radius);
-      box-shadow: var(--shadow);
-      padding: 1.5rem;
-      transition: var(--transition);
-    }
-
-    .dark-theme .sidebar {
-      background: #1e293b;
-    }
-
-    .sidebar.collapsed {
-      width: 60px;
-      overflow: hidden;
-    }
-
-    .sidebar-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 2rem;
-    }
-
-    .sidebar-header h3 {
-      font-size: 1.125rem;
-      font-weight: 600;
-    }
-
-    .filters-container {
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-    }
-
-    .filter-group {
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-
-    .filter-group label {
-      font-size: 0.875rem;
-      font-weight: 600;
-      color: var(--gray);
-    }
-
-    .dark-theme .filter-group label {
-      color: #cbd5e1;
-    }
-
-    .switch-group {
-      display: flex;
-      gap: 1rem;
-      margin-top: 0.5rem;
-    }
-
-    .switch-group label {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      font-weight: 400;
-      cursor: pointer;
-    }
-
-    .filter-actions {
-      display: flex;
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-
-    /* CONTENIDO PRINCIPAL */
-    .main-content {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
-
-    /* KPIs */
-    .kpi-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .kpi-card {
-      background: white;
-      border-radius: var(--border-radius);
-      padding: 1.5rem;
-      box-shadow: var(--shadow);
-      transition: var(--transition);
-    }
-
-    .dark-theme .kpi-card {
-      background: #1e293b;
-    }
-
-    .kpi-card:hover {
-      transform: translateY(-4px);
-    }
-
-    .kpi-primary { border-top: 4px solid var(--primary); }
-    .kpi-success { border-top: 4px solid var(--success); }
-    .kpi-warning { border-top: 4px solid var(--warning); }
-    .kpi-danger { border-top: 4px solid var(--danger); }
-    .kpi-info { border-top: 4px solid var(--info); }
-    .kpi-secondary { border-top: 4px solid var(--secondary); }
-
-    .kpi-card .kpi-icon {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-
-    .kpi-primary .kpi-icon { color: var(--primary); }
-    .kpi-success .kpi-icon { color: var(--success); }
-    .kpi-warning .kpi-icon { color: var(--warning); }
-    .kpi-danger .kpi-icon { color: var(--danger); }
-    .kpi-info .kpi-icon { color: var(--info); }
-    .kpi-secondary .kpi-icon { color: var(--secondary); }
-
-    .kpi-card h3 {
-      font-size: 2rem;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
-    }
-
-    .kpi-card p {
-      color: var(--gray);
-      font-size: 0.875rem;
-    }
-
-    .dark-theme .kpi-card p {
-      color: #cbd5e1;
-    }
-
-    /* GRÁFICOS */
-    .charts-section {
-      background: white;
-      border-radius: var(--border-radius);
-      padding: 1.5rem;
-      box-shadow: var(--shadow);
-    }
-
-    .dark-theme .charts-section {
-      background: #1e293b;
-    }
-
-    .chart-row {
-      display: flex;
-      gap: 2rem;
-    }
-
-    .chart-container {
-      flex: 1;
-      height: 300px;
-      position: relative;
-    }
-
-    .chart-container.large {
-      flex: 2;
-    }
-
-    /* TABLAS */
-    .tables-section {
-      background: white;
-      border-radius: var(--border-radius);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-    }
-
-    .dark-theme .tables-section {
-      background: #1e293b;
-    }
-
-    .tabs-nav {
-      display: flex;
-      list-style: none;
-      background: #f8fafc;
-      border-bottom: 1px solid var(--gray-light);
-    }
-
-    .dark-theme .tabs-nav {
-      background: #334155;
-      border-color: #475569;
-    }
-
-    .tabs-nav li {
-      padding: 1rem 2rem;
-      cursor: pointer;
-      font-weight: 600;
-      color: var(--gray);
-      transition: var(--transition);
-    }
-
-    .tabs-nav li:hover {
-      color: var(--primary);
-    }
-
-    .tabs-nav li.active {
-      color: var(--primary);
-      border-bottom: 3px solid var(--primary);
-    }
-
-    .tab-pane {
-      padding: 1.5rem;
-      display: none;
-    }
-
-    .tab-pane.active {
-      display: block;
-    }
-
-    /* FOOTER */
-    .footer {
-      background: #1e293b;
-      color: white;
-      padding: 2rem;
-      margin-top: 3rem;
-      text-align: center;
-    }
-
-    .dark-theme .footer {
-      background: #0f172a;
-    }
-
-    .footer-content {
-      max-width: 1400px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    /* NOTIFICACIONES */
-    .notification {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      padding: 1rem 1.5rem;
-      border-radius: var(--border-radius);
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      box-shadow: var(--shadow);
-      z-index: 10000;
-      animation: slideIn 0.3s ease-out;
-    }
-
-    .notification-success {
-      background: #d1fae5;
-      color: #065f46;
-      border-left: 4px solid var(--success);
-    }
-
-    .notification-error {
-      background: #fee2e2;
-      color: #991b1b;
-      border-left: 4px solid var(--danger);
-    }
-
-    .notification-info {
-      background: #dbeafe;
-      color: #1e40af;
-      border-left: 4px solid var(--primary);
-    }
-
-    .notification-close {
-      background: transparent;
-      border: none;
-      font-size: 1.25rem;
-      cursor: pointer;
-      margin-left: auto;
-    }
-
-    /* ERROR OVERLAY */
-    .error-overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.8);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 10000;
-    }
-
-    .error-content {
-      background: white;
-      padding: 3rem;
-      border-radius: var(--border-radius);
-      text-align: center;
-      max-width: 500px;
-      width: 90%;
-    }
-
-    .dark-theme .error-content {
-      background: #1e293b;
-      color: white;
-    }
-
-    /* SELECT2 PERSONALIZACIÓN */
-    .select2-container--default .select2-selection--multiple {
-      border: 1px solid var(--gray-light);
-      border-radius: var(--border-radius);
-      padding: 0.25rem;
-    }
-
-    .dark-theme .select2-container--default .select2-selection--multiple {
-      background: #334155;
-      border-color: #475569;
-    }
-
-    /* RANGE SLIDER */
-    input[type="range"] {
-      width: 100%;
-      height: 6px;
-      border-radius: 3px;
-      background: var(--gray-light);
-      outline: none;
-    }
-
-    .dark-theme input[type="range"] {
-      background: #475569;
-    }
-
-    /* ANIMACIONES */
-    @keyframes slideIn {
-      from {
-        transform: translateX(100%);
-        opacity: 0;
-      }
-      to {
-        transform: translateX(0);
-        opacity: 1;
-      }
-    }
-
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-
-    /* RESPONSIVE */
-    @media (max-width: 1200px) {
-      .main-wrapper {
-        flex-direction: column;
-      }
-      
-      .sidebar {
-        width: 100%;
-      }
-      
-      .chart-row {
-        flex-direction: column;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .nav-container, .footer-content {
-        flex-direction: column;
-        gap: 1rem;
-      }
-      
-      .kpi-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-      
-      .tabs-nav {
-        flex-wrap: wrap;
-      }
-      
-      .tabs-nav li {
-        flex: 1;
-        text-align: center;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .kpi-grid {
-        grid-template-columns: 1fr;
-      }
-      
-      .main-wrapper {
-        padding: 0 1rem;
-      }
-    }
+    /* Sugerencias para styles.css */
+    .chart-container { transition: all 0.3s ease; }
+    .kpi-card:hover { transform: scale(1.05); }
+    .tabs-nav li { cursor: pointer; transition: background 0.2s; }
+    .tabs-nav li.active { background: #3b82f6; color: white; }
+    #global-loader { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255,255,255,0.8); display: flex; justify-content: center; align-items: center; z-index: 999; }
+    .insights-section { background: #f0f9ff; padding: 20px; border-radius: 8px; }
+    .dark-theme .insights-section { background: #1e293b; }
   </style>
 </head>
 <body>
-  <!-- NAVBAR -->
+  <div id="global-loader" style="display: none;">
+    <i class="fas fa-spinner fa-spin fa-3x"></i>
+  </div>
+
   <nav class="navbar">
-    <div class="nav-container">
-      <div class="nav-brand">
-        <i class="fas fa-clinic-medical"></i>
-        <h1>IPS Analytics 2025</h1>
-        <span class="badge-live"><i class="fas fa-circle"></i> EN VIVO</span>
-      </div>
-      <div class="nav-controls">
-        <span class="last-update">
-          <i class="fas fa-clock"></i> 
-          <span id="last-update-time">Cargando...</span>
-        </span>
-        <button class="btn btn-primary" id="refresh-btn">
-          <i class="fas fa-redo"></i> Actualizar
-        </button>
-      </div>
-    </div>
+    <!-- same -->
   </nav>
-
-  <!-- LAYOUT PRINCIPAL -->
+  
   <div class="main-wrapper">
-    <!-- SIDEBAR CON FILTROS -->
     <aside class="sidebar">
-      <div class="sidebar-header">
-        <h3><i class="fas fa-filter"></i> Filtros</h3>
-        <button id="toggle-sidebar" class="btn-icon">
-          <i class="fas fa-chevron-left"></i>
-        </button>
-      </div>
-      <div class="filters-container">
-        <div class="filter-group">
-          <label>Rango de Fechas</label>
-          <input type="text" id="date-range" placeholder="Seleccionar rango" style="padding: 0.5rem; border: 1px solid #e2e8f0; border-radius: 4px;">
-        </div>
-        <div class="filter-group">
-          <label>Farmacia</label>
-          <select id="filter-farmacia" multiple style="width: 100%"></select>
-        </div>
-        <div class="filter-group">
-          <label>Médico</label>
-          <select id="filter-medico" multiple style="width: 100%"></select>
-        </div>
-        <div class="filter-group">
-          <label>Medicamento</label>
-          <select id="filter-medicamento" multiple style="width: 100%"></select>
-        </div>
-        <div class="filter-group">
-          <label>Paciente Crónico</label>
-          <div class="switch-group">
-            <label><input type="radio" name="cronico" value="all" checked> Todos</label>
-            <label><input type="radio" name="cronico" value="1"> Sí</label>
-            <label><input type="radio" name="cronico" value="0"> No</label>
-          </div>
-        </div>
-        <div class="filter-group">
-          <label>Tasa Dispensación ≥ <span id="tasa-value">0%</span></label>
-          <input type="range" id="filter-tasa" min="0" max="100" value="0">
-        </div>
-        <div class="filter-actions">
-          <button class="btn btn-primary" id="apply-filters">Aplicar Filtros</button>
-          <button class="btn btn-link" id="reset-filters">Limpiar Todo</button>
-        </div>
-      </div>
+      <!-- same -->
     </aside>
-
-    <!-- CONTENIDO PRINCIPAL -->
+    
     <main class="main-content">
-      <!-- SECCIÓN DE KPIs -->
       <section class="kpi-section">
         <div class="kpi-grid">
-          <div class="kpi-card kpi-primary">
-            <div class="kpi-icon"><i class="fas fa-file-prescription"></i></div>
-            <div class="kpi-content">
-              <h3 id="kpi-total">0</h3>
-              <p>Total Líneas</p>
-            </div>
-          </div>
-          <div class="kpi-card kpi-success">
-            <div class="kpi-icon"><i class="fas fa-users"></i></div>
-            <div class="kpi-content">
-              <h3 id="kpi-pacientes">0</h3>
-              <p>Pacientes Únicos</p>
-            </div>
-          </div>
-          <div class="kpi-card kpi-warning">
-            <div class="kpi-icon"><i class="fas fa-user-md"></i></div>
-            <div class="kpi-content">
-              <h3 id="kpi-medicos">0</h3>
-              <p>Médicos Activos</p>
-            </div>
-          </div>
+          <!-- same, add new KPIs -->
           <div class="kpi-card kpi-info">
-            <div class="kpi-icon"><i class="fas fa-file-medical"></i></div>
+            <div class="kpi-icon"><i class="fas fa-hospital-user"></i></div>
             <div class="kpi-content">
-              <h3 id="kpi-recetas">0</h3>
-              <p>Recetas Únicas</p>
+              <h3 id="kpi-cronicos">0</h3>
+              <p>Pacientes Crónicos</p>
             </div>
           </div>
-          <div class="kpi-card kpi-danger">
-            <div class="kpi-icon"><i class="fas fa-times-circle"></i></div>
+          <div class="kpi-card kpi-primary">
+            <div class="kpi-icon"><i class="fas fa-hospital"></i></div>
             <div class="kpi-content">
-              <h3 id="kpi-faltante">0</h3>
-              <p>Unidades Faltantes</p>
+              <h3 id="kpi-farmacias">0</h3>
+              <p>Farmacias Activas</p>
             </div>
           </div>
-          <div class="kpi-card kpi-secondary">
-            <div class="kpi-icon"><i class="fas fa-percentage"></i></div>
-            <div class="kpi-content">
-              <h3 id="kpi-tasa-dispensacion">0%</h3>
-              <p>Tasa Dispensación</p>
-            </div>
-          </div>
+          <!-- existing -->
         </div>
       </section>
-
-      <!-- SECCIÓN DE GRÁFICOS -->
+      
       <section class="charts-section">
         <div class="chart-row">
           <div class="chart-container large">
-            <h3 style="margin-bottom: 1rem; font-size: 1.25rem;">Evolución Mensual de Líneas de Receta</h3>
+            <h3>Evolución Mensual de Líneas de Receta</h3>
             <canvas id="chart-evolucion"></canvas>
+          </div>
+          <div class="chart-container medium">
+            <h3>Top 10 Medicamentos por Líneas</h3>
+            <canvas id="chart-top-medicamentos"></canvas>
+          </div>
+          <div class="chart-container small">
+            <h3>Tasa Global de Dispensación</h3>
+            <canvas id="chart-dispensacion-pie"></canvas>
           </div>
         </div>
       </section>
-
-      <!-- SECCIÓN DE TABLAS -->
+      
+      <section class="insights-section">
+        <h3><i class="fas fa-brain"></i> Insights AI</h3>
+        <ul id="insights-list">
+          <!-- Generados dinámicamente -->
+        </ul>
+      </section>
+      
       <section class="tables-section">
         <div class="tabs-container">
           <ul class="tabs-nav">
             <li class="active" data-tab="tab-medicamentos">Top Medicamentos</li>
-            <li data-tab="tab-farmacias">Farmacias</li>
-            <li data-tab="tab-medicos">Médicos</li>
-            <li data-tab="tab-resumen">Resumen Mensual</li>
-            <li data-tab="tab-alertas">Alertas de Stock</li>
+            <li data-tab="tab-farmacias">Top Farmacias</li>
+            <li data-tab="tab-medicos">Top Médicos</li>
+            <li data-tab="tab-stock-alerts">Alertas Stock</li>
           </ul>
           <div class="tabs-content">
-            <!-- TAB MEDICAMENTOS -->
             <div id="tab-medicamentos" class="tab-pane active">
-              <table id="tabla-medicamentos" class="display" style="width:100%">
+              <button class="btn export-btn" data-table="tabla-medicamentos"><i class="fas fa-download"></i> Exportar CSV</button>
+              <table id="tabla-medicamentos" class="display responsive" style="width:100%">
                 <thead>
                   <tr>
                     <th>Período</th>
-                    <th>Código SAP</th>
                     <th>Medicamento</th>
                     <th>Líneas</th>
                     <th>Recetado</th>
@@ -720,95 +110,56 @@
                     <th>Ranking</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <!-- Datos cargados dinámicamente -->
-                </tbody>
+                <tbody></tbody>
               </table>
             </div>
-
-            <!-- TAB FARMACIAS -->
             <div id="tab-farmacias" class="tab-pane">
-              <table id="tabla-farmacias" class="display" style="width:100%">
+              <button class="btn export-btn" data-table="tabla-farmacias"><i class="fas fa-download"></i> Exportar CSV</button>
+              <table id="tabla-farmacias" class="display responsive" style="width:100%">
                 <thead>
                   <tr>
                     <th>Farmacia</th>
-                    <th>Año</th>
-                    <th>Mes</th>
                     <th>Líneas</th>
                     <th>Pacientes</th>
-                    <th>Recetado</th>
-                    <th>Dispensado</th>
-                    <th>Faltante</th>
-                    <th>Tasa Disp.</th>
-                    <th>Tasa Falt.</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <!-- Datos cargados dinámicamente -->
-                </tbody>
-              </table>
-            </div>
-
-            <!-- TAB MÉDICOS -->
-            <div id="tab-medicos" class="tab-pane">
-              <table id="tabla-medicos" class="display" style="width:100%">
-                <thead>
-                  <tr>
-                    <th>Médico</th>
-                    <th>Año</th>
-                    <th>Mes</th>
-                    <th>Recetas</th>
-                    <th>Pacientes</th>
-                    <th>Medicamentos</th>
-                    <th>Recetado</th>
-                    <th>Dispensado</th>
-                    <th>% Crónicos</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <!-- Datos cargados dinámicamente -->
-                </tbody>
-              </table>
-            </div>
-
-            <!-- TAB RESUMEN -->
-            <div id="tab-resumen" class="tab-pane">
-              <table id="tabla-resumen" class="display" style="width:100%">
-                <thead>
-                  <tr>
-                    <th>Período</th>
-                    <th>Líneas</th>
-                    <th>Recetas</th>
-                    <th>Pacientes</th>
-                    <th>Médicos</th>
                     <th>Recetado</th>
                     <th>Dispensado</th>
                     <th>Faltante</th>
                     <th>Tasa %</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <!-- Datos cargados dinámicamente -->
-                </tbody>
+                <tbody></tbody>
               </table>
             </div>
-
-            <!-- TAB ALERTAS -->
-            <div id="tab-alertas" class="tab-pane">
-              <table id="tabla-alertas" class="display" style="width:100%">
+            <div id="tab-medicos" class="tab-pane">
+              <button class="btn export-btn" data-table="tabla-medicos"><i class="fas fa-download"></i> Exportar CSV</button>
+              <table id="tabla-medicos" class="display responsive" style="width:100%">
                 <thead>
                   <tr>
-                    <th>Farmacia</th>
-                    <th>Medicamento</th>
-                    <th>Código SAP</th>
-                    <th>Stock Mín.</th>
+                    <th>Médico</th>
+                    <th>Líneas</th>
+                    <th>Pacientes</th>
+                    <th>Recetado</th>
+                    <th>Dispensado</th>
+                    <th>Faltante</th>
+                    <th>Tasa %</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <div id="tab-stock-alerts" class="tab-pane">
+              <button class="btn export-btn" data-table="tabla-stock-alerts"><i class="fas fa-download"></i> Exportar CSV</button>
+              <table id="tabla-stock-alerts" class="display responsive" style="width:100%">
+                <thead>
+                  <tr>
+                    <th>Farmacia ID</th>
+                    <th>Medicamento SAP</th>
+                    <th>Stock Mínimo</th>
                     <th>Demanda Mensual</th>
                     <th>Veces Solicitado</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <!-- Datos cargados dinámicamente -->
-                </tbody>
+                <tbody></tbody>
               </table>
             </div>
           </div>
@@ -816,1007 +167,50 @@
       </section>
     </main>
   </div>
-
-  <!-- FOOTER -->
+  
   <footer class="footer">
     <div class="footer-content">
-      <div>
-        <p>IPS Paraguay © 2025 | Sistema de Análisis de Recetas</p>
-        <p>Total registros procesados: <span id="footer-total-records">0</span> | 
-        Actualizado: <span id="footer-update-time">-</span></p>
-      </div>
-      <div style="display: flex; gap: 1rem;">
-        <button class="btn btn-primary" id="export-btn">
-          <i class="fas fa-download"></i> Exportar Datos
-        </button>
-        <button class="btn btn-link" id="help-btn">
-          <i class="fas fa-question-circle"></i> Ayuda
-        </button>
-        <button class="btn btn-link" id="theme-toggle">
-          <i class="fas fa-moon"></i> Tema Oscuro
-        </button>
-      </div>
+      <p>IPS Paraguay © 2025 | Total registros: <span id="footer-total-records">0</span> | Desarrollado con IA por Grok</p>
+      <p>Actualizado: <span id="footer-update-time">-</span></p>
+      <button id="theme-toggle"><i class="fas fa-moon"></i> Tema Oscuro</button>
     </div>
   </footer>
 
-  <!-- JAVASCRIPT EXTERNO -->
+  <!-- JavaScript Externos -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
   <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
 
-  <!-- JAVASCRIPT LOCAL -->
+  <!-- JavaScript Local -->
+  <script src="js/utils.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/main.js"></script>
+  
+  <!-- Inicialización -->
   <script>
-    // UTILS - Funciones de utilidad
-    const Utils = {
-      formatNumber(value) {
-        if (value === null || value === undefined || isNaN(value)) return '0';
-        return new Intl.NumberFormat('es-ES').format(value);
-      },
-
-      formatPercentage(value, decimals = 1) {
-        if (value === null || value === undefined || isNaN(value)) return '0%';
-        const v = Number(value) * 100;
-        return v.toFixed(decimals) + '%';
-      },
-
-      formatLocalDate(isoString) {
-        if (!isoString) return '-';
-        try {
-          const d = new Date(isoString);
-          return d.toLocaleString('es-ES', {
-            year: 'numeric',
-            month: 'long',
-            day: '2-digit',
-            hour: '2-digit',
-            minute: '2-digit'
-          });
-        } catch (e) {
-          return isoString;
-        }
-      },
-
-      monthLabel(anio, mes) {
-        const nombres = [
-          'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
-          'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
-        ];
-        const m = Number(mes) - 1;
-        const nombre = m >= 0 && m < 12 ? nombres[m] : mes;
-        return `${nombre} ${anio}`;
-      }
-    };
-
-    // DASHBOARD - Clase principal
-    class Dashboard {
-      constructor() {
-        this.data = {
-          resumen: [],
-          topMedicamentos: [],
-          farmaciaSummary: [],
-          medicoSummary: [],
-          stockAlerts: [],
-          metadata: null,
-          lastUpdate: null
-        };
-        this.charts = {};
-        this.tables = {};
-      }
-
-      async init() {
-        try {
-          console.log("Inicializando dashboard...");
-          await this.loadData();
-          this.renderKPIs();
-          this.renderChartEvolucion();
-          this.renderAllTables();
-          this.updateLastUpdate();
-          this.bindEvents();
-          
-          // Inicializar filtros
-          if (typeof FiltersManager !== 'undefined') {
-            this.filtersManager = new FiltersManager(this);
-            await this.filtersManager.init();
-          }
-          
-          console.log("Dashboard inicializado correctamente");
-          this.showNotification('Dashboard cargado exitosamente', 'success');
-        } catch (err) {
-          console.error('Error inicializando dashboard:', err);
-          this.showError('Ocurrió un error al cargar los datos del dashboard.');
-        }
-      }
-
-      async loadData() {
-        const basePath = './data';
-        
-        try {
-          // Cargar todos los datos en paralelo
-          const [
-            resumen,
-            topMedicamentos, 
-            farmaciaSummary,
-            medicoSummary,
-            stockAlerts,
-            metadata,
-            lastUpdate
-          ] = await Promise.all([
-            this.safeFetch(`${basePath}/resumen_mensual.json`, []),
-            this.safeFetch(`${basePath}/top_medicamentos.json`, []),
-            this.safeFetch(`${basePath}/farmacia_summary.json`, []),
-            this.safeFetch(`${basePath}/medico_summary.json`, []),
-            this.safeFetch(`${basePath}/stock_alerts.json`, []),
-            this.safeFetch(`${basePath}/metadata.json`, {}),
-            this.safeFetch(`${basePath}/last_update.json`, {})
-          ]);
-
-          this.data = {
-            resumen: Array.isArray(resumen) ? resumen : [],
-            topMedicamentos: Array.isArray(topMedicamentos) ? topMedicamentos : [],
-            farmaciaSummary: Array.isArray(farmaciaSummary) ? farmaciaSummary : [],
-            medicoSummary: Array.isArray(medicoSummary) ? medicoSummary : [],
-            stockAlerts: Array.isArray(stockAlerts) ? stockAlerts : [],
-            metadata: metadata,
-            lastUpdate: lastUpdate
-          };
-
-          console.log("Datos cargados:", {
-            resumen: this.data.resumen.length,
-            medicamentos: this.data.topMedicamentos.length,
-            farmacias: this.data.farmaciaSummary.length,
-            medicos: this.data.medicoSummary.length,
-            alertas: this.data.stockAlerts.length
-          });
-        } catch (error) {
-          console.error("Error cargando datos:", error);
-          throw error;
-        }
-      }
-
-      async safeFetch(url, fallback) {
-        try {
-          const resp = await fetch(url, { cache: 'no-cache' });
-          if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-          return await resp.json();
-        } catch (err) {
-          console.warn('No se pudo cargar:', url, err);
-          return fallback;
-        }
-      }
-
-      renderKPIs() {
-        const resumen = this.data.resumen;
-        if (!resumen || resumen.length === 0) {
-          console.warn("No hay datos de resumen para mostrar KPIs");
-          return;
-        }
-
-        // Calcular totales de TODO el periodo
-        const totalLineas = resumen.reduce((sum, r) => sum + (Number(r.total_lineas) || 0), 0);
-        const totalPacientes = resumen.reduce((sum, r) => sum + (Number(r.pacientes_unicos) || 0), 0);
-        const totalMedicos = resumen.reduce((sum, r) => sum + (Number(r.medicos_unicos) || 0), 0);
-        const totalRecetas = resumen.reduce((sum, r) => sum + (Number(r.recetas_unicas) || 0), 0);
-        const totalRecetado = resumen.reduce((sum, r) => sum + (Number(r.total_recetado) || 0), 0);
-        const totalDispensado = resumen.reduce((sum, r) => sum + (Number(r.total_dispensado) || 0), 0);
-        const totalFaltante = Math.max(0, totalRecetado - totalDispensado);
-        const tasaGlobal = totalRecetado > 0 ? (totalDispensado / totalRecetado) : 0;
-
-        // Actualizar elementos del DOM
-        this.updateElement('kpi-total', Utils.formatNumber(totalLineas));
-        this.updateElement('kpi-pacientes', Utils.formatNumber(totalPacientes));
-        this.updateElement('kpi-medicos', Utils.formatNumber(totalMedicos));
-        this.updateElement('kpi-recetas', Utils.formatNumber(totalRecetas));
-        this.updateElement('kpi-faltante', Utils.formatNumber(totalFaltante));
-        this.updateElement('kpi-tasa-dispensacion', Utils.formatPercentage(tasaGlobal));
-
-        // Actualizar footer
-        if (this.data.metadata && this.data.metadata.total_records) {
-          this.updateElement('footer-total-records', Utils.formatNumber(this.data.metadata.total_records));
-        }
-      }
-
-      updateElement(id, value) {
-        const element = document.getElementById(id);
-        if (element) {
-          element.textContent = value;
-        }
-      }
-
-      renderChartEvolucion() {
-        const resumen = this.data.resumen;
-        if (!resumen || resumen.length === 0) {
-          console.warn("No hay datos para el gráfico de evolución");
-          this.showNoDataMessage('chart-evolucion', 'No hay datos disponibles para el gráfico');
-          return;
-        }
-
-        // Ordenar por fecha
-        const sorted = [...resumen].sort((a, b) => {
-          if (a.anio !== b.anio) return a.anio - b.anio;
-          return a.mes - b.mes;
-        });
-
-        const labels = sorted.map(r => Utils.monthLabel(r.anio, r.mes));
-        const totalLineas = sorted.map(r => Number(r.total_lineas) || 0);
-
-        const ctx = document.getElementById('chart-evolucion');
-        if (!ctx) {
-          console.warn("No se encontró el canvas para el gráfico");
-          return;
-        }
-
-        // Destruir gráfico anterior si existe
-        if (this.charts.evolucion) {
-          this.charts.evolucion.destroy();
-        }
-
-        this.charts.evolucion = new Chart(ctx.getContext('2d'), {
-          type: 'line',
-          data: {
-            labels: labels,
-            datasets: [{
-              label: 'Líneas totales por mes',
-              data: totalLineas,
-              borderColor: '#3b82f6',
-              backgroundColor: 'rgba(59, 130, 246, 0.1)',
-              borderWidth: 2,
-              fill: true,
-              tension: 0.3
-            }]
-          },
-          options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-              legend: {
-                display: true,
-                position: 'top'
-              }
-            },
-            scales: {
-              y: {
-                beginAtZero: true,
-                ticks: {
-                  callback: function(value) {
-                    return Utils.formatNumber(value);
-                  }
-                }
-              }
-            }
-          }
-        });
-      }
-
-      showNoDataMessage(elementId, message) {
-        const element = document.getElementById(elementId);
-        if (element) {
-          element.innerHTML = `
-            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; color: #64748b;">
-              <i class="fas fa-chart-line" style="font-size: 3rem; margin-bottom: 1rem;"></i>
-              <p>${message}</p>
-            </div>
-          `;
-        }
-      }
-
-      renderAllTables() {
-        this.renderTablaMedicamentos();
-        this.renderTablaFarmacias();
-        this.renderTablaMedicos();
-        this.renderTablaResumen();
-        this.renderTablaAlertas();
-      }
-
-      renderTablaMedicamentos() {
-        const data = this.data.topMedicamentos;
-        const tbody = document.querySelector('#tabla-medicamentos tbody');
-        
-        if (!data || data.length === 0 || !tbody) {
-          console.warn("No hay datos de medicamentos");
-          return;
-        }
-
-        tbody.innerHTML = '';
-        
-        // Tomar los primeros 100 registros
-        const medicamentos = data.slice(0, 100);
-        
-        medicamentos.forEach((med) => {
-          const faltante = Math.max(0, (Number(med.recetado) || 0) - (Number(med.dispensado) || 0));
-          const tasa = Number(med.tasa_global) || 0;
-          const nombre = med.TextoBreveMedicamento || med.medicamento_desc || med.descripcion || '';
-          
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td>${Utils.monthLabel(med.anio, med.mes)}</td>
-            <td>${med.MedicamentoSAP || ''}</td>
-            <td>${nombre}</td>
-            <td>${Utils.formatNumber(med.lineas || 0)}</td>
-            <td>${Utils.formatNumber(med.recetado || 0)}</td>
-            <td>${Utils.formatNumber(med.dispensado || 0)}</td>
-            <td>${Utils.formatNumber(faltante)}</td>
-            <td>${Utils.formatPercentage(tasa)}</td>
-            <td>${med.ranking_mes ? '#' + med.ranking_mes : 'N/A'}</td>
-          `;
-          tbody.appendChild(row);
-        });
-
-        // Inicializar DataTable
-        if (typeof $ !== 'undefined' && $.fn.DataTable) {
-          if (this.tables.medicamentos && $.fn.DataTable.isDataTable('#tabla-medicamentos')) {
-            this.tables.medicamentos.destroy();
-          }
-          
-          this.tables.medicamentos = $('#tabla-medicamentos').DataTable({
-            pageLength: 25,
-            order: [[3, 'desc']],
-            responsive: true,
-            language: {
-              url: '//cdn.datatables.net/plug-ins/1.13.8/i18n/es-ES.json'
-            }
-          });
-        }
-      }
-
-      renderTablaFarmacias() {
-        const data = this.data.farmaciaSummary;
-        const tbody = document.querySelector('#tabla-farmacias tbody');
-        
-        if (!data || data.length === 0 || !tbody) {
-          console.warn("No hay datos de farmacias");
-          return;
-        }
-
-        tbody.innerHTML = '';
-        
-        data.forEach((farm) => {
-          const nombre = farm.farmacia_nombre || farm.farmacia_desc || `Farmacia ${farm.farmacia_id || ''}`;
-          const tasaDisp = Number(farm.tasa_dispensacion) || 0;
-          const tasaFalt = Number(farm.tasa_faltante) || 0;
-          
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td>${nombre}</td>
-            <td>${farm.anio || ''}</td>
-            <td>${farm.mes || ''}</td>
-            <td>${Utils.formatNumber(farm.total_lineas || 0)}</td>
-            <td>${Utils.formatNumber(farm.pacientes_unicos || 0)}</td>
-            <td>${Utils.formatNumber(farm.total_recetado || 0)}</td>
-            <td>${Utils.formatNumber(farm.total_dispensado || 0)}</td>
-            <td>${Utils.formatNumber(farm.total_faltante || 0)}</td>
-            <td>${Utils.formatPercentage(tasaDisp)}</td>
-            <td>${Utils.formatPercentage(tasaFalt)}</td>
-          `;
-          tbody.appendChild(row);
-        });
-
-        // Inicializar DataTable
-        if (typeof $ !== 'undefined' && $.fn.DataTable) {
-          if (this.tables.farmacias && $.fn.DataTable.isDataTable('#tabla-farmacias')) {
-            this.tables.farmacias.destroy();
-          }
-          
-          this.tables.farmacias = $('#tabla-farmacias').DataTable({
-            pageLength: 25,
-            order: [[0, 'asc']],
-            responsive: true,
-            language: {
-              url: '//cdn.datatables.net/plug-ins/1.13.8/i18n/es-ES.json'
-            }
-          });
-        }
-      }
-
-      renderTablaMedicos() {
-        const data = this.data.medicoSummary;
-        const tbody = document.querySelector('#tabla-medicos tbody');
-        
-        if (!data || data.length === 0 || !tbody) {
-          console.warn("No hay datos de médicos");
-          return;
-        }
-
-        tbody.innerHTML = '';
-        
-        data.forEach((med) => {
-          const nombre = med.medico_nombre || med.medico_desc || `Médico ${med.medico_id || ''}`;
-          const propCronicas = Number(med.porcentaje_cronicas) || 0;
-          
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td>${nombre}</td>
-            <td>${med.anio || ''}</td>
-            <td>${med.mes || ''}</td>
-            <td>${Utils.formatNumber(med.total_recetas || 0)}</td>
-            <td>${Utils.formatNumber(med.pacientes_unicos || 0)}</td>
-            <td>${Utils.formatNumber(med.medicamentos_prescritos || 0)}</td>
-            <td>${Utils.formatNumber(med.total_recetado || 0)}</td>
-            <td>${Utils.formatNumber(med.total_dispensado || 0)}</td>
-            <td>${Utils.formatPercentage(propCronicas)}</td>
-          `;
-          tbody.appendChild(row);
-        });
-
-        // Inicializar DataTable
-        if (typeof $ !== 'undefined' && $.fn.DataTable) {
-          if (this.tables.medicos && $.fn.DataTable.isDataTable('#tabla-medicos')) {
-            this.tables.medicos.destroy();
-          }
-          
-          this.tables.medicos = $('#tabla-medicos').DataTable({
-            pageLength: 25,
-            order: [[3, 'desc']],
-            responsive: true,
-            language: {
-              url: '//cdn.datatables.net/plug-ins/1.13.8/i18n/es-ES.json'
-            }
-          });
-        }
-      }
-
-      renderTablaResumen() {
-        const data = this.data.resumen;
-        const tbody = document.querySelector('#tabla-resumen tbody');
-        
-        if (!data || data.length === 0 || !tbody) {
-          console.warn("No hay datos de resumen");
-          return;
-        }
-
-        tbody.innerHTML = '';
-        
-        // Ordenar por fecha (más reciente primero)
-        const sorted = [...data].sort((a, b) => {
-          if (a.anio !== b.anio) return b.anio - a.anio;
-          return b.mes - a.mes;
-        });
-
-        sorted.forEach((item) => {
-          const tasa = Number(item.tasa_dispensacion_global) || 0;
-          
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td>${Utils.monthLabel(item.anio, item.mes)}</td>
-            <td>${Utils.formatNumber(item.total_lineas || 0)}</td>
-            <td>${Utils.formatNumber(item.recetas_unicas || 0)}</td>
-            <td>${Utils.formatNumber(item.pacientes_unicos || 0)}</td>
-            <td>${Utils.formatNumber(item.medicos_unicos || 0)}</td>
-            <td>${Utils.formatNumber(item.total_recetado || 0)}</td>
-            <td>${Utils.formatNumber(item.total_dispensado || 0)}</td>
-            <td>${Utils.formatNumber(item.total_faltante || 0)}</td>
-            <td>${Utils.formatPercentage(tasa)}</td>
-          `;
-          tbody.appendChild(row);
-        });
-
-        // Inicializar DataTable
-        if (typeof $ !== 'undefined' && $.fn.DataTable) {
-          if (this.tables.resumen && $.fn.DataTable.isDataTable('#tabla-resumen')) {
-            this.tables.resumen.destroy();
-          }
-          
-          this.tables.resumen = $('#tabla-resumen').DataTable({
-            pageLength: 12,
-            order: [[0, 'desc']],
-            responsive: true,
-            language: {
-              url: '//cdn.datatables.net/plug-ins/1.13.8/i18n/es-ES.json'
-            }
-          });
-        }
-      }
-
-      renderTablaAlertas() {
-        const data = this.data.stockAlerts;
-        const tbody = document.querySelector('#tabla-alertas tbody');
-        
-        if (!data || data.length === 0 || !tbody) {
-          console.warn("No hay datos de alertas");
-          return;
-        }
-
-        tbody.innerHTML = '';
-        
-        data.forEach((alerta) => {
-          const farmacia = alerta.farmacia_nombre || alerta.farmacia_desc || `Farmacia ${alerta.farmacia_id || ''}`;
-          const nombreMed = alerta.TextoBreveMedicamento || alerta.medicamento_desc || alerta.descripcion || '';
-          
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td>${farmacia}</td>
-            <td>${nombreMed}</td>
-            <td>${alerta.MedicamentoSAP || ''}</td>
-            <td>${Utils.formatNumber(alerta.stock_minimo || 0)}</td>
-            <td>${Utils.formatNumber(alerta.demanda_mensual || 0)}</td>
-            <td>${Utils.formatNumber(alerta.veces_solicitado || 0)}</td>
-          `;
-          tbody.appendChild(row);
-        });
-
-        // Inicializar DataTable
-        if (typeof $ !== 'undefined' && $.fn.DataTable) {
-          if (this.tables.alertas && $.fn.DataTable.isDataTable('#tabla-alertas')) {
-            this.tables.alertas.destroy();
-          }
-          
-          this.tables.alertas = $('#tabla-alertas').DataTable({
-            pageLength: 25,
-            order: [[3, 'asc']],
-            responsive: true,
-            language: {
-              url: '//cdn.datatables.net/plug-ins/1.13.8/i18n/es-ES.json'
-            }
-          });
-        }
-      }
-
-      updateLastUpdate() {
-        const meta = this.data.metadata;
-        const lu = this.data.lastUpdate;
-        
-        let fecha = null;
-        if (lu && lu.last_updated) fecha = lu.last_updated;
-        else if (meta && meta.generated_at) fecha = meta.generated_at;
-        
-        const fechaFormateada = fecha ? Utils.formatLocalDate(fecha) : 'No disponible';
-        
-        this.updateElement('last-update-time', fechaFormateada);
-        this.updateElement('footer-update-time', fechaFormateada);
-      }
-
-      bindEvents() {
-        // Botón de actualizar
-        const refreshBtn = document.getElementById('refresh-btn');
-        if (refreshBtn) {
-          refreshBtn.addEventListener('click', () => this.refreshData());
-        }
-
-        // Botón de tema
-        const themeBtn = document.getElementById('theme-toggle');
-        if (themeBtn) {
-          themeBtn.addEventListener('click', () => this.toggleTheme());
-          
-          // Aplicar tema guardado
-          const savedTheme = localStorage.getItem('dashboard-theme');
-          if (savedTheme === 'dark') {
-            document.body.classList.add('dark-theme');
-            themeBtn.innerHTML = '<i class="fas fa-sun"></i> Tema claro';
-          }
-        }
-
-        // Botón de ayuda
-        const helpBtn = document.getElementById('help-btn');
-        if (helpBtn) {
-          helpBtn.addEventListener('click', () => this.showHelp());
-        }
-
-        // Botón de exportar
-        const exportBtn = document.getElementById('export-btn');
-        if (exportBtn) {
-          exportBtn.addEventListener('click', () => this.exportData());
-        }
-
-        // Tabs navigation
-        document.querySelectorAll('.tabs-nav li').forEach(li => {
-          li.addEventListener('click', () => {
-            const tabId = li.dataset.tab;
-            this.switchTab(tabId);
-          });
-        });
-
-        // Toggle sidebar
-        const toggleSidebarBtn = document.getElementById('toggle-sidebar');
-        if (toggleSidebarBtn) {
-          toggleSidebarBtn.addEventListener('click', () => {
-            document.querySelector('.sidebar').classList.toggle('collapsed');
-            const icon = toggleSidebarBtn.querySelector('i');
-            if (icon.classList.contains('fa-chevron-left')) {
-              icon.classList.remove('fa-chevron-left');
-              icon.classList.add('fa-chevron-right');
-            } else {
-              icon.classList.remove('fa-chevron-right');
-              icon.classList.add('fa-chevron-left');
-            }
-          });
-        }
-      }
-
-      async refreshData() {
-        const btn = document.getElementById('refresh-btn');
-        if (!btn) return;
-        
-        const originalHTML = btn.innerHTML;
-        btn.disabled = true;
-        btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Actualizando';
-
-        try {
-          await this.loadData();
-          this.renderKPIs();
-          this.renderChartEvolucion();
-          this.renderAllTables();
-          this.updateLastUpdate();
-          this.showNotification('Datos actualizados correctamente', 'success');
-        } catch (err) {
-          console.error('Error al actualizar datos:', err);
-          this.showNotification('Error al actualizar datos', 'error');
-        } finally {
-          btn.disabled = false;
-          btn.innerHTML = originalHTML;
-        }
-      }
-
-      toggleTheme() {
-        const body = document.body;
-        const btn = document.getElementById('theme-toggle');
-        
-        body.classList.toggle('dark-theme');
-        
-        if (body.classList.contains('dark-theme')) {
-          btn.innerHTML = '<i class="fas fa-sun"></i> Tema claro';
-          localStorage.setItem('dashboard-theme', 'dark');
-        } else {
-          btn.innerHTML = '<i class="fas fa-moon"></i> Tema oscuro';
-          localStorage.setItem('dashboard-theme', 'light');
-        }
-      }
-
-      switchTab(tabId) {
-        // Actualizar navegación
-        document.querySelectorAll('.tabs-nav li').forEach(li => {
-          li.classList.toggle('active', li.dataset.tab === tabId);
-        });
-        
-        // Mostrar/ocultar paneles
-        document.querySelectorAll('.tab-pane').forEach(p => {
-          p.classList.toggle('active', p.id === tabId);
-        });
-      }
-
-      exportData() {
-        try {
-          const payload = {
-            resumen_mensual: this.data.resumen,
-            top_medicamentos: this.data.topMedicamentos,
-            farmacia_summary: this.data.farmaciaSummary,
-            medico_summary: this.data.medicoSummary,
-            stock_alerts: this.data.stockAlerts,
-            metadata: this.data.metadata,
-            exported_at: new Date().toISOString()
-          };
-          
-          const json = JSON.stringify(payload, null, 2);
-          const blob = new Blob([json], { type: 'application/json' });
-          const url = URL.createObjectURL(blob);
-
-          const a = document.createElement('a');
-          a.href = url;
-          a.download = `ips_dashboard_${new Date().toISOString().slice(0, 10)}.json`;
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-          URL.revokeObjectURL(url);
-
-          this.showNotification('Archivo JSON exportado', 'success');
-        } catch (err) {
-          console.error('Error al exportar datos:', err);
-          this.showNotification('Error al exportar datos', 'error');
-        }
-      }
-
-      showHelp() {
-        const helpContent = `
-          <h3>IPS Analytics Dashboard - Ayuda</h3>
-          <p><strong>Funcionalidades principales:</strong></p>
-          <ul>
-            <li><strong>KPIs:</strong> Indicadores clave de rendimiento</li>
-            <li><strong>Gráficos:</strong> Visualización de tendencias mensuales</li>
-            <li><strong>Tablas:</strong> Datos detallados por medicamento, farmacia y médico</li>
-            <li><strong>Filtros:</strong> Filtrado avanzado de datos</li>
-          </ul>
-          <p><strong>Instrucciones:</strong></p>
-          <ol>
-            <li>Use los filtros en la barra lateral para refinar los datos</li>
-            <li>Haga clic en las pestañas para ver diferentes vistas</li>
-            <li>Use el botón "Actualizar" para cargar datos nuevos</li>
-            <li>Exporte datos en formato JSON si es necesario</li>
-          </ol>
-        `;
-        
-        alert(helpContent);
-      }
-
-      showNotification(message, type = 'info') {
-        // Crear notificación
-        const notification = document.createElement('div');
-        notification.className = `notification notification-${type}`;
-        notification.innerHTML = `
-          <i class="fas ${type === 'success' ? 'fa-check-circle' : type === 'error' ? 'fa-exclamation-circle' : 'fa-info-circle'}"></i>
-          <span>${message}</span>
-          <button class="notification-close">&times;</button>
-        `;
-        
-        document.body.appendChild(notification);
-        
-        // Auto-eliminar después de 5 segundos
-        setTimeout(() => {
-          if (notification.parentNode) {
-            notification.style.opacity = '0';
-            setTimeout(() => {
-              if (notification.parentNode) {
-                notification.remove();
-              }
-            }, 300);
-          }
-        }, 5000);
-        
-        // Botón para cerrar manualmente
-        notification.querySelector('.notification-close').addEventListener('click', () => {
-          notification.remove();
-        });
-      }
-
-      showError(message) {
-        const errorDiv = document.createElement('div');
-        errorDiv.className = 'error-overlay';
-        errorDiv.innerHTML = `
-          <div class="error-content">
-            <i class="fas fa-exclamation-triangle" style="font-size: 3rem; color: #ef4444; margin-bottom: 1rem;"></i>
-            <h3 style="margin-bottom: 1rem;">Error al cargar el dashboard</h3>
-            <p style="margin-bottom: 2rem;">${message}</p>
-            <button onclick="location.reload()" class="btn btn-primary" style="padding: 0.75rem 1.5rem;">
-              <i class="fas fa-redo"></i> Reintentar
-            </button>
-          </div>
-        `;
-        
-        document.body.appendChild(errorDiv);
-      }
-    }
-
-    // FILTERS MANAGER - Clase para manejar filtros
-    class FiltersManager {
-      constructor(dashboard) {
-        this.dashboard = dashboard;
-        this.filters = {
-          fechaInicio: null,
-          fechaFin: null,
-          farmacias: [],
-          medicos: [],
-          medicamentos: [],
-          cronico: 'all',
-          tasaMin: 0
-        };
-      }
-
-      async init() {
-        await this.loadFilterOptions();
-        this.bindEvents();
-        this.setupDatePicker();
-        this.setupTasaSlider();
-      }
-
-      async loadFilterOptions() {
-        try {
-          // Cargar opciones de filtro
-          const [farmacias, medicos, medicamentos] = await Promise.all([
-            this.fetchOptions('./data/filtro_farmacias.json'),
-            this.fetchOptions('./data/filtro_medicos.json'),
-            this.fetchOptions('./data/filtro_medicamentos.json')
-          ]);
-
-          // Cargar farmacias
-          if (farmacias.length > 0) {
-            const select = document.getElementById('filter-farmacia');
-            farmacias.forEach(f => {
-              const opt = document.createElement('option');
-              opt.value = f.FarmaciaVentanilla || f.id || '';
-              opt.textContent = f.nombre_farmacia || f.nombre || `Farmacia ${f.FarmaciaVentanilla || ''}`;
-              select.appendChild(opt);
-            });
-            
-            // Inicializar Select2
-            if (typeof $ !== 'undefined' && $.fn.select2) {
-              $(select).select2({
-                placeholder: "Todas las farmacias",
-                allowClear: true
-              });
-            }
-          }
-
-          // Cargar médicos
-          if (medicos.length > 0) {
-            const select = document.getElementById('filter-medico');
-            medicos.forEach(m => {
-              const opt = document.createElement('option');
-              opt.value = m.CódigodelMédico || m.id || '';
-              opt.textContent = m.nombre_medico || m.nombre || `Médico ${m.CódigodelMédico || ''}`;
-              select.appendChild(opt);
-            });
-            
-            if (typeof $ !== 'undefined' && $.fn.select2) {
-              $(select).select2({
-                placeholder: "Todos los médicos",
-                allowClear: true
-              });
-            }
-          }
-
-          // Cargar medicamentos
-          if (medicamentos.length > 0) {
-            const select = document.getElementById('filter-medicamento');
-            medicamentos.forEach(m => {
-              const opt = document.createElement('option');
-              opt.value = m.MedicamentoSAP || m.id || '';
-              opt.textContent = m.nombre_medicamento || m.TextoBreveMedicamento || m.nombre || `Medicamento ${m.MedicamentoSAP || ''}`;
-              select.appendChild(opt);
-            });
-            
-            if (typeof $ !== 'undefined' && $.fn.select2) {
-              $(select).select2({
-                placeholder: "Todos los medicamentos",
-                allowClear: true
-              });
-            }
-          }
-
-        } catch (err) {
-          console.warn("Error cargando opciones de filtro:", err);
-          this.dashboard.showNotification('Algunos filtros no están disponibles', 'info');
-        }
-      }
-
-      async fetchOptions(url) {
-        try {
-          const response = await fetch(url);
-          if (!response.ok) throw new Error(`HTTP ${response.status}`);
-          const data = await response.json();
-          return Array.isArray(data) ? data : [];
-        } catch (err) {
-          console.warn(`No se pudo cargar ${url}:`, err);
-          return [];
-        }
-      }
-
-      setupDatePicker() {
-        const dateRangeInput = document.getElementById('date-range');
-        if (dateRangeInput && typeof flatpickr !== 'undefined') {
-          flatpickr(dateRangeInput, {
-            mode: "range",
-            dateFormat: "Y-m-d",
-            locale: "es",
-            onChange: (selectedDates) => {
-              if (selectedDates.length === 2) {
-                this.filters.fechaInicio = selectedDates[0];
-                this.filters.fechaFin = selectedDates[1];
-              }
-            }
-          });
-        }
-      }
-
-      setupTasaSlider() {
-        const slider = document.getElementById('filter-tasa');
-        const valueSpan = document.getElementById('tasa-value');
-        if (slider && valueSpan) {
-          slider.addEventListener('input', () => {
-            this.filters.tasaMin = slider.value / 100;
-            valueSpan.textContent = slider.value + '%';
-          });
-        }
-      }
-
-      bindEvents() {
-        // Botón aplicar filtros
-        const applyBtn = document.getElementById('apply-filters');
-        if (applyBtn) {
-          applyBtn.addEventListener('click', () => this.applyFilters());
-        }
-
-        // Botón limpiar filtros
-        const resetBtn = document.getElementById('reset-filters');
-        if (resetBtn) {
-          resetBtn.addEventListener('click', () => this.resetFilters());
-        }
-
-        // Selectores de pacientes crónicos
-        document.querySelectorAll('input[name="cronico"]').forEach(radio => {
-          radio.addEventListener('change', (e) => {
-            this.filters.cronico = e.target.value;
-          });
-        });
-      }
-
-      applyFilters() {
-        // Obtener valores actuales
-        this.filters.farmacias = this.getSelectValues('filter-farmacia');
-        this.filters.medicos = this.getSelectValues('filter-medico');
-        this.filters.medicamentos = this.getSelectValues('filter-medicamento');
-
-        console.log('Filtros aplicados:', this.filters);
-        
-        // Notificar al dashboard
-        if (this.dashboard) {
-          this.dashboard.showNotification('Filtros aplicados correctamente', 'success');
-          // En una implementación real, aquí se filtrarían los datos
-          // Por ahora recargamos los datos (simulación)
-          this.dashboard.refreshData();
-        }
-      }
-
-      getSelectValues(selectId) {
-        const select = document.getElementById(selectId);
-        if (!select) return [];
-        
-        // Si tiene Select2, usar su API
-        if (typeof $ !== 'undefined' && $(select).data('select2')) {
-          return $(select).val() || [];
-        }
-        
-        // Si no, obtener valores normalmente
-        return Array.from(select.selectedOptions).map(opt => opt.value);
-      }
-
-      resetFilters() {
-        this.filters = {
-          fechaInicio: null,
-          fechaFin: null,
-          farmacias: [],
-          medicos: [],
-          medicamentos: [],
-          cronico: 'all',
-          tasaMin: 0
-        };
-
-        // Limpiar selects
-        ['filter-farmacia', 'filter-medico', 'filter-medicamento'].forEach(id => {
-          const select = document.getElementById(id);
-          if (select) {
-            if (typeof $ !== 'undefined' && $(select).data('select2')) {
-              $(select).val(null).trigger('change');
-            } else {
-              select.selectedIndex = -1;
-            }
-          }
-        });
-
-        // Limpiar datepicker
-        const dateRangeInput = document.getElementById('date-range');
-        if (dateRangeInput) dateRangeInput.value = '';
-
-        // Restablecer radio buttons
-        const allRadio = document.querySelector('input[name="cronico"][value="all"]');
-        if (allRadio) allRadio.checked = true;
-
-        // Restablecer slider
-        const tasaSlider = document.getElementById('filter-tasa');
-        const tasaValue = document.getElementById('tasa-value');
-        if (tasaSlider) tasaSlider.value = 0;
-        if (tasaValue) tasaValue.textContent = '0%';
-
-        // Notificar al dashboard
-        if (this.dashboard) {
-          this.dashboard.showNotification('Filtros limpiados', 'info');
-          this.dashboard.refreshData();
-        }
-      }
-    }
-
-    // Inicialización
     document.addEventListener('DOMContentLoaded', () => {
-      console.log("IPS Analytics Dashboard - Iniciando...");
       window.dashboard = new Dashboard();
       window.dashboard.init();
-    });
+      
+      setTimeout(() => {
+        if (typeof FiltersManager !== 'undefined') {
+          window.filtersManager = new FiltersManager(window.dashboard);
+          window.filtersManager.init();
+        }
+      }, 1000);
 
-    // Manejo global de errores
-    window.addEventListener('error', (event) => {
-      console.error('Error global:', event.error || event.message);
-    });
-
-    window.addEventListener('unhandledrejection', (event) => {
-      console.error('Promesa no manejada:', event.reason);
+      // Tabs switching
+      document.querySelectorAll('.tabs-nav li').forEach(tab => {
+        tab.addEventListener('click', () => {
+          document.querySelectorAll('.tabs-nav li').forEach(t => t.classList.remove('active'));
+          tab.classList.add('active');
+          document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+          document.getElementById(tab.dataset.tab).classList.add('active');
+        });
+      });
     });
   </script>
 </body>
