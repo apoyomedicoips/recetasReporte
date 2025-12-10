@@ -1,4 +1,4 @@
-// Utilidades generales para formato de números, fechas y tendencias
+// docs/js/utils.js - UTILIDADES GLOBALES
 const Utils = {
   formatNumber(value) {
     if (value === null || value === undefined || isNaN(value)) return '0';
@@ -13,14 +13,18 @@ const Utils = {
 
   formatLocalDate(isoString) {
     if (!isoString) return '-';
-    const d = new Date(isoString);
-    return d.toLocaleString('es-ES', {
-      year: 'numeric',
-      month: 'long',
-      day: '2-digit',
-      hour: '2-digit',
-      minute: '2-digit'
-    });
+    try {
+      const d = new Date(isoString);
+      return d.toLocaleString('es-ES', {
+        year: 'numeric',
+        month: 'long',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+    } catch (e) {
+      return isoString;
+    }
   },
 
   monthLabel(anio, mes) {
@@ -28,7 +32,7 @@ const Utils = {
       'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
       'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
     ];
-    const m = mes - 1;
+    const m = Number(mes) - 1;
     const nombre = m >= 0 && m < 12 ? nombres[m] : mes;
     return `${nombre} ${anio}`;
   }
